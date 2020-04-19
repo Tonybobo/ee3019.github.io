@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section{
+  background-image: url(../assets/images/background.jpg);
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+
+}
