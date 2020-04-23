@@ -1,6 +1,6 @@
 $(document).ready(function(){
     try{
-    $('section').ripples({
+    $('body').ripples({
     resolution:2160,
     dropRadius:20,
     perturbance:0.04,
@@ -11,7 +11,7 @@ $(document).ready(function(){
         $('.error').show().text(e);
     };
     setInterval(function(){
-        var $auto = $('section');
+        var $auto = $('body');
         var x = Math.random()* $auto.outerWidth();
         var y =  Math.random()* $auto.outerHeight();
         var dropRadius = 10;
