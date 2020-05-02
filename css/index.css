@@ -13,16 +13,16 @@ body{
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 50px 0;
 }
 .box{
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 500px;
+  height: 650px;
   background: #000;
   box-shadow: 0 30px 30px rgba(0, 0,0,.5);
   margin:15px ;
@@ -86,6 +86,8 @@ body{
   line-height: 1.2em;
   transition: 0.5s;
   text-align: justify;
+  font-size: 2em;
+
 }
 .box:hover .content li
 {
