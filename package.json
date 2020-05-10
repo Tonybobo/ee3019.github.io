@@ -1,0 +1,25 @@
+{
+  "name": "webpages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tonybobo/Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tonybobo/Web/issues"
+  },
+  "homepage": "https://github.com/Tonybobo/Web#readme",
+  "devDependencies": {
+    "video.js": "^7.7.6"
+  },
+  "dependencies": {
+    "videojs-contrib-quality-levels": "^2.0.9"
+  }
+}
