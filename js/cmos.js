@@ -21,20 +21,176 @@ var options = {
     ],
  }
 }
-
 var player = videojs('my-video', options);
-  player.src([
-    {
-       src: './assets/Video/CMOS/Building logic gates from MOSFET transistor/playlist.m3u8',
-       type: 'application/x-mpegURL',
-       
-    }
- ]);
- player.hlsQualitySelector({
-  displayCurrentQuality: true
- });
- let qualityLevels = player.qualityLevels();
 
+var playlist = 
+[{
+  name: 'Video Title',
+  description: 'Description goes here',
+  duration: 45,
+  
+  sources: [{
+    src: './assets/Video/CMOS/Production of Silicon/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Production of silicon.vtt'},
+  thumbnail: [{
+    srcset: './assets/images/background.jpg',
+    type: 'image/jpeg',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/background.jpg'
+}]
+}, {
+  name: 'Video Title',
+  description: 'Description goes here',
+  duration: 45,
+  sources: [{
+    src: './assets/Video/CMOS/Wafer Manufacturing Process/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  
+  poster: 'http://media.w3.org/2010/05/bunny/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+}, {
+  sources: [{
+    src: './assets/Video/CMOS/Basic CMOS process flow/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Basic CMOS Process flow.vtt'},
+  poster: 'http://www.videojs.com/img/poster.jpg',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+}, {
+  sources: [{
+    src: './assets/Video/CMOS/Chip Manufacturing/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Chips Manufacturing.vtt'},
+  poster: 'http://media.w3.org/2010/05/bunny/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+}, {
+  sources: [{
+    src: './assets/Video/CMOS/Making Memory Chip process/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Making Memory Chips Process.vtt'},
+  poster: 'http://media.w3.org/2010/05/video/poster.png'
+},
+{
+  sources: [{
+    src: './assets/Video/CMOS/MOSFET Transistor Basics & Working principle/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/MOSFET Transistor Basics & Working Principle.vtt'},
+  poster: 'http://media.w3.org/2010/05/video/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+},
+{
+  sources: [{
+    src: './assets/Video/CMOS/MOS Regions of Operation/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/ECE 3110.vtt'},
+  poster: 'http://media.w3.org/2010/05/video/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+},
+{
+  sources: [{
+    src: './assets/Video/CMOS/MOSFET IV derivation/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/MOSFET IV Characteristic.vtt'},
+  poster: 'http://media.w3.org/2010/05/video/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+}, {
+  sources: [{
+    src: './assets/Video/CMOS/Channel length Modulation/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Channel Length Modulation.vtt'},
+  poster: 'http://media.w3.org/2010/05/video/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+},
+{
+  sources: [{
+    src: './assets/Video/CMOS/Building logic gates from MOSFET transistor/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Building logic gates.vtt'},
+  poster: 'http://media.w3.org/2010/05/video/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+},
+{
+  sources: [{
+    src: './assets/Video/CMOS/CMOS inverter/playlist.m3u8',
+    type: 'application/x-mpegURL'
+  }],
+  track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/CMOS Inverter DC characteristic.vtt'},
+  poster: 'http://media.w3.org/2010/05/video/poster.png',
+  thumbnail: [{
+    srcset: './assets/images/CMOS-min.png',
+    type: 'image/png',
+    media: '(min-width: 50px;)'
+}, {
+    src: './assets/images/CMOS-min.png'
+}]
+},
+];
+player.playlist(playlist);
+player.playlist.autoadvance(0);
+player.playlistUi();
+player.hlsQualitySelector({
+  displayCurrentQuality: true,
+});
+let qualityLevels = player.qualityLevels();
  
 // disable quality levels with less than 720 horizontal lines of resolution when added
 // to the list.
