@@ -10,12 +10,26 @@ body{
     position: relative;
     z-index: 2;
     width: 100%;
+    height: 80px;
+    background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
+}
+.navbar-collapse{
+    background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
+}
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
 }
 .navbar-brand img{
     width: 100px;
-    height: 80px;
+    height: 60px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
 }
 .navbar-nav a{
+    color: whitesmoke;
     font-weight: 900;
     font-family: 'Oswald', sans-serif;
     margin: 10px;
@@ -31,45 +45,42 @@ body{
     border-bottom: 4px solid white;
     padding:6px 0;
 }
+.custom-toggler.navbar-toggler { 
+    border-color: whitesmoke; 
+} 
+ 
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( "https://img.icons8.com/ios-glyphs/30/000000/insert-button.png"); 
+} 
 .container {
     position: relative;
-    width: 30%;
-    height: 40%;
     justify-content: center;
     align-items: center;
     left: 0%;
     right: 0%;
     margin: 0;
-    top:10%;
+    top:2%;
+    width: 50%;
+    height: 30%;
 }
-/* .container .video-js{
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    height: 90%;
-    justify-content: center;
-    align-items: center;
-    left: 0%;
-    right: 0%;
-    margin: 0;
-    top:5%;
-} */
+
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.video-js , .playlist-container {
+
+.playlist-container {
     position: relative;
     min-width: 300px;
     min-height: 150px;
-    height: 0;
+    flex: 1 1 30%;
 }
 .video-js{
     flex: 3 1 70%;
 }
-.playlist-container{
-    flex: 1 1 30%;
+.my-video-dimensions.vjs-fluid {
+    padding-top: 40.25%;
 }
 .vjs-playlist {
     margin: 0;
@@ -78,11 +89,11 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-   
-    overflow-y: scroll;
+    background: transparent;
+    
 }
 .animation-area{
-    background: linear-gradient(to left, #304352,#d7d2cc);
+    background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
     width: 100%;
     height: 120vh;
     z-index: -2;
