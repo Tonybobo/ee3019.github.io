@@ -52,32 +52,32 @@ body{
 .custom-toggler .navbar-toggler-icon { 
     background-image: url( "https://img.icons8.com/ios-glyphs/30/000000/insert-button.png"); 
 } 
+/* CSS for video player */
 .container {
     position: relative;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     left: 0%;
     right: 0%;
     margin: 0;
     top:2%;
-    width: 50%;
-    height: 30%;
+    height: 40%;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 
 .playlist-container {
     position: relative;
     min-width: 300px;
-    min-height: 150px;
+    min-height: 200px;
     flex: 1 1 30%;
 }
 .video-js{
-    flex: 3 1 70%;
+    position: relative ;
+    flex: 3 1 70%  ; 
+     width: 70%;
+     float: left;
 }
 .my-video-dimensions.vjs-fluid {
     padding-top: 40.25%;
@@ -89,9 +89,24 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background: transparent;
-    
 }
+.vjs-playlist-name{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.video-js .vjs-overlay-background {
+    opacity: 0.5;
+}
+.video-js .vjs-overlay-background h2{
+    font-weight: 900;
+    opacity: 1;
+}
+.vjs-big-play-button{
+    opacity: 1;
+    color: red;
+    padding: 10px
+}
+ /* background animation  */
 .animation-area{
     background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
     width: 100%;

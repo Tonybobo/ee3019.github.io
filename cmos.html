@@ -20,7 +20,7 @@
     <link href="./node_modules/videojs-hls-quality-selector/dist/videojs-hls-quality-selector.css" rel="stylesheet">
   </head>
 
-<body>
+<body onresize="horizontal()">
     <!-- Creating Navigation bar-->
     <nav class="navbar navbar-expand-lg  ">
         <a class="navbar-brand" href="#"><img src="assets/images/NTU-logo.jpg" class="d-inline-block align-top" alt=""></a>
@@ -54,15 +54,17 @@
         </ul>
         <!-- Inserting Video-->
         <div class= "container">
-            <video  id="my-video" class="video-js vjs-default-skin vjs-show-big-play-button-on-pause"></video> 
+            <video  id="my-video" class="video-js vjs-default-skin vjs-show-big-play-button-on-pause vjs-big-play-centered"></video> 
             <div class="playlist-container">
-              <ol class = "vjs-playlist"></ol>
+              <ol id = "playlist"class = "vjs-playlist" ></ol>
             </div>
               <link href="./node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.vertical.css" rel="stylesheet" >
+              <link href="node_modules/videojs-overlay/dist/videojs-overlay.css" rel="stylesheet">
               <script src="node_modules/videojs-playlist/dist/videojs-playlist.js"></script>
               <script src="node_modules/videojs-playlist-ui/dist/videojs-playlist-ui.min.js"></script>
               <script src="node_modules/videojs-contrib-quality-levels/dist/videojs-contrib-quality-levels.min.js"></script>
               <script src="node_modules/videojs-hls-quality-selector/dist/videojs-hls-quality-selector.min.js"></script>
+              <script src="node_modules/videojs-overlay/dist/videojs-overlay.min.js"></script>
               <script src = "js/cmos.js"></script>
         </div>
         
