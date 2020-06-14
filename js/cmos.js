@@ -363,7 +363,7 @@ function horizontal(){
   let w = window.outerWidth;
   let h = window.outerHeight;
   for(let i = 0; i<10;i++){
-  if (w < 1210){
+  if (w < 768){
     player.playlistUi({horizontal: true});
   }else{
     document.getElementById('playlist').classList.remove('vjs-playlist-horizontal')
