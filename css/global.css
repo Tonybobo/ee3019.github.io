@@ -143,6 +143,16 @@ body::-webkit-scrollbar-thumb {
     color: red;
     padding: 10px
 }
+.vjs-control{
+    height: 3.2em !important;
+    width: 3.2em !important;
+}
+.vjs-playback-rate .vjs-playback-rate-value {
+    pointer-events: none;
+    font-size: 1em;
+    line-height: 3;
+    text-align: center;
+}
 /* styling of button */
 .button-container{
     position: relative;
