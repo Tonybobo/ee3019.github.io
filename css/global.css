@@ -163,7 +163,7 @@ body::-webkit-scrollbar-thumb {
 .btn .btn-info{
     padding: 50px;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 764px) {
    
     .button-container{
         position: relative;
@@ -172,7 +172,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: center;
         margin-top: 20px;
         top: 23%;
-        left: 38%;
+        left: 45%;
         width: 100px;
         height: 100px;
         margin-top: 50px;

@@ -347,11 +347,12 @@ var playlist =
 }]
 }
 ];
-player.on('playlistitem', function (event, video) {
+player.on('playlistitem', function (event,video) {
   player.overlay({
     overlays: video.overlays
   });
 });
+
 player.playlist(playlist);
 player.playlist.autoadvance(7);
 player.playlistUi();
@@ -405,3 +406,32 @@ let toggleQuality = (function() {
 })();
  
 let currentSelectedQualityLevelIndex = qualityLevels.selectedIndex; // -1 if no level selected
+// Fast forward button
+player.seekButtons({
+  forward: 10,
+  back:10
+});
+
+//Disable the quiz button until it is the last video
+
+const button = document.getElementById('quiz-btn');
+const link = document.getElementById('link');
+function showAlert(){
+  if(player.playlist.currentIndex() !== player.playlist.lastIndex()){
+   link.removeAttribute("href");
+    button.disabled = true;
+    alert("Please finish all the video before proceeding to the quiz");
+  }
+  player.on('ended' , function (){
+  if(player.playlist.currentIndex() !== player.playlist.lastIndex()){
+    link.removeAttribute("href");
+    button.disabled = true;
+  }else if(player.playlist.currentIndex() == player.playlist.lastIndex()) {
+    link.href ="quiz/CMOSquiz.html"
+    button.disabled = false;
+    }
+  })
+}
+
+
+
