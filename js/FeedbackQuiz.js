@@ -17,12 +17,74 @@ const proceed = document.getElementById('proceed')
 let shuffledQuestions , currentQuestionIndex
 const questions = [
     {
-        question: 'In CMOS fabrication, nMOS and pMOS are integrated in same substrate?',
+        question: 'Which of the following electrical characteristics is not exhibited by an ideal op-amp?',
         answers:[
-            {text:'True',correct:true},
-            {text:'False',correct:false}
+            {text:'Infinite voltage gain',correct:false},
+            {text:'Infinite bandwidth',correct:false},
+            {text:'Infinite output resistance',correct:true},
+            {text:'Infinite slew rate',correct:false}
         ],
-        explanation :'Explantion: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
+        explanation :'Explanation: An ideal op-amp exhibits zero output resistance so that output can drive an infinite number of other devices.'
+    },
+    {
+        question: 'An ideal op-amp requires infinite bandwidth because',
+        answers:[
+            {text:' Signals can be amplified without attenuation',correct:true},
+            {text:'Output common-mode noise voltage is zero',correct:false},
+            {text:'Output voltage occurs simultaneously with input voltage changes',correct:false},
+            {text:'Output can drive infinite number of device',correct:false}
+        ],
+        explanation :'Explanation: An ideal op-amp has infinite bandwidth. Therefore, any frequency signal from 0 to ∞ Hz can be amplified without attenuation.'
+    },
+    {
+        question: 'Regarding the negative feedback amplifier, which of the following statements is wrong?',
+        answers:[
+            {text:'Widens the separation between 3db frequency',correct:false},
+            {text:'Improves gain stability',correct:false},
+            {text:'Increases gain – bandwidth product',correct:true},
+            {text:'Reduces distortion',correct:false}
+        ],
+        explanation :'Explanation: The gain-bandwidth product in a negative amplifier remains constant. Reducing the closed loop gain (>=1) increases the feedback factor and increases the bandwidth. Thus the gain bandwidth product remains constant.'
+    },
+    {
+        question: ' Negative feedback in amplifier _____________',
+        answers:[
+            {text:'Improves the signal-to-noise ratio at input',correct:false},
+            {text:'Improves the signal-to-noise ratio at output',correct:false},
+            {text:'Does not improve the signal-to-noise ratio at I/O',correct:false},
+            {text:'Reduces distortion',correct:true}
+        ],
+        explanation :'Explanation: Since the negative feedback to any amplifier reduces its overall gain; hence any noise and distortion in the amplifier is also reduced.'
+    },
+    {
+        question: 'Voltage shunt feedback amplifier forms',
+        answers:[
+            {text:'A negative feedback',correct:true},
+            {text:'A positive feedback',correct:false},
+            {text:'Both positive and negative',correct:false},
+            {text:'None of the mentioned',correct:false}
+        ],
+        explanation :'Explanation: A voltage shunt feedback amplifier forms a negative feedback because, any increase in the output signal results in a feedback signal into the inverting input causing a decrease in the output signal.'
+    },
+    {
+        question: 'Why the feedback circuit is said to be negative for voltage series feedback amplifier',
+        answers:[
+            {text:'Feedback voltage is 180 degree out of phase with respect to input voltage',correct:true},
+            {text:' Input voltage is 180 degree out of phase with respect to feedback voltage',correct:false},
+            {text:'Feedback voltage is in same phase with respect to input voltage',correct:false},
+            {text:'Input voltage is in same phase with respect to feedback voltage',correct:false}
+        ],
+        explanation :'Explanation: Voltage series feedback amplifier have the difference voltage, Vid = Vin-Vf. Therefore, the feedback voltage always opposes the input voltage and is out of phase by 180o with respect to input voltage. Hence, the feedback is said to be negative.'
+    },
+    {
+        question: 'Define the input resistance with feedback for voltage series feedback amplifier?',
+        answers:[
+            {text:'RIF = (1-AB)',correct:false},
+            {text:'RIF = (AB-1)',correct:false},
+            {text:'RIF = (1+AB)',correct:true},
+            {text:'None of the mentioned',correct:false}
+        ],
+        explanation :'Explanation: In feedback amplifier, the input resistance of the op-amp with feedback is (1+AB) times that of without feedback.'
     },
 ]
 
