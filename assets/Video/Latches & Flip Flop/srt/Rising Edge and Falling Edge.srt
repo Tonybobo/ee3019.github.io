@@ -1,0 +1,223 @@
+1
+00:00:00,350 --> 00:00:05,810
+welcome. In this video we
+will look at the differences between
+
+2
+00:00:05,810 --> 00:00:10,080
+rising and falling edge triggered
+flip-flops and how they are constructed
+
+3
+00:00:10,080 --> 00:00:18,090
+so first let's start with the the
+symbols for the two flip-flops so for
+
+4
+00:00:18,090 --> 00:00:26,240
+the rising edge flip-flop so you have
+the D in this input and you have Q out
+
+5
+00:00:26,240 --> 00:00:35,130
+as an output and clock is the input and
+the symbol looks like this and for the
+
+6
+00:00:35,130 --> 00:00:46,110
+falling edge triggered flip-flop you
+will have D in and Qout the same inputs
+
+7
+00:00:46,110 --> 00:00:51,210
+and outputs but at the clock you will
+still have clock coming in but there is
+
+8
+00:00:51,210 --> 00:00:56,579
+a bubble at the input the symbol usually
+shows like this and you have a clock
+
+9
+00:00:56,579 --> 00:01:02,070
+coming in so this is the falling edge
+this is the rising edge triggered
+
+10
+00:01:02,070 --> 00:01:08,430
+flip-flop and this is the falling edge
+triggered flip-flop so now for the input
+
+11
+00:01:08,430 --> 00:01:16,189
+stimulus how the respond let's look at
+that one so let me draw a clock signal
+
+12
+00:01:20,750 --> 00:01:28,759
+something like this and then let me draw
+a D input
+
+13
+00:01:40,299 --> 00:01:45,000
+something like this so this is Clock and
+
+14
+00:01:45,570 --> 00:01:54,909
+this is D in now let's look at the
+output for a rising edge triggered
+
+15
+00:01:54,909 --> 00:01:59,920
+flip-flop so a rising edge triggered
+flip-flop looks at the rising edges of
+
+16
+00:01:59,920 --> 00:02:08,679
+the clock so let's assume that data the
+Q out was high initially so it looks
+
+17
+00:02:08,679 --> 00:02:16,060
+at this rising edge sees that Din is low
+so it goes low and at this rising edge
+
+18
+00:02:16,060 --> 00:02:24,700
+it seems D in is high so it goes high and
+then at the next rising edge it sees D in
+
+19
+00:02:24,700 --> 00:02:34,000
+is still high so it remains high so this
+is the rising edge D out this is the
+
+20
+00:02:34,000 --> 00:02:38,950
+output of the rising edge triggered
+flip-flop D out so now let's look at the
+
+21
+00:02:38,950 --> 00:02:43,859
+falling edge triggered flip-flop so it
+will look at the falling edges here so
+
+22
+00:02:43,859 --> 00:02:54,730
+now assume that the the D out started at
+high again so at the falling edge it
+
+23
+00:02:54,730 --> 00:03:02,709
+goes low of the clock and then the next
+falling edge it sees that D in is still
+
+24
+00:03:02,709 --> 00:03:09,000
+low so it remains low so this is the
+output of the falling edge triggered
+
+25
+00:03:09,000 --> 00:03:18,609
+that's the Q out so I should say Q out
+here too it's a mistake so so now how do
+
+26
+00:03:18,609 --> 00:03:23,950
+these flip-flops differ in construction
+so we know we have seen that the
+
+27
+00:03:23,950 --> 00:03:29,799
+flip-flop is constructed using two
+latches so we have the two latches so
+
+28
+00:03:29,799 --> 00:03:37,950
+let me draw this the first latch
+
+29
+00:03:38,190 --> 00:03:48,629
+it's connected to the second latch in
+series and
+
+30
+00:03:53,780 --> 00:04:02,270
+now we saw that for the rising edge
+triggered flip-flop so this latch is
+
+31
+00:04:02,270 --> 00:04:10,400
+clear this switch is closed when clock
+is high clock is high and these are
+
+32
+00:04:10,400 --> 00:04:20,269
+closed when clock is low clock is low so
+this is for the rising edge triggered
+
+33
+00:04:20,269 --> 00:04:26,360
+flip-flop so now for the falling edge to
+make it a falling edge triggered
+
+34
+00:04:26,360 --> 00:04:35,590
+flip-flop what we just have to do is we
+said that these are switches s 1 s 2 s 1
+
+35
+00:04:35,590 --> 00:04:48,110
+Prime and s 2 Prime and for the rising
+edge s 1 and s 2 prime are closed when
+
+36
+00:04:48,110 --> 00:05:05,840
+clock is low and s 2 and s 1 prime are
+closed when clock is high and this is
+
+37
+00:05:05,840 --> 00:05:12,380
+for the rising edge triggered flip-flop
+now to make it a falling edge triggered
+
+38
+00:05:12,380 --> 00:05:19,640
+flip-flop what we just have to do is we
+just have to invert the function of the
+
+39
+00:05:19,640 --> 00:05:26,510
+switches so we need to make sure that s
+1 and s 2 prime are closed when clock is
+
+40
+00:05:26,510 --> 00:05:36,110
+low or when clock is high this time so
+when clock is high you should close s s
+
+41
+00:05:36,110 --> 00:05:50,240
+2 Prime and s 1 and when clock is low we
+close s 2 and s 1 Prime so what
+
+42
+00:05:50,240 --> 00:05:56,479
+we did was we made this clock here and
+right in green here clock and clock
+
+43
+00:05:56,479 --> 00:06:03,169
+bar to control these switches and this
+will be controlled by a clock the switch
+
+44
+00:06:03,169 --> 00:06:11,300
+and then
+to be controlled by clock bar so once we
+
+45
+00:06:11,300 --> 00:06:18,640
+do this we can change it to a falling
+edge triggered flip-flop
+

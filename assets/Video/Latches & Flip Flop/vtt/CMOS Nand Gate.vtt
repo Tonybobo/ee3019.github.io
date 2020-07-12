@@ -1,0 +1,251 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:01.180 --> 00:00:06.220
+In this class We are going to discuss about
+CMOS nand gate in the last class. We discussed
+
+00:00:06.220 --> 00:00:17.490
+the about designing of same nand gate by using
+P mos and n mos in this class we going to discuss designing nand gate by using CMOS logic.
+
+00:00:17.490 --> 00:00:24.900
+So as you know, that CMOS is the combination
+of P mos and n mos as P mos is taken as pull-up
+
+00:00:24.900 --> 00:00:31.869
+transistor and then n mos is taken under pulled down. So here same For Designing CMOS nand
+
+00:00:31.869 --> 00:00:38.250
+gate also P mos nand is considered upside.
+So n mos and is considered as pulled off So
+
+00:00:38.250 --> 00:00:45.290
+here you can absorb.This is p mo's nand gate
+and this is again n mos nand gate both are cascaded
+
+00:00:45.290 --> 00:00:51.770
+in vertical like this.Then it will form CMOS
+nand gate now. We will see it will works as
+
+00:00:51.770 --> 00:01:03.829
+a CMOS nand or not. So here for the time considering
+say A B values here.A B and you are transistors.
+
+00:01:03.829 --> 00:01:15.760
+So that means Q1 Q2 Q3 Q4 and your output
+voltage Vo. So see when your output
+
+00:01:15.760 --> 00:01:26.610
+Vo is equal and to 1 means whenever it is
+connected to Vdd by anyway, then only your output
+
+00:01:26.610 --> 00:01:32.700
+connected to ground whenever it's connecting
+to ground even though it is connected to Vdd
+
+00:01:32.700 --> 00:01:39.159
+see here don't confuse for P mos N mos and
+all this so here whenever you take an output
+
+00:01:39.159 --> 00:01:44.980
+in middle, so whenever it is connected to
+ground, so even though it is connected for Vdd
+
+00:01:44.980 --> 00:01:54.210
+we will assume 0 so now see here
+so the combinations are 0 0 0 1 1 0 and 1
+
+00:01:54.210 --> 00:02:05.630
+1 that means you know that for P mos So this
+is p mos is only on for zero and off for
+
+00:02:05.630 --> 00:02:19.951
+one like that N mos will on for one and off
+for zero. So, you know that Q3 and Q4 are
+
+00:02:19.951 --> 00:02:28.930
+n mos and q1 and Q2 are P mos these two are
+P Mo's transistors and these two are n mos
+
+00:02:28.930 --> 00:02:36.599
+transistors. So this is n mos so now I'm just
+writing switch off on  values of
+
+00:02:36.599 --> 00:02:43.870
+this transistors for n mos and p mos so whenever
+a equal to 0 b equal to 0 whenever a equal
+
+00:02:43.870 --> 00:02:53.749
+to 0 B equal to 0 both p mo's are going
+to on that means so Q1 on Q2 on same low voltage
+
+00:02:53.749 --> 00:03:04.260
+if we're given two n mos then those are going
+to off So any mosfet is off means it will
+
+00:03:04.260 --> 00:03:10.540
+be open circuited here. These two transistors
+are off mean is here you are getting open
+
+00:03:10.540 --> 00:03:17.230
+circuit path? And here these two p mo's are on means here. You are having short path like
+
+00:03:17.230 --> 00:03:23.419
+this or like this then in this case you are
+output is going to cut with this ground. And
+
+00:03:23.419 --> 00:03:31.250
+this is going to connect with your Source
+voltage in this case You are getting one Output.
+
+00:03:31.250 --> 00:03:38.669
+So now in this case second case zero one condition.
+So in zero one condition your Q1 is going
+
+00:03:38.669 --> 00:03:46.809
+to on and you are Q2 is going to off as that
+is p mos for p mos . If you given high voltage
+
+00:03:46.809 --> 00:03:53.629
+and that's going to off reverse case in n
+mos if you given high voltage then Q4 is going
+
+00:03:53.629 --> 00:04:03.029
+to on and here here A is 0 then this n mos
+is going to Off so here n mos is going to
+
+00:04:03.029 --> 00:04:11.579
+off for 0 and N mos is going to on for one.Now.
+You can see the connection q1 is on you are
+
+00:04:11.579 --> 00:04:20.229
+having short path like this Q 1 is on and you
+are you Q2 is off that means here you are
+
+00:04:20.229 --> 00:04:27.689
+having open circuit and here you can absorb
+your Q3 is off that means here. You are having
+
+00:04:27.689 --> 00:04:34.490
+open path by It's open path you are output
+is going to cut with this ground. Even though
+
+00:04:34.490 --> 00:04:41.770
+you are Q4 is short circuited as Q3 is
+open circuited your path is going to cut with
+
+00:04:41.770 --> 00:04:47.740
+output. Then this output is going to connect
+with Vdd through Q1 see Q1 is on means you
+
+00:04:47.740 --> 00:04:55.111
+are having short circuit So now this output
+is going to connect through Q1 to Vdd. So
+
+00:04:55.111 --> 00:05:02.490
+anyway, it's connected to Vdd means you are
+getting high output. So in next case 1 0 case
+
+00:05:02.490 --> 00:05:08.990
+in this case you are first two p mos is going
+to off and the second p mos is going to on
+
+00:05:08.990 --> 00:05:17.080
+because we provided zero reverse of that if
+you provided one here Q3 is on and as you
+
+00:05:17.080 --> 00:05:26.020
+provided 0 here Q4 is off that means n
+mos will off for low voltage So you will see
+
+00:05:26.020 --> 00:05:31.930
+so here your second transistor is on. That
+means here you are having short path and here
+
+00:05:31.930 --> 00:05:40.780
+coming to here. So this is on and this is
+off. That means Q3 is on but Q4 is off from
+
+00:05:40.780 --> 00:05:45.830
+output to here. You are having short path.
+When coming to here you are having open path
+
+00:05:45.830 --> 00:05:52.960
+by this opens circuit Our your connection is going
+to lose from Vo to ground. Then this Vo is
+
+00:05:52.960 --> 00:05:58.080
+going to connect with this VDD through this
+Q2 p mos.
+
+00:05:58.080 --> 00:06:04.909
+So then when it Is connected to Vdd here itself
+here. Also, you are going to get one at output
+
+00:06:04.909 --> 00:06:13.099
+are high voltage at the output in case of
+1 1 that means both p mo's and n mos are given
+
+00:06:13.099 --> 00:06:21.039
+with one in both input case that means so
+A is equal to 1 B is equal to 1 so far this
+
+00:06:21.039 --> 00:06:27.439
+both p mos are going to off both n mos are
+going to on both p mos are going to off
+
+00:06:27.439 --> 00:06:34.099
+means you are going to lose your Connection
+from output to Source voltage and both n mos
+
+00:06:34.099 --> 00:06:39.930
+is going to on means you are going to get
+shotrs circuit path from output to ground.These
+
+00:06:39.930 --> 00:06:45.639
+two n mos are going to on means here. You
+are having short path from output to ground
+
+00:06:45.639 --> 00:06:52.900
+and you are losing this connection because
+of open path in Q1 and Q2. Both p mo's are
+
+00:06:52.900 --> 00:06:59.300
+off means both having open circuit. There
+is no way to connect with VDD So in this case,
+
+00:06:59.300 --> 00:07:05.879
+As output is connecting with to ground you
+are going to get 0 volts at output If You
+
+00:07:05.879 --> 00:07:13.240
+observe this truth table when you are providing
+at least one low input, then you are getting
+
+00:07:13.240 --> 00:07:19.400
+high output whenever all the inputs are high
+then only you are going to get low voltage
+
+00:07:19.400 --> 00:07:26.409
+at output. That means this is the nand functionality.
+This is Nand functionality. That means 1 into
+
+00:07:26.409 --> 00:07:34.009
+0 whole bar 1 0 into one whole bar Do I need
+to 0 whole bar 1 1 into one whole bar 0 so
+
+00:07:34.009 --> 00:07:39.729
+we can set that by observing. This truth table
+came from the circuit so we can say that this
+
+00:07:39.729 --> 00:07:46.870
+will works as nand gate So this is the designing
+of CMOS nand gate. So CMOS is nothing
+
+00:07:46.870 --> 00:07:53.539
+but integrating P Mos with n mos p mos structure
+as pull up and n mos structure as pull down.
+
+00:07:53.539 --> 00:07:58.639
+So like this way we can design any circuit
+in CMOS functionality by using CMOS logic

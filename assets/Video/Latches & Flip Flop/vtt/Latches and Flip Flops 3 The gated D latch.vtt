@@ -1,0 +1,288 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.179 --> 00:00:09.450
+a gated d-latch is a 1-bit memory device
+the D stands for data a gated d-latch is
+
+00:00:09.450 --> 00:00:14.670
+also referred to as a data latch or
+simply a D latch we're going to look at
+
+00:00:14.670 --> 00:00:19.980
+how a D latch can be built from a gated
+SR latch and examine its behavior with a
+
+00:00:19.980 --> 00:00:25.500
+timing diagram let's first remind
+ourselves of a potential problem
+
+00:00:25.500 --> 00:00:31.170
+associated with gated SR latches
+remember a gated SR latch can be
+
+00:00:31.170 --> 00:00:37.530
+constructed from NAND gates a gated SR
+latch is an active high latch in other
+
+00:00:37.530 --> 00:00:42.870
+words both s and R are normally at low
+voltage representing zeros and the pulse
+
+00:00:42.870 --> 00:00:49.050
+is required at one of these in order to
+set or reset the latch meanwhile if the
+
+00:00:49.050 --> 00:00:55.170
+output at Q is high the latch is set and
+it's storing a 1 but if Q is low the
+
+00:00:55.170 --> 00:01:02.129
+latch is not set and it's storing a 0
+the gated SR latch has a third input e
+
+00:01:02.129 --> 00:01:08.100
+which when high enables the latch the
+latch is said to be transparent when
+
+00:01:08.100 --> 00:01:14.119
+it's enabled as elegant as it is we have
+a potential problem with this circuit
+
+00:01:14.119 --> 00:01:21.030
+there's a possibility that s and R could
+be made high simultaneously this would
+
+00:01:21.030 --> 00:01:25.110
+be like asking the latch to store a 1
+and a 0 at the same time which is
+
+00:01:25.110 --> 00:01:32.909
+nonsense in reality both Q and not Q
+would become high then if both s and R
+
+00:01:32.909 --> 00:01:38.130
+fell to 0 at the same time we'd have a
+race condition the cross connected NAND
+
+00:01:38.130 --> 00:01:42.930
+gates would race each other to feedback
+their outputs making it impossible to
+
+00:01:42.930 --> 00:01:49.140
+predict the next state of the latch this
+would be like tossing a coin the latch
+
+00:01:49.140 --> 00:01:53.460
+would end up in either one of its two
+stable States needless to say this kind
+
+00:01:53.460 --> 00:01:59.130
+of unpredictability in an electronic
+circuit is usually unacceptable so what
+
+00:01:59.130 --> 00:02:05.490
+can we do about it by simply inverting
+input s with a not gate then feeding
+
+00:02:05.490 --> 00:02:10.560
+this not gates output into R so that R
+and s are always the opposite of each
+
+00:02:10.560 --> 00:02:13.390
+other
+the forbidden input combination
+
+00:02:13.390 --> 00:02:20.740
+s equals 1 and R equals 1 can never be
+applied now we can rename input s to D D
+
+00:02:20.740 --> 00:02:28.230
+for data and now we have a 1 input gated
+SR latch otherwise known as a D latch
+
+00:02:28.230 --> 00:02:38.080
+let's see it in action while E is high
+if D is high then so is Q while a is
+
+00:02:38.080 --> 00:02:45.160
+high if D changes to low then so does Q
+you can see that while a is high Q is
+
+00:02:45.160 --> 00:02:49.690
+always the same as D and because we're
+using a not gate like this there's no
+
+00:02:49.690 --> 00:02:54.160
+possibility of the D latch ever ending
+up in a forbidden state like an SR latch
+
+00:02:54.160 --> 00:03:01.239
+might this is still a latch of course
+because if equals to 0 output Q will
+
+00:03:01.239 --> 00:03:06.280
+retain its previous value and the D
+latch will no longer respond to changes
+
+00:03:06.280 --> 00:03:10.410
+in D it's locked in its current state
+
+00:03:11.580 --> 00:03:19.450
+let's return to our gated SR latch for a
+moment by cleverly rewiring the same for
+
+00:03:19.450 --> 00:03:25.510
+NAND gates like this we've built a D
+latch in a different way it does exactly
+
+00:03:25.510 --> 00:03:30.190
+the same thing as the D latch that we
+built by using a not gate but because
+
+00:03:30.190 --> 00:03:35.489
+we're using less components this version
+is more efficient and cheaper to make
+
+00:03:35.489 --> 00:03:41.560
+let's look at both designs together we
+can see that this new version is taking
+
+00:03:41.560 --> 00:03:46.090
+advantage of the fact that the output of
+the top and gate is always the inverse
+
+00:03:46.090 --> 00:03:51.130
+of D as long as the latch is enabled so
+this output is fed back into the lower
+
+00:03:51.130 --> 00:03:56.950
+gate a rather elegant solution let's
+quickly check it is indeed doing the
+
+00:03:56.950 --> 00:04:01.840
+same thing by tracing the highs and lows
+through the gates again at the moment E
+
+00:04:01.840 --> 00:04:10.180
+is high D is high and so is Q E is
+still high D goes low and so does Q E
+
+00:04:10.180 --> 00:04:18.130
+goes low D and Q remain as they were low
+E is still low D becomes high but Q
+
+00:04:18.130 --> 00:04:26.760
+remains low E becomes high again D is
+already high so Q goes high
+
+00:04:26.960 --> 00:04:32.250
+now let's examine the behavior of a D
+latch on a timing diagram this type of
+
+00:04:32.250 --> 00:04:37.379
+analysis might reveal some behavior we
+haven't spotted yet first though we're
+
+00:04:37.379 --> 00:04:41.610
+going to give the D latch its own symbol
+so we can focus on what it does rather
+
+00:04:41.610 --> 00:04:44.569
+than how it was built
+
+00:04:49.129 --> 00:04:55.259
+we're interested in the relationship
+between D E and Q so here they are on a
+
+00:04:55.259 --> 00:05:02.490
+shared time axis not Q is always the
+inverse of Q so we haven't included it
+
+00:05:02.490 --> 00:05:09.479
+on this diagram at our starting point E
+is high in other words the D latch is
+
+00:05:09.479 --> 00:05:15.379
+enabled D is low and therefore so is Q
+
+00:05:17.840 --> 00:05:31.259
+when D goes high so does Q when D goes
+low so does Q you can see that while E
+
+00:05:31.259 --> 00:05:36.409
+is high Q is following D
+
+00:05:43.080 --> 00:05:51.520
+when E goes low Q is latched it can't
+change so we can see here changes in D
+
+00:05:51.520 --> 00:06:00.220
+are not being reflected in Q D at the
+moment is low Q is high but when E goes
+
+00:06:00.220 --> 00:06:14.950
+high again Q reflects D and once again Q
+is following D on this diagram we see
+
+00:06:14.950 --> 00:06:25.480
+E going low again so Q is no longer
+following D until of course E goes high
+
+00:06:25.480 --> 00:06:27.870
+again
+
+00:06:33.340 --> 00:06:38.990
+to summarize them a D latch otherwise
+known as the data latch can be built
+
+00:06:38.990 --> 00:06:44.150
+from a gated SR latch either by
+including a not gate or by simply
+
+00:06:44.150 --> 00:06:50.540
+rewiring the existing NAND gates
+regardless of how it was built the D
+
+00:06:50.540 --> 00:06:54.650
+latch has its own symbol and its
+behavior can be described on a timing
+
+00:06:54.650 --> 00:07:00.590
+diagram the essence of this behavior is
+that the output follows the input while
+
+00:07:00.590 --> 00:07:05.840
+the D latch is enabled if the D latch is
+disabled it retains its current state
+
+00:07:05.840 --> 00:07:11.690
+this means the D latch can be used to
+capture and store one bit of data it's a
+
+00:07:11.690 --> 00:07:17.930
+1 bit memory device D latches are useful
+for converting parallel data into serial
+
+00:07:17.930 --> 00:07:23.390
+data a group of D latches can hang on to
+several bits of data while a multiplexer
+
+00:07:23.390 --> 00:07:28.060
+accesses them one at a time and places
+them on to a serial transmission line
+
+00:07:28.060 --> 00:07:34.360
+typically D latches are found in
+input/output ports one final point
+
+00:07:34.360 --> 00:07:39.410
+latches are sometimes referred to as
+flip-flops but strictly speaking this is
+
+00:07:39.410 --> 00:07:43.070
+not correct
+latch circuitry does however form the
+
+00:07:43.070 --> 00:07:47.710
+basis of a flip-flop and I'll be looking
+at these later

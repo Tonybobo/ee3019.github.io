@@ -1,0 +1,397 @@
+1
+00:00:00,210 --> 00:00:09,450
+a gated set/reset latch is an SR latch
+that can only change state while it's
+
+2
+00:00:09,450 --> 00:00:15,089
+enabled for example imagine an air
+conditioning system in a building each
+
+3
+00:00:15,089 --> 00:00:19,320
+room could have its own cooling unit
+controlled independently by its own SR
+
+4
+00:00:19,320 --> 00:00:24,119
+latch the set and reset signals might
+come from a temperature sensor or a
+
+5
+00:00:24,119 --> 00:00:31,080
+humidity sensor in the room if these
+were gated SR latches then a central
+
+6
+00:00:31,080 --> 00:00:35,219
+control panel could be used to enable or
+disable the switching on and off of
+
+7
+00:00:35,219 --> 00:00:39,710
+these units on a room-by-room basis
+
+8
+00:00:40,309 --> 00:00:47,309
+here's an Un-gated SR latch remember an
+SR latch built from nor gates like this
+
+9
+00:00:47,309 --> 00:00:53,879
+one is an active high SR latch this
+means it requires a high pulse that's a
+
+10
+00:00:53,879 --> 00:00:59,640
+1 to be applied at input s in order to
+get a high output at Q in other words to
+
+11
+00:00:59,640 --> 00:01:06,090
+set the latch alternatively to reset the
+latch and make the output at Q zero it
+
+12
+00:01:06,090 --> 00:01:13,409
+requires a high pulse to be applied to
+input arm it's invalid for both s and R
+
+13
+00:01:13,409 --> 00:01:21,270
+to be made high at the same time an SR
+latch is said to be level sensitive this
+
+14
+00:01:21,270 --> 00:01:26,159
+means it will respond to a valid change
+in either S or R regardless of the
+
+15
+00:01:26,159 --> 00:01:32,009
+duration of the input pulse it's the
+level high or low that matters not how
+
+16
+00:01:32,009 --> 00:01:37,650
+long it's applied for to build a gated
+SR latch we can make some simple
+
+17
+00:01:37,650 --> 00:01:43,110
+enhancements to an SR latch by
+connecting a pair of and gates in series
+
+18
+00:01:43,110 --> 00:01:48,570
+with the inputs of an or based SR latch
+we've created a third input E which can
+
+19
+00:01:48,570 --> 00:01:54,090
+be used to enable or disable the
+latching effect a regular and gate will
+
+20
+00:01:54,090 --> 00:01:59,700
+only have a high output if both inputs
+are high so only when E is set to one
+
+21
+00:01:59,700 --> 00:02:06,950
+with a one from s or a one from r get
+through to our cross connected nor gates
+
+22
+00:02:07,220 --> 00:02:13,440
+here's an SR latch built from NAND gates
+this is a level sensitive
+
+23
+00:02:13,440 --> 00:02:19,800
+active low sr latch in other words both
+s and r are normally high and it
+
+24
+00:02:19,800 --> 00:02:25,470
+requires a low pulse that's a zero to be
+applied to s in order to set it it also
+
+25
+00:02:25,470 --> 00:02:32,640
+requires a low pulse to be applied to R
+in order to reset it by connecting an
+
+26
+00:02:32,640 --> 00:02:36,990
+extra pair of NAND gates to the latch
+like this not only have we created a
+
+27
+00:02:36,990 --> 00:02:42,900
+third input E we now have a new circuit
+in which the normal states of s and r
+
+28
+00:02:42,900 --> 00:02:49,470
+are zero and high pulses are required to
+set or reset the latch in other words
+
+29
+00:02:49,470 --> 00:02:55,380
+our NAND based latch has been changed
+from an active low latch into an active
+
+30
+00:02:55,380 --> 00:03:04,560
+high latch these additional gates on a
+basic SR latch are sometimes referred to
+
+31
+00:03:04,560 --> 00:03:11,640
+as steering gates an SR latch without
+steering gates is said to be transparent
+
+32
+00:03:11,640 --> 00:03:18,239
+a valid input will affect the output
+unconditionally a gated SR latch on the
+
+33
+00:03:18,239 --> 00:03:25,170
+other hand is transparent only when it's
+enabled it's convenient to give a gated
+
+34
+00:03:25,170 --> 00:03:30,239
+SR latch its own symbol because we can
+now focus on what the latch does rather
+
+35
+00:03:30,239 --> 00:03:36,120
+than what's going on inside it the
+inputs S E and R are still shown and so
+
+36
+00:03:36,120 --> 00:03:40,550
+is the output q and its inverse not Q
+
+37
+00:03:47,510 --> 00:03:52,069
+we can illustrate what's going on at any
+one of the inputs or the output on a
+
+38
+00:03:52,069 --> 00:03:58,159
+chart showing changes in voltage against
+time at any given moment the voltage
+
+39
+00:03:58,159 --> 00:04:03,140
+will be either low zero volts to all
+intents and purposes and representing
+
+40
+00:04:03,140 --> 00:04:08,780
+the binary value zero or high at about
+five volts representing the binary value
+
+41
+00:04:08,780 --> 00:04:15,379
+one now of course everything can happen
+very quickly in a digital circuit each
+
+42
+00:04:15,379 --> 00:04:19,699
+time interval on this chart could be in
+the order of a microsecond that's a
+
+43
+00:04:19,699 --> 00:04:23,990
+millionth of a second
+having said that for a level sensitive
+
+44
+00:04:23,990 --> 00:04:28,880
+gated SR latch each time interval might
+be one second or one minute or even an
+
+45
+00:04:28,880 --> 00:04:34,010
+hour it really depends on the
+application for the purposes of this
+
+46
+00:04:34,010 --> 00:04:38,780
+discussion it takes no time for the
+voltage to change from low to high or
+
+47
+00:04:38,780 --> 00:04:45,139
+from high to low in reality this
+transition takes a few nanoseconds the
+
+48
+00:04:45,139 --> 00:04:48,910
+significance of which we'll ignore for
+now but come back to in a later video
+
+49
+00:04:48,910 --> 00:04:53,120
+let's proceed on the assumption that
+switching from low to high or vice-versa
+
+50
+00:04:53,120 --> 00:04:58,490
+is instantaneous this gives us the
+classic square wave that you can see
+
+51
+00:04:58,490 --> 00:05:07,520
+here we now have a convenient way to
+describe the behavior of a latch by
+
+52
+00:05:07,520 --> 00:05:13,130
+stacking several charts together one for
+each input S R D and one for the output Q
+
+53
+00:05:13,130 --> 00:05:19,820
+with a common time axis we can visualize
+this circuit in action at the time
+
+54
+00:05:19,820 --> 00:05:25,910
+indicated by the vertical yellow line
+the output Q is low s and R are also
+
+55
+00:05:25,910 --> 00:05:32,660
+both low but E is high so the latch is
+enabled in fact in this diagram the
+
+56
+00:05:32,660 --> 00:05:37,820
+latch is always enabled so it's going to
+behave exactly like a simple SR latch
+
+57
+00:05:37,820 --> 00:05:45,620
+without steering gates as time passes if
+s goes high
+
+58
+00:05:45,620 --> 00:05:54,970
+so does Q because it's a latch when s
+drops to low again Q stays high
+
+59
+00:05:57,439 --> 00:06:07,039
+if s goes high while Q is high it has no
+effect Q is already high when R goes
+
+60
+00:06:07,039 --> 00:06:23,389
+high Q goes low when s goes high again
+so does Q this is normal latching
+
+61
+00:06:23,389 --> 00:06:25,989
+behavior
+
+62
+00:06:34,870 --> 00:06:50,870
+again we see R going high so the
+latches reset again the latch is already
+
+63
+00:06:50,870 --> 00:07:02,719
+reset so another pulse at R has no
+effect now let's examine what happens
+
+64
+00:07:02,719 --> 00:07:09,620
+when E varies you can see that some of
+the time he is high and some of the time
+
+65
+00:07:09,620 --> 00:07:17,690
+E is low we begin with an output of
+zero at Q and because E is low the
+
+66
+00:07:17,690 --> 00:07:32,060
+latch is disabled s goes high but it has
+no effect on the output of the latch now
+
+67
+00:07:32,060 --> 00:07:36,500
+E is high the latch is enabled so when
+s goes high
+
+68
+00:07:36,500 --> 00:07:44,270
+so does Q and when s drops too low again
+the latch stays high until such time as
+
+69
+00:07:44,270 --> 00:07:55,610
+R goes high and then Q drops to zero
+again now E is zero the latch is no
+
+70
+00:07:55,610 --> 00:08:03,729
+longer enabled so if s goes high it has
+no effect on Q
+
+71
+00:08:12,620 --> 00:08:20,690
+E is high again the latch is enabled
+and so it responds when s goes high the
+
+72
+00:08:20,690 --> 00:08:31,790
+latch is set again E goes to zero the
+latch is disabled R goes high but Q
+
+73
+00:08:31,790 --> 00:08:44,060
+doesn't drop it remains in its high
+state to summarize that an SR latch
+
+74
+00:08:44,060 --> 00:08:49,700
+built from nor gates can be turned into
+a gated SR latch by adding a pair of and
+
+75
+00:08:49,700 --> 00:08:57,170
+gates to it an SR latch built from NAND
+gates can be turned into a gated SR
+
+76
+00:08:57,170 --> 00:09:02,420
+latch by adding another pair of NAND
+gates to it this also has the effect of
+
+77
+00:09:02,420 --> 00:09:10,100
+changing the SR latch from an active low
+to an active high latch a gated SR latch
+
+78
+00:09:10,100 --> 00:09:16,220
+has an additional input e which must be
+high before the latch will respond to
+
+79
+00:09:16,220 --> 00:09:23,420
+any changes in S or R the gated SR latch
+has its own symbol to simplify diagrams
+
+80
+00:09:23,420 --> 00:09:31,240
+and the behavior of a latch can be
+described by means of a timing diagram
+

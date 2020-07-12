@@ -1,0 +1,368 @@
+1
+00:00:01,839 --> 00:00:07,220
+In this class. We are going to discuss about
+CMOS Nor gate in the last class. We designed
+
+2
+00:00:07,220 --> 00:00:13,310
+nand gate by using CMOS
+So as you know that CMOS having two mos transistors
+
+3
+00:00:13,310 --> 00:00:20,060
+that is P mos and N mos It's just having P
+mos as pull up and N mos as you pull down and
+
+4
+00:00:20,060 --> 00:00:28,010
+here when we are designing any gate or any
+functionality. Then you need to give P mos
+
+5
+00:00:28,010 --> 00:00:34,370
+functionality of that particular functionality.
+As pull up and the N Mo's logic of that particular
+
+6
+00:00:34,370 --> 00:00:41,469
+functionality as pull down here. We are going
+to design CMOS nor gate if you want CMOS nor
+
+7
+00:00:41,469 --> 00:00:49,350
+gate you need to Cascade P mos nor gate as
+pull-up and n mos nor gate as pull down here.You
+
+8
+00:00:49,350 --> 00:00:57,570
+can absorb up to here. This is p mos nor gate
+and this is n mos nor gate by connecting this
+
+9
+00:00:57,570 --> 00:01:03,390
+P mos and N mos nor gate you are going to
+get Get your CMOS nor gate this P mos nor gate
+
+10
+00:01:03,390 --> 00:01:08,040
+and CMOS nor gate we already discussed
+in the last two classes. Now, we will see
+
+11
+00:01:08,040 --> 00:01:16,380
+this circuit will work for nor operation or
+not that will see now. So here we are having
+
+12
+00:01:16,380 --> 00:01:23,380
+two inputs A and B same inputs. We are giving
+for both p mos and n mos so here. I am considering
+
+13
+00:01:23,380 --> 00:01:30,749
+that inputs a b and I am just considering
+my P Mo's transistor cells q1 and Q2 and then
+
+14
+00:01:30,749 --> 00:01:44,939
+n  mos transistors as Q3 and Q4. So here Q1
+Q2 Q3 Q4 and your output Vo so now for
+
+15
+00:01:44,939 --> 00:01:53,850
+two input variables you are combinations maybe
+four that four combinations are 0 0 0 1 1 0
+
+16
+00:01:53,850 --> 00:02:04,039
+1 1 now as you know that P mos will on
+this is p, Mos So P mos will on for 0 and
+
+17
+00:02:04,039 --> 00:02:17,420
+off for 1This is n mos.So n mos will on for
+1 and off for 0. So now when you are output
+
+18
+00:02:17,420 --> 00:02:23,610
+is going to get 0 when you are output is going
+to get one means whenever you are output is
+
+19
+00:02:23,610 --> 00:02:29,620
+connected to Vdd. Then you are coming in getting
+high voltage at output when you were output
+
+20
+00:02:29,620 --> 00:02:35,959
+is connected to ground by this way or this
+way, then you are going to get zero at output.
+
+21
+00:02:35,959 --> 00:02:41,291
+So when you are going to connect to ground
+means whenever anyone of this n Mo's transistor
+
+22
+00:02:41,291 --> 00:02:47,459
+is on then it will forms shorts circuit. by
+that short circuit path you are going to connect
+
+23
+00:02:47,459 --> 00:02:53,460
+with the ground then coming to hear when your output is going to connect with Vdd means
+
+24
+00:02:53,460 --> 00:03:02,299
+Whenever two transistors whenever both transistors
+P Mo's transistors are on then only you are
+
+25
+00:03:02,299 --> 00:03:09,560
+output is going to connect with vdd or otherwise
+if anyone of the one transistor P Mo's transistor
+
+26
+00:03:09,560 --> 00:03:16,069
+is off then the short circuit path will cut
+then you are Output is not going to connect
+
+27
+00:03:16,069 --> 00:03:21,439
+with your supply voltage. So in that case
+it's going to connect with ground. So now
+
+28
+00:03:21,439 --> 00:03:27,939
+see the operation here. So whenever both transistors
+are on then only it's going to connect with
+
+29
+00:03:27,939 --> 00:03:32,439
+VDD.
+So if anyone of this transistor is on then
+
+30
+00:03:32,439 --> 00:03:40,930
+it's going to connect with ground. So now
+see here when we given 0 0 So these two are
+
+31
+00:03:40,930 --> 00:03:47,769
+P Mo's transistors and these two are n Mo's
+transistors. So when we give input as 0 P
+
+32
+00:03:47,769 --> 00:03:57,489
+Mo's transistors are going to on and n mos
+is going to off.So see here. So n mos is going
+
+33
+00:03:57,489 --> 00:04:04,010
+to off here You'll get open circuit.
+So here you will get open circuit. So like
+
+34
+00:04:04,010 --> 00:04:11,739
+this you will get opens circuit and here both
+transistors Both p mos are on means here like
+
+35
+00:04:11,739 --> 00:04:18,030
+this You are having short circuit. So now
+you can imagine so this Vo is not having
+
+36
+00:04:18,030 --> 00:04:25,520
+path like this this this same Vo is not
+having any path like this because here It's
+
+37
+00:04:25,520 --> 00:04:33,009
+having actually two paths like this or like
+this the two parts are in opens  circuited
+
+38
+00:04:33,009 --> 00:04:39,160
+So that means we are not having any connection
+in between Vo and ground and now you can see
+
+39
+00:04:39,160 --> 00:04:45,320
+you are having this short circuit path from
+Vo to VDD in this case you are output is equal
+
+40
+00:04:45,320 --> 00:04:53,599
+to one or high voltage vdd now in case
+of 0 1 if you give A equal to 0 B equal to
+
+41
+00:04:53,599 --> 00:05:01,830
+1 then p mos will on for zero n mos will off for
+zero that means for same for P Mo's transistor
+
+42
+00:05:01,830 --> 00:05:11,490
+will on but this n Mo's transistor will off
+so here. So for one, your p mos will
+
+43
+00:05:11,490 --> 00:05:18,340
+off and n mos will on n mos will on so you
+can see here.
+
+44
+00:05:18,340 --> 00:05:25,840
+So this whatever q1 is there that is on that
+means up to here you. Having short circuit
+
+45
+00:05:25,840 --> 00:05:34,060
+but coming to Q2. This is open circuited because
+Q2 is off. That means open circuited then
+
+46
+00:05:34,060 --> 00:05:43,460
+coming to this connection. So Q3 is off Q3
+is open circuited, but Q4 is on Q4 is on means
+
+47
+00:05:43,460 --> 00:05:50,830
+like this. So now you can observe really clear
+any path that here to here here you have open
+
+48
+00:05:50,830 --> 00:05:57,520
+path. That means the Vo to VDD connection
+is lost here due to this open circuit and
+
+49
+00:05:57,520 --> 00:06:05,110
+you are having a short path between Vo to ground
+by this Q4. So now in this case you are output
+
+50
+00:06:05,110 --> 00:06:11,289
+is going to connect with ground through this
+short circuit path forward by Q4 N mos transistor.
+
+51
+00:06:11,289 --> 00:06:17,460
+Then in this case you are output is equal
+to 0 now. come to 1 0 combination. If you give
+
+52
+00:06:17,460 --> 00:06:24,729
+an A is equal to 1 B is equal to 0 if you
+given a equal one P mos is going to
+
+53
+00:06:24,729 --> 00:06:35,490
+off. And your n mos is going to on. So if
+you give any A as 1 p mos is going to off
+
+54
+00:06:35,490 --> 00:06:42,560
+n mos is going to on the same way If you give
+B is equal to 0 you are P mos is going
+
+55
+00:06:42,560 --> 00:06:50,080
+to on your P mos is going to on and your n
+mos is going to off now. I can see the connection.
+
+56
+00:06:50,080 --> 00:06:58,710
+So if Q1 is off you are having open circuit
+here and when Q2 is on you are having short
+
+57
+00:06:58,710 --> 00:07:05,789
+circuit like this and when Q3 Is on you are
+having short circuit like this and Q4 is off
+
+58
+00:07:05,789 --> 00:07:13,680
+Mean. Now This is open circuited. Now, you
+can see where you are having path Vo to VDD
+
+59
+00:07:13,680 --> 00:07:19,770
+path is lost because of this opens circuit so
+up to here you are having bar, but here this
+
+60
+00:07:19,770 --> 00:07:25,569
+is open circuited and coming to here here.
+This is open circuited. But here you are having
+
+61
+00:07:25,569 --> 00:07:33,780
+path to ground. So you are having in this
+case you are having  Vo to ground connection
+
+62
+00:07:33,780 --> 00:07:38,780
+through this Q3 short circuit path. In this
+case. Also, your output is going to connect
+
+63
+00:07:38,780 --> 00:07:45,099
+with ground means you are getting zero.So
+now in case of 1 1, if you are providing
+
+64
+00:07:45,099 --> 00:07:52,939
+a equal to 1 b equal to 1 you are both p mo's
+are transistors are going to off that means
+
+65
+00:07:52,939 --> 00:08:03,030
+so like this and both n mos on like this so
+here both are of means both Having opens circuit
+
+66
+00:08:03,030 --> 00:08:09,360
+and here both are having short circuit in
+this case. Also your now you lost path between
+
+67
+00:08:09,360 --> 00:08:16,909
+Vo to V DD because of this open circuit and
+here by this way or this way your output
+
+68
+00:08:16,909 --> 00:08:22,280
+is going to connect with ground. So that means
+you're going to get zero and it is connected
+
+69
+00:08:22,280 --> 00:08:27,439
+with ground. It's going to get 0 now. You
+can observe this truth table. If You observe
+
+70
+00:08:27,439 --> 00:08:34,900
+this truth table whenever all All signals
+are all inputs are 0 then only or getting
+
+71
+00:08:34,900 --> 00:08:41,850
+one if any one of the input is 1 then you
+are getting 0 at output. So this is the meaning
+
+72
+00:08:41,850 --> 00:08:48,940
+of nor operation. So by this functionality
+functional truth table obtained by the circuit
+
+73
+00:08:48,940 --> 00:08:57,530
+so we can say this circuit will act as nor
+gate so as this is CMOS logic, so this this
+
+74
+00:08:57,530 --> 00:08:59,960
+is called as CMOS nor gate.
+

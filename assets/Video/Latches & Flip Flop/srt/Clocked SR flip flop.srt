@@ -1,0 +1,503 @@
+1
+00:00:00,760 --> 00:00:06,730
+Here we shall discuss clocked SR flip flop.
+We know that a cell is having the full form
+
+2
+00:00:06,730 --> 00:00:14,900
+that is set. It is SR flip flop.So now we
+can draw is a flip-flop circuit using and
+
+3
+00:00:14,900 --> 00:00:20,060
+logic at the clock and the nor logic will
+be used or the nor Gates will be used at the
+
+4
+00:00:20,060 --> 00:00:26,440
+flip flop region. And otherwise, you can have
+the NAND gates both that the clock control
+
+5
+00:00:26,440 --> 00:00:33,720
+input and also for the flip flop region, so
+this is my AND and Nor flip flop circuit SR flip
+
+6
+00:00:33,720 --> 00:00:39,629
+flop, and this is our nand nand clocked 
+SR flip flop circuit. So now let me discuss
+
+7
+00:00:39,629 --> 00:00:53,409
+them one by one.So here is the respective
+truth table for this clock SR Flip-flop. There
+
+8
+00:00:53,409 --> 00:00:59,510
+is a truth table for this clocked SF flip
+flop now, we are having three inputs that
+
+9
+00:00:59,510 --> 00:01:06,130
+is S and R and the previous output. So considering
+all these three that means eight combinations.
+
+10
+00:01:06,130 --> 00:01:11,710
+We're having the respective next output of
+the circuit. So let us explain some of them.
+
+11
+00:01:11,710 --> 00:01:17,360
+So let us suppose. We are considering this
+one arbitrarily up taken this so s is equal
+
+12
+00:01:17,360 --> 00:01:23,620
+to 0 and R is equal to 1 and output will be
+1 in that case. So I'm going for S is equal
+
+13
+00:01:23,620 --> 00:01:29,710
+to 0 R is equal to 1 and output will be 1
+for this case. So here it is 1 so obviously
+
+14
+00:01:29,710 --> 00:01:37,010
+here it will be 0 so that is the initial case
+S 0 R 1 and output is 1 so Mark the inputs
+
+15
+00:01:37,010 --> 00:01:41,770
+and outputs accordingly. So when the clock will be high. So here it is going to
+
+16
+00:01:41,770 --> 00:01:48,710
+get 1 because 1 and 1 is 1 and 1 and 0 is
+0 here. So now you can find that here. We
+
+17
+00:01:48,710 --> 00:01:55,130
+are having this one. So if one of the inputs
+is one. And for a or gate then output will
+
+18
+00:01:55,130 --> 00:02:01,800
+be 1 but here it is nor gate so output will
+be 0 in that case. So it will be 0 so 0 will
+
+19
+00:02:01,800 --> 00:02:08,959
+come down here. So 0 or 0 is 0 not of that
+one. So Q will have the new output 1 so new
+
+20
+00:02:08,959 --> 00:02:14,329
+output 0 so Q will have the new output zero
+so it has been explained. So let us apply
+
+21
+00:02:14,329 --> 00:02:20,689
+the same logic here. Also here is is equal
+to 0 R is equal to 1 and here this Q is equal
+
+22
+00:02:20,689 --> 00:02:26,959
+to 1 here. So Q is equal to 1 here. So as
+Q is equal to 1 so Q bar will be 0 so when
+
+23
+00:02:26,959 --> 00:02:34,150
+we shall make this clock pulse High then 1 and 1 is 1 not of that 0 because here it is
+
+24
+00:02:34,150 --> 00:02:42,239
+nand gate and 1 and 0 is 0 not of that that
+is one here. So in case of nand gate if one
+
+25
+00:02:42,239 --> 00:02:47,430
+of the inputs is zero, then nand gate will
+produce the output one. So it will produce
+
+26
+00:02:47,430 --> 00:02:55,049
+output one that one will come down here. So
+1 and 1 is 1 not of that will be getting 0 here.
+
+27
+00:02:55,049 --> 00:03:00,940
+So the next output will be 0 and that has
+been explained in this way. We can test other
+
+28
+00:03:00,940 --> 00:03:08,439
+inputs also for the verification that these
+two table is applicable for both the circuits
+
+29
+00:03:08,439 --> 00:03:14,629
+now one thing is very important. You can find
+that here. We are having this nand gate clock
+
+30
+00:03:14,629 --> 00:03:21,870
+logic is also having nand Gates. And here
+are is having opposite is Q Bar here. We are
+
+31
+00:03:21,870 --> 00:03:28,870
+having nor gates at the flip flop level and here
+we are having this respective and gate for
+
+32
+00:03:28,870 --> 00:03:34,500
+the clock control and here you can find that
+R is having Q at front. So in the same line,
+
+33
+00:03:34,500 --> 00:03:39,740
+we're having R and Q in the same line. We're
+having R and Q bar and that's why this too.
+
+34
+00:03:39,740 --> 00:03:45,639
+Two circuits will have the same generic truth
+table for it. You can go on testing other
+
+35
+00:03:45,639 --> 00:03:51,549
+inputs and for the respective value of Q.
+You can consider any row will be getting the
+
+36
+00:03:51,549 --> 00:03:57,779
+required output as well. So now let me tell
+you why this one one is becoming indeterministic
+
+37
+00:03:57,779 --> 00:04:02,359
+or indeterminate. So I'm just considering
+this circuit here. So making this one one
+
+38
+00:04:02,359 --> 00:04:09,870
+here and I'm considering this one say so one
+one making this one zero so Q is zero, so
+
+39
+00:04:09,870 --> 00:04:16,980
+But it'll be one in that case. Okay, so one
+one will be applicable to S and R and Q is
+
+40
+00:04:16,980 --> 00:04:22,280
+equal to 0 there. So Q bar will be 1 so when
+this clock pulse will be high. So one will
+
+41
+00:04:22,280 --> 00:04:28,070
+be coming down and one will be coming down.
+So what will happen you can find this one
+
+42
+00:04:28,070 --> 00:04:34,150
+that if this particular one is there so nor
+will produce output zero and as one is there
+
+43
+00:04:34,150 --> 00:04:41,500
+so nor will produce output 0 so both the outputs
+are having value 0 here. So that is not in
+
+44
+00:04:41,500 --> 00:04:46,410
+deterministic.that is Also deterministic now the
+thing will happen when the clock pulse will
+
+45
+00:04:46,410 --> 00:04:52,060
+become low when the clock pulse will become
+low then it will produce zero as output and
+
+46
+00:04:52,060 --> 00:04:58,340
+they will produce zero as output so what is
+happening at this very instant of time the
+
+47
+00:04:58,340 --> 00:05:04,910
+inputs are 0 and 0 and here we are having
+this output zero and zero. So here we will
+
+48
+00:05:04,910 --> 00:05:09,350
+be having two case studies if we consider
+let us suppose case study number one and case
+
+49
+00:05:09,350 --> 00:05:15,091
+study number two in the case study number
+one if I Consider this Q at first if I consider
+
+50
+00:05:15,091 --> 00:05:21,620
+this Q at first, so this 0 will be coming
+down here. So 0 or 0 is 0 not of that one
+
+51
+00:05:21,620 --> 00:05:28,460
+will be there. And this one will be going
+there. So 1 or 0 is 1 not of that 0 will be
+
+52
+00:05:28,460 --> 00:05:34,490
+going here. So here we consider Q at first
+now in case of our case study to if we consider
+
+53
+00:05:34,490 --> 00:05:43,080
+Q Bar here then here we are having 0 so 0
+or 0 is 1 0 or 0 is 0 not of that one. And
+
+54
+00:05:43,080 --> 00:05:49,100
+this one will be coming down So 1 or 0 is
+0 1 or 0 is 1 and not of that zero will be
+
+55
+00:05:49,100 --> 00:05:55,890
+going here. So here we have considered the
+Q bar at first so you can find that.
+
+56
+00:05:55,890 --> 00:06:03,680
+So now when this clock will become 0 will
+be low in that case. We may have 0 1 or 1
+
+57
+00:06:03,680 --> 00:06:09,470
+0 any kind of output combinations at Q 
+and Q bar and that is not deterministic that
+
+58
+00:06:09,470 --> 00:06:15,710
+will depend upon the the delay time. Which
+is required to have the output of application
+
+59
+00:06:15,710 --> 00:06:23,170
+of the input of this to NOR gate so that's
+why the problem is becoming in deterministic
+
+60
+00:06:23,170 --> 00:06:29,200
+non-deterministic in that case and also this
+this particular condition is known as race
+
+61
+00:06:29,200 --> 00:06:35,060
+condition. So that means this inputs will
+be racing through the gate to produce the
+
+62
+00:06:35,060 --> 00:06:41,590
+required output and that is totally in deterministic
+because here we don't know which is working
+
+63
+00:06:41,590 --> 00:06:47,620
+faster than which working slower. So that
+will depend upon the delay time of these two
+
+64
+00:06:47,620 --> 00:06:54,070
+nor Gates. So that's why it is called indeterministic
+or race condition. Okay, so we have explained
+
+65
+00:06:54,070 --> 00:06:59,460
+all this some of you can also test at your
+end. So now let us make one summary out of
+
+66
+00:06:59,460 --> 00:07:06,430
+that. So here we are going for this summary
+and this is known as characteristic table.
+
+67
+00:07:06,430 --> 00:07:13,530
+So for 0 0 and for 0 0 input and finding this
+one that previous output is getting maintained.
+
+68
+00:07:13,530 --> 00:07:25,460
+So here it is Q(t) for 0 1 and finding always
+output will be zero.for 1 0 and finding that
+
+69
+00:07:25,460 --> 00:07:35,580
+all is this output is 1 are for 1 1 and finding
+indeterminate condition. So this is known
+
+70
+00:07:35,580 --> 00:07:54,370
+as race condition. This is known as reset
+This is known as set and this is known as no change.
+
+71
+00:07:54,370 --> 00:08:01,150
+So it is very easy to remember in this way
+when the set is enabled enabled means one
+
+72
+00:08:01,150 --> 00:08:07,320
+and set is not enabled output will be reset
+always remember reset or clear means zero
+
+73
+00:08:07,320 --> 00:08:13,630
+preset or set means one. So whenever set is
+being say is enabled then output is getting
+
+74
+00:08:13,630 --> 00:08:19,890
+set when neither one of them is enabled output
+will not change and when both of them will
+
+75
+00:08:19,890 --> 00:08:25,670
+be enabled then race condition will take place.
+So now we are going to do this one. This is
+
+76
+00:08:25,670 --> 00:08:38,950
+known as there is known as the excitation
+table. Here we are having this outputs and
+
+77
+00:08:38,950 --> 00:08:44,350
+depending on that. We shall find out the inputs.
+Now see 0 to 0 transition here. We are getting
+
+78
+00:08:44,350 --> 00:08:52,050
+two cases 0 to 0 transition. We are getting
+two cases. So for the inputs are 0 0 and 0
+
+79
+00:08:52,050 --> 00:08:59,750
+1 so s is 0 permanent and R can be 0 or 1
+anything so you should be going for 0 X . To
+
+80
+00:08:59,750 --> 00:09:08,690
+present this to merging the 0 0 and 0 1 combination.
+I can write 0 X X stands for don't care condition.
+
+81
+00:09:08,690 --> 00:09:16,590
+So now we require this 0 1 so 0 1 I'm finding
+I'm getting only here. 0 1 I'm getting only
+
+82
+00:09:16,590 --> 00:09:28,370
+here 0 1 so required input will be 1 0. Required
+input will be 1 0 I've just got it from here
+
+83
+00:09:28,370 --> 00:09:35,140
+1 0 so this combination am getting here. I
+want you to combination. I'm getting here
+
+84
+00:09:35,140 --> 00:09:44,630
+so input should be 0 1. Here for 1 1. I'm
+getting 1 1 condition here. That
+
+85
+00:09:44,630 --> 00:09:52,550
+is 1 to 1 transition input should be 0 0 1
+to 1 transition input should be 1 0 so 0 0
+
+86
+00:09:52,550 --> 00:10:00,860
+and 1 0 if we summarize it is x 0 so this is
+about excitation table. So now let us find
+
+87
+00:10:00,860 --> 00:10:08,750
+out the characteristic equation of this to
+table of this SR flip flop So let me plot
+
+88
+00:10:08,750 --> 00:10:16,030
+this Q(t+1) here So here we are having all
+possible combinations in the sequence.So 0
+
+89
+00:10:16,030 --> 00:10:28,690
+1 0 0 so 0 1 0 0 and this is my 1 1 and indeterminate
+indeterminate. So 1 1  indeterminate.
+
+90
+00:10:28,690 --> 00:10:34,510
+So in this way, I have done the marking on
+this respective karnaugh map three variable
+
+91
+00:10:34,510 --> 00:10:41,050
+karnaugh map. So now let me go for the covering.
+So this is a cover so you can write this one
+
+92
+00:10:41,050 --> 00:10:49,540
+as so now this particular cover can also be
+get extended up to this. So if we consider
+
+93
+00:10:49,540 --> 00:10:55,570
+them, I'm getting this one as s so here from
+this kind of map.You can easily find out that
+
+94
+00:10:55,570 --> 00:11:02,100
+our bar Q(t) that is for this one our Q(t)
+bar And for this one I can also extend it
+
+95
+00:11:02,100 --> 00:11:07,290
+because normal conditions can be treated also
+as ones so little to go for this one, but
+
+96
+00:11:07,290 --> 00:11:13,270
+it is better to go for this and then s will
+be the covered the respective output here
+
+97
+00:11:13,270 --> 00:11:23,790
+so R bar Q(t+1) is known as the characteristic
+equation of this flip flop These are the circuits
+
+98
+00:11:23,790 --> 00:11:30,940
+with and nor logic and with nand nand logic.
+This is our respective characteristic table.This
+
+99
+00:11:30,940 --> 00:11:37,611
+is our respective our excitation table and
+this characteristic equation of this Sr flip-flop.
+
+100
+00:11:37,611 --> 00:11:44,240
+But SR flip flop has remaining one problem
+that is a race condition. So in the next people
+
+101
+00:11:44,240 --> 00:11:51,920
+If that is our D flip-flop, we shall solve
+this problem.
+

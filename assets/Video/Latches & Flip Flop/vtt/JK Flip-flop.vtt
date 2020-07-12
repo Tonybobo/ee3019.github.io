@@ -1,0 +1,345 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.089 --> 00:00:06.560
+in this session we are going to discuss
+JK flip-flop JK this term has come
+
+00:00:06.560 --> 00:00:13.710
+against the name Jack Kilby
+who is a famous engineer at Texas
+
+00:00:13.710 --> 00:00:23.100
+Instruments who has invented integrated
+circuit in the year 1958 so in case of
+
+00:00:23.100 --> 00:00:28.710
+JK flip-flop we are going to solve the
+race condition of SR  flip flop
+
+00:00:28.710 --> 00:00:34.530
+we know that race condition of a SR
+flip flop was solved in D flip flop by connecting
+
+00:00:34.530 --> 00:00:40.230
+our inputs through one not gate
+but D flip-flop
+
+00:00:40.230 --> 00:00:44.940
+was having only one input line so two
+input combinations are possible that is
+
+00:00:44.940 --> 00:00:52.020
+0 and 1 so now I want to have if 2 input
+flip-flop where the race condition will
+
+00:00:52.020 --> 00:00:58.199
+be resolved and that is the version we
+are observing in JK flip-flop so here is
+
+00:00:58.199 --> 00:01:02.940
+the respective circuit for us we know
+that in case of SR flip flop if we
+
+00:01:02.940 --> 00:01:08.880
+provide 1 1 as input and when the inner
+flip-flop from the clock is getting 1 1
+
+00:01:08.880 --> 00:01:15.600
+as input then the race condition was
+getting restored so now to resolve that
+
+00:01:15.600 --> 00:01:18.930
+issue
+what do you are doing if we provide 1 1
+
+00:01:18.930 --> 00:01:26.820
+to J and K inputs in in that case also Q
+Bar and Q is getting ended with them so
+
+00:01:26.820 --> 00:01:31.740
+Q or Q bar either one of them will be 0
+and another one of them will be 1 so
+
+00:01:31.740 --> 00:01:37.860
+ultimately the inner flip flop is not
+getting 1 1 as input either it will be
+
+00:01:37.860 --> 00:01:43.920
+getting 0 1 as input or 1 0 as input so
+the race condition problem has been
+
+00:01:43.920 --> 00:01:49.890
+resolved in our JK flip-flop and also
+this JK flip-flop is having two inputs J
+
+00:01:49.890 --> 00:01:56.700
+and K and that's why we can have 4 input
+combinations so here is a truth table
+
+00:01:56.700 --> 00:02:01.799
+for this JK flip-flop so JK and previous
+support which will decide the next
+
+00:02:01.799 --> 00:02:06.869
+output so out of them let us take any
+one of them arbitrarily and he shall
+
+00:02:06.869 --> 00:02:12.930
+show really this truth table is working
+fine so let us take this this one
+
+00:02:12.930 --> 00:02:18.360
+so that means for one one input whether
+in where in case of SR flip flop it was
+
+00:02:18.360 --> 00:02:23.069
+supposed to produce indeterminate
+condition here it will be producing one
+
+00:02:23.069 --> 00:02:30.000
+as output if the output was 0 initially so
+let us stress this one on this circuit
+
+00:02:30.000 --> 00:02:39.180
+so one one for JK and we are having 0
+for Q(t) so here will be 1 and let me
+
+00:02:39.180 --> 00:02:43.860
+check what is the next output coming so
+now in this case if I make this clock
+
+00:02:43.860 --> 00:02:50.489
+pulse 1 so 1 will be coming here 1 is
+coming here and 0 is coming here so it
+
+00:02:50.489 --> 00:02:55.440
+is producing 0 because and gate if one of
+the inputs is 0 then output will be 0 in
+
+00:02:55.440 --> 00:03:00.660
+that case and here we are having 3 1 so
+input will be 1 in case of nor gate if
+
+00:03:00.660 --> 00:03:06.209
+one of the inputs is 1 then output will
+be 0 so here will be here it will be 0
+
+00:03:06.209 --> 00:03:12.360
+so 0 will be coming here 0 or 0 is 0 not
+up that 1 so the next value of Q will be
+
+00:03:12.360 --> 00:03:17.549
+1 and that has been shown in the truth
+table so in this way this particular
+
+00:03:17.549 --> 00:03:21.329
+circuit has been tested for this input
+combination at your end you can also
+
+00:03:21.329 --> 00:03:25.170
+test with other at any input
+combinations you can work you can see
+
+00:03:25.170 --> 00:03:29.280
+that it is working fine on the circuit
+so this is the truth table of this
+
+00:03:29.280 --> 00:03:33.599
+circuit so now let us have the
+characteristic equation so I am plotting
+
+00:03:33.599 --> 00:03:39.000
+this Q(t+1) on this 3 variable
+karnaugh map here we are having j and k
+
+00:03:39.000 --> 00:03:45.959
+Q(t)  so we're having this J K and Q(t)  so
+now all of them are in the same sequence
+
+00:03:45.959 --> 00:03:55.680
+so I am going for 4 here so 0 1 0 0
+so 0 1 0 0 here we are having this 1 1 1
+
+00:03:55.680 --> 00:04:03.480
+0 so 1 1 1 0 so I am finding this so
+here I will be getting 1 cover and
+
+00:04:03.480 --> 00:04:10.370
+another cover will be this one so
+ultimately it is nothing but
+
+00:04:11.879 --> 00:04:23.699
+so Q bar Q(t)  and this one is J and
+the last one is this one so in this way
+
+00:04:23.699 --> 00:04:27.750
+we have got the characteristic equation
+of JK flip flop from this truth table
+
+00:04:27.750 --> 00:04:31.349
+now let us go for the other two table
+constructions
+
+00:04:31.349 --> 00:04:36.210
+so our next table is the characteristic
+table where we shall find out what will
+
+00:04:36.210 --> 00:04:41.120
+be the output when certain input is
+known to us so for the 0 0 input
+
+00:04:41.120 --> 00:04:47.520
+now finding here we are having 0 0 so
+the previous support we are getting so I
+
+00:04:47.520 --> 00:04:58.080
+am writing this one as Q(t ) for 0 1 and
+finding this one as 0 for 1 0 I am finding
+
+00:04:58.080 --> 00:05:06.539
+this one as 1 and for 1 1 I am finding
+this one as when it was 0 it will be 1
+
+00:05:06.539 --> 00:05:12.330
+when it was 1 it will be 0 so it will be
+Q Bar T that means the previous output
+
+00:05:12.330 --> 00:05:18.060
+will get complimented if I provide 1 1 to
+J and K inputs so in this way the
+
+00:05:18.060 --> 00:05:22.530
+character suitable we have done now we
+are remaining with the excitation table
+
+00:05:22.530 --> 00:05:26.520
+in case of excitation table we are
+having the supports and for this output
+
+00:05:26.520 --> 00:05:32.190
+change or transition at the input
+combination so 0 0 0 to 0
+
+00:05:32.190 --> 00:05:39.000
+so finding here 1 0 to 0 finding here 1
+0 to 0 so here you are having 0 0 and 0
+
+00:05:39.000 --> 00:05:48.419
+1 so if we go on combining them so it is
+0 and X so here J must be 0 and K can be
+
+00:05:48.419 --> 00:05:54.690
+0 or 1 anything so next one will be 0 to
+1 transition so finding this one here
+
+00:05:54.690 --> 00:06:01.440
+and finding this one here so here it is
+1 0 and here it is 1 1 so 1 is fixed and
+
+00:06:01.440 --> 00:06:09.840
+0 1 means we can make it X you can make
+it X so 1 is fixed and here it is 0 here
+
+00:06:09.840 --> 00:06:15.060
+it is 1 so I'm making this one X next
+is 1 to 0 transition 1 to 0 transition
+
+00:06:15.060 --> 00:06:21.180
+we are finding here I am finding here so
+here it means this one and this one so that
+
+00:06:21.180 --> 00:06:28.650
+is 0 1 and 1 1 0 means
+zero is zero and one means X and 1 and 1
+
+00:06:28.650 --> 00:06:34.860
+means 1 I can write this one here so I'm
+looking for the last one that is 1 1 so
+
+00:06:34.860 --> 00:06:38.820
+here you are finding this one
+combination and finding this combination
+
+00:06:38.820 --> 00:06:45.360
+here also so it is 0 0 and it is 1 0 so
+0 is fixed and 0 1 1 anything can be
+
+00:06:45.360 --> 00:06:50.730
+applied so I'm making this one as X 0 so
+that is the required excitation table
+
+00:06:50.730 --> 00:06:56.310
+for the JK flip-flop this is the block
+diagram of JK flip-flops so here we are
+
+00:06:56.310 --> 00:07:02.730
+having J and K and clock pulse as input
+and Q and Q Bar will be the output
+
+00:07:02.730 --> 00:07:08.790
+JK flip flop is having one problem here
+you see for one one input output will
+
+00:07:08.790 --> 00:07:14.130
+get complimented so when the output will
+get complemented then through the
+
+00:07:14.130 --> 00:07:18.900
+feedback paths those are put will be
+again coming to the inputs and if at
+
+00:07:18.900 --> 00:07:23.220
+that time if the clock pulse is still on
+then again the output will get
+
+00:07:23.220 --> 00:07:27.360
+complemented and again through the
+feedback paths the new outputs will be
+
+00:07:27.360 --> 00:07:32.160
+coming to the inputs and if the clock
+pulses still on then then again the
+
+00:07:32.160 --> 00:07:36.690
+output will get complimented so as a
+result of that multiple times the output
+
+00:07:36.690 --> 00:07:40.890
+may get complemented if the clock pulse
+is remaining high for a certain period
+
+00:07:40.890 --> 00:07:46.140
+of time which is much much greater than
+the delay time of the this feedback
+
+00:07:46.140 --> 00:07:53.010
+paths so that's why if even number of
+times of rolling takes place then output
+
+00:07:53.010 --> 00:07:58.410
+will not be complemented ultimately at
+the end if the rolling is taking place
+
+00:07:58.410 --> 00:08:02.970
+for odd number of times the output
+will get complemented ultimately
+
+00:08:02.970 --> 00:08:08.550
+so the output will become is
+unpredictable so that's why this
+
+00:08:08.550 --> 00:08:13.530
+condition is known as turn around
+condition this particular condition is
+
+00:08:13.530 --> 00:08:19.740
+known as turn around condition and that
+is the basic problem with clocked JK
+
+00:08:19.740 --> 00:08:24.660
+flip-flop so in the next video we'll be
+discussing that is how to resolve this
+
+00:08:24.660 --> 00:08:31.520
+one using master slave JK flip-flop
+thanks for watching this video

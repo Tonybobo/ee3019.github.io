@@ -1,0 +1,568 @@
+1
+00:00:00,650 --> 00:00:06,509
+laches and flip-flops are the building
+blocks of computer memory in this
+
+2
+00:00:06,509 --> 00:00:12,360
+particular video will focus on the
+so-called SR latch later we'll see how
+
+3
+00:00:12,360 --> 00:00:18,420
+this circuit can be enhanced the
+set/reset latch or SR latch for short
+
+4
+00:00:18,420 --> 00:00:24,480
+can be thought of as a 1-bit memory it
+can be put into one of two stable output
+
+5
+00:00:24,480 --> 00:00:31,380
+States triggered by an input pulse the
+circuit remembers this state until it's
+
+6
+00:00:31,380 --> 00:00:36,270
+changed again by another input pulse or
+until the power is removed for this
+
+7
+00:00:36,270 --> 00:00:44,070
+reason the circuit is known as a
+bi-stable latch before we consider the
+
+8
+00:00:44,070 --> 00:00:48,450
+construction of SR latches let's remind
+ourselves of some fundamental logic
+
+9
+00:00:48,450 --> 00:00:54,500
+gates this is an or gate and this is the
+truth table that describes its behavior
+
+10
+00:00:54,500 --> 00:01:01,140
+any combination of inputs A and B
+results in a 1 an output P except when
+
+11
+00:01:01,140 --> 00:01:08,790
+both inputs are 0 in which case the
+output is 0 this is an and gate and this
+
+12
+00:01:08,790 --> 00:01:13,530
+is the truth table that describes its
+behavior any combination of inputs A and
+
+13
+00:01:13,530 --> 00:01:20,009
+B results in a 0 at output P except when
+both inputs are 1 in which case the
+
+14
+00:01:20,009 --> 00:01:28,860
+output is 1 if we modify the output of a
+regular or gate by inverting it with a
+
+15
+00:01:28,860 --> 00:01:35,369
+not gate then we can swap the 0 for a 1
+and the ones for zeros in the output
+
+16
+00:01:35,369 --> 00:01:38,630
+column of the truth table
+
+17
+00:01:39,080 --> 00:01:45,330
+in a similar fashion we can invert the
+output of a regular and gate then we can
+
+18
+00:01:45,330 --> 00:01:50,310
+swap the zeros for ones and the one for
+a zero in the output column of this
+
+19
+00:01:50,310 --> 00:01:52,880
+truth table
+
+20
+00:01:54,150 --> 00:01:59,920
+each of these gate combinations has its
+own name and its own symbol they are
+
+21
+00:01:59,920 --> 00:02:07,720
+known as the nor gate and the NAND gate
+the nor gate only produces an output of
+
+22
+00:02:07,720 --> 00:02:13,930
+one if both of the inputs are zero the
+NAND gate only produces an output of
+
+23
+00:02:13,930 --> 00:02:21,070
+zero if both of the inputs are one the
+SR latch can be built using one of these
+
+24
+00:02:21,070 --> 00:02:30,640
+two basic building blocks let's start by
+considering an SR latch built from nor
+
+25
+00:02:30,640 --> 00:02:37,660
+gates in this nor gate version of an SR
+latch two nor gates are connected
+
+26
+00:02:37,660 --> 00:02:42,190
+together in such a way as the output of
+each nor gate is one of the inputs of
+
+27
+00:02:42,190 --> 00:02:47,620
+the other this cross coupling of two
+gates results in a form of positive
+
+28
+00:02:47,620 --> 00:02:55,270
+feedback SR latches like all electronic
+circuits require power to work the power
+
+29
+00:02:55,270 --> 00:03:02,590
+connections aren't shown on this diagram
+the SR latch has two inputs R and s and
+
+30
+00:03:02,590 --> 00:03:09,250
+the output Q the SR latch also makes the
+inverse of the output available on this
+
+31
+00:03:09,250 --> 00:03:16,120
+diagram you can see not Q a Q
+with a bar above it the starting state
+
+32
+00:03:16,120 --> 00:03:24,190
+here is that s and R are both low that
+is both inputs are 0 Q is high that is
+
+33
+00:03:24,190 --> 00:03:31,209
+the output is one and not Q the inverse
+of this is 0 both of the inputs of the
+
+34
+00:03:31,209 --> 00:03:38,230
+top nor gate are 0 so the output of the
+top gate is 1 this is exactly what you
+
+35
+00:03:38,230 --> 00:03:44,770
+would expect from a nor gate the inputs
+of the lower nor gate are 1 and 0 so the
+
+36
+00:03:44,770 --> 00:03:52,500
+output of the lower gate is 0 because Q
+is 1 the latch is currently storing 1
+
+37
+00:03:52,500 --> 00:04:00,459
+now we apply a pulse to input R to reset
+the latch this changes the output of the
+
+38
+00:04:00,459 --> 00:04:05,230
+top gate and then this is fed back into
+the lower gate the lower gates output
+
+39
+00:04:05,230 --> 00:04:08,310
+also change
+and this is fed back into the top gate
+
+40
+00:04:08,310 --> 00:04:14,380
+the pulse that was applied to reset the
+SR latch is then removed and R is zero
+
+41
+00:04:14,380 --> 00:04:24,430
+again but the output at Q is now zero so
+the latch is now storing a zero in order
+
+42
+00:04:24,430 --> 00:04:29,290
+to store a 1 again a pulse must be
+applied to input s which will set the
+
+43
+00:04:29,290 --> 00:04:35,350
+latch again notice how the various
+changes are propagated around the
+
+44
+00:04:35,350 --> 00:04:47,380
+circuit the set pulse is then removed
+and the circuit is now latched into a
+
+45
+00:04:47,380 --> 00:04:54,430
+set state it's storing a 1 again notice
+that if another set pulse is applied it
+
+46
+00:04:54,430 --> 00:05:00,850
+has no effect applying a set pulse at s
+will always force the latch into a set
+
+47
+00:05:00,850 --> 00:05:06,250
+state regardless of the previous state
+of the latch similarly applying a reset
+
+48
+00:05:06,250 --> 00:05:11,770
+pulse will always force the latch into a
+reset state it should be noted that s
+
+49
+00:05:11,770 --> 00:05:17,650
+and R are never left high that is
+neither is ever set continuously to the
+
+50
+00:05:17,650 --> 00:05:27,850
+value 1 the latch is controlled by
+pulses only this gives us an
+
+51
+00:05:27,850 --> 00:05:35,650
+unusual-looking truth table when both s
+and r are set to 0 q may be one or it
+
+52
+00:05:35,650 --> 00:05:41,080
+may be 0 depending on the previous state
+of the circuit let's examine the truth
+
+53
+00:05:41,080 --> 00:05:50,590
+table as this SR latch is reset again
+the reset pulse is applied s is 0 R is 1
+
+54
+00:05:50,590 --> 00:06:00,040
+output Q is 0 and it's inverse not Q
+is 1 the SR latch is storing a 0 the
+
+55
+00:06:00,040 --> 00:06:07,630
+reset pulse is removed both s and r are
+0 again output Q remains at 0 and it's
+
+56
+00:06:07,630 --> 00:06:15,479
+inverse remains at 1 the SR latch is
+still storing a 0 a set pulse is applied
+
+57
+00:06:15,479 --> 00:06:22,330
+s is 1 and R is 0 the
+output Q becomes one and its inverse
+
+58
+00:06:22,330 --> 00:06:32,169
+becomes zero the set pulse is removed s
+is 0 and R is 0 output Q is still 1 and
+
+59
+00:06:32,169 --> 00:06:40,389
+not Q is of course 0 now the only
+circumstance we haven't considered is
+
+60
+00:06:40,389 --> 00:06:47,860
+when both inputs s and R are set to 1 at
+the same time if this were to occur
+
+61
+00:06:47,860 --> 00:06:52,000
+we'd be telling the SR latch to set the
+value of Q to both 1 and 0
+
+62
+00:06:52,000 --> 00:07:00,730
+simultaneously in reality Q would become
+0 and not Q would also become 0 this
+
+63
+00:07:00,730 --> 00:07:05,230
+would sort itself out if one of the
+inputs fell to 0 before the other for
+
+64
+00:07:05,230 --> 00:07:10,979
+example if our fell to 0 first with s
+still at 1 then Q would become 1 again
+
+65
+00:07:10,979 --> 00:07:17,710
+if however both inputs are at 1 and both
+fell to 0 at the same time we have
+
+66
+00:07:17,710 --> 00:07:20,770
+what's known as a race condition between
+the two gates
+
+67
+00:07:20,770 --> 00:07:25,780
+they'd be racing each other to feedback
+their new output and it's impossible to
+
+68
+00:07:25,780 --> 00:07:32,290
+know which one would win hence if both
+inputs are high the next state of the
+
+69
+00:07:32,290 --> 00:07:38,020
+latch can't be determined this is not a
+state that the latch should ever be in
+
+70
+00:07:38,020 --> 00:07:44,860
+it's illegal it's invalid most of the
+time inputs s and R should both be at 0
+
+71
+00:07:44,860 --> 00:07:50,440
+and only momentarily will one or the
+other input become 1 and at any time
+
+72
+00:07:50,440 --> 00:07:55,900
+while it's operating the SR latch should
+neither be in the set state or a reset
+
+73
+00:07:55,900 --> 00:08:02,830
+state with Q and not Q the opposite of
+each other one final piece of
+
+74
+00:08:02,830 --> 00:08:08,320
+terminology this type of SR latch is
+said to be an active high SR latch
+
+75
+00:08:08,320 --> 00:08:14,080
+because the normal condition for s and R
+is low and a high pulse at one of these
+
+76
+00:08:14,080 --> 00:08:23,110
+inputs is required to bring about a
+change now let's consider an SR latch
+
+77
+00:08:23,110 --> 00:08:29,140
+built from NAND gates here's a reminder
+of the NAND gate truth table only when
+
+78
+00:08:29,140 --> 00:08:36,760
+both inputs are high is the output low
+the wiring of this SR latch is the same
+
+79
+00:08:36,760 --> 00:08:42,700
+but notice that input s is at the top
+now and R is at the bottom here's a
+
+80
+00:08:42,700 --> 00:08:47,200
+truth table for this variation of the SR
+latch it's a little different from the
+
+81
+00:08:47,200 --> 00:08:52,840
+truth table we've just seen because this
+latch behaves differently the difference
+
+82
+00:08:52,840 --> 00:08:59,170
+is that R and s are kept high most of
+the time here we can see that output Q
+
+83
+00:08:59,170 --> 00:09:05,470
+is zero so the latch is storing a zero
+when input s is made low momentarily
+
+84
+00:09:05,470 --> 00:09:11,230
+that is when s becomes zero and R is
+still one the output at Q becomes one
+
+85
+00:09:11,230 --> 00:09:19,890
+the latch is now storing a one and s can
+be returned to its normal high state
+
+86
+00:09:20,460 --> 00:09:29,260
+when R is set low momentarily the output
+at Q is changed to 0 R can then return
+
+87
+00:09:29,260 --> 00:09:35,440
+to its normal high value and the latch
+is now storing a zero again an SR latch
+
+88
+00:09:35,440 --> 00:09:41,680
+built from NAND gates like this is more
+explicitly known as an active low sr
+
+89
+00:09:41,680 --> 00:09:49,780
+latch an SR latch based on NAND gates
+also has a forbidden state that is when
+
+90
+00:09:49,780 --> 00:09:56,020
+both s and R are simultaneously 0 this
+would result in an illegal state in
+
+91
+00:09:56,020 --> 00:10:04,000
+which both Q and its complement are 1 to
+summarize them an SR latch can be built
+
+92
+00:10:04,000 --> 00:10:10,720
+from nor gates or from NAND gates both
+types of latch do the same job but they
+
+93
+00:10:10,720 --> 00:10:16,270
+just controlled in a slightly different
+way the nor gate based SR latch is set
+
+94
+00:10:16,270 --> 00:10:24,070
+or reset with high logic that is it is
+an active high SR latch the NAND gate SR
+
+95
+00:10:24,070 --> 00:10:29,470
+latch on the other hand is set or reset
+with low logic that is it's an active
+
+96
+00:10:29,470 --> 00:10:37,990
+low sr latch let's consider a particular
+application of an SR latch when a
+
+97
+00:10:37,990 --> 00:10:42,280
+mechanical switch is pressed it may
+actually generate several electrical
+
+98
+00:10:42,280 --> 00:10:47,430
+signals in a tiny fraction of a second
+when only one signal is required
+
+99
+00:10:47,430 --> 00:10:52,090
+lots of on-off signals like this could
+then cause problems with the circuit
+
+100
+00:10:52,090 --> 00:10:56,260
+that this switch is supposed to be
+controlling the effect is known as
+
+101
+00:10:56,260 --> 00:11:03,340
+switch bands an integrated circuit with
+an SR latch on it can be purchased
+
+102
+00:11:03,340 --> 00:11:08,560
+commercially to allow clean interfacing
+between a mechanical switch and the
+
+103
+00:11:08,560 --> 00:11:13,720
+digital circuit it's controlling here we
+can see a switch that will connect input
+
+104
+00:11:13,720 --> 00:11:18,640
+s which is currently high to earth
+making it low and thereby changing the
+
+105
+00:11:18,640 --> 00:11:26,080
+output of this NAND based SR latch from
+low to high this SR latch will ignore
+
+106
+00:11:26,080 --> 00:11:30,940
+any further set signals after it's
+already been set so it's serving to
+
+107
+00:11:30,940 --> 00:11:35,940
+debounce
+the signal from the mechanical switch
+
+108
+00:11:35,940 --> 00:11:40,210
+you can imagine other systems which
+might make good use of this debouncing
+
+109
+00:11:40,210 --> 00:11:45,070
+effect for example a burglar alarm may
+be triggered when a window or a door is
+
+110
+00:11:45,070 --> 00:11:49,450
+opened but we don't want the alarm bell
+to stop ringing if the burglar shuts the
+
+111
+00:11:49,450 --> 00:11:56,020
+door on its own an SR latch has a few
+uses mainly in control applications
+
+112
+00:11:56,020 --> 00:12:00,280
+where we need to monitor some condition
+that might change or change back again
+
+113
+00:12:00,280 --> 00:12:05,980
+and react accordingly but more
+importantly as you'll see later the
+
+114
+00:12:05,980 --> 00:12:13,050
+simple SR latch is the building block of
+sophisticated memory circuits
+

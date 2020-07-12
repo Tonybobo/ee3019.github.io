@@ -1,0 +1,794 @@
+1
+00:00:00,089 --> 00:00:04,500
+welcome to our tutorial on digital
+electronics and in this tutorial I'm
+
+2
+00:00:04,500 --> 00:00:09,510
+going to discuss about the master/slave
+flip-flops
+
+3
+00:00:09,510 --> 00:00:17,670
+okay so before the advent of the you
+know the edge triggered flip-flops the
+
+4
+00:00:17,670 --> 00:00:22,619
+master-slave flip-flop was widely used
+in order to protect the output from
+
+5
+00:00:22,619 --> 00:00:28,500
+sudden changes in the input all right so
+this problem has plagued the flip-flop
+
+6
+00:00:28,500 --> 00:00:34,200
+community for a very long time and
+probably the master slave configuration
+
+7
+00:00:34,200 --> 00:00:40,739
+I mean behind the development of the
+master slave configuration the basic
+
+8
+00:00:40,739 --> 00:00:47,730
+idea was that you can keep the outputs
+stable by introducing a known time delay
+
+9
+00:00:47,730 --> 00:00:55,110
+denoted by Td equal to that of one
+clock pulse okay so if you would in turn
+
+10
+00:00:55,110 --> 00:01:00,539
+or anyone constructing a flip-flop
+circuit would you know incorporate a
+
+11
+00:01:00,539 --> 00:01:04,830
+delay time off about one clock pulse
+then in that case the flip-flop
+
+12
+00:01:04,830 --> 00:01:10,799
+configuration would be stable to certain
+changes in the input okay that required
+
+13
+00:01:10,799 --> 00:01:15,990
+time to stabilize so if these are the
+two SR flip-flop diagrams that I am
+
+14
+00:01:15,990 --> 00:01:23,729
+showing you over here okay so this is
+the Q and the Q bar alright and here's the
+
+15
+00:01:23,729 --> 00:01:32,159
+clock okay and on the other hand over
+here we have the q 1 and the q 1 bar
+
+16
+00:01:32,159 --> 00:01:40,770
+okay so this is the s 1 and s sorry R 1
+inputs and from the clock of this
+
+17
+00:01:40,770 --> 00:01:47,759
+flip-flop we connect a not gate and take
+it to the clock over here for the next
+
+18
+00:01:47,759 --> 00:01:52,619
+flip-flop so this is clock 2 and clock 1
+in this case so this is flip-flop 1 and
+
+19
+00:01:52,619 --> 00:02:01,920
+this is flip-flop 2 so basically what we
+see here is we can just see two SR
+
+20
+00:02:01,920 --> 00:02:06,509
+flip-flops being connected this way so
+you'll probably might be wondering what
+
+21
+00:02:06,509 --> 00:02:10,750
+am i doing
+rather what is the meaning of all this
+
+22
+00:02:10,750 --> 00:02:18,580
+okay so this thing that y'all are seeing
+right here okay the way that I have
+
+23
+00:02:18,580 --> 00:02:25,870
+connected these two SR flip-flops right
+over here gives us the master slave
+
+24
+00:02:25,870 --> 00:02:32,680
+configuration okay so this as you can
+see here is the master slave
+
+25
+00:02:32,680 --> 00:02:37,959
+configuration of the flip-flops
+okay so therefore all master slave
+
+26
+00:02:37,959 --> 00:02:43,750
+flip-flops have been you know obtained
+from the master slave SR flip-flop or
+
+27
+00:02:43,750 --> 00:02:47,860
+rather derived from the master slave SR
+flip-flop that was first formed in
+
+28
+00:02:47,860 --> 00:02:55,600
+somewhat this way okay so how is this
+master slave flip-flop superior okay all
+
+29
+00:02:55,600 --> 00:02:59,770
+right I'll come to it with the help of
+an example let's say I give you the
+
+30
+00:02:59,770 --> 00:03:06,640
+truth table over here okay there you go
+Q 1 and Q1 bar okay so let's say that
+
+31
+00:03:06,640 --> 00:03:12,520
+the presence of the clock input we have
+s equal to 0 and R equal to 1 so let's
+
+32
+00:03:12,520 --> 00:03:18,250
+say over here we have a 0 and a 1 and
+the presence of the clock input so let's
+
+33
+00:03:18,250 --> 00:03:23,410
+say this clock is on for about a period
+of one second so now this input would
+
+34
+00:03:23,410 --> 00:03:30,040
+cause you know an output over here at
+the flip-flop 1 as 0 and 1 which is the
+
+35
+00:03:30,040 --> 00:03:35,470
+same sort of to that we would have
+obtained for an SR flip-flop okay so now
+
+36
+00:03:35,470 --> 00:03:39,540
+till the moment that there is the clock
+input I mean the clock input at the
+
+37
+00:03:39,540 --> 00:03:47,709
+flip-flop one is at the logic one level
+the inputs are subjected to change which
+
+38
+00:03:47,709 --> 00:03:53,650
+would affect the output as well so here
+if this flip-flop is connected in a
+
+39
+00:03:53,650 --> 00:03:58,299
+circuit which you know suffers from the
+problem or rather in case of certain
+
+40
+00:03:58,299 --> 00:04:03,670
+switching applications where these
+switch you know these switch signals I
+
+41
+00:04:03,670 --> 00:04:06,670
+mean the signals coming from the
+switches you know sometimes you know
+
+42
+00:04:06,670 --> 00:04:13,510
+subject to sudden changes ok sudden
+unprecedented and you know changes over
+
+43
+00:04:13,510 --> 00:04:20,109
+here due to certain fluctuations or
+certain faults so then this input over
+
+44
+00:04:20,109 --> 00:04:25,250
+here during this
+time when the clock is at logic one
+
+45
+00:04:25,250 --> 00:04:30,320
+level would experience the changes and
+the outputs over here would change
+
+46
+00:04:30,320 --> 00:04:36,199
+accordingly so in cases where the inputs
+you know take some time to stabilize
+
+47
+00:04:36,199 --> 00:04:42,560
+okay the output also keeps on varying
+for that period of time till the moment
+
+48
+00:04:42,560 --> 00:04:48,229
+the inputs remain you know fluctuating
+okay so during the period when the clock
+
+49
+00:04:48,229 --> 00:04:55,010
+signal is at the logic one level the
+output is subject to change under the
+
+50
+00:04:55,010 --> 00:05:00,370
+change of the input signal okay so in
+this configuration what happens is that
+
+51
+00:05:00,370 --> 00:05:05,449
+this configuration was basically
+designed to avoid the state or rather
+
+52
+00:05:05,449 --> 00:05:12,500
+avoid the condition of logic race okay
+so when the input you know just is
+
+53
+00:05:12,500 --> 00:05:17,120
+subject to you know rapid changes and
+the output is not I mean output is also
+
+54
+00:05:17,120 --> 00:05:22,190
+changing accordingly that condition is
+termed as the logic race condition okay
+
+55
+00:05:22,190 --> 00:05:28,099
+so during this condition what happens is
+that if we just take these outputs as
+
+56
+00:05:28,099 --> 00:05:33,590
+the ultimate ones then it will just be
+changing within the clock period so now
+
+57
+00:05:33,590 --> 00:05:40,039
+as soon as the clock ends the clock one
+becomes inactive okay I mean the
+
+58
+00:05:40,039 --> 00:05:46,400
+flip-flop one output is not subject to
+change anymore with changes occurring at
+
+59
+00:05:46,400 --> 00:05:51,650
+its input terminal so now these outputs
+from flip-flop 1 travel into the input
+
+60
+00:05:51,650 --> 00:05:59,180
+of the flip-flop 2 where the act has
+input signals okay and now here by
+
+61
+00:05:59,180 --> 00:06:03,860
+connecting a not gate whenever the clock
+at flip-flop one falls from the logic
+
+62
+00:06:03,860 --> 00:06:09,470
+one to the logic zero level it just goes
+to the not gate and appears at the clock
+
+63
+00:06:09,470 --> 00:06:15,320
+two of flip-flop two as a logic 1 signal
+thereby activating its clock okay I mean
+
+64
+00:06:15,320 --> 00:06:20,180
+the activating the clock of flip flop 2 so
+during this case the inputs to this
+
+65
+00:06:20,180 --> 00:06:26,539
+flip-flopping zero and one at is 1 and R
+1 respectively the outputs change to 0
+
+66
+00:06:26,539 --> 00:06:31,980
+and 1 respectively so what we have here
+is that during
+
+67
+00:06:31,980 --> 00:06:37,860
+second phase when the clock signal at
+flip-flop one comes to logic zero level
+
+68
+00:06:37,860 --> 00:06:42,810
+flip-flop two gets activated and over
+there since flip-flop one stores the
+
+69
+00:06:42,810 --> 00:06:50,970
+final state of its output the inputs to
+flip-flop 2 is not subject to any kind
+
+70
+00:06:50,970 --> 00:06:55,740
+of variation it remains constant and
+hence the output finally remains
+
+71
+00:06:55,740 --> 00:07:00,600
+constant so this is basically the
+benefit of the master slave
+
+72
+00:07:00,600 --> 00:07:07,050
+configuration where we can you know
+maintain the output state you know
+
+73
+00:07:07,050 --> 00:07:11,640
+stable with respect even I mean even
+there are certain changes
+
+74
+00:07:11,640 --> 00:07:17,580
+I mean unprecedented and sudden changes
+in the input terminals okay so having
+
+75
+00:07:17,580 --> 00:07:21,270
+said that if you just move on to the
+truth table again so we'll see that by
+
+76
+00:07:21,270 --> 00:07:28,230
+applying certain input combinations over
+here we obtain the results at the output
+
+77
+00:07:28,230 --> 00:07:32,250
+okay
+similar to that as we would see before a
+
+78
+00:07:32,250 --> 00:07:38,160
+you know SR flip-flop so here by in this
+state there is no change okay so there's
+
+79
+00:07:38,160 --> 00:07:44,520
+no change right here alright and by
+putting logic one signals on both the s
+
+80
+00:07:44,520 --> 00:07:50,310
+and r inputs here in the Q and Q Bar I
+mean they would just suffer the invalid
+
+81
+00:07:50,310 --> 00:07:54,690
+state okay so they'll enter the invalid
+state over here so there you go
+
+82
+00:07:54,690 --> 00:08:00,540
+so this is the invalid state finally
+so this is basically the circuit diagram
+
+83
+00:08:00,540 --> 00:08:06,690
+of the logic I mean master slave SR
+flip-flop so where this flip-flop one
+
+84
+00:08:06,690 --> 00:08:16,050
+part is the master okay and flip flop 2
+acts as the slave the slave follows the
+
+85
+00:08:16,050 --> 00:08:21,300
+master as the slave you know as you can
+see here outputs the same thing or
+
+86
+00:08:21,300 --> 00:08:25,740
+rather takes an input the same thing as
+is outputted by the master and you know
+
+87
+00:08:25,740 --> 00:08:33,090
+outputs the same as what the master had
+when the clock signal just ended okay so
+
+88
+00:08:33,090 --> 00:08:37,050
+the basic benefit is that into the
+output remains stable and subject to no
+
+89
+00:08:37,050 --> 00:08:42,450
+sudden changes in the input okay so if I
+were just you know try and show you the
+
+90
+00:08:42,450 --> 00:08:46,089
+logic
+of the SR flip-flop I mean SR
+
+91
+00:08:46,089 --> 00:08:51,339
+master-slave flip-flop then it would
+look somewhat like this as you can see
+
+92
+00:08:51,339 --> 00:08:56,700
+here
+okay this is a Q Q bar alright so this
+
+93
+00:08:56,700 --> 00:09:04,029
+sign that's given over here this one
+represents the master slave flip-flops
+
+94
+00:09:04,029 --> 00:09:10,540
+okay and if we just you know modify the
+master slave SR flip-flop okay let me
+
+95
+00:09:10,540 --> 00:09:19,089
+just write it down so this is the master
+slave SR flip-flop okay so if I just you
+
+96
+00:09:19,089 --> 00:09:24,839
+know modify this diagram into something
+like this okay so there's Q and Q Bar
+
+97
+00:09:24,839 --> 00:09:30,970
+okay it's a master slave configuration
+alright S and R here is the clock but if we
+
+98
+00:09:30,970 --> 00:09:36,790
+just connect a not gate from the
+S input to the R input then it becomes
+
+99
+00:09:36,790 --> 00:09:43,300
+a master slave D flip-flop so this is
+basically the master slave D flip-flop
+
+100
+00:09:43,300 --> 00:09:50,824
+okay whose logic diagram can be finally
+given as something like this okay
+
+101
+00:09:50,824 --> 00:09:57,730
+here is Q Q bar okay and the here is
+a D input terminal with the clock all
+
+102
+00:09:57,730 --> 00:10:02,320
+right so this is basically I mean this
+modification over here is basically the
+
+103
+00:10:02,320 --> 00:10:06,880
+same as you know connecting or rather
+I'd use a different color in this case
+
+104
+00:10:06,880 --> 00:10:16,540
+just by connecting a not gate right over
+here from the s input to r input
+
+105
+00:10:16,540 --> 00:10:24,220
+over here as you can see okay so there
+you go so this is how we would obtain or
+
+106
+00:10:24,220 --> 00:10:29,529
+rather I mean this thing I think is not
+visible much so yeah that's the
+
+107
+00:10:29,529 --> 00:10:33,790
+modification I was talking about so
+having said that if we just you know
+
+108
+00:10:33,790 --> 00:10:39,010
+quickly move on to the truth table of
+the D flip-flop it would look something
+
+109
+00:10:39,010 --> 00:10:46,149
+like this so here it is the D input the
+clock input and the Q and Q Bar inputs
+
+110
+00:10:46,149 --> 00:10:54,040
+okay so when we have a zero at D input
+under the presence of the clock signal Q
+
+111
+00:10:54,040 --> 00:10:58,620
+is set to 0 Q Bar set to 1
+and at you know logic one input at D
+
+112
+00:10:58,620 --> 00:11:03,690
+input terminal under the presence of the
+clock we have a logic one signal at Q
+
+113
+00:11:03,690 --> 00:11:09,390
+and 0  at Q bar respectively
+okay so having said that I would just
+
+114
+00:11:09,390 --> 00:11:14,730
+finally come on to the most popularly
+used master slave flip-flop
+
+115
+00:11:14,730 --> 00:11:21,600
+that's it master slave JK flip-flop okay
+so here we go the master slave J K
+
+116
+00:11:21,600 --> 00:11:27,570
+flip-flop okay so here would be the
+circuit diagram of the master slave JK
+
+117
+00:11:27,570 --> 00:11:33,840
+flip-flop I think you're probably you
+know curious to see this okay so there
+
+118
+00:11:33,840 --> 00:11:40,860
+we go so here are the feedback ports okay
+or this flip-flop and there's two more
+
+119
+00:11:40,860 --> 00:11:49,950
+NAND gates as you can see okay so they
+just go into the input or rather connect
+
+120
+00:11:49,950 --> 00:11:56,220
+to the output of two more NAND gates
+right over here and they also go and
+
+121
+00:11:56,220 --> 00:11:59,670
+connect to the inputs of two more NAND
+gates
+
+122
+00:11:59,670 --> 00:12:06,810
+right over here okay and here we have a
+clock input of the second flip-flop so
+
+123
+00:12:06,810 --> 00:12:11,840
+this is flip flop 2 okay and here or
+rather I would not call it flip flop 2
+
+124
+00:12:11,840 --> 00:12:15,920
+because that would be you know highly
+inaccurate okay and here we would have
+
+125
+00:12:15,920 --> 00:12:23,790
+another as you see feedback path to
+these terminals and over here we would
+
+126
+00:12:23,790 --> 00:12:30,960
+have the preset and the clear terminals
+rather clear inputs okay
+
+127
+00:12:30,960 --> 00:12:35,580
+and then finally from these two
+terminals we would have special input
+
+128
+00:12:35,580 --> 00:12:42,870
+terminals okay  I mean carrying
+the Q and Q Bar stages okay coming into
+
+129
+00:12:42,870 --> 00:12:48,840
+and falling into the first gate which
+receives the inputs that is here we have
+
+130
+00:12:48,840 --> 00:12:55,590
+the input J and K
+and now over here this is the common
+
+131
+00:12:55,590 --> 00:13:01,560
+terminal connecting these two gates okay
+where we apply the clock all right so
+
+132
+00:13:01,560 --> 00:13:07,260
+this is basically the circuit of a JK
+flip-flop in the master slave
+
+133
+00:13:07,260 --> 00:13:11,450
+configuration
+this is basically the master/slave JK
+
+134
+00:13:11,450 --> 00:13:17,120
+flip-flop okay master set configuration
+where you can see in this circuit that
+
+135
+00:13:17,120 --> 00:13:21,770
+we have two more inputs as you can see
+the preset and the clear it's given
+
+136
+00:13:21,770 --> 00:13:28,130
+because whenever a flip-flop is applied
+power to okay there is no guarantee as
+
+137
+00:13:28,130 --> 00:13:32,330
+to what state it would you know result
+in at the outputs okay
+
+138
+00:13:32,330 --> 00:13:38,000
+it means stay in any state possible so
+in order to set the flip-flop to the
+
+139
+00:13:38,000 --> 00:13:42,920
+logic one state are yeah but we not have
+said the output of the flip-flop the
+
+140
+00:13:42,920 --> 00:13:49,850
+logic one state we use the preset input
+okay we apply the logic zeroes your
+
+141
+00:13:49,850 --> 00:13:54,950
+signal over here in order to set the
+flip-flop output state at logic one and
+
+142
+00:13:54,950 --> 00:13:59,810
+if we are going to give okay it clear
+over here okay
+
+143
+00:13:59,810 --> 00:14:04,370
+this is also a active low say input
+signal so if you're going to apply a
+
+144
+00:14:04,370 --> 00:14:09,770
+logic 0 signal at clear then we're going
+to set the flip-flop output to logic 0
+
+145
+00:14:09,770 --> 00:14:14,990
+okay that's our description as to which
+state we want to set the flip-flop 2 ok
+
+146
+00:14:14,990 --> 00:14:22,610
+so having said that I would just give
+you the JK flip-flops you know the truth
+
+147
+00:14:22,610 --> 00:14:27,680
+table ok so here you go
+so whenever we have the clock ok so J is
+
+148
+00:14:27,680 --> 00:14:34,580
+1 K is 0 we have this sort of results
+right over here as you can see under the
+
+149
+00:14:34,580 --> 00:14:38,900
+presence of the clock in all the
+conditions ok and finally when we have
+
+150
+00:14:38,900 --> 00:14:42,620
+both ones on it
+this thing just toggles okay so as you
+
+151
+00:14:42,620 --> 00:14:50,150
+can see it will change again so there it
+is the toggle state so basically we
+
+152
+00:14:50,150 --> 00:14:56,630
+come almost to the end of our tutorial
+where I just want to show you the logic
+
+153
+00:14:56,630 --> 00:15:04,370
+diagram of the JK master slave flip-flop
+ok denote it somewhat in this fashion
+
+154
+00:15:04,370 --> 00:15:09,740
+alright that's the JK flip-flop with the
+clock so this is basically the logic
+
+155
+00:15:09,740 --> 00:15:15,620
+diagram of the master slave JK flip-flop
+ok and with that we come to the end of
+
+156
+00:15:15,620 --> 00:15:20,960
+our discussion in this tutorial on the
+master slave flip-flop country
+
+157
+00:15:20,960 --> 00:15:24,830
+relations and the various types of
+master slave  flip-flops as you can see so
+
+158
+00:15:24,830 --> 00:15:30,260
+kindly check out our next tutorial on
+digital electronics and till then it's
+
+159
+00:15:30,260 --> 00:15:34,750
+just goodbye for now and thank you
+
