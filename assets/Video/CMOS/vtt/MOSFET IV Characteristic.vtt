@@ -1,0 +1,919 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.030 --> 00:00:11.870
+so in this video I'm going to be talking
+
+00:00:01.350 --> 00:00:13.620
+about the MOSFET IV characteristics and
+
+00:00:11.870 --> 00:00:15.690
+specifically I'm going to be talking
+
+00:00:13.620 --> 00:00:21.060
+about what's called the long channel
+
+00:00:15.690 --> 00:00:23.189
+model and what that means will hopefully
+
+00:00:21.060 --> 00:00:25.380
+be clear in a second so I'm assuming
+
+00:00:23.189 --> 00:00:27.269
+that you've you're taking a
+
+00:00:25.380 --> 00:00:31.170
+semiconductor physics course and you
+
+00:00:27.269 --> 00:00:39.260
+encountered this equation IDs equals mu
+
+00:00:31.170 --> 00:00:45.570
+n si ox W over L times vgs minus VT
+
+00:00:39.260 --> 00:00:48.480
+times VDS minus one-half VDS squared and
+
+00:00:45.570 --> 00:00:50.789
+you're just thrown the equation were
+
+00:00:48.480 --> 00:00:53.640
+just thrown at you maybe very briefly
+
+00:00:50.789 --> 00:00:55.260
+they went over where it came from but
+
+00:00:53.640 --> 00:00:57.120
+essentially they just throw it at you
+
+00:00:55.260 --> 00:00:58.800
+and expect you to memorize it in this
+
+00:00:57.120 --> 00:01:01.800
+video I'm gonna try to go over where
+
+00:00:58.800 --> 00:01:04.619
+exactly this equation comes from and so
+
+00:01:01.800 --> 00:01:09.570
+this is also known as MOSFET operating
+
+00:01:04.619 --> 00:01:12.240
+in the triode region and so I'm gonna
+
+00:01:09.570 --> 00:01:13.920
+try to describe the model behind where
+
+00:01:12.240 --> 00:01:17.100
+this equation comes from and how we
+
+00:01:13.920 --> 00:01:19.500
+actually arrive at it so it turns out
+
+00:01:17.100 --> 00:01:22.439
+that the model is actually pretty scheme
+
+00:01:19.500 --> 00:01:26.310
+pretty simple actually a scarily simple so
+
+00:01:22.439 --> 00:01:28.860
+if we've got to say we've got a MOSFET
+
+00:01:26.310 --> 00:01:32.850
+right here so this is going to be our
+
+00:01:28.860 --> 00:01:41.640
+gate we've got some gates got some
+
+00:01:32.850 --> 00:01:43.979
+thickness here so it's got some metal up
+
+00:01:41.640 --> 00:01:46.470
+top probably copper or aluminum or
+
+00:01:43.979 --> 00:01:48.299
+polysilicon let's just say it's a little
+
+00:01:46.470 --> 00:01:52.470
+numb or something then we've got an
+
+00:01:48.299 --> 00:01:55.200
+oxide which essentially protects the
+
+00:01:52.470 --> 00:01:57.030
+gate or protects the rest of the MOSFET
+
+00:01:55.200 --> 00:02:05.270
+from the gate and we've got our P
+
+00:01:57.030 --> 00:02:07.649
+substrate our n + Wells this is a n Moss
+
+00:02:05.270 --> 00:02:10.379
+MOSFET and so I'm assuming that you've
+
+00:02:07.649 --> 00:02:12.390
+seen all this before and so the model
+
+00:02:10.379 --> 00:02:13.710
+that we're going to use is basically
+
+00:02:12.390 --> 00:02:15.390
+we're going to ignore
+
+00:02:13.710 --> 00:02:18.810
+all the complicated stuff and just
+
+00:02:15.390 --> 00:02:22.380
+pretend that we only care about this
+
+00:02:18.810 --> 00:02:24.000
+region here the channel and specifically
+
+00:02:22.380 --> 00:02:29.010
+we're assuming that the channel is just
+
+00:02:24.000 --> 00:02:32.280
+comprised of a bunch of charges and here
+
+00:02:29.010 --> 00:02:33.720
+they're assumes to be actually negative
+
+00:02:32.280 --> 00:02:40.200
+charges because this is an NMOS
+
+00:02:33.720 --> 00:02:42.780
+transistor so we've got a bunch of
+
+00:02:40.200 --> 00:02:46.590
+negative charges piling up here and
+
+00:02:42.780 --> 00:02:49.440
+we're interested in the current from the
+
+00:02:46.590 --> 00:02:51.810
+source to the drain so we're interested
+
+00:02:49.440 --> 00:02:53.550
+or typically we're interested in the
+
+00:02:51.810 --> 00:02:56.820
+current from the drain to the source or
+
+00:02:53.550 --> 00:03:00.810
+the electron flow from the source to the
+
+00:02:56.820 --> 00:03:04.170
+drain IDs so we want an equation for
+
+00:03:00.810 --> 00:03:06.570
+ideas we want IDs equals what what does
+
+00:03:04.170 --> 00:03:07.950
+it depend on and I've already told you
+
+00:03:06.570 --> 00:03:10.230
+the answer up here but how do we
+
+00:03:07.950 --> 00:03:13.890
+actually get to that answer and how can
+
+00:03:10.230 --> 00:03:17.070
+we remember that answer well we know
+
+00:03:13.890 --> 00:03:20.820
+that a MOSFET behaves like a variable
+
+00:03:17.070 --> 00:03:23.690
+capacitor right so if we've got a if we
+
+00:03:20.820 --> 00:03:25.940
+apply a certain voltage to the gate
+
+00:03:23.690 --> 00:03:28.200
+nothing happens
+
+00:03:25.940 --> 00:03:30.150
+we're increasing the voltage nothing
+
+00:03:28.200 --> 00:03:31.440
+happens nothing happens and then all of
+
+00:03:30.150 --> 00:03:34.230
+a sudden we'll start to get these
+
+00:03:31.440 --> 00:03:38.360
+carriers accumulate near the edge at a
+
+00:03:34.230 --> 00:03:44.400
+certain threshold voltage so at VG and
+
+00:03:38.360 --> 00:03:47.580
+we'll just say VG C because this is the
+
+00:03:44.400 --> 00:03:50.070
+voltage relative to the channel or the
+
+00:03:47.580 --> 00:03:53.190
+little portion of the substrate that we
+
+00:03:50.070 --> 00:03:55.440
+care about so at VGC equals the
+
+00:03:53.190 --> 00:04:03.540
+threshold voltage we start getting
+
+00:03:55.440 --> 00:04:05.340
+charge accumulation at the interface so
+
+00:04:03.540 --> 00:04:08.670
+we start getting negative charges piling
+
+00:04:05.340 --> 00:04:10.650
+up here and positive charges piling up
+
+00:04:08.670 --> 00:04:12.180
+on the gate now as we increase the
+
+00:04:10.650 --> 00:04:15.870
+voltage on the gate there are always
+
+00:04:12.180 --> 00:04:18.720
+charges piling up on the gate but the
+
+00:04:15.870 --> 00:04:22.500
+p-type substrate has too many positive
+
+00:04:18.720 --> 00:04:24.419
+charges such that the channel doesn't
+
+00:04:22.500 --> 00:04:27.070
+actually look like it has any negative
+
+00:04:24.419 --> 00:04:30.400
+charge so we have to overcome that
+
+00:04:27.070 --> 00:04:32.950
+first so this is all that we're going to
+
+00:04:30.400 --> 00:04:35.740
+use to derive this model we're gonna
+
+00:04:32.950 --> 00:04:38.950
+assume that this MOSFET acts like a
+
+00:04:35.740 --> 00:04:40.420
+capacitor and we know that the charge of
+
+00:04:38.950 --> 00:04:42.730
+a capacitor is just equal to the
+
+00:04:40.420 --> 00:04:44.350
+capacitance times the voltage except in
+
+00:04:42.730 --> 00:04:46.390
+our case it takes a certain voltage
+
+00:04:44.350 --> 00:04:49.030
+before the MOSFET starts acting like a
+
+00:04:46.390 --> 00:04:50.650
+capacitor so we're gonna change this a
+
+00:04:49.030 --> 00:04:52.630
+little bit we're gonna say that Q is
+
+00:04:50.650 --> 00:04:56.020
+equal to the capacitance times some
+
+00:04:52.630 --> 00:04:58.570
+voltage minus the threshold voltage and
+
+00:04:56.020 --> 00:05:01.510
+so this is the equation that we're we're
+
+00:04:58.570 --> 00:05:03.100
+going to start with well we're not
+
+00:05:01.510 --> 00:05:06.040
+actually interested in the charge we're
+
+00:05:03.100 --> 00:05:07.690
+interested in the current and how did
+
+00:05:06.040 --> 00:05:10.090
+how do we relate the - well we know if
+
+00:05:07.690 --> 00:05:15.400
+we've got say we've got a cube of charge
+
+00:05:10.090 --> 00:05:19.060
+here and it's got some value Q we know
+
+00:05:15.400 --> 00:05:22.150
+that the current so the current flowing
+
+00:05:19.060 --> 00:05:23.830
+through some plane here the charge block
+
+00:05:22.150 --> 00:05:24.340
+is just moving along minding its own
+
+00:05:23.830 --> 00:05:27.670
+business
+
+00:05:24.340 --> 00:05:30.970
+the current is just how long it takes
+
+00:05:27.670 --> 00:05:33.880
+this block of charge to move through
+
+00:05:30.970 --> 00:05:38.020
+this plane so it's the total charge
+
+00:05:33.880 --> 00:05:40.740
+divided by the time that it takes and so
+
+00:05:38.020 --> 00:05:42.730
+up until the charge block reaches the
+
+00:05:40.740 --> 00:05:44.110
+reaches the plane we don't have any
+
+00:05:42.730 --> 00:05:46.300
+current and then all of a sudden we
+
+00:05:44.110 --> 00:05:48.400
+start having current as the as the
+
+00:05:46.300 --> 00:05:52.750
+charge block transitions through the
+
+00:05:48.400 --> 00:05:54.990
+through the plane well okay what is what
+
+00:05:52.750 --> 00:05:57.550
+is the time it takes a charge block to
+
+00:05:54.990 --> 00:06:01.060
+transition through the through the plane
+
+00:05:57.550 --> 00:06:04.810
+well we know the the charge block has a
+
+00:06:01.060 --> 00:06:07.870
+certain length to it right so and it's
+
+00:06:04.810 --> 00:06:11.170
+got a certain velocity V so the time
+
+00:06:07.870 --> 00:06:13.660
+that it takes is just the length divided
+
+00:06:11.170 --> 00:06:16.030
+by the velocity well that's that's
+
+00:06:13.660 --> 00:06:18.700
+fairly simple right so we can rearrange
+
+00:06:16.030 --> 00:06:21.340
+our or plug that into our equation we
+
+00:06:18.700 --> 00:06:25.180
+say that I is equal to Q or the total
+
+00:06:21.340 --> 00:06:30.760
+charge of our block divided by L over V
+
+00:06:25.180 --> 00:06:32.440
+or Q divided by L times V and V here is
+
+00:06:30.760 --> 00:06:34.570
+the velocity so why don't we call this
+
+00:06:32.440 --> 00:06:37.100
+like EQ of the velocity of the charge
+
+00:06:34.570 --> 00:06:40.310
+block Q
+
+00:06:37.100 --> 00:06:43.280
+well okay so from this from this where
+
+00:06:40.310 --> 00:06:47.060
+do we go well if we want to know the
+
+00:06:43.280 --> 00:06:49.580
+charge of a capacitor recall that we've
+
+00:06:47.060 --> 00:06:53.930
+got a capacitor here we know that the
+
+00:06:49.580 --> 00:06:59.140
+charge is just CV or as we said above C
+
+00:06:53.930 --> 00:07:01.730
+V minus vthreshold so we can add that in
+
+00:06:59.140 --> 00:07:05.060
+we've got the capacitance V minus
+
+00:07:01.730 --> 00:07:10.040
+vthreshold divided by the length times
+
+00:07:05.060 --> 00:07:11.750
+the velocity of the charge block and if
+
+00:07:10.040 --> 00:07:15.050
+you've taken semiconductor physics
+
+00:07:11.750 --> 00:07:17.420
+you'll know that Ohm's law on the
+
+00:07:15.050 --> 00:07:20.480
+microscopic level just says that the
+
+00:07:17.420 --> 00:07:23.050
+velocity of a given charge charged
+
+00:07:20.480 --> 00:07:25.880
+particle is just equal to the mobility
+
+00:07:23.050 --> 00:07:30.020
+times of that charged particle times the
+
+00:07:25.880 --> 00:07:31.460
+electric field so we can replace that in
+
+00:07:30.020 --> 00:07:36.230
+our equation we're starting to get
+
+00:07:31.460 --> 00:07:40.100
+Chardonnay closer and I'm going to
+
+00:07:36.230 --> 00:07:41.780
+replace this V with V G C the voltage
+
+00:07:40.100 --> 00:07:43.340
+between the gate and the channel just so
+
+00:07:41.780 --> 00:07:45.680
+it's clear what voltage we're talking
+
+00:07:43.340 --> 00:07:48.860
+about and the reason I'm replacing this
+
+00:07:45.680 --> 00:07:50.920
+V velocity as quickly as I can and so we
+
+00:07:48.860 --> 00:07:55.040
+don't have multiple V's floating around
+
+00:07:50.920 --> 00:07:57.770
+so that's equal to C VG minus VT times
+
+00:07:55.040 --> 00:08:02.210
+the mobility times the electric field
+
+00:07:57.770 --> 00:08:03.680
+divided by the length well okay you can
+
+00:08:02.210 --> 00:08:05.210
+probably guess what we're gonna do next
+
+00:08:03.680 --> 00:08:07.970
+we're gonna use another elementary
+
+00:08:05.210 --> 00:08:10.400
+formula to figure out the rest of these
+
+00:08:07.970 --> 00:08:12.920
+things so what is the capacitance what
+
+00:08:10.400 --> 00:08:14.840
+is the electric field now we're assuming
+
+00:08:12.920 --> 00:08:16.640
+that we know the mobility we're assuming
+
+00:08:14.840 --> 00:08:20.900
+that we know the dimensions of this
+
+00:08:16.640 --> 00:08:24.260
+thing so that those are the those the
+
+00:08:20.900 --> 00:08:26.270
+only assumptions that we make well onto
+
+00:08:24.260 --> 00:08:27.590
+capacitance so we know that the
+
+00:08:26.270 --> 00:08:30.040
+capacitance of a parallel plate
+
+00:08:27.590 --> 00:08:35.180
+capacitor that's filled with some
+
+00:08:30.040 --> 00:08:37.849
+dielectric of permittivity epsilon we
+
+00:08:35.180 --> 00:08:41.450
+know that the capacitance is just the
+
+00:08:37.849 --> 00:08:43.160
+area times that epsilon divided by the
+
+00:08:41.450 --> 00:08:47.240
+thickness or the distance between the
+
+00:08:43.160 --> 00:08:48.980
+two plates here we call this t ox or the
+
+00:08:47.240 --> 00:08:50.860
+thickness of the oxide because that's
+
+00:08:48.980 --> 00:08:53.990
+the thickness of
+
+00:08:50.860 --> 00:08:56.570
+capacitance or the dielectric that were
+
+00:08:53.990 --> 00:08:58.370
+that were interested in and area we can
+
+00:08:56.570 --> 00:09:01.190
+just rewrite as the width of the
+
+00:08:58.370 --> 00:09:05.420
+transistor times the length of the
+
+00:09:01.190 --> 00:09:07.100
+transistor so W times L times epsilon
+
+00:09:05.420 --> 00:09:11.209
+divided by the thickness of the oxide
+
+00:09:07.100 --> 00:09:14.149
+and so that's we just plug that back
+
+00:09:11.209 --> 00:09:16.730
+into the equation so W times L times
+
+00:09:14.149 --> 00:09:19.399
+epsilon divided by thickness of the
+
+00:09:16.730 --> 00:09:23.209
+oxide and then we've got another L on
+
+00:09:19.399 --> 00:09:29.620
+the bottom and then that's multiplied by
+
+00:09:23.209 --> 00:09:32.089
+mu e times VG e or VG C minus VT and
+
+00:09:29.620 --> 00:09:34.310
+sorry if the equation is starting to get
+
+00:09:32.089 --> 00:09:36.470
+a little a little complicated we're
+
+00:09:34.310 --> 00:09:38.870
+going to simplify it right now so first
+
+00:09:36.470 --> 00:09:43.490
+these ELLs are going to cancel out and
+
+00:09:38.870 --> 00:09:47.569
+we're going to group these these terms t
+
+00:09:43.490 --> 00:09:51.319
+ox and epsilon into a single term C ox
+
+00:09:47.569 --> 00:09:53.329
+or the in other words we're going to say
+
+00:09:51.319 --> 00:09:56.089
+that the total capacitance is equal to C
+
+00:09:53.329 --> 00:09:59.990
+ox times the area of the transistor or
+
+00:09:56.089 --> 00:10:01.579
+the so C ox is a capacitance density if
+
+00:09:59.990 --> 00:10:05.750
+you will it's the capacitance per unit
+
+00:10:01.579 --> 00:10:08.300
+area of the device so if we cancel out L
+
+00:10:05.750 --> 00:10:16.010
+we make that substitution we get our
+
+00:10:08.300 --> 00:10:19.459
+formula W times C ox times mu e times V
+
+00:10:16.010 --> 00:10:22.149
+G C minus VT and we're starting to get
+
+00:10:19.459 --> 00:10:26.149
+closer see we've got a W we've got a mu
+
+00:10:22.149 --> 00:10:28.130
+we've got a C ox we we still have this e
+
+00:10:26.149 --> 00:10:30.589
+which we will want to get rid of and
+
+00:10:28.130 --> 00:10:33.560
+we've got this awkward VGC because we we
+
+00:10:30.589 --> 00:10:35.300
+don't know what VC is we don't the
+
+00:10:33.560 --> 00:10:38.510
+channel isn't a terminal of the
+
+00:10:35.300 --> 00:10:39.760
+transistor so let's let's see what else
+
+00:10:38.510 --> 00:10:43.130
+we can do to this equation
+
+00:10:39.760 --> 00:10:45.860
+well how about let's just attack this
+
+00:10:43.130 --> 00:10:49.399
+first one e so what is the electric
+
+00:10:45.860 --> 00:10:51.290
+field in the in the channel in terms of
+
+00:10:49.399 --> 00:10:55.370
+what we know well if we go back to our
+
+00:10:51.290 --> 00:10:58.579
+transistor we know that there's a source
+
+00:10:55.370 --> 00:11:00.410
+on this side there's a drain on this
+
+00:10:58.579 --> 00:11:02.510
+side or we can flip the sides if you
+
+00:11:00.410 --> 00:11:05.019
+prefer and there's some voltage between
+
+00:11:02.510 --> 00:11:05.019
+the two
+
+00:11:05.170 --> 00:11:11.720
+VDS and we know just from basic
+
+00:11:09.829 --> 00:11:15.259
+electromagnetics that the electric field
+
+00:11:11.720 --> 00:11:17.360
+between two points in space if
+
+00:11:15.259 --> 00:11:20.000
+everything is homogeneous and everything
+
+00:11:17.360 --> 00:11:22.759
+works out everything works out nicely is
+
+00:11:20.000 --> 00:11:25.209
+just equal to the voltage divided by the
+
+00:11:22.759 --> 00:11:28.069
+distance between them which here is the
+
+00:11:25.209 --> 00:11:29.839
+transistor length so we're assuming that
+
+00:11:28.069 --> 00:11:32.839
+these wells are all at the same
+
+00:11:29.839 --> 00:11:36.079
+potential well okay we can we can make
+
+00:11:32.839 --> 00:11:40.519
+that substitution and then we get mu
+
+00:11:36.079 --> 00:11:43.069
+times C ox times W and now we have the
+
+00:11:40.519 --> 00:11:47.000
+over L that we were expecting which is
+
+00:11:43.069 --> 00:11:51.290
+from our electric field times VD s times
+
+00:11:47.000 --> 00:11:55.970
+VGC minus VT and we're almost done the
+
+00:11:51.290 --> 00:11:59.930
+the only thing left is VG C so how do we
+
+00:11:55.970 --> 00:12:04.990
+how do we figure out what VG c is well
+
+00:11:59.930 --> 00:12:08.600
+if we look at our MOSFET again this is
+
+00:12:04.990 --> 00:12:11.990
+VC so we've got a we've got a certain
+
+00:12:08.600 --> 00:12:15.620
+gate voltage that we apply right VG and
+
+00:12:11.990 --> 00:12:18.649
+we've got a channel voltage here VC and
+
+00:12:15.620 --> 00:12:20.660
+then we also know there's a source
+
+00:12:18.649 --> 00:12:23.750
+voltage here V s and a drain voltage
+
+00:12:20.660 --> 00:12:26.839
+here V D and you know if we just make
+
+00:12:23.750 --> 00:12:29.660
+some some somewhat sketchy arguments
+
+00:12:26.839 --> 00:12:32.449
+like say pretend there's two resistors
+
+00:12:29.660 --> 00:12:35.779
+here and there's some current flowing
+
+00:12:32.449 --> 00:12:38.029
+through this eye then we know that VC is
+
+00:12:35.779 --> 00:12:39.920
+and let's say these resistors are the
+
+00:12:38.029 --> 00:12:42.410
+same value and this is you know fairly
+
+00:12:39.920 --> 00:12:45.560
+realistic because the material itself is
+
+00:12:42.410 --> 00:12:47.449
+going to have a resistance so we we know
+
+00:12:45.560 --> 00:12:50.300
+that this point VC has to be the
+
+00:12:47.449 --> 00:12:55.730
+midpoint between V s and VD that's just
+
+00:12:50.300 --> 00:13:01.699
+a basic voltage divider so we can
+
+00:12:55.730 --> 00:13:06.079
+rewrite VC VC is just V s plus VD over
+
+00:13:01.699 --> 00:13:08.449
+du or it's the midpoint and now we just
+
+00:13:06.079 --> 00:13:11.480
+need to perform some algebraic wizardry
+
+00:13:08.449 --> 00:13:14.000
+which all all that ever amounts to in
+
+00:13:11.480 --> 00:13:16.459
+engineering is subtracting or adding one
+
+00:13:14.000 --> 00:13:17.630
+or subtracting or adding a zero from an
+
+00:13:16.459 --> 00:13:19.700
+equation so
+
+00:13:17.630 --> 00:13:23.330
+we're gonna say VC is equal to vs over
+
+00:13:19.700 --> 00:13:26.270
+two plus VD over two and then we're
+
+00:13:23.330 --> 00:13:27.830
+going to add zero and the reason we're
+
+00:13:26.270 --> 00:13:30.290
+gonna add zero is so we can rearrange
+
+00:13:27.830 --> 00:13:33.380
+this equation make it nice and pretty
+
+00:13:30.290 --> 00:13:35.860
+we're going to add V s over 2 minus 3 s
+
+00:13:33.380 --> 00:13:35.860
+over 2
+
+00:13:35.890 --> 00:13:43.760
+ok so rewriting the full equation this
+
+00:13:40.820 --> 00:13:49.610
+is this is going to be our almost our
+
+00:13:43.760 --> 00:13:53.450
+final form IDs is equal to MU n and this
+
+00:13:49.610 --> 00:13:58.250
+so this is mu of the electrons see ox W
+
+00:13:53.450 --> 00:14:03.800
+over L times when we had a VD s and then
+
+00:13:58.250 --> 00:14:08.630
+VG C which is VG minus VC which is V s
+
+00:14:03.800 --> 00:14:14.270
+over 2 plus V s over 2 that's BS VD over
+
+00:14:08.630 --> 00:14:21.080
+2 so plus VD over 2 and then there was
+
+00:14:14.270 --> 00:14:23.120
+another minus V s over 2 and then minus
+
+00:14:21.080 --> 00:14:27.380
+the threshold voltage VT I might have
+
+00:14:23.120 --> 00:14:29.840
+forgotten that up there as well okay so
+
+00:14:27.380 --> 00:14:33.590
+all we need to do is group things and
+
+00:14:29.840 --> 00:14:38.600
+rearrange them so mu n SI ox W over L
+
+00:14:33.590 --> 00:14:42.980
+times VD s times VG minus V s which is
+
+00:14:38.600 --> 00:14:47.480
+just VG s plus one half and now we're
+
+00:14:42.980 --> 00:14:52.370
+going to group this VD and this V s plus
+
+00:14:47.480 --> 00:15:00.740
+1/2 V SD or we can rewrite that as minus
+
+00:14:52.370 --> 00:15:03.530
+1/2 VD s minus 1/2 VD s minus VT and
+
+00:15:00.740 --> 00:15:06.050
+then all we need to do is factor this VD
+
+00:15:03.530 --> 00:15:08.570
+s into all these terms and we're done
+
+00:15:06.050 --> 00:15:11.450
+and we have our final equation for a
+
+00:15:08.570 --> 00:15:18.620
+MOSFET which is the drain current mu n
+
+00:15:11.450 --> 00:15:25.430
+si ox W over L times vgs minus VT times
+
+00:15:18.620 --> 00:15:27.290
+VDS minus 1/2 VDS squared and so that's
+
+00:15:25.430 --> 00:15:29.330
+sort of where the equation comes from
+
+00:15:27.290 --> 00:15:31.580
+that's the that's the derivation for it
+
+00:15:29.330 --> 00:15:33.860
+I hope you found this video interesting
+
+00:15:31.580 --> 00:15:35.270
+and hopefully not too mathematical and
+
+00:15:33.860 --> 00:15:37.670
+we're kind of able to follow along with
+
+00:15:35.270 --> 00:15:40.730
+what we're doing I strongly suggest that
+
+00:15:37.670 --> 00:15:42.680
+you you try to do this yourself because
+
+00:15:40.730 --> 00:15:45.050
+the thinking process behind it is the
+
+00:15:42.680 --> 00:15:47.540
+same thinking process behind basically
+
+00:15:45.050 --> 00:15:49.690
+all of engineering so hope you enjoyed
+
+00:15:47.540 --> 00:15:49.690
+it

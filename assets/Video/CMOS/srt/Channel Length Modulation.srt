@@ -1,0 +1,728 @@
+1
+00:00:00,060 --> 00:00:04,259
+in this video we are going to say
+
+2
+00:00:01,350 --> 00:00:07,410
+channel length modulation in short form
+
+3
+00:00:04,259 --> 00:00:10,290
+it is called CLM of a MOSFET Before we
+
+4
+00:00:07,410 --> 00:00:12,450
+jump into channel and modulation we will
+
+5
+00:00:10,290 --> 00:00:15,299
+first see how the characteristics of our
+
+6
+00:00:12,450 --> 00:00:18,720
+N channel enhancement MOSFET were in
+
+7
+00:00:15,299 --> 00:00:22,470
+different situations this is how the ID
+
+8
+00:00:18,720 --> 00:00:26,580
+versus VDS characteristics of a MOSFET
+
+9
+00:00:22,470 --> 00:00:30,000
+were when Vgs was equal to a constant
+
+10
+00:00:26,580 --> 00:00:32,640
+value let say which is Vgs 1 so I've
+
+11
+00:00:30,000 --> 00:00:35,640
+drawn these figures taking medius is
+
+12
+00:00:32,640 --> 00:00:38,399
+fixed which is VGs 1 and the first
+
+13
+00:00:35,640 --> 00:00:41,399
+figure represents when VDS is positive
+
+14
+00:00:38,399 --> 00:00:44,850
+and it is small so in that case we had
+
+15
+00:00:41,399 --> 00:00:48,539
+the entire channel and the current that
+
+16
+00:00:44,850 --> 00:00:51,600
+was flowing was somewhere here for the
+
+17
+00:00:48,539 --> 00:00:55,079
+given VDS which is very small and the
+
+18
+00:00:51,600 --> 00:00:58,260
+current was increasing linearly coming
+
+19
+00:00:55,079 --> 00:01:00,989
+to the second situation where VDS was
+
+20
+00:00:58,260 --> 00:01:02,430
+increased as the potential was higher on
+
+21
+00:01:00,989 --> 00:01:04,350
+the drain side there was reverse bias
+
+22
+00:01:02,430 --> 00:01:06,270
+and depletion region increased and the
+
+23
+00:01:04,350 --> 00:01:08,369
+channel thickness reduced or the
+
+24
+00:01:06,270 --> 00:01:11,790
+concentration of electrons in the
+
+25
+00:01:08,369 --> 00:01:13,380
+channel reduced due to which the
+
+26
+00:01:11,790 --> 00:01:16,350
+resistance increased and of course
+
+27
+00:01:13,380 --> 00:01:19,170
+potential increased hence we had current
+
+28
+00:01:16,350 --> 00:01:21,990
+increasing at a rate which is less
+
+29
+00:01:19,170 --> 00:01:25,380
+compared to this region and then when we
+
+30
+00:01:21,990 --> 00:01:28,799
+move on to a point where VDS was equal
+
+31
+00:01:25,380 --> 00:01:31,350
+to Vgs 1 minus Vth which was in fact
+
+32
+00:01:28,799 --> 00:01:33,930
+called the overdrive voltage when we
+
+33
+00:01:31,350 --> 00:01:36,869
+applied that potential so the potential
+
+34
+00:01:33,930 --> 00:01:39,259
+here was equal to Vgs 1 minus Vth in
+
+35
+00:01:36,869 --> 00:01:42,360
+which case the channel gets pinched off
+
+36
+00:01:39,259 --> 00:01:45,000
+so we have seen till this point we said
+
+37
+00:01:42,360 --> 00:01:47,700
+that the channel wouldn't allow any
+
+38
+00:01:45,000 --> 00:01:49,470
+extra current to flow beyond the current
+
+39
+00:01:47,700 --> 00:01:51,990
+that is flowing and pinch off hence we
+
+40
+00:01:49,470 --> 00:01:54,689
+took the characteristics to be constant
+
+41
+00:01:51,990 --> 00:01:57,210
+beyond the spins of point but in reality
+
+42
+00:01:54,689 --> 00:01:59,490
+the current beyond this overdrive
+
+43
+00:01:57,210 --> 00:02:03,030
+voltage is not going to be constant as
+
+44
+00:01:59,490 --> 00:02:05,549
+we discussed so now we will see why this
+
+45
+00:02:03,030 --> 00:02:10,110
+current wouldn't be constant beyond the
+
+46
+00:02:05,549 --> 00:02:13,800
+overdrive voltage of VDS let's say 
+
+47
+00:02:10,110 --> 00:02:17,040
+says about the VGs 1 minus Vth
+
+48
+00:02:13,800 --> 00:02:18,900
+let's say we have some voltage here now
+
+49
+00:02:17,040 --> 00:02:22,020
+the question is what will happen to this
+
+50
+00:02:18,900 --> 00:02:24,390
+channel let's just say we have we apply
+
+51
+00:02:22,020 --> 00:02:27,720
+a potential by increasing this beyond we
+
+52
+00:02:24,390 --> 00:02:29,400
+Vgs 1 minus vth what'll happen is here
+
+53
+00:02:27,720 --> 00:02:32,700
+the potential wouldn't be Vgs1
+
+54
+00:02:29,400 --> 00:02:35,640
+minus Vth it will be this value if the
+
+55
+00:02:32,700 --> 00:02:37,250
+potential is this value here as the
+
+56
+00:02:35,640 --> 00:02:40,170
+potential increases from source to drain
+
+57
+00:02:37,250 --> 00:02:41,850
+there should be a point at which the
+
+58
+00:02:40,170 --> 00:02:44,850
+potential should become Vgs 1 minus
+
+59
+00:02:41,850 --> 00:02:46,290
+Vth along the channel in which case at
+
+60
+00:02:44,850 --> 00:02:48,330
+that point the channel should get
+
+61
+00:02:46,290 --> 00:02:50,580
+pinched off and if you take that
+
+62
+00:02:48,330 --> 00:02:53,160
+scenario and draw the figure this is how
+
+63
+00:02:50,580 --> 00:02:55,050
+it'll look where we are assuming the
+
+64
+00:02:53,160 --> 00:02:57,270
+potential that is applied that VDS is
+
+65
+00:02:55,050 --> 00:03:00,120
+greater than Vgs 1 minus vth which is
+
+66
+00:02:57,270 --> 00:03:02,310
+plus let's say the Delta V I am taking
+
+67
+00:03:00,120 --> 00:03:04,830
+that this is the point at which the
+
+68
+00:03:02,310 --> 00:03:08,160
+potential across the channel would
+
+69
+00:03:04,830 --> 00:03:10,470
+become Vgs 1 minus vth which means
+
+70
+00:03:08,160 --> 00:03:13,380
+this Delta V would be dropping across
+
+71
+00:03:10,470 --> 00:03:16,050
+this point where the entire channel here
+
+72
+00:03:13,380 --> 00:03:18,450
+is completely pinched off in this case
+
+73
+00:03:16,050 --> 00:03:20,459
+if you look at the channel it looks as
+
+74
+00:03:18,450 --> 00:03:22,800
+if the channel is existing only till
+
+75
+00:03:20,459 --> 00:03:27,300
+this point when we started we assumed
+
+76
+00:03:22,800 --> 00:03:29,670
+the channel length is L but now the
+
+77
+00:03:27,300 --> 00:03:31,980
+channel length seems to be reduced
+
+78
+00:03:29,670 --> 00:03:34,770
+because of the extra voltage that we
+
+79
+00:03:31,980 --> 00:03:36,030
+applied beyond the overdrive voltage in
+
+80
+00:03:34,770 --> 00:03:38,190
+this case what would happen is the
+
+81
+00:03:36,030 --> 00:03:40,230
+electrons that are coming from source to
+
+82
+00:03:38,190 --> 00:03:43,290
+drain when they enter into this pinched
+
+83
+00:03:40,230 --> 00:03:45,840
+off region the electrons would get
+
+84
+00:03:43,290 --> 00:03:47,670
+accelerated because we have applied a
+
+85
+00:03:45,840 --> 00:03:49,500
+potential which is higher now which
+
+86
+00:03:47,670 --> 00:03:52,530
+means the electric field should be
+
+87
+00:03:49,500 --> 00:03:54,660
+higher compared to this scenario so the
+
+88
+00:03:52,530 --> 00:03:57,180
+electrons that actually come here let's
+
+89
+00:03:54,660 --> 00:04:00,690
+say the Delta V potential is getting
+
+90
+00:03:57,180 --> 00:04:03,540
+dropped here and at this point at this
+
+91
+00:04:00,690 --> 00:04:07,350
+point the potential would be Vgs 1 minus
+
+92
+00:04:03,540 --> 00:04:09,239
+Vth in the channel now electrons when
+
+93
+00:04:07,350 --> 00:04:11,700
+they get accelerated which means the
+
+94
+00:04:09,239 --> 00:04:14,610
+rate of flow of carriers would increase
+
+95
+00:04:11,700 --> 00:04:16,470
+now assuming the velocity of the
+
+96
+00:04:14,610 --> 00:04:19,019
+electrons haven't come to the saturation
+
+97
+00:04:16,470 --> 00:04:22,830
+velocity in which case the current would
+
+98
+00:04:19,019 --> 00:04:24,539
+increase as we increase the potential so
+
+99
+00:04:22,830 --> 00:04:26,789
+hence the current should actually be
+
+100
+00:04:24,539 --> 00:04:27,810
+increasing beyond overdrive voltage and
+
+101
+00:04:26,789 --> 00:04:30,630
+it is not going to be
+
+102
+00:04:27,810 --> 00:04:34,470
+constant like this so let me show that
+
+103
+00:04:30,630 --> 00:04:35,370
+particular curve here which would look
+
+104
+00:04:34,470 --> 00:04:37,860
+like this
+
+105
+00:04:35,370 --> 00:04:40,620
+the curve in the red color but of course
+
+106
+00:04:37,860 --> 00:04:42,240
+these two curves are for a fixed Vgs
+
+107
+00:04:40,620 --> 00:04:43,980
+which is which is Vgs1 now why is this
+
+108
+00:04:42,240 --> 00:04:46,080
+called channel length modulation because
+
+109
+00:04:43,980 --> 00:04:48,419
+if you look at here the channel seems to
+
+110
+00:04:46,080 --> 00:04:51,660
+be this value which is less than the
+
+111
+00:04:48,419 --> 00:04:53,850
+actual channel length now as we increase
+
+112
+00:04:51,660 --> 00:04:56,100
+this potential beyond even this value
+
+113
+00:04:53,850 --> 00:04:58,820
+this point would move here which means
+
+114
+00:04:56,100 --> 00:05:02,070
+from here onwards it will be like this a
+
+115
+00:04:58,820 --> 00:05:03,960
+single line kind of but if you reduce
+
+116
+00:05:02,070 --> 00:05:07,320
+this potential this point would move to
+
+117
+00:05:03,960 --> 00:05:09,260
+here which means the channel length here
+
+118
+00:05:07,320 --> 00:05:11,520
+would be actually getting more related
+
+119
+00:05:09,260 --> 00:05:14,850
+increasing and decreasing with respect
+
+120
+00:05:11,520 --> 00:05:16,140
+to the drain to source potential hence
+
+121
+00:05:14,850 --> 00:05:19,710
+it is called the channel length
+
+122
+00:05:16,140 --> 00:05:24,390
+modulation so let me say this is with CL
+
+123
+00:05:19,710 --> 00:05:26,700
+m and this is without CL m in fact this
+
+124
+00:05:24,390 --> 00:05:31,290
+point remains we offer the Tom Cruise
+
+125
+00:05:26,700 --> 00:05:34,830
+movie which is night and day in which he
+
+126
+00:05:31,290 --> 00:05:36,990
+says with me without me with me without
+
+127
+00:05:34,830 --> 00:05:39,540
+me in this case we can say this is with
+
+128
+00:05:36,990 --> 00:05:42,270
+CLM the current is higher without CLM
+
+129
+00:05:39,540 --> 00:05:42,810
+the current is less with CLM without
+
+130
+00:05:42,270 --> 00:05:45,479
+CLM
+
+131
+00:05:42,810 --> 00:05:47,760
+now let's find out how would the current
+
+132
+00:05:45,479 --> 00:05:51,360
+equation be with channel and modulation
+
+133
+00:05:47,760 --> 00:05:53,700
+to find out first I'm taking the
+
+134
+00:05:51,360 --> 00:05:59,070
+current equation in saturation region
+
+135
+00:05:53,700 --> 00:06:02,220
+without CLM now we know that the
+
+136
+00:05:59,070 --> 00:06:04,200
+channel length has reduced so we're
+
+137
+00:06:02,220 --> 00:06:07,979
+going to take the L is equal to L Prime
+
+138
+00:06:04,200 --> 00:06:10,620
+in fact L prime is equal to L minus
+
+139
+00:06:07,979 --> 00:06:13,650
+Delta L of course this Delta L is a
+
+140
+00:06:10,620 --> 00:06:16,289
+function of VDS that why it is called
+
+141
+00:06:13,650 --> 00:06:19,590
+channel length modulation so this can be
+
+142
+00:06:16,289 --> 00:06:23,430
+written equal to L taking common 1 minus
+
+143
+00:06:19,590 --> 00:06:27,030
+Delta L over L which is normalized value
+
+144
+00:06:23,430 --> 00:06:30,600
+here and of course this Delta L over L
+
+145
+00:06:27,030 --> 00:06:31,740
+will be directly proportional to VDS so
+
+146
+00:06:30,600 --> 00:06:33,570
+we can equate this with a
+
+147
+00:06:31,740 --> 00:06:37,710
+proportionality constant called lambda
+
+148
+00:06:33,570 --> 00:06:41,260
+times VD s so this can be equated again
+
+149
+00:06:37,710 --> 00:06:45,730
+as L times 1 minus lambda Vds
+
+150
+00:06:41,260 --> 00:06:50,440
+we will substitude this value here in
+
+151
+00:06:45,730 --> 00:06:54,220
+which case I D would be equal to mu Cox
+
+152
+00:06:50,440 --> 00:06:57,190
+prime W by L so L is written as L times
+
+153
+00:06:54,220 --> 00:06:59,110
+1 minus lambda VDS so this will be in
+
+154
+00:06:57,190 --> 00:07:00,670
+the denominator I am going to take this
+
+155
+00:06:59,110 --> 00:07:05,320
+in the numerator so that it becomes 1
+
+156
+00:07:00,670 --> 00:07:09,820
+minus lambda VDS power minus 1 1 minus
+
+157
+00:07:05,320 --> 00:07:10,630
+lambda VDS power minus 1 times Vgs minus
+
+158
+00:07:09,820 --> 00:07:14,260
+Vth
+
+159
+00:07:10,630 --> 00:07:17,740
+whole square over 2 taking lambda times
+
+160
+00:07:14,260 --> 00:07:20,770
+VDS is very less than 1 we can rewrite
+
+161
+00:07:17,740 --> 00:07:23,680
+this expression where if you see lambda
+
+162
+00:07:20,770 --> 00:07:26,380
+units would be volt inverse because this
+
+163
+00:07:23,680 --> 00:07:28,870
+is normalized even this entire time
+
+164
+00:07:26,380 --> 00:07:31,090
+should be unitless if this is volt this
+
+165
+00:07:28,870 --> 00:07:34,960
+is volt inverse hence we should not be
+
+166
+00:07:31,090 --> 00:07:39,760
+having unit lambda is volt inverse so
+
+167
+00:07:34,960 --> 00:07:45,580
+this is equal to ID times 1 plus lambda
+
+168
+00:07:39,760 --> 00:07:48,790
+VDs where ID is a current without
+
+169
+00:07:45,580 --> 00:07:51,190
+channel length modulation so let's put
+
+170
+00:07:48,790 --> 00:07:54,430
+this this is ID of course this ID is
+
+171
+00:07:51,190 --> 00:07:56,440
+different so just for convenience I am
+
+172
+00:07:54,430 --> 00:08:00,070
+putting a prime here which is a modified
+
+173
+00:07:56,440 --> 00:08:02,110
+ID which is the drain current with
+
+174
+00:08:00,070 --> 00:08:03,820
+channel length modulation is equal to
+
+175
+00:08:02,110 --> 00:08:07,000
+the drain current of without channel and
+
+176
+00:08:03,820 --> 00:08:09,010
+modulation times 1 plus lambda VDS so
+
+177
+00:08:07,000 --> 00:08:12,180
+let me summarize here this is channel
+
+178
+00:08:09,010 --> 00:08:14,890
+length modulation and this is without
+
+179
+00:08:12,180 --> 00:08:16,390
+channel and modulation and of course
+
+180
+00:08:14,890 --> 00:08:18,760
+going forward I wouldn't be writing this
+
+181
+00:08:16,390 --> 00:08:22,230
+as ID prime simply I'll write ID is
+
+182
+00:08:18,760 --> 00:08:22,230
+equal to the entire equation
+

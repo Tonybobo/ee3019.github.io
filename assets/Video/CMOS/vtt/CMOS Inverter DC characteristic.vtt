@@ -1,0 +1,1090 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.000 --> 00:00:04.770
+in this video we will understand about
+CMOS inverter transfer characteristics
+
+00:00:04.770 --> 00:00:08.820
+transfer characteristics is simple it is
+output voltage versus the input
+
+00:00:08.820 --> 00:00:12.360
+voltage but the very first point I want
+to make sure that you know all your
+
+00:00:12.360 --> 00:00:16.740
+basics right because this is the very
+important topic the five star rating so
+
+00:00:16.740 --> 00:00:21.029
+make sure you understand this topic in
+depth first you should note about this
+
+00:00:21.029 --> 00:00:25.050
+circuit of the CMOS we have already
+studied in our basics but that was the
+
+00:00:25.050 --> 00:00:28.949
+ideal condition if you provide the zero
+word you are getting the one if you're
+
+00:00:28.949 --> 00:00:32.430
+providing logic one you are getting this
+zero it behaves as the inverter that's
+
+00:00:32.430 --> 00:00:37.559
+true because it is ideal but practically
+it's different your input voltage will
+
+00:00:37.559 --> 00:00:41.280
+have the different stages different
+voltages and you will get the output
+
+00:00:41.280 --> 00:00:46.379
+voltage as different at every stage that
+is very important in the CMOS inverter
+
+00:00:46.379 --> 00:00:51.510
+transfer characteristics we have to look
+whether our p MOS is in which region at
+
+00:00:51.510 --> 00:00:57.480
+what time of the input if my input is at
+the 0 volt would whether my P Mos and n MOS
+
+00:00:57.480 --> 00:01:01.010
+are in linear saturation or cutoff
+region we are interested in that
+
+00:01:01.010 --> 00:01:06.450
+knowledge okay first point is you should
+know that the CMOS is called
+
+00:01:06.450 --> 00:01:10.350
+complementary Mo's because at the upper
+side we have P Mo's lower side we have
+
+00:01:10.350 --> 00:01:14.310
+the N Mo's so complementary MOSFET we
+are using that is the reason it is
+
+00:01:14.310 --> 00:01:18.540
+called CMOS and the next point you
+should note is we have the four voltages
+
+00:01:18.540 --> 00:01:25.470
+VGs of P VGs of n VDs of P and VDs
+of n now these are the four voltages
+
+00:01:25.470 --> 00:01:31.320
+every voltage have their uniqueness they
+are not same they are not same so what
+
+00:01:31.320 --> 00:01:37.049
+are the uniqueness let us see that VDD
+is 5 volt Vss is 0 volt now these are
+
+00:01:37.049 --> 00:01:43.170
+the upper and the lower voltages VDD and
+VSS so they are 5 and 0 volt but VGs
+
+00:01:43.170 --> 00:01:50.220
+, n is input and VDs ,n is
+output so now we will see why VGs
+
+00:01:50.220 --> 00:01:56.100
+P is equal to minus of VDD minus V input
+very important point we have to
+
+00:01:56.100 --> 00:02:01.619
+understand one thing that VSD is the
+standard notation when we write P Mo's
+
+00:02:01.619 --> 00:02:06.420
+and it is actually Vs minus VG so you
+have to check what is the source voltage
+
+00:02:06.420 --> 00:02:11.250
+for the P Mo's it is equal to VDD and
+what is the gate voltage for the P Mo's
+
+00:02:11.250 --> 00:02:17.319
+it is equal to V input so VSD
+is equal to V is a vs minus VG which is
+
+00:02:17.319 --> 00:02:24.550
+equal to VDD correct and minus V input
+we have seen here that we have the VDD
+
+00:02:24.550 --> 00:02:30.250
+at the upper side and VG is equal to V
+input so if you are writing VD VG s that
+
+00:02:30.250 --> 00:02:35.830
+is the opposite if you are writing Vgs
+then it is minus X Vsg so that is the
+
+00:02:35.830 --> 00:02:40.599
+reason you are getting minus of VDD
+minus V input similarly you can find it
+
+00:02:40.599 --> 00:02:46.540
+for VDS,P if you go for the
+standard notation it is Vsd Vsd is Vs
+
+00:02:46.540 --> 00:02:51.489
+minus VD so what is the source voltage
+it is VDD and what is the drain voltage
+
+00:02:51.489 --> 00:02:58.900
+for the PMO's it is output so basically Vs
+vs minus Vd is actually it is VDD minus
+
+00:02:58.900 --> 00:03:04.750
+V out but you are writing in the format
+of VDS, P then it would be minus of
+
+00:03:04.750 --> 00:03:09.700
+VDD minus V out so this is the reason
+this all the notations you should know
+
+00:03:09.700 --> 00:03:14.590
+how they came up you should not rectify
+this things you should know exact
+
+00:03:14.590 --> 00:03:21.220
+meaning so I hope all the notations are
+clear why Vgs is and because it can be
+
+00:03:21.220 --> 00:03:26.170
+written as VG minus Vs for the N Mo's
+and you can see here when you are
+
+00:03:26.170 --> 00:03:32.560
+talking about why Vgs, minus V input your
+VG value is been V in but your vs value
+
+00:03:32.560 --> 00:03:38.620
+is ground so Vgs is equal to VG which
+is equal to V in so that is the reason
+
+00:03:38.620 --> 00:03:44.260
+Vgs, N is equal to V input similar
+same goes for the Vbs, N and I hope
+
+00:03:44.260 --> 00:03:48.579
+all the notations are clear up till now
+but I want to make one assumption the
+
+00:03:48.579 --> 00:03:53.380
+threshold voltage I am using VT n is
+equal to 1 volt and VT P is minus 1 volt
+
+00:03:53.380 --> 00:03:58.120
+and if you have take the common
+threshold voltage it is more of VT is
+
+00:03:58.120 --> 00:04:03.880
+equal to 1 now we can understand our
+basic idea about the transfer
+
+00:04:03.880 --> 00:04:09.010
+characteristics for the CMOS inverter so
+the case number 1 is your V input is at
+
+00:04:09.010 --> 00:04:14.230
+this 0 volt if your V input as the 0 but
+you will get the V output as 5 volt and
+
+00:04:14.230 --> 00:04:21.729
+your assumptions was Vtn is a 1 volt if
+Vtp is what Vtp is minus 1 would these
+
+00:04:21.729 --> 00:04:24.490
+are your assumptions now you are
+checking in all the conditions you are
+
+00:04:24.490 --> 00:04:29.470
+checking how my N Mo's and P Mo's are Behaving
+you are checking this condition now we
+
+00:04:29.470 --> 00:04:29.970
+will talk about the N Mo's my Vgs,n would be what from the previous slide
+
+00:04:34.540 --> 00:04:39.040
+we know that Vgs, n is equal to V
+input and we input here is 0 volt and
+
+00:04:39.040 --> 00:04:42.729
+your 0 volt is less than your threshold
+voltage because your threshold voltage
+
+00:04:42.729 --> 00:04:45.520
+is one volt so if zero volt is less than threshold
+
+00:04:45.520 --> 00:04:50.380
+volt your input is less than the order
+required threshold volt your MOSFET
+
+00:04:50.380 --> 00:04:54.520
+won't be on if your MOSFET won't be on
+it is off this means you are in cutoff
+
+00:04:54.520 --> 00:04:59.800
+region and your drain current is zero so
+first case your n Mo's is in the cutoff
+
+00:04:59.800 --> 00:05:04.120
+region in the case number one where your
+V input is zero and V output is five
+
+00:05:04.120 --> 00:05:07.930
+volt but what about the P Mo's we are
+we want to see the condition of P Mo's
+
+00:05:07.930 --> 00:05:13.600
+as well so in which region your P MOS is
+working let us find that Vgs, P is
+
+00:05:13.600 --> 00:05:18.490
+equal to this condition that is - time
+VDD minus V input you do the calculation
+
+00:05:18.490 --> 00:05:23.710
+you know every value VDD is 5 input is 0
+after the calculation you will get minus
+
+00:05:23.710 --> 00:05:28.990
+5 volt similarly you can find it for VT
+P VTP is given its it's simple VTP is
+
+00:05:28.990 --> 00:05:34.000
+given that is minus 1 good so you have
+Vgs, p + VTP you have to check
+
+00:05:34.000 --> 00:05:40.270
+the condition so Vgs , P is less
+than VTP but in the P MOS style you have
+
+00:05:40.270 --> 00:05:45.610
+to say that VSG which is 5 volt is
+greater than 1 volt so you should know
+
+00:05:45.610 --> 00:05:51.490
+this style because here you can say your
+transistor is on because your input is
+
+00:05:51.490 --> 00:05:56.110
+greater than your threshold this is the
+correct style okay and you can say this
+
+00:05:56.110 --> 00:06:00.430
+this style is useful for calculation
+purposes but this style is important for
+
+00:06:00.430 --> 00:06:04.449
+the conceptual purpose to find whether
+your region is in linear saturation or
+
+00:06:04.449 --> 00:06:09.160
+cutoff so here your MOSFET is on if your
+MOSFET is on your next task is to ask
+
+00:06:09.160 --> 00:06:13.300
+yourself if your MOSFET is on whether it
+is linear or saturation region now we
+
+00:06:13.300 --> 00:06:18.280
+will find that to find that you have to
+check your driver voltage and your VDS
+
+00:06:18.280 --> 00:06:23.260
+always we did that we have found the
+driver voltage and the VDS we check the
+
+00:06:23.260 --> 00:06:27.280
+condition greater or less and then we
+come at turn on the answer similar thing
+
+00:06:27.280 --> 00:06:31.030
+you are doing VDS ,P is this
+equation substitute the values Vdd
+
+00:06:31.030 --> 00:06:35.409
+you know 5 volt V output is 5 volt you
+will get the answer as zero volt
+
+00:06:35.409 --> 00:06:39.810
+similarly you have to find the driver
+voltage which is VGs ,P - Vtp
+
+00:06:39.810 --> 00:06:47.190
+or you can say Vsg and you should do
+VSD - Vtp then also you will
+
+00:06:47.190 --> 00:06:52.020
+get the answer do anyway you will get
+the answer is minus 4 volt and once you
+
+00:06:52.020 --> 00:06:56.760
+get the answer as minus 4 volt you have
+to check in this sense of the N MOSFET
+
+00:06:56.760 --> 00:07:00.930
+if you are going for the N mos style you
+will get this because it was easy for
+
+00:07:00.930 --> 00:07:04.980
+the calculation purpose but if you want
+to go for the knowledge and conceptual
+
+00:07:04.980 --> 00:07:12.660
+purpose you should check this condition
+which is VSD ,p and Vsg of p
+
+00:07:12.660 --> 00:07:17.220
+minus mod Vtp so this is the conception
+where you know if it is less it is
+
+00:07:17.220 --> 00:07:21.090
+linear but if you are going for the
+calculation style your
+
+00:07:21.090 --> 00:07:25.169
+style would be opposite if it is greater
+because you are choosing the N Mos
+
+00:07:25.169 --> 00:07:29.639
+style so if it is greater it is the
+linear region and I have covered this in
+
+00:07:29.639 --> 00:07:33.540
+my basics I have already said you how
+you can deal either you go for the
+
+00:07:33.540 --> 00:07:37.050
+calculation style that is the inverse
+style then you are you have to consider
+
+00:07:37.050 --> 00:07:42.150
+your conditions opposite so this is this
+style one and this style number two is you
+
+00:07:42.150 --> 00:07:46.410
+go for the P mos style and if you going
+for the P mos style everything remains
+
+00:07:46.410 --> 00:07:51.150
+same as you studied for the N Mo's so
+this is style 2  - I always prefer style 2
+
+00:07:51.150 --> 00:07:55.080
+- because conceptually it is easy but
+for the calculation purpose as you can
+
+00:07:55.080 --> 00:07:58.979
+see the step 1 and step 2
+I followed the N mos style to go for
+
+00:07:58.979 --> 00:08:03.150
+the P mos style what you have to do you
+have to change your Vds to VSD simple
+
+00:08:03.150 --> 00:08:07.260
+you have to change your driver voltage
+so if it's the driver voltage of the N
+
+00:08:07.260 --> 00:08:11.280
+mos I'll change it to driver voltage of
+P mos style which will have the minus
+
+00:08:11.280 --> 00:08:15.660
+sign present so change the sign if you
+have minus 4 it would be plus 4 for the
+
+00:08:15.660 --> 00:08:20.370
+PMO's fashion and 4 volt you have to
+check that zero is less than the 4 volt
+
+00:08:20.370 --> 00:08:24.990
+yes and it is the linear region so in
+the case one we have studied that when
+
+00:08:24.990 --> 00:08:31.289
+my input is zero my n MOS is in cutoff
+region and my P Mo's is a linear region
+
+00:08:31.289 --> 00:08:36.990
+now I will increase my input voltage so
+you can see that V input is similar to
+
+00:08:36.990 --> 00:08:41.669
+or greater than 1 volt then my output
+will be let's say similar to 5 or it
+
+00:08:41.669 --> 00:08:47.670
+should be something less than 5 so this
+is my case and I want to check now my n
+
+00:08:47.670 --> 00:08:51.300
+Mo's and P Mo's will be in which region
+so it would be interesting
+
+00:08:51.300 --> 00:08:56.220
+let us see first the N Mo's so VT s
+,n is equal to V input so you can
+
+00:08:56.220 --> 00:09:00.540
+say that VG s ,n is greater than
+equal to 1 volt similarly we have the
+
+00:09:00.540 --> 00:09:06.000
+threshold for the N mos as 1 volt you
+can say that your VG s is greater than
+
+00:09:06.000 --> 00:09:10.560
+the threshold voltage so your transistor
+is on if your transistor is on it can be
+
+00:09:10.560 --> 00:09:15.990
+linear or saturation so we are checking
+whether our n MOS is linear region or
+
+00:09:15.990 --> 00:09:21.690
+our n MOS is in saturation region so how
+we check first we need the VDS and then
+
+00:09:21.690 --> 00:09:26.519
+we check for the driver voltage so VDS
+,n is equal to V output it is
+
+00:09:26.519 --> 00:09:31.079
+similar to 5 volt or something less than
+5 volt so this is our case but our
+
+00:09:31.079 --> 00:09:36.450
+driver voltage is VG s ,n minus VT
+n which can be written as 1 minus 1 and
+
+00:09:36.450 --> 00:09:41.130
+that is equal to 0 because the values we
+always know that Vgs,n we
+
+00:09:41.130 --> 00:09:46.950
+know that it is input which is similar
+to or greater than 1 volt and Vtn
+
+00:09:46.950 --> 00:09:51.870
+and the value is already we have assumed
+that the value is 1 so 1 minus 1 the
+
+00:09:51.870 --> 00:09:57.329
+answer is 0 so surely 0 is less than 5
+what does this means this means that
+
+00:09:57.329 --> 00:10:02.490
+your driver voltage is less than your Vds
+so if VDS is greater than driver
+
+00:10:02.490 --> 00:10:07.470
+voltage you are in saturation region so
+your n MOS is now in saturation region
+
+00:10:07.470 --> 00:10:11.790
+so this is interesting now we will check
+for the P Mo's now we will check whether
+
+00:10:11.790 --> 00:10:17.579
+our p MOS is a linear cutoff or
+saturation region so how to check our first
+
+00:10:17.579 --> 00:10:23.579
+step is always about whether our MOSFET
+is on or off if it is off then you are
+
+00:10:23.579 --> 00:10:28.470
+in cutoff region but if it is on then
+you are in linear or saturation region
+
+00:10:28.470 --> 00:10:33.209
+so we always follow the two steps and
+for the beamers we take a special care
+
+00:10:33.209 --> 00:10:37.770
+while concluding the answer we follow
+the P mos style but while doing the
+
+00:10:37.770 --> 00:10:42.510
+calculation we follow the n MOS style so
+you can see the first step VGs ,P
+
+00:10:42.510 --> 00:10:47.070
+so this is the n MOS style and Vgs, P according to our equation it is
+
+00:10:47.070 --> 00:10:53.459
+equal to minus this is VDD minus V input
+so the answer is minus 4 volt now you
+
+00:10:53.459 --> 00:10:58.949
+have to check in the P mos styles so you
+are checking your Vsg , p value
+
+00:10:58.949 --> 00:11:04.259
+which is the plus 4 because vgs was
+minus 4 so Vsg
+
+00:11:04.259 --> 00:11:10.559
+would be minus of minus 4 that is plus 4
+and more VTP is 1 so 4 is greater than 1
+
+00:11:10.559 --> 00:11:15.209
+this means your transistor is on if your
+transistor is on it can be linear or
+
+00:11:15.209 --> 00:11:19.709
+saturation so tell me what is the answer
+second point is checking the region so
+
+00:11:19.709 --> 00:11:23.489
+how to check the region to find the
+value of VDS comma P so again it is the
+
+00:11:23.489 --> 00:11:28.619
+n MOS style of calculation so it is
+minus times VDD minus V out you will get
+
+00:11:28.619 --> 00:11:32.429
+the answer as zero volt now you have to
+find the driver voltage which is
+
+00:11:32.429 --> 00:11:38.669
+VG s comma P minus VTP you cannot here
+it is not mod VT P mod Vtp is when
+
+00:11:38.669 --> 00:11:42.359
+you do the P mos style but this is the
+n MOS style you have to write the
+
+00:11:42.359 --> 00:11:48.299
+negative of the value so you will get VG
+s comma P which is minus 4 and VT P is
+
+00:11:48.299 --> 00:11:53.489
+minus 1 so completely it will make it as
+plus 1 so minus 4 plus 1 you will get
+
+00:11:53.489 --> 00:11:58.410
+the answer as minus 3 volt now what's
+next you have to check your driver
+
+00:11:58.410 --> 00:12:04.470
+voltage and your VDS value if your VDS
+value is now you have to check in to
+
+00:12:04.470 --> 00:12:07.949
+style either you can go for the n MOS
+style because you have done the
+
+00:12:07.949 --> 00:12:12.689
+calculation in n mos style or you can
+change this value in the p MOS fashion
+
+00:12:12.689 --> 00:12:17.069
+and check the P Mo's condition so I will
+always prefer for the P Mo's condition
+
+00:12:17.069 --> 00:12:22.289
+so you can see that VSD comma P this
+means I am changing the sign because my
+
+00:12:22.289 --> 00:12:28.829
+VDS was 0 so VSD would be also 0 because
+0 never has its sign now what about the
+
+00:12:28.829 --> 00:12:33.389
+the driver voltage driver voltage
+has minus 3 volt so it will also change
+
+00:12:33.389 --> 00:12:38.069
+its sign because we are dealing with the
+P Mo's so we have to change its sign so
+
+00:12:38.069 --> 00:12:43.799
+minus 3 volt will be 3 volt now we can
+say your 3 volt is greater than 0 volt
+
+00:12:43.799 --> 00:12:49.499
+this means your video Vsd is less
+than driver voltage you can say it is a
+
+00:12:49.499 --> 00:12:55.649
+linear region so conceptually
+conceptually in n Mo's and P Mo's the
+
+00:12:55.649 --> 00:12:59.999
+condition remains same but you have to
+follow this P mos style to make sure
+
+00:12:59.999 --> 00:13:04.350
+your conditions are seen so this is very
+important this I have already covered in
+
+00:13:04.350 --> 00:13:08.759
+my previous videos why you should you
+always have two types this I have
+
+00:13:08.759 --> 00:13:13.559
+already covered follow the inversion for
+only calculation but go for the P Mo's
+
+00:13:13.559 --> 00:13:17.840
+style by concluding the answer
+I have concluded my MOSFET is in linear
+
+00:13:17.840 --> 00:13:23.720
+region now we will move forward now this
+is the case 3 from my input is similar
+
+00:13:23.720 --> 00:13:28.640
+to greater than one my input is changed
+to two point five if my input is two
+
+00:13:28.640 --> 00:13:32.330
+point five I am getting the output as
+two point five so this is the special
+
+00:13:32.330 --> 00:13:36.470
+case now you have to check whether your
+n MOS is in which region and your P
+
+00:13:36.470 --> 00:13:41.120
+mos is in which region so for the N
+Mo's we will follow the same two process
+
+00:13:41.120 --> 00:13:47.870
+MOSFET on or off and then we will check
+for the linear or saturation so first of
+
+00:13:47.870 --> 00:13:53.660
+your VG s comma n is equal to V input
+which is 2.5 volt now your 2.5 volt is
+
+00:13:53.660 --> 00:13:57.380
+greater than this threshold that is 1
+volt this means your transistor is on
+
+00:13:57.380 --> 00:14:03.320
+now the next task is to check the region
+linear or saturation so VDS comma n this
+
+00:14:03.320 --> 00:14:08.300
+is the V output which is 2.5 the driver
+voltage is this and the after doing the
+
+00:14:08.300 --> 00:14:14.090
+calculation you will get 1.5 volt so 2.5
+is greater than 1.5 this means you are
+
+00:14:14.090 --> 00:14:20.120
+in saturation region so our n MOS is in
+saturation region what about P Mo's so
+
+00:14:20.120 --> 00:14:24.530
+now we will check for P Mo's again we
+have to follow the two steps first step
+
+00:14:24.530 --> 00:14:31.040
+is Vgs comma P that is equal to minus
+VDD minus V input and the answer is
+
+00:14:31.040 --> 00:14:34.670
+minus 2.5
+now you have to check your transistor is
+
+00:14:34.670 --> 00:14:40.370
+on or off in P Mo's so this is the P
+Mo's logic for the transistor on what is
+
+00:14:40.370 --> 00:14:46.220
+that Vsg comma P should be greater than
+mod of VTP so already you have vgs to
+
+00:14:46.220 --> 00:14:51.950
+find vsg change the sign so you will
+get 2.5 volt and mod of VTP is mod of
+
+00:14:51.950 --> 00:14:56.660
+minus 1 so the answer is 1 so yes 2
+point 5 is greater than 1 then your
+
+00:14:56.660 --> 00:15:01.100
+transistor is on if your transistor is
+on which is the region let's check the
+
+00:15:01.100 --> 00:15:06.500
+region so what is the first step VD s
+comma P this is equal to minus VDD minus
+
+00:15:06.500 --> 00:15:11.780
+V out just substitute the values all the
+values you have the answer is minus 2.5
+
+00:15:11.780 --> 00:15:16.220
+driver voltage substitute the value you
+will get the answer as minus 1 point 5
+
+00:15:16.220 --> 00:15:22.730
+to get the condition you should be in
+the P MOS fashion now you got VDS find
+
+00:15:22.730 --> 00:15:26.580
+the value of the
+design for minus 2.5 becomes plus 2.5
+
+00:15:26.580 --> 00:15:31.769
+now you have the value of driver voltage
+change its sign because driver voltage
+
+00:15:31.769 --> 00:15:38.399
+is actually for n MOS you follow this type
+for P Mo's it changes its side so minus
+
+00:15:38.399 --> 00:15:49.829
+1.5 will change its sign to plus 1.5
+always do the calculation in n Mo's by dealing with P Mo's what you
+have to do change sign change sign
+
+00:15:49.829 --> 00:15:52.800
+simple logic
+you have to follow this you will never
+
+00:15:52.800 --> 00:15:57.600
+fail in track so 2.5 greater than 1.5 so
+your answer is saturation region and
+
+00:15:57.600 --> 00:16:02.550
+because your VSD is greater than driver
+voltage now the case number 4 is
+
+00:16:02.550 --> 00:16:07.380
+interesting your V input is gradually
+increasing so V input is similar to or
+
+00:16:07.380 --> 00:16:12.060
+greater than 4 whereas your V output is
+similar to 1 volt
+
+00:16:12.060 --> 00:16:17.100
+similar to 1 or less than 1 so what
+would be n Mo's and P Mo's in the form
+
+00:16:17.100 --> 00:16:21.870
+of region saturation region linear
+region so you have to find that what you
+
+00:16:21.870 --> 00:16:26.610
+can do is follow the two steps so Vgs
+comma n is V input it is similar to
+
+00:16:26.610 --> 00:16:30.630
+greater than 4 volt surely or 4 volt is
+greater than your threshold value so
+
+00:16:30.630 --> 00:16:35.190
+transistor is on now you have to note
+whether your n MOS is in linear or
+
+00:16:35.190 --> 00:16:40.350
+saturation region so VD s comma n is
+equal to V output which is similar to or
+
+00:16:40.350 --> 00:16:45.329
+less than 1 volt then you have your
+driver voltage as VG s comma n minus VT
+
+00:16:45.329 --> 00:16:50.220
+and substitute the value for minus 1 the
+answer is 3 volt so you can say your VD
+
+00:16:50.220 --> 00:16:54.779
+s is less than the driver voltage
+because 1 is less than 3 and that is the
+
+00:16:54.779 --> 00:16:59.610
+reason your n MOS is in linear region
+now we will deal with P Mo's so VG s
+
+00:16:59.610 --> 00:17:04.559
+comma P is equal to minus VDD minus V
+input you will get the answer as minus 1
+
+00:17:04.559 --> 00:17:09.750
+volt then Vsg comma P you have to find
+that value that means inversion of what
+
+00:17:09.750 --> 00:17:15.030
+we have done so invert this sign you
+will get plus 1 mod VT P is also plus 1
+
+00:17:15.030 --> 00:17:20.250
+so actually we have done this that it
+should be greater than or similar to
+
+00:17:20.250 --> 00:17:25.110
+minus 1 so this value is greater than or
+similar to this correct so basically it
+
+00:17:25.110 --> 00:17:30.390
+is greater so if it is greater than your
+transistor is on you should have your
+
+00:17:30.390 --> 00:17:34.700
+Vsg that is the input for P Mo's greater
+than your threshold voltage then
+
+00:17:34.700 --> 00:17:39.440
+only your MOSFET would be on so here yes it is
+similar to greater this means it is a
+
+00:17:39.440 --> 00:17:43.940
+greater and your MOSFET is on now check
+for the region so to check the region
+
+00:17:43.940 --> 00:17:48.620
+it's simple what you have to do two
+steps VDS comma P and vo p which is v VT
+
+00:17:48.620 --> 00:17:53.810
+s comma P minus VT P substitute the
+values in both the cases minus 4 volt of
+
+00:17:53.810 --> 00:18:00.230
+VDS comma p 0 volt for driver voltage do
+it in the p mos style which means change
+
+00:18:00.230 --> 00:18:02.990
+the sign
+so Vsg comma p the answer is plus
+
+00:18:02.990 --> 00:18:07.490
+4 volt and change the driver voltage
+sign it is again the zero volt so 4 is
+
+00:18:07.490 --> 00:18:11.210
+greater than zero so answer is
+saturation region because your vs g is
+
+00:18:11.210 --> 00:18:16.130
+greater than the driver voltage so the
+last case we have is the case number 5
+
+00:18:16.130 --> 00:18:21.020
+where the V input is maximum that is 5
+volt and the output is super minimum
+
+00:18:21.020 --> 00:18:25.460
+that is zero volt so let us step for the
+N Mo's in which region the n MOS is
+
+00:18:25.460 --> 00:18:31.850
+working so Vgs comma n is 5 volt Vtn
+is 1 volt so 5 volt is greater than 1
+
+00:18:31.850 --> 00:18:38.030
+your MOSFET is on next step VD s comma n
+zero volt driver voltage is 4 volt so 0
+
+00:18:38.030 --> 00:18:42.410
+volt is less than the 4 volt so it is in
+linear region so this is interesting
+
+00:18:42.410 --> 00:18:46.790
+again you got your n MOS in the linear
+region so we will deal with P Mo's now
+
+00:18:46.790 --> 00:18:51.710
+to deal with P Mo's you should first
+find the VG s comma P which is minus VDD
+
+00:18:51.710 --> 00:18:57.170
+minus V input so the answer is zero volt
+but your  Vtp is minus one so your
+
+00:18:57.170 --> 00:19:03.500
+vgs is zero volt so vs g would be
+zero volt again but your VT p is minus 1
+
+00:19:03.500 --> 00:19:10.310
+volt so more VT p is one volt check
+this two
+
+00:19:10.310 --> 00:19:15.200
+is what zero volt your mod VT p is 1 so
+what is the relation the relation is
+
+00:19:15.200 --> 00:19:21.230
+your vs g comma p is less than mod Vtp
+this means your MOSFET is on off
+
+00:19:21.230 --> 00:19:27.560
+and if your MOSFET is off this means you
+are in cutoff region so here in case
+
+00:19:27.560 --> 00:19:32.840
+number 5 the P mos is in cutoff region
+so this is the DC characteristics of the
+
+00:19:32.840 --> 00:19:38.720
+CMOS inverter y-axis as the output
+x-axis has the input and these are the 5
+
+00:19:38.720 --> 00:19:44.750
+cases when V input is minimum that is
+equal to 0 what is similar to 0 volt
+
+00:19:44.750 --> 00:19:49.350
+then it's similar to one volt then is
+similar to 2.5 there is greater than 2
+
+00:19:49.350 --> 00:19:54.090
+point five  then it is in the fifth case
+it was super Maximum that is the 5 volt so
+
+00:19:54.090 --> 00:19:58.290
+this were the cases we covered I just
+wanted to remind you about the cases we
+
+00:19:58.290 --> 00:20:03.840
+have deal with and we have seen how our
+MOSFET works in each case in each case n
+
+00:20:03.840 --> 00:20:08.670
+Mo's and P Mo's have different working
+but only in the case number 3 n Mo's and
+
+00:20:08.670 --> 00:20:13.950
+P Mo's had the same working that is the
+saturation region so here are some
+
+00:20:13.950 --> 00:20:19.260
+notations this value is Vtn that is the threshold voltage of n Mo's
+
+00:20:19.260 --> 00:20:24.390
+and here somewhere here you will get the
+VT P threshold voltage for the P Mo's
+
+00:20:24.390 --> 00:20:29.640
+then you have the VI L that is the input
+flow voltage input high voltage
+
+00:20:29.640 --> 00:20:35.070
+somewhere here and you will have the
+middle value as VDD by 2 that that's
+
+00:20:35.070 --> 00:20:40.559
+what we consider in case number 3
+similar to 2.5 and then we have this
+
+00:20:40.559 --> 00:20:46.679
+input high voltage we have this VDD plus
+mod of VT P here we have to take the
+
+00:20:46.679 --> 00:20:51.419
+positive value of the threshold and
+lastly we have the VDD my input
+
+00:20:51.419 --> 00:20:56.400
+is high super high that is VDD then my
+output is 0 so this is the curve this
+
+00:20:56.400 --> 00:21:00.000
+represent is the transfer
+characteristics DC characteristics now
+
+00:21:00.000 --> 00:21:06.120
+we will see what were the regions this
+were the regions 1 2 3 4 5 correct and
+
+00:21:06.120 --> 00:21:11.160
+how ourMOSFET work in this regions so
+this is the conclusion in the case
+
+00:21:11.160 --> 00:21:18.720
+number one where my input is minimum and
+my output is maximum that is VDD then my
+
+00:21:18.720 --> 00:21:23.520
+n Mo's was cutoff region P Mo's was
+linear region here when my V input is
+
+00:21:23.520 --> 00:21:28.710
+similar to greater than 1 then my V
+output is less than 5 volt then my n MOS
+
+00:21:28.710 --> 00:21:34.020
+is in saturation P MOS is in linear when
+we input and we output as same that is
+
+00:21:34.020 --> 00:21:39.540
+2.5 the answer was saturation saturation
+and fourth condition when my V input is
+
+00:21:39.540 --> 00:21:44.309
+greater and V output becomes less that
+is V input is greater than 2.5 and V
+
+00:21:44.309 --> 00:21:49.799
+output is less than similar to 1 then my
+answer is n MOS is in linear p MOS is in
+
+00:21:49.799 --> 00:21:55.110
+saturation and at very large when my V
+input is maximum 5 volt then my output
+
+00:21:55.110 --> 00:21:58.860
+is minimum that is
+so you can say your n mos is in linear
+
+00:21:58.860 --> 00:22:03.540
+region and P Mos is in cutoff region
+all the calculation we have seen so I
+
+00:22:03.540 --> 00:22:09.030
+hope you had the brief idea about CMOS
+inverter DC characteristics and this are
+
+00:22:09.030 --> 00:22:12.150
+the some of the points you should know
+so that whenever you are dealing with
+
+00:22:12.150 --> 00:22:17.760
+the drain current you know exactly which
+equation to use because if you are now
+
+00:22:17.760 --> 00:22:20.640
+if you are dealing with the drain
+current for N Mo's and the drain current
+
+00:22:20.640 --> 00:22:25.260
+for P Mo's it won't be same it would be
+different at some position let's say
+
+00:22:25.260 --> 00:22:29.820
+case two you have to use the drain
+current for saturation region for the
+
+00:22:29.820 --> 00:22:33.900
+n mos for the P Mo's it would be
+linear region so this are the important
+
+00:22:33.900 --> 00:22:38.580
+point that is the reason we have studied
+the practical working of the CMOS
+
+00:22:38.580 --> 00:22:43.350
+inverter so practically it will work in
+this five condition so this is all about
+
+00:22:43.350 --> 00:22:48.270
+these CMOS inverter I hope you enjoyed
+this video

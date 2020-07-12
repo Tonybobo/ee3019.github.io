@@ -1,0 +1,361 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:01.250 --> 00:00:06.529
+let us discuss MOSFET in detail
+
+00:00:10.250 --> 00:00:16.619
+MOSFET is an electronic device most
+
+00:00:13.320 --> 00:00:21.919
+widely used in ICs it has three
+
+00:00:16.619 --> 00:00:21.919
+terminals named as source drain and gate
+
+00:00:25.109 --> 00:00:31.119
+construction of basic design of MOSFET
+
+00:00:28.000 --> 00:00:34.570
+is quite simple just take a block of
+
+00:00:31.119 --> 00:00:38.470
+p-type semiconductor this block will be
+
+00:00:34.570 --> 00:00:42.309
+your base for MOSFET we also call it as
+
+00:00:38.470 --> 00:00:46.239
+substrate and the entire MOSFET we will
+
+00:00:42.309 --> 00:00:48.250
+fabricate on this base now two portions
+
+00:00:46.239 --> 00:00:51.250
+on the same side of this p-type
+
+00:00:48.250 --> 00:00:54.430
+substrate are made highly doped with
+
+00:00:51.250 --> 00:00:58.120
+n-type impurity as these are shown here
+
+00:00:54.430 --> 00:01:00.160
+in the figure source and drain terminals
+
+00:00:58.120 --> 00:01:03.510
+are brought out from these two end
+
+00:01:00.160 --> 00:01:03.510
+regions as shown
+
+00:01:05.450 --> 00:01:11.820
+now the entire surface of the substrate
+
+00:01:08.909 --> 00:01:16.200
+is coated with a layer of silicon
+
+00:01:11.820 --> 00:01:19.920
+dioxide silicon dioxide will behave here
+
+00:01:16.200 --> 00:01:23.450
+as insulation on this layer of silicon
+
+00:01:19.920 --> 00:01:26.580
+dioxide a thin metallic plate is placed
+
+00:01:23.450 --> 00:01:29.850
+this metallic plate will act as gauge
+
+00:01:26.580 --> 00:01:31.860
+contact to the substrate the gate
+
+00:01:29.850 --> 00:01:32.990
+terminal is brought out from this
+
+00:01:31.860 --> 00:01:35.670
+metallic plate
+
+00:01:32.990 --> 00:01:38.429
+hence it is seen from the figure that
+
+00:01:35.670 --> 00:01:41.700
+gate contact is insulated from the
+
+00:01:38.429 --> 00:01:44.070
+substrate but drain and source contacts
+
+00:01:41.700 --> 00:01:45.720
+are directly connected to respective
+
+00:01:44.070 --> 00:01:49.110
+n-type regions
+
+00:01:45.720 --> 00:01:52.200
+this was the constructional feature of a
+
+00:01:49.110 --> 00:01:56.300
+buzz FET now we will come to the
+
+00:01:52.200 --> 00:01:56.300
+operational features of MOSFET
+
+00:01:58.119 --> 00:02:04.329
+for that we have to connect on DC
+
+00:02:01.570 --> 00:02:06.929
+voltage source between these two n-type
+
+00:02:04.329 --> 00:02:06.929
+regions
+
+00:02:13.000 --> 00:02:15.060
+you
+
+00:02:19.390 --> 00:02:24.260
+the n-type region connected with
+
+00:02:22.250 --> 00:02:27.530
+positive terminal of the source is
+
+00:02:24.260 --> 00:02:29.690
+called as drain and the N region
+
+00:02:27.530 --> 00:02:33.950
+connected with negative terminal of the
+
+00:02:29.690 --> 00:02:35.840
+source is called as source as soon as
+
+00:02:33.950 --> 00:02:39.590
+the drain and source are connected with
+
+00:02:35.840 --> 00:02:42.890
+DC voltage source there will be two PN
+
+00:02:39.590 --> 00:02:47.560
+junctions formed one is in between
+
+00:02:42.890 --> 00:02:47.560
+n-type drain and p-type base
+
+00:02:48.420 --> 00:02:56.310
+and the other is in between P type base
+
+00:02:51.780 --> 00:02:59.069
+and n type source as drain is connected
+
+00:02:56.310 --> 00:03:01.620
+with positive terminal of the source the
+
+00:02:59.069 --> 00:03:05.280
+drain is in higher voltage than base
+
+00:03:01.620 --> 00:03:09.270
+hence this PN Junction is reverse biased
+
+00:03:05.280 --> 00:03:12.540
+on the other hand as source is connected
+
+00:03:09.270 --> 00:03:15.030
+with negative terminal of the battery P
+
+00:03:12.540 --> 00:03:16.860
+type base will be at higher potential
+
+00:03:15.030 --> 00:03:20.580
+than n type source
+
+00:03:16.860 --> 00:03:24.989
+hence this PN Junction is forward biased
+
+00:03:20.580 --> 00:03:28.110
+as between drain and source there will
+
+00:03:24.989 --> 00:03:30.959
+be one reverse biased and one forward
+
+00:03:28.110 --> 00:03:33.150
+biased Junction there will be no
+
+00:03:30.959 --> 00:03:36.390
+significant current flowing from the
+
+00:03:33.150 --> 00:03:39.510
+drain to source but a tiny current
+
+00:03:36.390 --> 00:03:43.080
+continues to flow due to minority
+
+00:03:39.510 --> 00:03:45.840
+carriers we can say that virtually there
+
+00:03:43.080 --> 00:03:49.100
+is no continuous path or channel between
+
+00:03:45.840 --> 00:03:49.100
+drain and source
+
+00:03:52.150 --> 00:03:57.379
+now let us see what happens if one
+
+00:03:54.769 --> 00:04:01.000
+suitable positive voltage is applied at
+
+00:03:57.379 --> 00:04:01.000
+gate terminal of the device
+
+00:04:01.990 --> 00:04:07.860
+in that case due to attraction a
+
+00:04:05.170 --> 00:04:11.080
+positive potential of gate contact plate
+
+00:04:07.860 --> 00:04:14.790
+negative free electrons that is minority
+
+00:04:11.080 --> 00:04:14.790
+carriers in p-type base
+
+00:04:20.230 --> 00:04:26.350
+we'll be accumulated towards a contact
+
+00:04:23.320 --> 00:04:29.820
+plate and form a channel of negative
+
+00:04:26.350 --> 00:04:32.820
+charge carriers even inside p-type
+
+00:04:29.820 --> 00:04:32.820
+semiconductor
+
+00:04:40.030 --> 00:04:46.810
+this channel due to higher concentration
+
+00:04:43.370 --> 00:04:47.960
+of free electrons will behave as n-type
+
+00:04:46.810 --> 00:04:51.259
+semiconductor
+
+00:04:47.960 --> 00:04:56.599
+although entire base is doped with P
+
+00:04:51.259 --> 00:04:58.819
+type or trivalent impurity it is obvious
+
+00:04:56.599 --> 00:05:01.870
+that the number of free electrons
+
+00:04:58.819 --> 00:05:04.340
+accumulated towards gate contact plate
+
+00:05:01.870 --> 00:05:06.830
+depends on the strength a positive
+
+00:05:04.340 --> 00:05:10.969
+potential given to the gate terminal
+
+00:05:06.830 --> 00:05:14.599
+hence width of n channel depends on the
+
+00:05:10.969 --> 00:05:17.659
+voltage applied at gate terminal more
+
+00:05:14.599 --> 00:05:19.969
+the applied voltage greater the width of
+
+00:05:17.659 --> 00:05:22.810
+the channel means greater the
+
+00:05:19.969 --> 00:05:25.370
+conductance between drain and source
+
+00:05:22.810 --> 00:05:27.650
+here we have seen that there is no
+
+00:05:25.370 --> 00:05:30.379
+direct connection between gauge contact
+
+00:05:27.650 --> 00:05:33.139
+and substrate instead these are
+
+00:05:30.379 --> 00:05:36.289
+insulated from each other but due to
+
+00:05:33.139 --> 00:05:38.330
+electrostatic attraction the conducting
+
+00:05:36.289 --> 00:05:41.210
+channel between drain and source is
+
+00:05:38.330 --> 00:05:44.599
+formed and because of that the channel
+
+00:05:41.210 --> 00:05:47.539
+is also called induced shadow and the
+
+00:05:44.599 --> 00:05:51.469
+device is called induced channel MOSFET
+
+00:05:47.539 --> 00:05:53.330
+it is also clear that when there is no
+
+00:05:51.469 --> 00:05:56.120
+voltage applied to the gate of the
+
+00:05:53.330 --> 00:05:59.449
+device there will be no current from
+
+00:05:56.120 --> 00:06:02.300
+drain to source except negligible amount
+
+00:05:59.449 --> 00:06:06.800
+of saturation current due to minority
+
+00:06:02.300 --> 00:06:09.620
+carriers but if the gate voltage is
+
+00:06:06.800 --> 00:06:12.439
+gradually increased by keeping fixed
+
+00:06:09.620 --> 00:06:15.469
+drain to source voltage after certain
+
+00:06:12.439 --> 00:06:19.000
+minimum applied gate voltage drain to
+
+00:06:15.469 --> 00:06:19.000
+source current will start flowing
+
+00:06:21.760 --> 00:06:27.510
+and this voltage is called threshold
+
+00:06:24.510 --> 00:06:27.510
+voltage
+
+00:06:34.280 --> 00:06:41.280
+so below threshold voltage the device
+
+00:06:38.280 --> 00:06:43.640
+will behave as non conducting or in off
+
+00:06:41.280 --> 00:06:43.640
+board
+
+00:06:44.689 --> 00:06:49.819
+and for gate voltage greater than
+
+00:06:47.089 --> 00:06:53.830
+threshold value the device will be in
+
+00:06:49.819 --> 00:06:53.830
+conducting or on mode
+
+00:06:55.100 --> 00:07:03.370
+so this type of MOSFET is suitably used
+
+00:06:58.700 --> 00:07:03.370
+as a gate control switching device
+
+00:07:07.980 --> 00:07:11.030
+thank you

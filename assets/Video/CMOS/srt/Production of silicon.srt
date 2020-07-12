@@ -1,0 +1,331 @@
+0:00:05.180,0:00:10.490
+silicon is a semiconductor and its main
+applications fall into three categories
+
+0:00:10.490,0:00:16.410
+first solar cells and components in
+electronics like for example your mobile
+
+0:00:16.410,0:00:21.720
+telephone and your computer in this
+group one utilizes the semiconducting
+
+0:00:21.720,0:00:28.320
+properties of silicon the next category
+is aluminium alloys silicon is added as
+
+0:00:28.320,0:00:33.690
+an alloying element to aluminium to
+enhance the properties of the alloy the
+
+0:00:33.690,0:00:39.420
+last category is the increasing use of
+silicon to produce silicones silicones
+
+0:00:39.420,0:00:44.929
+have numerous uses from baking products
+to stickers
+
+0:00:45.219,0:00:52.539
+the Earth's crust comprises 28% silicon
+and 47% oxygen by weight there is a
+
+0:00:52.539,0:00:57.339
+large abundance of silicon and the
+Earth's crust consists mainly of oxides
+
+0:00:57.339,0:01:03.940
+such as silicon dioxide if one wants to
+produce elemental silicon one needs
+
+0:01:03.940,0:01:08.920
+however quite pure silicon dioxide
+sources and hence most producers of
+
+0:01:08.920,0:01:14.649
+silicon import silicon dioxide the
+silicon produced directly from silicon
+
+0:01:14.649,0:01:19.720
+dioxide is known as metallurgical grade
+silicon and the pure silicon dioxide
+
+0:01:19.720,0:01:26.500
+material is called quartz to produce
+metallurgical grade silicon one needs
+
+0:01:26.500,0:01:31.659
+quartz the raw material that contains
+silicon and coal to remove the oxygen
+
+0:01:31.659,0:01:36.159
+from the quartz and wood chips to
+maintain good permeability in the
+
+0:01:36.159,0:01:42.330
+furnace for the gas to escape
+silicon is produced in large industrial
+
+0:01:42.330,0:01:48.090
+furnaces the production process requires
+large amounts of energy 10 to 12
+
+0:01:48.090,0:01:52.409
+megawatt hours of the ton of silicon
+produce as well as utilizing high
+
+0:01:52.409,0:01:58.890
+temperatures up to 2,000 degrees C and
+the lower part of the fence the electric
+
+0:01:58.890,0:02:03.240
+energy is supplied by a three large
+carbon electrodes that are submerged
+
+0:02:03.240,0:02:08.580
+into the raw materials the electrodes
+will gradually be consumed and therefore
+
+0:02:08.580,0:02:12.780
+new electrode elements are added by
+screwing them to the top of the furnace
+
+0:02:12.780,0:02:18.780
+electrodes the quartz carbon and wood
+chips are added from silos at the top of
+
+0:02:18.780,0:02:23.760
+the furnace as the materials are
+conveyed through the furnace the oxygen
+
+0:02:23.760,0:02:28.380
+is removed from the quartz and liquid
+silicon is tapped from the lower part of
+
+0:02:28.380,0:02:34.110
+the furnace at high temperatures the
+liquid silicon is tapped into laters
+
+0:02:34.110,0:02:38.590
+where small parts of aluminium and
+calcium are reduced
+
+0:02:38.590,0:02:45.849
+after this refining process the liquid
+silicon is cast into beds to solidify
+
+0:02:45.849,0:02:54.069
+the solidified silicon is then crushed
+and shipped to the customer
+
+0:02:54.510,0:03:00.090
+the simplified equation of the silicon
+production process shows silicon dioxide
+
+0:03:00.090,0:03:05.020
+reacting with carbon to produce silicon
+which will be tapped from the furnace
+
+0:03:05.020,0:03:10.080
+and carbon monoxide gas that will ascend
+through the materials in the furnace
+
+0:03:10.080,0:03:15.600
+there are however two important species
+that will also be present in the furnace
+
+0:03:15.600,0:03:23.110
+silicon carbide and silicon monoxide gas
+if we focus on the area around one of
+
+0:03:23.110,0:03:27.970
+the electrodes we can see the major
+zones in a furnace in the lower part of
+
+0:03:27.970,0:03:32.260
+the furnace the temperature is about
+2,000 degrees C with the energy being
+
+0:03:32.260,0:03:36.610
+produced by the arcs from the electrode
+to the liquid silicon at the bottom of
+
+0:03:36.610,0:03:42.040
+the furnace or to the silicon carbide
+crust that has formed in the arc itself
+
+0:03:42.040,0:03:46.870
+the temperature is much higher the arc
+is produced because there is a cavity
+
+0:03:46.870,0:03:51.250
+around the electrode tip which is filled
+with silicon monoxide and carbon
+
+0:03:51.250,0:03:58.030
+monoxide gas as one goes up the furnace
+the temperature decreases and a mixture
+
+0:03:58.030,0:04:03.670
+of melted silicon dioxide and silicon
+carbide is over the cavity Bickford
+
+0:04:03.670,0:04:09.280
+silicon is very viscous and the material
+mix will not flow down naturally as a
+
+0:04:09.280,0:04:16.000
+result the cavity roof is formed this is
+a very simplified picture and during
+
+0:04:16.000,0:04:20.160
+industrial excavations many different
+zones and geometries have been found
+
+0:04:20.160,0:04:25.720
+however the common picture is the
+presence of the cavity alpha silicon
+
+0:04:25.720,0:04:30.140
+carbide built up in the burner
+and parley transformed broad materials
+
+0:04:30.140,0:04:35.300
+in the top part of the furnace the
+temperature on top of the raw materials
+
+0:04:35.300,0:04:42.320
+is approximately 1,000 degrees C the
+most important reaction in the so-called
+
+0:04:42.320,0:04:47.870
+low temperature zone is the reaction
+between carbon and the ascending silicon
+
+0:04:47.870,0:04:53.980
+dioxide gas as a production of silicon
+monoxide gas consumes a lot of energy
+
+0:04:53.980,0:04:58.370
+the energy consumption will have a
+strong correlation with the silicon
+
+0:04:58.370,0:05:04.490
+monoxide lost out of the thirst the main
+role of the carbon added will hence be
+
+0:05:04.490,0:05:12.800
+to capture the silicon dioxide gas
+before it leaves the furnace
+
+0:05:18.539,0:05:23.650
+the brown condensate will agglomerate
+the quartz the silicon carbide particles
+
+0:05:23.650,0:05:29.680
+are shown in the picture micrographs of
+this brown condensate shows that this
+
+0:05:29.680,0:05:34.570
+silicon embedded in a silicon dioxide
+nature
+
+0:05:34.570,0:05:38.950
+when this condensate is heated as it
+descends with the raw materials the
+
+0:05:38.950,0:05:43.630
+silicon will accumulate into larger
+silicon drops and then finally at high
+
+0:05:43.630,0:05:48.040
+enough temperatures where both silicon
+dioxide and silicon is melted the
+
+0:05:48.040,0:05:53.350
+silicon will flow out of the silicon
+dioxide matrix as the condensates
+
+0:05:53.350,0:05:57.880
+prevent the materials done down in the
+furnace the materials are mechanically
+
+0:05:57.880,0:06:04.990
+pushed down with a stoking machine some
+silicon can also be produced in the
+
+0:06:04.990,0:06:09.970
+silicon carbide particles higher up in
+the furnace according to the reaction as
+
+0:06:09.970,0:06:17.020
+shown in my craft from a pilot scale
+furnace experiment as the carbon
+
+0:06:17.020,0:06:22.000
+monoxide the remaining silicon monoxide
+gas are leaving the furnace they will
+
+0:06:22.000,0:06:26.950
+combine with air at the top of the face
+the carbon monoxide and silicon monoxide
+
+0:06:26.950,0:06:33.550
+gases will oxidize into carbon dioxide
+gas and silicon dioxide micro particles
+
+0:06:33.550,0:06:39.800
+called micro silica
+micro silica is an important by-product
+
+0:06:39.800,0:06:46.460
+and is typically used as filler in
+concrete and to produce refractories to
+
+0:06:46.460,0:06:50.570
+summarize the metallurgical silicon
+production the raw materials added to
+
+0:06:50.570,0:06:56.900
+the furnace are silicon dioxide and
+carbon materials wood chips are added to
+
+0:06:56.900,0:07:01.520
+increase the permeability of the
+materials to facilitate gas flow the
+
+0:07:01.520,0:07:05.720
+materials are added to the furnace
+at approximately 1,000 degrees C and
+
+0:07:05.720,0:07:12.020
+will be gradually heated to 2,000
+degrees C the liquid silicon will be
+
+0:07:12.020,0:07:16.520
+tapped at the lower part of the furnace
+into ladles where the trace elements of
+
+0:07:16.520,0:07:21.890
+aluminium and calcium will be further
+reduce the liquid silicon will then be
+
+0:07:21.890,0:07:28.460
+cast solidified crushed and shipped to
+customers the micro silica will be
+
+0:07:28.460,0:07:33.170
+separated from the off gas in filter
+bags and the remaining hot off gas may
+
+0:07:33.170,0:07:40.370
+be processed via an energy recovery unit
+to produce electrical energy as Norway
+
+0:07:40.370,0:07:45.260
+has a large amount of renewable
+electrical energy from hydropower there
+
+0:07:45.260,0:07:53.260
+are several plants producing silicon and
+ferrosilicon like L chem Warka and fin

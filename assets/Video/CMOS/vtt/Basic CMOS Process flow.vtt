@@ -1,0 +1,604 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:01.010 --> 00:00:06.660
+this is chemical processes for micro and
+nanofabrication on Chris Mac and this is
+
+00:00:06.660 --> 00:00:13.440
+lecture 9 CMOS process flow a reading
+for this lecture is chapter 16 of our
+
+00:00:13.440 --> 00:00:17.990
+textbook by Campbell fabrication
+engineering at the micro and nano scale
+
+00:00:17.990 --> 00:00:23.150
+our topic today we're going to go
+through a very basic very simplified
+
+00:00:23.150 --> 00:00:30.269
+version of the typical CMOS process flow
+here our emphasis will be on looking at
+
+00:00:30.269 --> 00:00:35.399
+how the different process steps tie
+together to make a CMOS circuit we won't
+
+00:00:35.399 --> 00:00:39.710
+cover everything today there's lots and
+lots of steps that we won't even mention
+
+00:00:39.710 --> 00:00:45.450
+but we'll cover the basics the the most
+important steps and see the order that
+
+00:00:45.450 --> 00:00:49.289
+they're done in and what kind of
+structures result because of that and
+
+00:00:49.289 --> 00:00:52.739
+then when we go through the individual
+process steps in detail when we talk
+
+00:00:52.739 --> 00:00:58.710
+about oxidation and deposition and etch
+etc we'll have a bit of more context for
+
+00:00:58.710 --> 00:01:03.899
+how they fit so let's go through some of
+these basic typical process steps first
+
+00:01:03.899 --> 00:01:08.640
+I'll call it step 0 wafer preparation
+we're gonna laser scribe the back of the
+
+00:01:08.640 --> 00:01:12.000
+wafer to put a unique ID number
+sometimes a barcode on those wafers
+
+00:01:12.000 --> 00:01:15.390
+we're going to clean the wafers we're
+going to do gettering that's where we
+
+00:01:15.390 --> 00:01:23.909
+implant big imperfections into the back
+of the wafer that will then attract
+
+00:01:23.909 --> 00:01:29.820
+other defects to them and away from the
+surface where we're going to have our
+
+00:01:29.820 --> 00:01:34.310
+devices and we'll do zeroth layer
+alignment marks that the rest of the
+
+00:01:34.310 --> 00:01:40.590
+circuitry will be aligned to as we build
+up our patterns step 1
+
+00:01:40.590 --> 00:01:44.159
+and sometimes the order of these steps
+aren't exactly the same depending on the
+
+00:01:44.159 --> 00:01:48.409
+type of process you're doing the step 1
+is will create n Wells and P wells
+
+00:01:48.409 --> 00:01:53.790
+sometimes we use the wafer and it's
+doping instead of one of these wells but
+
+00:01:53.790 --> 00:01:57.659
+today it's much more common to have both
+an N well and a P well these form the
+
+00:01:57.659 --> 00:02:02.280
+regions of the wafer where we're going
+to create our devices and we'll get the
+
+00:02:02.280 --> 00:02:06.750
+doping that we want for those devices in
+these wells then we'll create the active
+
+00:02:06.750 --> 00:02:12.330
+area this is defines the regions of the
+wafer that are going to be isolated with
+
+00:02:12.330 --> 00:02:15.060
+a thick
+oxidation and those regions that are
+
+00:02:15.060 --> 00:02:19.170
+active that is where our transistor is
+going to be so every transistor is
+
+00:02:19.170 --> 00:02:26.849
+surrounded by an oxide insulator to
+isolate it then and will form our poly
+
+00:02:26.849 --> 00:02:34.970
+silicon gate the gate of our gate source
+drain MOS transistor and we'll do some
+
+00:02:34.970 --> 00:02:40.680
+engineering of the the structures of
+that gate something called a lightly
+
+00:02:40.680 --> 00:02:45.750
+doped drain where we put sidewall
+spacers on the gate and do a little bit
+
+00:02:45.750 --> 00:02:51.870
+of doping then we'll do our main source
+drain implant and diffusion to create
+
+00:02:51.870 --> 00:02:56.220
+the source in the drain now we've
+actually built a transistor from here on
+
+00:02:56.220 --> 00:03:00.720
+out we're gonna connect up the
+transistors to make a circuit so we're
+
+00:03:00.720 --> 00:03:04.860
+gonna form Southside and contact holes
+which is where we're gonna make our
+
+00:03:04.860 --> 00:03:10.200
+contacts to the source in the drain and
+a gate so that we can make electrical
+
+00:03:10.200 --> 00:03:14.730
+contact and wire up our transistors
+we'll use tungsten plugs to fill up
+
+00:03:14.730 --> 00:03:20.100
+these contact holes and then a level of
+metallization to run wires to connect
+
+00:03:20.100 --> 00:03:25.889
+the transistors together but one level
+of metallization is generally not enough
+
+00:03:25.889 --> 00:03:33.540
+we need to have additional metal layers
+often two four six high as ten layers of
+
+00:03:33.540 --> 00:03:37.470
+metal to run all the different wires
+that are required to connect to all of
+
+00:03:37.470 --> 00:03:42.389
+these transistors millions even billions
+of transistors together and finally
+
+00:03:42.389 --> 00:03:46.169
+we'll put a passivation layer over the
+top and open up that passivation
+
+00:03:46.169 --> 00:03:51.870
+passivation layer for bonding pads when
+we package the chip and communicate with
+
+00:03:51.870 --> 00:03:58.169
+the outside world that's the basic flow
+let's look at some pictures of some of
+
+00:03:58.169 --> 00:04:04.709
+the main steps described here not all of
+them and see how it works so to begin
+
+00:04:04.709 --> 00:04:08.819
+we're gonna make our wet Wells I'm only
+going to show you the n well here and
+
+00:04:08.819 --> 00:04:14.370
+this very simplified process will assume
+that the P substrate the P doped
+
+00:04:14.370 --> 00:04:20.160
+substrate will be used for
+the n-channel device without having to
+
+00:04:20.160 --> 00:04:22.139
+have a p well but generally we would
+have a p well
+
+00:04:22.139 --> 00:04:28.230
+so we'll form an oxide layer on top of
+the wafer we'll open up that oxide layer
+
+00:04:28.230 --> 00:04:34.290
+by doing a patterning step lithography
+plus hatch and then the open area this
+
+00:04:34.290 --> 00:04:41.340
+area right here that is not protected by
+oxide will implant a dopant and then
+
+00:04:41.340 --> 00:04:45.660
+diffuse it in this will be phosphorus in
+this case which is an n-type dopant and
+
+00:04:45.660 --> 00:04:52.639
+will create this n-well of doped region
+the oxide serves as a barrier so the
+
+00:04:52.639 --> 00:04:57.960
+implant dopant lands inside the oxide it
+doesn't get into the substrate and also
+
+00:04:57.960 --> 00:05:01.800
+it's a diffusion barrier this dopant
+doesn't diffuse very well in oxide so no
+
+00:05:01.800 --> 00:05:06.240
+the dopant makes it into the substrate
+underneath the oxide only in the open
+
+00:05:06.240 --> 00:05:12.540
+area do we get our n-type dopant and now
+we've got an
+
+00:05:12.540 --> 00:05:19.950
+n-well in which we're going to form our
+p-channel device then we're going to
+
+00:05:19.950 --> 00:05:24.300
+create our active areas what we mean by
+creating an active area is we're going
+
+00:05:24.300 --> 00:05:30.330
+to grow oxide in the regions where we
+don't want a transistor in this oxide
+
+00:05:30.330 --> 00:05:37.320
+will act as an isolation between the
+various active areas so I'm not going
+
+00:05:37.320 --> 00:05:41.280
+through all the steps required here but
+we'll form a pattern and photoresist
+
+00:05:41.280 --> 00:05:47.490
+which will then transfer usually into a
+nitride layer which then blocks the
+
+00:05:47.490 --> 00:05:51.419
+formation of an oxide layer here here
+and here everyone that's everywhere
+
+00:05:51.419 --> 00:05:56.880
+that's not being protected forms an
+isolation area this is a process called
+
+00:05:56.880 --> 00:06:02.010
+local oxidation of silicon there's
+also another more important process
+
+00:06:02.010 --> 00:06:08.280
+today called shallow trench isolation
+they form the same they have the same
+
+00:06:08.280 --> 00:06:12.660
+function they create isolation regions
+between the active areas and these
+
+00:06:12.660 --> 00:06:18.240
+active areas become the areas where
+we're gonna build our transistor the
+
+00:06:18.240 --> 00:06:25.440
+poly gate formation we first grow a thin
+oxide or deposit a thin oxide over our
+
+00:06:25.440 --> 00:06:30.920
+active areas here and here and we
+pattern deposit poly silicon and pattern
+
+00:06:30.920 --> 00:06:38.420
+into the poly silicon gate so this gate
+region will be the gate of our CMOS our
+
+00:06:38.420 --> 00:06:43.580
+MOS transistor notice that we have one
+on each side over the end well we're
+
+00:06:43.580 --> 00:06:47.600
+going to form a p-channel device and
+over the substrate in this case or it
+
+00:06:47.600 --> 00:06:55.310
+could be a P well we're gonna form an
+n-channel device so now we're going to
+
+00:06:55.310 --> 00:06:58.550
+do our doping for our source and drain
+we have to do it in two steps because
+
+00:06:58.550 --> 00:07:02.690
+we're forming both a p-channel device
+and an n-channel device for the
+
+00:07:02.690 --> 00:07:10.790
+n-channel device we need to chip deposit
+donors n type dopants into the source
+
+00:07:10.790 --> 00:07:18.560
+in the drain region so we're going to
+use arsenic for our dopant we cover up
+
+00:07:18.560 --> 00:07:25.100
+with photoresist all those regions where
+we don't want the arsenic dopant to
+
+00:07:25.100 --> 00:07:29.840
+go so the dopant lands inside the
+photoresist and is blocked it's not able
+
+00:07:29.840 --> 00:07:34.010
+to get into the substrate but here in
+this this region of the source and the
+
+00:07:34.010 --> 00:07:40.400
+drain we we form our dopants and diffuse
+them into the substrate notice that the
+
+00:07:40.400 --> 00:07:45.460
+gate also acts as a block to prevent
+dopants from getting underneath the gate
+
+00:07:45.460 --> 00:07:50.660
+so we call this a self-aligned gate
+process because the source and drain are
+
+00:07:50.660 --> 00:07:56.570
+self aligned to the gate by nature of
+the fact that the gate blocks the dopant
+
+00:07:56.570 --> 00:08:01.580
+since this is an n-type dopant we form
+our source and drain and implanted
+
+00:08:01.580 --> 00:08:10.700
+regions we then cover up the n-channel
+device and we open up a region where our
+
+00:08:10.700 --> 00:08:16.610
+p-channel device is going to be made and
+we apply a P dopant boron in this case
+
+00:08:16.610 --> 00:08:24.830
+to create the source and drain inside of
+the N well now we've got the source and
+
+00:08:24.830 --> 00:08:29.630
+drain and the gate all made up for both
+types of devices the P well and the
+
+00:08:29.630 --> 00:08:35.390
+n-well device the P channel in the n
+well and the n channel in this case
+
+00:08:35.390 --> 00:08:41.090
+the P substrate we're going to make
+contact holes generally we would form a
+
+00:08:41.090 --> 00:08:48.780
+a Southside
+a compound of that improves the contact
+
+00:08:48.780 --> 00:08:54.800
+resistance then will deposit oxide over
+everything as shown here after we've
+
+00:08:54.800 --> 00:08:59.910
+created the Southside layer which is not
+shown in this figure from the oxide do
+
+00:08:59.910 --> 00:09:04.890
+lithography step to put holes in this
+oxide so now we have contact holes to
+
+00:09:04.890 --> 00:09:10.380
+make contact with the source in the
+drain of both devices also not shown
+
+00:09:10.380 --> 00:09:14.340
+because it be in the back into the
+screen or out of the screen and the
+
+00:09:14.340 --> 00:09:18.900
+three-dimensional view will be contact
+holes making contact to the gates as
+
+00:09:18.900 --> 00:09:25.170
+well we're gonna fill these contact
+holes up with the metallization here I
+
+00:09:25.170 --> 00:09:32.130
+show kind of an older process where
+we're going to fill it up with an
+
+00:09:32.130 --> 00:09:36.750
+aluminum interconnect a more modern
+process today would fill up these
+
+00:09:36.750 --> 00:09:42.900
+contact holes with a tungsten plug and
+then use copper to interconnect or wire
+
+00:09:42.900 --> 00:09:49.770
+up the transistors well this is a
+cross-sectional view let's see what that
+
+00:09:49.770 --> 00:09:54.750
+looks like top down as well so here I
+repeat that cross sectional view with
+
+00:09:54.750 --> 00:09:59.520
+the two transistors the end channel and
+the P channel next to each other with
+
+00:09:59.520 --> 00:10:05.430
+contacts wired up and then here's a
+top-down view so our cross section is
+
+00:10:05.430 --> 00:10:09.690
+cutting right through this middle region
+here right through here
+
+00:10:09.690 --> 00:10:13.830
+so we have an end well formed in this
+dotted line and then we have our
+
+00:10:13.830 --> 00:10:19.530
+diffusion regions the active area is
+formed here and here in pink and yellow
+
+00:10:19.530 --> 00:10:25.140
+for the two different devices our gate
+is shown in the green going across so
+
+00:10:25.140 --> 00:10:30.600
+whenever I have a diffusion region or an
+active area where I'm gonna implant my
+
+00:10:30.600 --> 00:10:37.080
+source and drain with a gate crossing it
+that's a transistor a gate crossing an
+
+00:10:37.080 --> 00:10:41.100
+active area forms a transistor because
+well the source and drain on either side
+
+00:10:41.100 --> 00:10:45.480
+and the gate and now else we have to do
+is make contact to each of those so I
+
+00:10:45.480 --> 00:10:50.700
+have a metal line making a contact to
+the source and metal I'm making contact
+
+00:10:50.700 --> 00:10:56.190
+to the drain and another metal line
+making contact to the gate now how these
+
+00:10:56.190 --> 00:10:59.840
+things get connected up depends on the
+specifics of the circuit here I show
+
+00:10:59.840 --> 00:11:05.930
+these two gates connected together maybe
+I'm making an inverter using these
+
+00:11:05.930 --> 00:11:16.250
+complementary MOS transistors well this
+is up to the first level of metal but we
+
+00:11:16.250 --> 00:11:21.230
+need more levels of metal to connect all
+of the transistors together the
+
+00:11:21.230 --> 00:11:27.920
+highest-end logic devices today might
+have 10 layers of metal here's a picture
+
+00:11:27.920 --> 00:11:33.020
+from that I got from IBM 2005
+it shows copper wiring so these are
+
+00:11:33.020 --> 00:11:37.160
+copper wires and it's kind of cut in two
+cross sections so you can see two sides
+
+00:11:37.160 --> 00:11:40.070
+of it
+the transistors are way down here at the
+
+00:11:40.070 --> 00:11:44.210
+surface of the silicon and then these
+are the copper interconnects in the
+
+00:11:44.210 --> 00:11:47.330
+first layer the second layer the third
+layer the fourth layer the fifth layer
+
+00:11:47.330 --> 00:11:53.060
+the sixth layer etc and then we have
+these interconnections that connect one
+
+00:11:53.060 --> 00:11:57.650
+layer to the next all the way up so
+here's a layer of metal here's a layer
+
+00:11:57.650 --> 00:12:02.330
+of metal and then in between we have
+some some vias that are filled with
+
+00:12:02.330 --> 00:12:06.440
+copper to make a connection from the
+last layer to this layer and finally
+
+00:12:06.440 --> 00:12:10.190
+over the top we have a passivation layer
+that covers the whole chip except for
+
+00:12:10.190 --> 00:12:17.570
+the regions where we need to do bonding
+to in our package well that is a very
+
+00:12:17.570 --> 00:12:22.220
+very brief description of the major
+steps we're going to spend a lot of time
+
+00:12:22.220 --> 00:12:25.820
+this semester going through each of the
+individual process steps in some detail
+
+00:12:25.820 --> 00:12:30.470
+but at least now you have a picture of
+how they all fit together to form a
+
+00:12:30.470 --> 00:12:35.990
+seamless device and a circuit so what
+have we learned in lecture 9 you should
+
+00:12:35.990 --> 00:12:41.209
+be able to list the basic steps in the
+CMOS process flow now the numbering is
+
+00:12:41.209 --> 00:12:45.770
+not unique just arbitrary the numbers
+that I pick you don't worry about what
+
+00:12:45.770 --> 00:12:54.080
+is number six or number four but the
+basic steps in the order that they go in
+
+00:12:54.080 --> 00:12:59.450
+you should be able to know and finally
+you should be able to find the
+
+00:12:59.450 --> 00:13:03.529
+transistor if you're looking at a
+top-down design view look for the gates
+
+00:13:03.529 --> 00:13:07.130
+and the active areas you should be able
+to point to where the transistors are in
+
+00:13:07.130 --> 00:13:11.700
+that design
+well that's lecture 9 beginning next
+
+00:13:11.700 --> 00:13:16.260
+time we're going to begin our unit
+process steps will begin with oxidation
+
+00:13:16.260 --> 00:13:21.120
+and go through the different unit
+processing steps and look at them in
+
+00:13:21.120 --> 00:13:25.490
+some detail thanks and see you then

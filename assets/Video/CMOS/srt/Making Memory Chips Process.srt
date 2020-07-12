@@ -1,0 +1,336 @@
+1
+00:00:06,650 --> 00:00:11,540
+memory chip design is the first step in
+
+2
+00:00:09,719 --> 00:00:14,309
+the production of microns memory chips
+
+3
+00:00:11,540 --> 00:00:16,560
+this process involves the use of
+
+4
+00:00:14,309 --> 00:00:18,750
+computer aided design tools to lay out
+
+5
+00:00:16,560 --> 00:00:20,940
+billions of electronic components that
+
+6
+00:00:18,750 --> 00:00:27,990
+store data on the chip according to the
+
+7
+00:00:20,940 --> 00:00:30,689
+product design specification during
+
+8
+00:00:27,990 --> 00:00:32,730
+technology development specific process
+
+9
+00:00:30,689 --> 00:00:34,800
+steps are defined and integrated into a
+
+10
+00:00:32,730 --> 00:00:37,949
+process flow that will build the memory
+
+11
+00:00:34,800 --> 00:00:39,960
+chips the process steps are tested and
+
+12
+00:00:37,949 --> 00:00:42,830
+refined until the process note is
+
+13
+00:00:39,960 --> 00:00:46,970
+qualified and ramped in manufacturing
+
+14
+00:00:42,830 --> 00:00:49,350
+[Music]
+
+15
+00:00:46,970 --> 00:00:51,720
+individual memory chips or die
+
+16
+00:00:49,350 --> 00:00:55,500
+are built upon pure silicon wafers in a
+
+17
+00:00:51,720 --> 00:00:57,210
+fabrication area or fab Fab Tsar
+
+18
+00:00:55,500 --> 00:00:59,640
+state-of-the-art clean rooms that are
+
+19
+00:00:57,210 --> 00:01:02,190
+100 times cleaner than a hospital
+
+20
+00:00:59,640 --> 00:01:05,390
+operating room to ensure silicon wafers
+
+21
+00:01:02,190 --> 00:01:08,280
+are protected from ambient contamination
+
+22
+00:01:05,390 --> 00:01:10,950
+among the many process areas in a fab
+
+23
+00:01:08,280 --> 00:01:13,259
+the photolithography area coats wafers
+
+24
+00:01:10,950 --> 00:01:15,630
+with a photo resistant material then
+
+25
+00:01:13,259 --> 00:01:17,939
+like film and a camera circuit patterns
+
+26
+00:01:15,630 --> 00:01:21,689
+are exposed and excess material is
+
+27
+00:01:17,939 --> 00:01:24,600
+rinsed away the paths in these circuits
+
+28
+00:01:21,689 --> 00:01:28,710
+are 5,000 times narrower than a human
+
+29
+00:01:24,600 --> 00:01:31,079
+hair wafers are moved between different
+
+30
+00:01:28,710 --> 00:01:33,780
+tools and processes using a robotic
+
+31
+00:01:31,079 --> 00:01:37,649
+automated material handling system or a
+
+32
+00:01:33,780 --> 00:01:40,799
+MHS each wafer may be moved through more
+
+33
+00:01:37,649 --> 00:01:44,780
+than a thousand processes it takes more
+
+34
+00:01:40,799 --> 00:01:44,780
+than one month to make a memory chip
+
+35
+00:01:48,220 --> 00:01:54,190
+in probe initial functionality tasks are
+
+36
+00:01:51,740 --> 00:01:57,410
+performed on each die on the wafer a
+
+37
+00:01:54,190 --> 00:01:59,930
+probe card positions probe needles onto
+
+38
+00:01:57,410 --> 00:02:02,720
+each die to send and receive test data
+
+39
+00:01:59,930 --> 00:02:05,660
+this information is used to generate a
+
+40
+00:02:02,720 --> 00:02:07,940
+map of all the die on each wafer only
+
+41
+00:02:05,660 --> 00:02:09,830
+good die that pass all tests in probe
+
+42
+00:02:07,940 --> 00:02:17,750
+will continue through the manufacturing
+
+43
+00:02:09,830 --> 00:02:20,930
+process in assembly wafers are first
+
+44
+00:02:17,750 --> 00:02:24,350
+thinned attached to an adhesive backing
+
+45
+00:02:20,930 --> 00:02:27,260
+and then diced into individual die using
+
+46
+00:02:24,350 --> 00:02:30,020
+a diamond two-edged saw using the wafer
+
+47
+00:02:27,260 --> 00:02:31,910
+map that was created in probe individual
+
+48
+00:02:30,020 --> 00:02:34,880
+die are picked from the wafer then
+
+49
+00:02:31,910 --> 00:02:37,220
+placed on a circuit board a solid-gold
+
+50
+00:02:34,880 --> 00:02:39,770
+Winer is used to connect each chip to
+
+51
+00:02:37,220 --> 00:02:41,900
+the circuit board a molding process
+
+52
+00:02:39,770 --> 00:02:45,970
+encapsulate s' each die in a protective
+
+53
+00:02:41,900 --> 00:02:45,970
+plastic package and shipped to test
+
+54
+00:02:47,360 --> 00:02:51,670
+[Music]
+
+55
+00:02:49,030 --> 00:02:54,490
+every memory chip micron manufacturers
+
+56
+00:02:51,670 --> 00:02:57,420
+undergoes hundreds of tests to ensure it
+
+57
+00:02:54,490 --> 00:03:00,220
+meets the highest quality standards
+
+58
+00:02:57,420 --> 00:03:02,170
+proprietary an VIX testers subject
+
+59
+00:03:00,220 --> 00:03:04,150
+finished parts to extreme temperatures
+
+60
+00:03:02,170 --> 00:03:06,820
+and conditions to force any weak
+
+61
+00:03:04,150 --> 00:03:09,459
+components to fail before they reach our
+
+62
+00:03:06,820 --> 00:03:11,530
+customers additional test equipment
+
+63
+00:03:09,459 --> 00:03:14,920
+verifies that each part meets or exceeds
+
+64
+00:03:11,530 --> 00:03:20,250
+its speed and performance specifications
+
+65
+00:03:14,920 --> 00:03:22,950
+[Music]
+
+66
+00:03:20,250 --> 00:03:24,960
+all qualified parts are laser marked
+
+67
+00:03:22,950 --> 00:03:28,050
+with partners and other identifying
+
+68
+00:03:24,960 --> 00:03:30,510
+information each memory chip is
+
+69
+00:03:28,050 --> 00:03:34,560
+optically scanned to verify strict fit
+
+70
+00:03:30,510 --> 00:03:36,090
+and form specifications components are
+
+71
+00:03:34,560 --> 00:03:38,520
+placed into industry standard
+
+72
+00:03:36,090 --> 00:03:46,110
+anti-static packaging and placed into
+
+73
+00:03:38,520 --> 00:03:48,330
+boxes for shipment many of microns
+
+74
+00:03:46,110 --> 00:03:50,930
+finished parts are used to build memory
+
+75
+00:03:48,330 --> 00:03:52,620
+modules and solid-state drives
+
+76
+00:03:50,930 --> 00:03:54,780
+automated surface mount assembly
+
+77
+00:03:52,620 --> 00:03:56,310
+equipment is used to mount memory and
+
+78
+00:03:54,780 --> 00:04:00,150
+other components to printed circuit
+
+79
+00:03:56,310 --> 00:04:03,030
+boards all products are tested using
+
+80
+00:04:00,150 --> 00:04:07,260
+proprietary micron memory module and SSD
+
+81
+00:04:03,030 --> 00:04:09,420
+test equipment finished products are
+
+82
+00:04:07,260 --> 00:04:12,850
+placed into anti-static packaging before
+
+83
+00:04:09,420 --> 00:04:19,370
+boxing for shipment to the customer
+
+84
+00:04:12,850 --> 00:04:19,370
+[Music]
+
