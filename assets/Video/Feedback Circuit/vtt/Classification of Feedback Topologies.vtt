@@ -1,0 +1,535 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:06.360 --> 00:00:13.160
+Hello guys here. We will learn the next step
+of the feedback amplifier videos that is nothing
+
+00:00:13.160 --> 00:00:19.119
+but feedback topologies and the feedback topologies
+We should know that how
+
+00:00:19.119 --> 00:00:22.450
+many feedback amplifiers we have. We have
+learned the voltage current transconductance
+
+00:00:22.450 --> 00:00:29.180
+transresistance amplifier and based on that.
+We will learn how many feedback topology is.
+
+00:00:29.180 --> 00:00:42.961
+We have and on which basis we will classify
+these feedback topologies. As far as this
+
+00:00:42.961 --> 00:00:49.329
+topologies  are concerned. This topologies
+are based on two factors how I am sampling
+
+00:00:49.329 --> 00:00:55.630
+that particular output voltage with which
+parameter and how am mixing that particular
+
+00:00:55.630 --> 00:01:01.930
+voltage or current with particular parameter
+with your input parameter, right? So depending
+
+00:01:01.930 --> 00:01:08.719
+on that I will classify these typologies.
+So before declassification, we should most
+
+00:01:08.719 --> 00:01:15.000
+we should know that what is Sampling and what
+is mixing? Okay, so we'll learn first. What
+
+00:01:15.000 --> 00:01:29.040
+is sampling and what is mixing? So sampling
+is nothing but let us understand the fact
+
+00:01:29.040 --> 00:01:38.810
+that here we will say. This is your forward
+block A okay, which is nothing but having
+
+00:01:38.810 --> 00:01:45.530
+gained A and here I am saying it's having
+two part one is ground and one with respect
+
+00:01:45.530 --> 00:01:52.461
+to particular voltage or current right and
+I can say that here it is your feedback. This
+
+00:01:52.461 --> 00:02:03.200
+is B okay what I'm saying that This particular
+node a is joint with this particular node
+
+00:02:03.200 --> 00:02:12.450
+B and this whatever rest node, which is attached
+to this right then. Can you imagine can you
+
+00:02:12.450 --> 00:02:17.360
+tell me that which part which parameter of
+the output voltage is sampled? Whether it
+
+00:02:17.360 --> 00:02:22.120
+is of current whether it is a voltage, right?
+We have only two parameters to sample right
+
+00:02:22.120 --> 00:02:29.400
+one is voltage and one is current now here
+we can easily say that. If this is A and this
+
+00:02:29.400 --> 00:02:37.650
+is B, right, what is the voltage between voltage
+at the output side for forward block right
+
+00:02:37.650 --> 00:02:45.180
+voltage at the output for the forward block
+is nothing but VA minus VB, right? So VA
+
+00:02:45.180 --> 00:02:51.570
+minus VB is nothing but the output voltage
+which is at the forward amplifier right now.
+
+00:02:51.570 --> 00:02:58.680
+I can say that whether current is given as
+the sampled or voltage is given as a
+
+00:02:58.680 --> 00:03:03.459
+sample parameter right current is flowing
+through this particular part, right which
+
+00:03:03.459 --> 00:03:08.450
+is given here right now current is also flowing
+through this particular part, which is given
+
+00:03:08.450 --> 00:03:13.400
+over here, right? But here I can say that
+the value of the current will be different
+
+00:03:13.400 --> 00:03:20.349
+because your load resistance is attached over
+here. This is your RL, right? I can say
+
+00:03:20.349 --> 00:03:25.900
+what if whatever voltage which is been given
+at the input side is also same as that of
+
+00:03:25.900 --> 00:03:32.940
+the output voltage of the forward block amplifier,
+right? I can say this is nothing but the voltage
+
+00:03:32.940 --> 00:03:42.840
+sampling. Okay, so I can say this is called
+as the sampling. This is basically the sampling
+
+00:03:42.840 --> 00:03:52.150
+Now we will learn what how I will get the
+voltage sampling and how I will get the current
+
+00:03:52.150 --> 00:04:12.010
+sampling. Okay. So sampling sampling is nothing,
+but the part of output feed to input of
+
+00:04:12.010 --> 00:04:24.240
+feedback circuit That is called as sampling
+so we have two sampling part one is voltage
+
+00:04:24.240 --> 00:04:36.129
+sampling. And another is current sampling.
+Okay, so we will learn quickly. How will get
+
+00:04:36.129 --> 00:04:40.449
+the voltage sampling and how will get the
+current sampling? Okay.So first of all, I
+
+00:04:40.449 --> 00:04:50.009
+will draw this circuit where I will get the
+voltage sampling. This is A this is B part,
+
+00:04:50.009 --> 00:04:58.449
+which is nothing but the feedback this is
+forward block and I can say this complete.
+
+00:04:58.449 --> 00:05:07.689
+Voltage at the output side is nothing but
+the input side of your feedback block.Okay
+
+00:05:07.689 --> 00:05:15.440
+here I can say that this is nothing but your
+output voltage Vo and this is also the output
+
+00:05:15.440 --> 00:05:22.819
+voltage Vo so I can say that voltage is fed
+back to your feedback circuit, and that's
+
+00:05:22.819 --> 00:05:34.249
+why it is called as voltage sampling. So the
+sampling part is voltage sampling now, how
+
+00:05:34.249 --> 00:05:39.619
+will I get the different part which is nothing
+but your current sampling how the circuit
+
+00:05:39.619 --> 00:05:51.879
+will change at the output side. So we'll say
+that. Let's draw the circuit again. Now I
+
+00:05:51.879 --> 00:05:59.000
+can say that whatever current which is been
+given right that is forwarded to your output
+
+00:05:59.000 --> 00:06:06.999
+part. Right so I can say that this is how
+the series combination will give you the current
+
+00:06:06.999 --> 00:06:12.830
+sampling. So here I can say this is nothing
+but the current Io and that is nothing but
+
+00:06:12.830 --> 00:06:22.389
+the current Io. So obviously naming part
+is as usual A and B. forward and feedback block
+
+00:06:22.389 --> 00:06:30.310
+and I can say that this is achieved as current
+sampling. Well giving all the number current
+
+00:06:30.310 --> 00:06:35.159
+for each and every feedback topologies This
+part is very very important whenever I am
+
+00:06:35.159 --> 00:06:43.710
+using this shunting Network. So we'll say
+that shunt circuit. Okay, this is shunt circuit
+
+00:06:43.710 --> 00:06:48.939
+and this is the nothing but the series if
+you can see here from the output side
+
+00:06:48.939 --> 00:06:53.529
+of the forward block and input side of the
+feedback block is connected in series so I
+
+00:06:53.529 --> 00:07:01.999
+can say this is nothing but the series circuit.
+Okay. So keep this words in your mind while
+
+00:07:01.999 --> 00:07:07.979
+defining particular topologies name. So as
+far as sampling is concerned sampling is done
+
+00:07:07.979 --> 00:07:14.729
+at the output side of the negative feedback
+amplifier.Now we will learn what is the another
+
+00:07:14.729 --> 00:07:25.189
+part that is called as mixing Okay, so We
+will say that what is mixing mixing is nothing
+
+00:07:25.189 --> 00:07:50.110
+but the addition. or subtraction of feedback
+signal with source signal is called as mixing.
+
+00:07:50.110 --> 00:07:58.699
+Okay, that is also been different thing. You
+say that this is a mixer. Okay, and here I
+
+00:07:58.699 --> 00:08:09.360
+can say that. Things are added. This is your
+A and this is B okay. This can be your
+
+00:08:09.360 --> 00:08:15.300
+current. This can be your voltage. Okay, I
+have to identify that when it will be current
+
+00:08:15.300 --> 00:08:20.090
+sample. Even it will be current to be mixing
+when it will be voltage mixing. Okay, so we
+
+00:08:20.090 --> 00:08:26.520
+will see how it will be having the current
+mixing and how it will be having the voltage
+
+00:08:26.520 --> 00:08:32.390
+mixing. Usually it is called as series mixing
+or shunt mixing but all together we are adding
+
+00:08:32.390 --> 00:08:37.529
+some parameter and depending on the addition
+of that particular parameter. We will say
+
+00:08:37.529 --> 00:08:45.910
+that it is a series mixing or shunt mixing.
+So here we will generalized in the form of
+
+00:08:45.910 --> 00:08:51.029
+mixing. So keep this in mind that mixing is
+been done in the negative feedback at the
+
+00:08:51.029 --> 00:08:59.810
+input side of the negative
+feedback amplifier. So we will learn how we
+
+00:08:59.810 --> 00:09:05.209
+will be getting the voltage mixing was  similarly with
+current mixing we will learn that later
+
+00:09:05.209 --> 00:09:14.550
+on. So how will I add the voltages? So if
+this is the complete Source voltage okay with
+
+00:09:14.550 --> 00:09:23.170
+respect to ground and I'm saying this is your
+input voltage. This is your input voltage.
+
+00:09:23.170 --> 00:09:38.959
+This is your Source voltage and this is your
+Feedback voltage. So this is input voltage.
+
+00:09:38.959 --> 00:09:45.649
+This is your feedback voltage and this is
+your Source voltage. Can I identify that?
+
+00:09:45.649 --> 00:09:51.360
+What is the relation between VI , VF and Vs.
+Yes easily. I can say that Vs is nothing
+
+00:09:51.360 --> 00:09:59.100
+but the addition of VI and VF okay, I can
+say that this is Possible only if voltage
+
+00:09:59.100 --> 00:10:04.490
+addition Is Possible only if the two circuits
+are in series right? So if They're in series
+
+00:10:04.490 --> 00:10:09.180
+connection then and only then it is possible
+to have the addition of the two voltage becomes
+
+00:10:09.180 --> 00:10:15.670
+your value of Vs is equal to VI plus VF.
+Okay, so that's why we can name this mixing
+
+00:10:15.670 --> 00:10:25.290
+part as your series mixing. So we have done
+with the mixing voltage mixing part and it
+
+00:10:25.290 --> 00:10:31.490
+is also called as series mixing. Okay, so
+we will learn the another part as current
+
+00:10:31.490 --> 00:10:42.240
+mixing how current will get mixed at the input
+side. Okay, so we'll draw the particular diagram
+
+00:10:42.240 --> 00:10:54.709
+for that. Now here I can say that. This is
+the current I-s right. And at this node, this
+
+00:10:54.709 --> 00:11:02.070
+current is getting divided into two parts
+one is current I-i and one is current I-f Okay,
+
+00:11:02.070 --> 00:11:08.240
+we'll decide that direction later on but keep
+this in mind that at this particular load
+
+00:11:08.240 --> 00:11:15.209
+I-s is getting divided into two part I-i and
+I-f right by using KCl and this is Possible
+
+00:11:15.209 --> 00:11:20.949
+only if I Can use the shunt configuration.
+So that's why this current mixing is also
+
+00:11:20.949 --> 00:11:32.329
+called as shunt mixing. So whenever I am using
+this current of your feedback voltage of feedback
+
+00:11:32.329 --> 00:11:38.550
+output signal current is in the form of current
+and that current is getting added with your
+
+00:11:38.550 --> 00:11:46.010
+Source current. Then I can say that it forms
+your shunt mixing, right? So as far as the mixing
+
+00:11:46.010 --> 00:11:53.290
+and sampling part is considered we have learned
+for configuration one is current sampling
+
+00:11:53.290 --> 00:11:59.740
+voltage. Current mixing and voltage mixing
+as far as voltage sampling is concerned. It
+
+00:11:59.740 --> 00:12:05.410
+is also called as shunt circuit as far as
+current sampling is also called as it is also
+
+00:12:05.410 --> 00:12:10.759
+called as a series sampling,but when I'm dealing
+with the mixing part, it is been done at the
+
+00:12:10.759 --> 00:12:15.269
+input side of the negative feedback amplifier.
+So voltage mixing is also called as a series
+
+00:12:15.269 --> 00:12:21.060
+mixing and your current mixing is also called
+as a shunt mixing so there will be two names
+
+00:12:21.060 --> 00:12:26.010
+whether it is of the sampling mixing type
+or mixing sampling types. So we learn
+
+00:12:26.010 --> 00:12:32.230
+that topologies now now here we will go for
+the particular types of topologies. So let's
+
+00:12:32.230 --> 00:12:50.470
+discuss the particular types of topologies.
+First topology, we will learn what will happen
+
+00:12:50.470 --> 00:12:58.839
+if I'm using the circuit which will give you
+voltage sampling and series mixing. Okay,
+
+00:12:58.839 --> 00:13:13.579
+so that is called as voltage series. negative
+feedback amplifier It's a long name voltage
+
+00:13:13.579 --> 00:13:20.899
+series negative feedback amplifier. So it
+is also have some different name. I'm saying
+
+00:13:20.899 --> 00:13:28.120
+that this all naming is been done by using
+sampling mixing type that means at the output
+
+00:13:28.120 --> 00:13:38.670
+side to input side. So I'm saying that this
+is using sampling mixing type I will use
+
+00:13:38.670 --> 00:13:45.149
+all the names by using sampling and mixing
+type. Okay now tell me how will I use another
+
+00:13:45.149 --> 00:13:54.120
+name if I'm using current sampling and series
+mixing. Okay, so that will be your current.
+
+00:13:54.120 --> 00:14:05.600
+Series negative feedback amplifier.I'm using
+the same notation sampling and mixing. So
+
+00:14:05.600 --> 00:14:10.709
+the name itself will tell you that what is
+the sampling sampling parameter is current
+
+00:14:10.709 --> 00:14:20.470
+and how the parameter is added. It is in series
+combination, right? So third one will be voltage
+
+00:14:20.470 --> 00:14:27.100
+shunt parameter where you are sampling parameter
+is voltage and the mixing is been done by
+
+00:14:27.100 --> 00:14:41.300
+using shunt circuits so voltage shunt negative
+feedback amplifier Okay, now forth you can
+
+00:14:41.300 --> 00:14:58.230
+also note that it's nothing but current shunt.
+Simple now we'll have to learn how I can name
+
+00:14:58.230 --> 00:15:04.910
+this with different name cleaning configuration.
+So we will say that this is done by sampling
+
+00:15:04.910 --> 00:15:13.720
+and mixing right we will learn different notation
+by using mixing and sampling mixing and sampling.
+
+00:15:13.720 --> 00:15:19.949
+Okay keep this in mind that here we don't
+have to use the parameter as voltage and current
+
+00:15:19.949 --> 00:15:26.329
+we just use this circuit configuration right
+as series or Shunt right. So whenever I'm
+
+00:15:26.329 --> 00:15:33.480
+using mixing and sampling then I have to say
+that mixing is if it is mixing it is done
+
+00:15:33.480 --> 00:15:40.540
+by voltage parameter then obviously that voltage
+mixing is a series combination, right? So
+
+00:15:40.540 --> 00:15:48.290
+voltage mixing is series combination ticket.
+So that's why this will be your series will
+
+00:15:48.290 --> 00:15:54.389
+come first here.It is sampling and mixing
+right if I'm using mixing sampling for the
+
+00:15:54.389 --> 00:16:04.019
+naming then I will use the series. Okay, sampling
+is of the type voltage and voltage sampling
+
+00:16:04.019 --> 00:16:11.329
+is nothing but with the circuit as shunt configuration,
+so this is nothing but the configuration as
+
+00:16:11.329 --> 00:16:17.600
+series shunt configuration. So my another
+name is nothing but series shunt configuration,
+
+00:16:17.600 --> 00:16:25.740
+right? So likewise. I can also form a different
+name based on mixing sampling part for further
+
+00:16:25.740 --> 00:16:34.050
+topologies, right? So for this particular
+topologies I can say it is nothing but a series
+
+00:16:34.050 --> 00:16:43.759
+series Negative feedback amplifier.Okay similarly
+over here. I will write this as shunt series
+
+00:16:43.759 --> 00:16:53.629
+negative feedback amplifier, right? So as
+far as this voltage this is shunt mixing and
+
+00:16:53.629 --> 00:17:02.290
+as far as sampling is done. Mixing is
+of the type of shunt and series is it in
+
+00:17:02.290 --> 00:17:08.530
+the form of voltage with a sampling Okay
+here for voltage sampling you're using shunt
+
+00:17:08.530 --> 00:17:12.679
+circuit.That's why your shunt name will come
+into picture for this particular configuration.
+
+00:17:12.679 --> 00:17:20.939
+And here we will write it as shunt series
+because sampling is done with the current
+
+00:17:20.939 --> 00:17:26.780
+with series circuit. So now another name is  current for this voltage is negative feedback
+
+00:17:26.780 --> 00:17:30.580
+current series negative feedback voltage series
+negative feedback current series negative
+
+00:17:30.580 --> 00:17:37.220
+feedback as different form with mixing and
+sampling configuration. Now here we will have
+
+00:17:37.220 --> 00:17:44.190
+to learn the separately the analysis of all
+the topologies voltage series current series
+
+00:17:44.190 --> 00:17:49.419
+current shunt voltage shunt and all the topologies

@@ -1,0 +1,890 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.089 --> 00:00:06.210
+click the Bell icon to get latest videos
+from akira hello friends
+
+00:00:06.210 --> 00:00:13.259
+now here in the chapter number 5 we are
+on the step of the numericals of
+
+00:00:13.259 --> 00:00:18.630
+negative feedback circuits so before
+that we'll have to learn the steps to
+
+00:00:18.630 --> 00:00:23.730
+follow the numericals
+based on feedback amplifiers so we will
+
+00:00:23.730 --> 00:00:28.289
+follow these steps once we follow these
+steps with feedback without feedback to
+
+00:00:28.289 --> 00:00:32.790
+find out input resistance output
+resistance all the stuff related with
+
+00:00:32.790 --> 00:00:36.540
+their amplifiers and some tricky
+problems we'll be discussing in the next
+
+00:00:36.540 --> 00:00:41.250
+videos so for that we require these
+important steps so let's start with the
+
+00:00:41.250 --> 00:00:56.520
+steps to follow for the numericals of
+negative feedback amplifier let's start
+
+00:00:56.520 --> 00:01:02.899
+with the step number one so first of all
+step number one is nothing but the
+
+00:01:02.899 --> 00:01:08.299
+identification of the feedback topology
+
+00:01:10.670 --> 00:01:16.640
+so in the circuit circuit can be like
+anything for example if your voltage
+
+00:01:16.640 --> 00:01:22.250
+divider by a C amplifier is given so how
+you can identify that whether it is a
+
+00:01:22.250 --> 00:01:26.300
+first of all whether it is with feedback
+or without feedback and then we will
+
+00:01:26.300 --> 00:01:31.070
+have to understand that if it is with
+feedback then what kind of topology that
+
+00:01:31.070 --> 00:01:35.780
+we have to use right then and only then
+we can get that whether the input
+
+00:01:35.780 --> 00:01:39.860
+impedance is increasing or decreasing
+output impedance is decreasing or
+
+00:01:39.860 --> 00:01:44.240
+increasing so based on the sampling and
+mixing part we'll get to know that this
+
+00:01:44.240 --> 00:01:49.250
+is which feedback topology right so
+feedback topology we will have to
+
+00:01:49.250 --> 00:01:56.479
+understand by just knowing the fact that
+the at the output side whether voltage is
+
+00:01:56.479 --> 00:02:01.820
+sampled or current is sample that means
+whether it is shunt circuit or a
+
+00:02:01.820 --> 00:02:06.259
+series circuit if it is shunt  circuit
+then I can say that it's nothing but the
+
+00:02:06.259 --> 00:02:10.070
+voltage sampling if it is a series
+circuit then I can say that it is
+
+00:02:10.070 --> 00:02:16.940
+nothing but your current circuit so very
+simple trick that I'll give you later on
+
+00:02:16.940 --> 00:02:22.180
+but right now we will learn particular
+circuit related to this feedback
+
+00:02:22.180 --> 00:02:30.530
+amplifiers so if at output
+shunt circuit
+
+00:02:30.530 --> 00:02:36.650
+then I can say that it's nothing but
+voltage sampling
+
+00:02:36.650 --> 00:02:42.980
+I'm specifying focusing more on sampling
+and mixing part this is because once you
+
+00:02:42.980 --> 00:02:47.269
+get which sampling and which mixing we can
+easily relate that particular topology
+
+00:02:47.269 --> 00:02:53.000
+with sampling and mixing part so here I
+will say if at the output shunt circuit
+
+00:02:53.000 --> 00:03:00.140
+then it is a voltage sampling if it is a
+series circuit then I can say that it's
+
+00:03:00.140 --> 00:03:06.300
+nothing but your current
+sampling okay
+
+00:03:06.300 --> 00:03:14.500
+now simply at the output if at input
+similarly I will write if it is shunt
+
+00:03:14.500 --> 00:03:23.990
+circuit then it's a shunt mixing right
+if it is series circuit
+
+00:03:23.990 --> 00:03:28.780
+then it is a
+series mixing
+
+00:03:28.780 --> 00:03:34.540
+okay I will tell you after this
+particular video what are the other  numerical info
+
+00:03:34.540 --> 00:03:38.560
+current for this voltage series voltage
+and current series and currents shunt
+
+00:03:38.560 --> 00:03:45.130
+as well okay so once you identify this
+feedback topology we will have to move
+
+00:03:45.130 --> 00:03:51.400
+further to solve the numerical for
+required findings okay one trick that
+
+00:03:51.400 --> 00:03:56.130
+you have to understand very carefully
+
+00:03:58.250 --> 00:04:06.599
+take to identify a topology
+understand see if
+
+00:04:06.599 --> 00:04:11.150
+sampling
+is
+
+00:04:11.150 --> 00:04:18.579
+done
+at output terminal that means if I'm
+
+00:04:18.579 --> 00:04:25.360
+saying a complete voltage divider bias
+C amplifier is there and from the
+
+00:04:25.360 --> 00:04:32.169
+output node I have one resistance which
+is connected at the input side right so
+
+00:04:32.169 --> 00:04:39.220
+I can say that that will be your voltage
+sampling okay so I can say that it's
+
+00:04:39.220 --> 00:04:44.530
+nothing but your voltage sampling if
+sampling is done at  directly at the
+
+00:04:44.530 --> 00:04:50.320
+output terminal so hey
+so whatever sampling I will be getting
+
+00:04:50.320 --> 00:05:00.340
+that is nothing but voltage sampling
+right so we'll take an example we'll say
+
+00:05:00.340 --> 00:05:08.949
+this is particular circuit okay
+hey if I have taken this sample from
+
+00:05:08.949 --> 00:05:15.669
+here right this is RF feedback and here
+only my output is there right so I can
+
+00:05:15.669 --> 00:05:19.889
+say that this is nothing but the type of
+feedback
+
+00:05:19.889 --> 00:05:27.030
+we're sampling is
+is voltage sampling
+
+00:05:27.030 --> 00:05:31.410
+so if it is voltage sampling this is
+very very simple now to understand the
+
+00:05:31.410 --> 00:05:38.250
+feedback topology right now in another
+case I can say that if I have
+
+00:05:38.250 --> 00:05:45.110
+this is the voltage and if I'm taking
+the feedback from this particular
+
+00:05:45.110 --> 00:05:53.280
+resistance RF okay so I can say that
+this is nothing but sampling is current
+
+00:05:53.280 --> 00:05:58.050
+sampling it's not a voltage so obviously
+it will be current sampling sampling is
+
+00:05:58.050 --> 00:06:04.710
+of current sampling right so this is the
+first method that we have to understand
+
+00:06:04.710 --> 00:06:12.110
+for the trick okay as a trick and the
+second one is about mixing right if
+
+00:06:12.110 --> 00:06:24.560
+feedback is directly connected to Base
+or gate terminal right this is only
+
+00:06:24.560 --> 00:06:29.449
+related with the this trick is only
+related with the FET and BJT amplifiers
+
+00:06:29.449 --> 00:06:34.610
+so if I'm using the open then that will
+not be done for this particular trick
+
+00:06:34.610 --> 00:06:43.270
+okay so this is for FET and BJT
+amplifiers okay
+
+00:06:43.270 --> 00:06:46.930
+in your syllabus only BJT and FET
+amplifiers will be there for negative
+
+00:06:46.930 --> 00:06:50.680
+feedback so if feedback is directly
+connected to the base or gate terminal
+
+00:06:50.680 --> 00:06:59.470
+then I can say that it will be a shunt
+mixing okay otherwise it will be these
+
+00:06:59.470 --> 00:07:04.150
+series mixing we will take few examples
+later on further after this particular
+
+00:07:04.150 --> 00:07:10.120
+video we will learn the complete
+analysis related to each and every
+
+00:07:10.120 --> 00:07:14.560
+topologies okay so if feedback is
+directly connected to the base and gate
+
+00:07:14.560 --> 00:07:19.090
+terminal FET BJT for FET BJT amplifier
+it will be shunt  mixing
+
+00:07:19.090 --> 00:07:27.990
+otherwise it will be series mixing okay
+now we will again take few examples
+
+00:07:27.990 --> 00:07:33.670
+where we'll get to know that
+suppose here I have taken this sample no
+
+00:07:33.670 --> 00:07:39.669
+matter what sampling is I want to take
+the mixing part and
+
+00:07:39.669 --> 00:07:48.290
+this is the input and I have connected
+this complete feedback RF feedback
+
+00:07:48.290 --> 00:07:56.780
+circuit directly to base so this will be
+your shunt mixing ok so this I will name
+
+00:07:56.780 --> 00:08:03.970
+it as shunt mixing okay in another sense
+I can say if
+
+00:08:05.309 --> 00:08:11.339
+this is your RF okay let's
+say this is your output voltage okay
+
+00:08:11.339 --> 00:08:16.530
+so output voltage is there so this is
+your
+
+00:08:16.530 --> 00:08:21.720
+feedback circuit RF resistance and this
+feedback is not directly connected to
+
+00:08:21.720 --> 00:08:27.090
+the base or gate rather it is connected
+with Vs rather I can also say that
+
+00:08:27.090 --> 00:08:34.289
+mathematically Vs is now equal to this
+Vi + this VF okay so it's nothing but
+
+00:08:34.289 --> 00:08:42.570
+you are series mixing so we have got
+some tricks for that particular
+
+00:08:42.570 --> 00:08:47.670
+amplifiers to identify what is the
+feedback topology that is nothing but
+
+00:08:47.670 --> 00:08:52.680
+your step number one so let's move
+towards the step number two that is
+
+00:08:52.680 --> 00:08:59.690
+nothing but to draw the circuit without
+feedback circuit without feedback
+
+00:08:59.880 --> 00:09:03.690
+Draw circuit without feedback we must
+to know which particular feedback
+
+00:09:03.690 --> 00:09:10.500
+topology I am using okay so for this we
+have to draw we have to do some short
+
+00:09:10.500 --> 00:09:14.880
+circuit we have to do some open circuit
+so keep this in mind that I will draw
+
+00:09:14.880 --> 00:09:22.410
+the general diagram again I don't want
+the circuit with feedback okay I want
+
+00:09:22.410 --> 00:09:27.350
+it without feedback okay
+so what should I do
+
+00:09:29.650 --> 00:09:36.670
+if the circuit is there itself but in fact
+should not be avoided then I can say
+
+00:09:36.670 --> 00:09:44.730
+that I will convert this into your
+without feedback circuit and then we
+
+00:09:44.730 --> 00:09:49.050
+will analyze what is nothing but your
+the value of Ri what is nothing but the
+
+00:09:49.050 --> 00:09:54.570
+value of A what is nothing but the value
+of Ro and then later on we will divide it
+
+00:09:54.570 --> 00:09:59.670
+by your the sensitivity factor that is 1
+plus AB very simple now let's see
+
+00:09:59.670 --> 00:10:07.829
+this is the B okay let's take an example
+of voltage series negative feedback in
+
+00:10:07.829 --> 00:10:12.829
+voltage series for voltage series i am saying
+
+00:10:13.580 --> 00:10:20.440
+for voltage series output  what will
+be your circuit circuit is shunted an
+
+00:10:20.440 --> 00:10:28.100
+input  your circuit is series so
+this is shunt series right so if I am
+
+00:10:28.100 --> 00:10:35.860
+saying I don't want this feedback right
+I have to convert to my this particular
+
+00:10:35.860 --> 00:10:41.269
+remaining amplifier circuit at the input
+side as well as output side so to have
+
+00:10:41.269 --> 00:10:45.470
+the input side of the amplifier without
+feedback then what we'll have to do will
+
+00:10:45.470 --> 00:10:50.990
+have to short this shunt connection that
+means we have to short the output
+
+00:10:50.990 --> 00:11:01.880
+voltage so its result is short output
+voltage this is only for the case of
+
+00:11:01.880 --> 00:11:09.649
+voltage sampling now to have the output
+side right to have the output side what
+
+00:11:09.649 --> 00:11:16.730
+I will do I don't want this feedback at
+the input side right so I want to
+
+00:11:16.730 --> 00:11:21.290
+eliminate that if it is series
+connection then I can say that if I open
+
+00:11:21.290 --> 00:11:26.660
+that particular circuit between your
+series direction of feedback and your
+
+00:11:26.660 --> 00:11:32.779
+mixer then I can say that it will be
+very sufficient to have this circuit
+
+00:11:32.779 --> 00:11:41.280
+without feedback if I open it right so I
+will do the open circuit
+
+00:11:41.280 --> 00:11:48.320
+at input right this is only example if I
+am saying
+
+00:11:49.080 --> 00:11:57.930
+voltage series right so open it I will
+say let's short it connected to the
+
+00:11:57.930 --> 00:12:04.860
+O/P  okay so if I short it then I will
+get at the input side okay so output
+
+00:12:04.860 --> 00:12:11.040
+change current change the input negative current
+input change current output
+
+00:12:11.040 --> 00:12:16.740
+for all topology we
+
+00:12:16.740 --> 00:12:22.320
+will write that complete thing in your
+topic tabulated form right this complete
+
+00:12:22.320 --> 00:12:28.320
+thing we will write in a tabulated form
+such as let's say that feedback topology
+
+00:12:28.320 --> 00:12:34.980
+number one number two number three and
+number four right I will write in short
+
+00:12:34.980 --> 00:12:45.690
+that is voltage series voltage shunt for SH
+right current series and current shunt
+
+00:12:45.690 --> 00:12:53.340
+okay first of all you like that which is
+sampling and which is mixing okay so
+
+00:12:53.340 --> 00:12:58.740
+this is what it sampling
+this is also voltage sampling
+
+00:12:58.740 --> 00:13:05.120
+this is current sampling
+and this is current sampling moreover
+
+00:13:05.120 --> 00:13:09.460
+i will write if it is voltage sampling
+that I have to write it as shunt
+
+00:13:09.460 --> 00:13:14.930
+connection
+this is shunt connection this is series
+
+00:13:14.930 --> 00:13:22.610
+connection and this is series connection
+okay simple now what we'll have to learn
+
+00:13:22.610 --> 00:13:27.740
+that what change I have to make at the
+input side and what change I have to
+
+00:13:27.740 --> 00:13:36.589
+make it at the output side so we will
+write this as for input for input side
+
+00:13:36.589 --> 00:13:42.830
+we have to change the output side right
+so output we will do whenever it is
+
+00:13:42.830 --> 00:13:53.550
+shunt I will say that output voltage
+short-circuited right here also output
+
+00:13:53.550 --> 00:14:04.530
+is short-circuited here is a open
+circuit at output because it is in
+
+00:14:04.530 --> 00:14:10.770
+series if I don't want the feedback then
+we can say that if I open one of these
+
+00:14:10.770 --> 00:14:15.360
+series connection if I open that
+circuit then I will disconnect the
+
+00:14:15.360 --> 00:14:21.090
+feedback circuit related to your
+amplifier circuit without feedback so
+
+00:14:21.090 --> 00:14:31.050
+here also I will say it is open circuit
+and output right similarly what we will do
+
+00:14:31.050 --> 00:14:36.300
+at these output side as this is the
+series connection I will write this
+
+00:14:36.300 --> 00:14:42.840
+first as series connection this is the
+shunt connection this is the series
+
+00:14:42.840 --> 00:14:51.210
+connection and this is a shunt
+connection then I can say that
+
+00:14:51.210 --> 00:14:54.420
+this is voltage series this is voltage
+shunt
+
+00:14:54.420 --> 00:15:00.810
+this is current series and this is current shunt
+okay very nice so wherever you look as
+
+00:15:00.810 --> 00:15:09.420
+series we have to open it right so what
+change I have to make this is changed
+
+00:15:09.420 --> 00:15:15.990
+for output side of these without
+feedback circuit this is nothing but if
+
+00:15:15.990 --> 00:15:21.690
+it is series I will say that output you
+don't have to change the output rather we are
+
+00:15:21.690 --> 00:15:25.740
+then we have to change the input side so
+open circuit
+
+00:15:25.740 --> 00:15:34.010
+at input right similarly for the shunt
+we have to short circuit at the short
+
+00:15:34.010 --> 00:15:43.940
+circuit at input similarly as it is a
+series I mean write it as open circuit at
+
+00:15:43.940 --> 00:15:53.400
+input and here it will be short circuit
+at input right we will take a few example
+
+00:15:53.400 --> 00:16:00.250
+a very simple example that we will be
+taking as example
+
+00:16:00.250 --> 00:16:03.420
+this is the circuit
+
+00:16:05.279 --> 00:16:09.560
+this is the input signal that I am
+getting
+
+00:16:09.699 --> 00:16:18.380
+we will take
+okay simple and now we will say that
+
+00:16:18.380 --> 00:16:27.310
+here it is your feedback
+okay this is your RF this is an Re1 this
+
+00:16:27.310 --> 00:16:34.269
+is our Re2- this is our Rc2 and this is
+our Rc1 right no matter what is your DC
+
+00:16:34.269 --> 00:16:38.829
+voltage here we are considering you are doing
+AC analysis right
+
+00:16:38.829 --> 00:16:43.569
+so with this is feedback circuit
+this is given circuit right this is
+
+00:16:43.569 --> 00:16:49.510
+given circuit with feedback
+now we have to draw without feedback
+
+00:16:49.510 --> 00:16:58.300
+right so we will draw without feedback
+circuit without feedback
+
+00:16:58.300 --> 00:17:04.540
+is okay without Feedback what will they do
+first of all we have to identify the
+
+00:17:04.540 --> 00:17:11.020
+topology as this is your output voltage
+that is being given and this is your
+
+00:17:11.020 --> 00:17:16.929
+input voltage I am saying that output
+feedback is taken from the output node
+
+00:17:16.929 --> 00:17:23.309
+right so it is nothing but your voltage
+sampling right here I can say that as
+
+00:17:23.309 --> 00:17:31.710
+feedback taken from
+output node
+
+00:17:31.710 --> 00:17:37.240
+right it is nothing but your voltage
+sampling
+
+00:17:37.240 --> 00:17:43.840
+simple and now your feedback is taken at
+directly at the base so I can say that
+
+00:17:43.840 --> 00:17:49.070
+here it is your
+shunned mixing
+
+00:17:49.070 --> 00:17:53.150
+okay this is shunt mixing, voltage sampling
+so your feedback topology is
+
+00:17:53.150 --> 00:18:00.910
+voltage shunt with negative feedback so
+this topology is voltage shunt
+
+00:18:01.650 --> 00:18:07.620
+okay now we will you say that for
+voltage shunt what we'll have to do for
+
+00:18:07.620 --> 00:18:12.690
+the input side and output side so for
+voltage shunt if you want to develop
+
+00:18:12.690 --> 00:18:17.640
+this particular input side then what
+we'll have to do we'll have to open the
+
+00:18:17.640 --> 00:18:24.900
+we'll have to do the output as short
+circuit right so as this is the voltage
+
+00:18:24.900 --> 00:18:31.260
+and you say that your output should get
+short-circuited if i short circuit this
+
+00:18:31.260 --> 00:18:36.990
+output this  Rf at the input side will
+be down there right so I can say that
+
+00:18:36.990 --> 00:18:45.130
+at the input side  what we will do this is
+your Vs right
+
+00:18:45.130 --> 00:18:53.850
+yeah
+and I can say this is your Rfo
+
+00:18:53.850 --> 00:19:00.560
+hey this will be your Rf and I can say
+that now this is nothing but the change
+
+00:19:00.560 --> 00:19:05.970
+at the input side so change that input
+okay
+
+00:19:05.970 --> 00:19:10.380
+the rest all the things we have to get
+as it is as far as this particular input
+
+00:19:10.380 --> 00:19:15.300
+side is considered now we will not
+change the rest part we will keep this
+
+00:19:15.300 --> 00:19:23.610
+part as it is this will be our Re only
+this is your Rc1 and this is attached to
+
+00:19:23.610 --> 00:19:27.920
+your
+further I want to develop your output
+
+00:19:27.920 --> 00:19:33.050
+back so that's why I have kept it as it
+is. So do the important Rc1 and
+
+00:19:33.050 --> 00:19:37.330
+this Re1 okay
+now what we'll have to do it is the
+
+00:19:37.330 --> 00:19:42.620
+voltage shunt the negative feedback so
+what we'll have to do we all have to do
+
+00:19:42.620 --> 00:19:48.789
+the same thing that is nothing but
+fixed a voltage shunt  negative
+
+00:19:48.789 --> 00:19:53.590
+feedback so we can say that short
+circuit at the input side as well so
+
+00:19:53.590 --> 00:19:58.269
+what we can do we will do the short
+circuit at the input side will consider
+
+00:19:58.269 --> 00:20:03.909
+this Vs is equal to zero so if we keep
+this Vs is equal to zero then I can say
+
+00:20:03.909 --> 00:20:11.499
+that this Rf will be grounded right so
+if this Rf is grounded so I can say this
+
+00:20:11.499 --> 00:20:16.259
+will be in parallel with your Rc2
+
+00:20:16.259 --> 00:20:23.759
+as well as AC analysis is considered
+okay so this is also and this is also Rf
+
+00:20:23.759 --> 00:20:29.369
+both  Rf we have to keep in our
+circuit right so I can say that this is
+
+00:20:29.369 --> 00:20:37.830
+nothing but your change at the output so
+far whatever we have got it is nothing
+
+00:20:37.830 --> 00:20:46.889
+but the feedback resistance Rf is placed
+at the input side as well as output side
+
+00:20:46.889 --> 00:20:53.159
+nearly same as that of your Millers
+capacitor is Miller's effect okay but we
+
+00:20:53.159 --> 00:20:57.509
+are not jumping into this Miller effect
+but you have to concentrate that
+
+00:20:57.509 --> 00:21:03.629
+particular theory for developing here
+the input side and output side for
+
+00:21:03.629 --> 00:21:07.320
+without feedbacks of it once we get this
+without feedback circuits will move
+
+00:21:07.320 --> 00:21:17.440
+again for this step number three
+fine B find A and find Ri and find
+
+00:21:17.440 --> 00:21:22.510
+Ro that is nothing but the required
+parameter right once we get these this
+
+00:21:22.510 --> 00:21:27.730
+is nothing but gain without feedback
+this A gain without feedback he is a
+
+00:21:27.730 --> 00:21:32.410
+feedback factor that will be different for
+different topology you have to keep this
+
+00:21:32.410 --> 00:21:39.040
+in mind Ri and Ro once you get that
+Ri and Ro we will have to calculate
+
+00:21:39.040 --> 00:21:46.660
+the value of Rif and  Rof and AF as well
+so I will write this here all this and
+
+00:21:46.660 --> 00:21:54.220
+always Af equal to A divided by 1 plus AB right
+so calculate B calculate A once you
+
+00:21:54.220 --> 00:21:58.360
+calculate both these values we will
+easily get the value of Af right then
+
+00:21:58.360 --> 00:22:07.360
+what we will have to calculate Ri
+will be related with Ri multiplied by
+
+00:22:07.360 --> 00:22:14.890
+1 plus AB or  Ri divided by this is
+Rif it's a feedback with feedback
+
+00:22:14.890 --> 00:22:26.290
+1 plus so this is depends on depending
+on type of topology the same case for Ro
+
+00:22:26.290 --> 00:22:31.060
+will not repeat it again Rof will have
+to again calculate with the same way
+
+00:22:31.060 --> 00:22:38.200
+right so in short once you get the value
+of AB Ri and Ro we can easily
+
+00:22:38.200 --> 00:22:43.870
+calculate all the values of the
+parameter required for the negative
+
+00:22:43.870 --> 00:22:48.130
+feedback amplifier obviously with
+feedbacks so we will summarize this
+
+00:22:48.130 --> 00:22:52.930
+complete video with three steps to solve
+the numerical space from the negative
+
+00:22:52.930 --> 00:22:57.070
+feedback amplifier first step is to
+identify the negative feedback topology
+
+00:22:57.070 --> 00:23:03.100
+based on the sampling and based on
+mixing right next step is to draw the
+
+00:23:03.100 --> 00:23:07.870
+complete circuit without feedback to
+develop input side what change we have
+
+00:23:07.870 --> 00:23:11.740
+to make at the output side to develop at
+the output side what change you have to
+
+00:23:11.740 --> 00:23:16.150
+make at the input side so depending on
+that we can develop the circuit without
+
+00:23:16.150 --> 00:23:20.860
+feedback and the third step is to
+calculate all the mathematical
+
+00:23:20.860 --> 00:23:27.240
+calculation is B,A,Ri Ro and etc depending on
+
+00:23:27.240 --> 00:23:31.680
+the application depending on the
+numerical which comes for you right so
+
+00:23:31.680 --> 00:23:36.260
+we will stop this particular with this
+particular findings we will stop here
+
+00:23:36.260 --> 00:23:43.500
+next video we will learn few new
+numerical which has been used for the Mumbai university

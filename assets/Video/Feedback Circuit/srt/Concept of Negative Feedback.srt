@@ -1,0 +1,545 @@
+1
+00:00:05,319 --> 00:00:10,980
+Hello friends here, we will start with the
+new chapter all together and the concept is
+
+2
+00:00:10,980 --> 00:00:25,800
+feedback amplifier. Okay, as for amplifier
+is concerned we know that the amplifier is
+
+3
+00:00:25,800 --> 00:00:32,540
+nothing but if I'm providing small input,
+then I'm increasing the strength of the input
+
+4
+00:00:32,540 --> 00:00:37,930
+at the output side of an amplifier box. Right?
+So as far as amplifier box is concerned that
+
+5
+00:00:37,930 --> 00:00:47,640
+is not black box for me. Okay. So let's understand
+the fact that amplifier. This is the box of
+
+6
+00:00:47,640 --> 00:00:52,710
+amplifier Let It Be whether it is of cscs
+multistage amplifier single stage amplifier
+
+7
+00:00:52,710 --> 00:00:58,609
+three stage amplifier doesn't matters for
+me. So this is your input signal that input
+
+8
+00:00:58,609 --> 00:01:05,009
+signal may be in the form of current 
+or voltage trigger. So I'm saying that this
+
+9
+00:01:05,009 --> 00:01:12,590
+is Ii and this is Vi input current or input
+voltage here. We will be getting the output
+
+10
+00:01:12,590 --> 00:01:19,830
+voltage. Our output current right and here
+whatever circuit is giving that is nothing
+
+11
+00:01:19,830 --> 00:01:26,220
+but the gain of an amplifier and that is represented
+with the letter A as far as this particular
+
+12
+00:01:26,220 --> 00:01:32,240
+box is concerned that is not new to me. Right
+and now we have to learn that what is feedback
+
+13
+00:01:32,240 --> 00:01:39,220
+and what how it affects your amplifier operation
+and why we need that feedback amplifier. So
+
+14
+00:01:39,220 --> 00:01:55,259
+let us consider the feedback invention is
+done in1928 right so invention of feedback
+
+15
+00:01:55,259 --> 00:02:08,800
+Is done by Harold Black? And in the year of
+1928 that is not important first important
+
+16
+00:02:08,800 --> 00:02:14,329
+part as far as exam point of view. This is
+just you have to remember for extra knowledge,
+
+17
+00:02:14,329 --> 00:02:20,610
+right and then we will learn what is exactly
+feedback and now how it affects the amplifier
+
+18
+00:02:20,610 --> 00:02:30,410
+operation.Let's start with this fact that
+this is let's say feedback amplifier
+
+19
+00:02:30,410 --> 00:02:35,950
+The Heading of concept of feedback amplifier.
+So before learning the feedback, you should
+
+20
+00:02:35,950 --> 00:02:41,970
+know that whether we have some part of system.
+Let's say for example, I'm considering one
+
+21
+00:02:41,970 --> 00:02:45,880
+particular bag box. Just now. We have studied
+that I'm giving the input and I'm getting
+
+22
+00:02:45,880 --> 00:02:51,669
+the output. That's it. I'm not giving I'm
+not utilizing that particular output to give
+
+23
+00:02:51,669 --> 00:02:57,670
+that particular same signal at the input side
+to check that whether output is really the
+
+24
+00:02:57,670 --> 00:03:05,530
+Part of input or not, right? So that is carried
+out by using feedback. So that feedback is
+
+25
+00:03:05,530 --> 00:03:11,040
+of two types. Okay, so we'll draw that particular
+feedback block diagram and then we'll get
+
+26
+00:03:11,040 --> 00:03:28,549
+to know that how that feedback is important
+as far as amplifier is concerned. Here you
+
+27
+00:03:28,549 --> 00:03:38,790
+have two diagrams in front of you this simple
+box that we already have learned that is nothing
+
+28
+00:03:38,790 --> 00:03:43,580
+but a simple amplifier, right that box is
+nothing but simple amplifier where I'm giving
+
+29
+00:03:43,580 --> 00:03:48,989
+so let's suppose I'm having input voltage
+and i am having at the output side output voltage
+
+30
+00:03:48,989 --> 00:03:56,600
+and this is called as open loop configuration.
+This is called as open loop configuration.
+
+31
+00:03:56,600 --> 00:04:08,290
+Whenever I'm using another block diagram where
+this is same amplifier that is forward Amplified.
+
+32
+00:04:08,290 --> 00:04:15,570
+So in this particular box A is nothing but
+the forward gain amplifier and whatever this
+
+33
+00:04:15,570 --> 00:04:21,519
+box is called as feedback amplifier. This
+is called as a feedback circuit and let's
+
+34
+00:04:21,519 --> 00:04:28,680
+say I'm saying this as input signal let's
+say I am saying that it's Vs right Source signal
+
+35
+00:04:28,680 --> 00:04:35,520
+and this is your output signal. Let's say
+Vo, right, whatever output or output voltage
+
+36
+00:04:35,520 --> 00:04:41,890
+and feeding back to your input side to check
+that whether the output is a part of input
+
+37
+00:04:41,890 --> 00:04:47,510
+signal or not whether there is a distortion
+or not. So this is carried out by using the
+
+38
+00:04:47,510 --> 00:04:53,750
+feedback amplifier. So that is represented
+by the letter B. Okay, so they can be output
+
+39
+00:04:53,750 --> 00:04:59,900
+voltage or output current they can be input
+so input current or input voltage, right?
+
+40
+00:04:59,900 --> 00:05:05,120
+So there are different possibilities can be
+carried out by using that we have different
+
+41
+00:05:05,120 --> 00:05:10,360
+topologies that we have to learn in the next
+videos. So let us discuss let us concentrate
+
+42
+00:05:10,360 --> 00:05:15,950
+on this particular part. This is a closed
+loop configuration. This is because whenever
+
+43
+00:05:15,950 --> 00:05:21,590
+I'm starting with vs and reaching towards
+Vo and that Vo is again fed back to the input
+
+44
+00:05:21,590 --> 00:05:34,460
+side, right so that forms a loop. So that's
+why this is called as Loop configuration.
+
+45
+00:05:34,460 --> 00:05:40,600
+Now important fact is this feedback amplifier
+can be here I'm saying this is nothing but
+
+46
+00:05:40,600 --> 00:05:49,110
+your mixer. This is nothing but mixer where
+an adding this Vs.That is Source signal to
+
+47
+00:05:49,110 --> 00:05:55,150
+your feedback signal or subtracting that source
+signal with your feedback signal. So if I'm
+
+48
+00:05:55,150 --> 00:06:03,310
+subtracting the Vs with VF, this is VF and
+saying right if I'm subtracting that VF with
+
+49
+00:06:03,310 --> 00:06:22,120
+Vs. Then I'm saying that it is called as negative
+feedback, right? So that's why Okay, if I'm
+
+50
+00:06:22,120 --> 00:06:29,240
+saying that this VF is getting added with
+Vs. Then I will say that it is nothing but
+
+51
+00:06:29,240 --> 00:06:35,370
+a positive feedback. So here itself we get
+to know that there are two categories of feedback
+
+52
+00:06:35,370 --> 00:06:48,811
+one is negative feedback and one is positive
+feedback. So here in this particular case,
+
+53
+00:06:48,811 --> 00:06:55,900
+whether it is negative or positive there can
+be used in different applications. So whenever
+
+54
+00:06:55,900 --> 00:07:02,980
+I am using the negative feedback negative
+feedback is basically used in amplifier. This
+
+55
+00:07:02,980 --> 00:07:17,450
+positive feedback is used in basically oscillators
+or signal generators. So as far as this feedback
+
+56
+00:07:17,450 --> 00:07:21,850
+is concerned. So in your laboratory is there
+are function generators the where we get the
+
+57
+00:07:21,850 --> 00:07:27,639
+sinusoidal signal so your triangular signals,
+you are Sawtooth wave and M number of ways
+
+58
+00:07:27,639 --> 00:07:32,350
+we can get from the function generator and
+this function generator is an example of positive
+
+59
+00:07:32,350 --> 00:07:38,169
+feedback, right that will learn the discussed
+in detail in the next chapter itself in detail.
+
+60
+00:07:38,169 --> 00:07:43,070
+So as far as feedback is concerned we learned
+that this is positive feedback when I'm getting
+
+61
+00:07:43,070 --> 00:07:48,639
+when I am adding the source. With your feedback
+signal and saying it is negative feedback
+
+62
+00:07:48,639 --> 00:07:55,430
+If I'm saying Vs is getting subtracted with
+VF. Right and whatever signal I'm getting
+
+63
+00:07:55,430 --> 00:08:02,900
+over here that is called as error signal,
+right? So if Vs is not actually equal or equal
+
+64
+00:08:02,900 --> 00:08:09,460
+to or scaled with Vo then I can say that the
+error signal will get generated and depending
+
+65
+00:08:09,460 --> 00:08:15,580
+on error signal. I will Design my amplifier
+such that to get the proper, correct. Output
+
+66
+00:08:15,580 --> 00:08:21,540
+at the output side. So that is the basic aim
+of the feedback amplifiers. Now, we will learn
+
+67
+00:08:21,540 --> 00:08:25,980
+the mathematical point of view of the negative
+feedback and positive feedback as well generalized
+
+68
+00:08:25,980 --> 00:08:32,479
+form. Let's understand that I'm taking this
+example of taking input as voltage and output
+
+69
+00:08:32,479 --> 00:08:37,370
+as voltage only so it forms an voltage amplifier
+where we'll be getting the gain in the form
+
+70
+00:08:37,370 --> 00:08:43,870
+of ratio of output voltage to the input voltage.
+So let us discuss that I know that for open
+
+71
+00:08:43,870 --> 00:08:48,340
+loop configuration for open lop Configuration
+means I'm not providing any feedback. So if
+
+72
+00:08:48,340 --> 00:08:55,010
+I'm not providing any feedback, what will
+be the gain of my complete circuit as an amplifier?
+
+73
+00:08:55,010 --> 00:08:58,970
+So for open loop configuration this B will
+not come into picture then in that case. I
+
+74
+00:08:58,970 --> 00:09:03,960
+can say that Vi is same as  Vs.
+And I can say that Vo divided by Vs is equal
+
+75
+00:09:03,960 --> 00:09:07,120
+to Vo/ VI
+is equal to voltage gain, and that is nothing
+
+76
+00:09:07,120 --> 00:09:19,400
+but A right so I will say that voltage gain.
+I will treat this as with a letter A A is
+
+77
+00:09:19,400 --> 00:09:28,839
+nothing but Vo upon VI is equal to vo upon
+Vs. I will treat that equation number one.
+
+78
+00:09:28,839 --> 00:09:36,570
+Okay now hold on for closed loop configuration
+that means with feedback for closed loop configuration.
+
+79
+00:09:36,570 --> 00:09:51,870
+For closed loop configuration i am writing
+in bracket with feedback. If I'm providing
+
+80
+00:09:51,870 --> 00:09:58,260
+feedback, then then we'll have to do some
+mathematical operation. In this case see to
+
+81
+00:09:58,260 --> 00:10:04,680
+it that I am learning the negative feedback
+in that case. This is the should be negative.
+
+82
+00:10:04,680 --> 00:10:20,890
+Right this is positive. So whatever VI and
+getting that is in the form of VS + VF VS minus VF right. So first equation,
+I will be getting in the form of  Vs VF and
+
+83
+00:10:20,890 --> 00:10:28,810
+VI, right? So I will write it over here the
+voltage gain that I will be getting that.
+
+84
+00:10:28,810 --> 00:10:37,110
+I will treat it as AF voltage gain that I
+will treat it as AF and that is equal to
+
+85
+00:10:37,110 --> 00:10:47,590
+Vo divided by Vs. Let's treat it as equation
+number 2. So let's start with the mathematical
+
+86
+00:10:47,590 --> 00:11:01,450
+operation, right? So from block diagram. as far as block diagram is concerned. I know
+
+87
+00:11:01,450 --> 00:11:09,210
+that whatever Vo-Vi ratio is nothing but A
+whatever Vo-VF ratio is nothing but B so
+
+88
+00:11:09,210 --> 00:11:19,640
+I can say that A is equal to Vo divided by
+Vi. Okay treat it as equation number 3 I know
+
+89
+00:11:19,640 --> 00:11:25,240
+that B is equal to VF that is nothing but
+the output for B and Vo is nothing but the
+
+90
+00:11:25,240 --> 00:11:32,260
+input for B so VF / Vo is nothing but B.
+so we'll treat it as VF / Vo equation number
+
+91
+00:11:32,260 --> 00:11:37,890
+4 again one mathematical expression will get
+from this particular mixer is nothing but
+
+92
+00:11:37,890 --> 00:11:51,050
+Vs Minus VF is equal to VI. Now what we have
+to do we will put the value of VF and Vi
+
+93
+00:11:51,050 --> 00:11:58,490
+this is because I want to Vs in your voltage
+gain formula, right? I don't want VF
+
+94
+00:11:58,490 --> 00:12:05,330
+and VI, but I can find out. What is VF in the
+form of Vo and B. I can find out. What is
+
+95
+00:12:05,330 --> 00:12:10,950
+the value of Vi in the form of Vo and A again
+so that I will get complete. Expression in
+
+96
+00:12:10,950 --> 00:12:20,959
+the form of Vo and Vs only right? So we'll
+treat this as from equation three and four,
+
+97
+00:12:20,959 --> 00:12:40,580
+we will be getting Vs. I will keep it as it
+is - what is Vf Vf is nothing but B into Vo okay simple what is Vi Vi is nothing but
+Vo divided by A so here it will be Vo / A
+
+98
+00:12:40,580 --> 00:12:45,870
+right just do the your mathematical manipulation
+here and there left to right right to left
+
+99
+00:12:45,870 --> 00:12:52,480
+keep Vo at Vo by Vs at the left hand side
+and as part of the right hand side, so I will
+
+100
+00:12:52,480 --> 00:13:04,709
+be getting Vo divided by Vs that is equal
+to A  divided by 1 plus AB So as far as this
+
+101
+00:13:04,709 --> 00:13:12,089
+is this is nothing but you are AF okay. So
+this is your last mathematical expression
+
+102
+00:13:12,089 --> 00:13:19,320
+that we are expecting for your negative feedback
+operation for gain perspective. I can conclude
+
+103
+00:13:19,320 --> 00:13:23,850
+that from this particular operation 
+from this particular mathematical expression
+
+104
+00:13:23,850 --> 00:13:30,399
+I can conclude that whatever negative feedback.
+I'm providing that will result in the reduction
+
+105
+00:13:30,399 --> 00:13:55,120
+of gain Okay, so
+
+106
+00:13:55,120 --> 00:14:01,000
+Here the statement is negative feedback leads
+to reduce the gain of an amplifier. So so
+
+107
+00:14:01,000 --> 00:14:05,769
+far what we have whatever we have discussed
+is about the feedback amplifier, but one question
+
+108
+00:14:05,769 --> 00:14:22,810
+is remained in our mind that why we are using
+that negative feedback amplifier by we are
+
+109
+00:14:22,810 --> 00:14:42,040
+using the feedback if the voltage gain 
+is reduced right
+

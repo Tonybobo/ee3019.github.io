@@ -1,0 +1,240 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.450 --> 00:00:06.060
+hello in this video we are going to take
+a look at an example of series shunt
+
+00:00:06.060 --> 00:00:11.250
+feedback in a voltage amplifier with a
+practical example of an amplifier we are
+
+00:00:11.250 --> 00:00:16.830
+familiar with which is the non-inverting
+amplifier first of all I have redrawn
+
+00:00:16.830 --> 00:00:23.580
+the basic structure the generic
+structure for a series shunt or series
+
+00:00:23.580 --> 00:00:30.570
+voltage amplifier which consists of a
+feedback network the input voltage or
+
+00:00:30.570 --> 00:00:35.129
+the feedback voltage is connected in
+series with the input voltage with the
+
+00:00:35.129 --> 00:00:42.769
+source voltage and the output is taken
+in shunt the output signal is sampled
+
+00:00:42.769 --> 00:00:49.339
+in shunt and so basically this could be
+our output signal right here Vo
+
+00:00:49.339 --> 00:00:58.589
+this could be our signal VF feedback
+signal and then the input signal will
+
+00:00:58.589 --> 00:01:06.390
+this be Vs minus VF as you can see just
+from applying KVL to circuits and I'm
+
+00:01:06.390 --> 00:01:15.570
+just gonna write it all out Vin equals Vs
+minus VF alright and now let's move down
+
+00:01:15.570 --> 00:01:20.609
+to our practical example which is the
+non-inverting amplifier we can see this
+
+00:01:20.609 --> 00:01:24.869
+is a non-inverting amplifier the input
+is applied to the non-inverting input
+
+00:01:24.869 --> 00:01:32.039
+terminal Vs and there is a feedback
+network comprised of resistors RI and RF
+
+00:01:32.039 --> 00:01:40.619
+I have connected in the feedback path
+now our feedback network in this case is
+
+00:01:40.619 --> 00:01:44.960
+going to be that voltage divider
+
+00:01:45.810 --> 00:01:53.500
+over there and you can see that we are
+sampling our output signal in shunt
+
+00:01:53.500 --> 00:01:59.340
+perhaps represent that a bit
+more clearly by writing it like this
+
+00:01:59.340 --> 00:02:07.990
+my output signal is being taken between
+the output notd and and ground so
+
+00:02:07.990 --> 00:02:13.510
+essentially when you're sampling it from
+here to ground that this were the other
+
+00:02:13.510 --> 00:02:19.209
+end of Ri is going to sampling it in
+shunt or in parallel and then the input
+
+00:02:19.209 --> 00:02:28.930
+signal you are applying it in series so
+essentially we also represent this as
+
+00:02:28.930 --> 00:02:31.410
+follows
+
+00:02:32.209 --> 00:02:41.709
+to make it more clear this is Vs and you
+can see that this is
+
+00:02:43.860 --> 00:02:50.900
+the feedback voltage will be VF the
+voltage appearing between the output
+
+00:02:50.900 --> 00:02:56.130
+right there of the feedback network and
+the other output which goes to ground so
+
+00:02:56.130 --> 00:03:03.280
+VF and Vin will
+
+00:03:03.620 --> 00:03:12.360
+equal to Vs minus VF again from applying
+KVL so let's take a look at how the
+
+00:03:12.360 --> 00:03:19.400
+different parameters for a standard or
+general feedback circuit apply here
+
+00:03:19.400 --> 00:03:24.230
+first of all we have our feedback factor
+beta
+
+00:03:27.350 --> 00:03:33.900
+and in this case we can see that beta
+is going to be the gain of the feedback
+
+00:03:33.900 --> 00:03:40.380
+Network and essentially the ratio of VF
+to Vout and we can see that in this
+
+00:03:40.380 --> 00:03:44.790
+case is just a result of voltage
+division between RF and RI and so VF is
+
+00:03:44.790 --> 00:03:51.630
+going to be equal to V out times RI over
+RI plus RF
+
+00:03:51.630 --> 00:03:58.560
+that is my feedback factor or the gain
+of my feedback loop then I have my
+
+00:03:58.560 --> 00:04:07.890
+loop gain a beta is basically going to
+be that times again so A times RI
+
+00:04:07.890 --> 00:04:12.380
+divided by RI plus RF
+
+00:04:15.670 --> 00:04:30.680
+my closed-loop gain AF is going to
+be equal to the ratio of the outs to vs
+
+00:04:30.680 --> 00:04:36.470
+and we know from our previous study that
+it's going to be the open-loop gain
+
+00:04:36.470 --> 00:04:40.480
+divided by the amount of feedback
+
+00:04:42.980 --> 00:04:49.990
+and now if my open loop gain is
+sufficiently high I will achieve gain
+
+00:04:49.990 --> 00:04:57.950
+desensitization what do I mean by that
+will mean that my closed loop gain will
+
+00:04:57.950 --> 00:05:02.090
+become almost independent of the open
+loop gain and pretty much just dependent
+
+00:05:02.090 --> 00:05:08.810
+on the feedback network and let's see
+how that works for values of the loop
+
+00:05:08.810 --> 00:05:17.360
+gain much greater than 1 then I can
+approximate my expression for AF my
+
+00:05:17.360 --> 00:05:23.680
+closed loop gain as being approximately
+1 over beta which is
+
+00:05:24.780 --> 00:05:31.780
+RI + RF divided by RI just from the beta
+expression up there which is 1 plus RF
+
+00:05:31.780 --> 00:05:37.180
+over RI which matches the closed-loop
+gain that we know for a non-inverting
+
+00:05:37.180 --> 00:05:42.310
+amplifier we have seen when we can see
+that you know the term of the open-loop
+
+00:05:42.310 --> 00:05:49.780
+gain has disappeared since we know a
+little bit more now about negative
+
+00:05:49.780 --> 00:05:53.980
+feedback systems we expect that we are
+also going to gain other things not just
+
+00:05:53.980 --> 00:05:57.010
+the gain being independent of the
+open-loop gain but we're going to also
+
+00:05:57.010 --> 00:06:00.760
+get improvements in both input and
+output resistance with respect to the
+
+00:06:00.760 --> 00:06:04.890
+open loop amplifier and so when I have
+it connected in feedback I expect my
+
+00:06:04.890 --> 00:06:08.650
+input resistance is going to be the
+input resistance of the op-amp
+
+00:06:08.650 --> 00:06:16.480
+multiplied times the amount of feedback
+and my output resistance for the overall
+
+00:06:16.480 --> 00:06:21.580
+system is going to be equal to the
+output resistance of the op-amp divided
+
+00:06:21.580 --> 00:06:27.180
+by the loop gain of the amount of
+feedback sorry
+
+00:06:31.419 --> 00:06:36.230
+and so this corroborates what we know
+both about the non-inverting amplifier
+
+00:06:36.230 --> 00:06:42.290
+but also puts a little bit more in
+context all these new parameters that we
+
+00:06:42.290 --> 00:06:46.840
+have a study in negative feedback thank
+you

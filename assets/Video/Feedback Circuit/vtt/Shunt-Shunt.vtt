@@ -1,0 +1,295 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.890 --> 00:00:07.710
+here we see a feedback circuit so the
+first step is to identify the input and
+
+00:00:07.710 --> 00:00:16.680
+the output it's seen here that the input
+is a current source and the output is a
+
+00:00:16.680 --> 00:00:27.840
+voltage source so this is going to be a
+shunt shunt type network after
+
+00:00:27.840 --> 00:00:34.170
+identifying the type of feedback the
+next step is to identify the feedback
+
+00:00:34.170 --> 00:00:38.790
+portion of the network
+here we see from the output to the input
+
+00:00:38.790 --> 00:00:45.210
+side here's the output side here is an
+input side that we have our Rf is our
+
+00:00:45.210 --> 00:00:53.090
+feedback portion so to find the next
+step which is our R11 and R22 and beta
+
+00:00:53.090 --> 00:01:00.629
+we're going to look at the feedback
+portion only to look at R11 we have to
+
+00:01:00.629 --> 00:01:06.630
+look at this side of the network which
+is going to be a shunt so we're going to
+
+00:01:06.630 --> 00:01:18.630
+ground that side and R11 is going to
+be our Rf for R22 again we draw the
+
+00:01:18.630 --> 00:01:26.130
+feedback portion and we look at this
+side of it and then we refer back to the
+
+00:01:26.130 --> 00:01:33.450
+type and it's a shunt so again we short
+shunt and we open a series we leave it
+
+00:01:33.450 --> 00:01:45.869
+open so this is again going to be our RF
+for R22 now for beta we draw the
+
+00:01:45.869 --> 00:01:52.020
+network again and for beta on the output
+side we put the type of output it is in
+
+00:01:52.020 --> 00:01:59.130
+this case it's Vo so we place Vo on this side it's a current so we
+
+00:01:59.130 --> 00:02:09.179
+place a short for the current and we
+call this I-f  beta is defined as I-f
+
+00:02:09.179 --> 00:02:12.619
+over Vo
+
+00:02:14.260 --> 00:02:20.000
+so putting I-f  in terms of Vo
+it's going in this direction so it's
+
+00:02:20.000 --> 00:02:31.370
+negative so we have I-f is equal to a
+negative Vo over Rf so to get this
+
+00:02:31.370 --> 00:02:35.840
+in terms of I-f over Vo we'll
+divide here and this ends up being a
+
+00:02:35.840 --> 00:02:47.020
+minus 1 over Rf as the value for the
+feedback so now that we have those three
+
+00:02:47.020 --> 00:02:53.450
+components we can redraw the small
+signal version of this removing the
+
+00:02:53.450 --> 00:03:00.200
+feedback portion and placing in now this
+R11 at the input side R22 at the
+
+00:03:00.200 --> 00:03:05.720
+output side and then we use the
+equations for this beta which is beta
+
+00:03:05.720 --> 00:03:12.980
+feed back so I'm going to call it beta
+feed here and redrawing this with the
+
+00:03:12.980 --> 00:03:15.910
+small signal circuit
+
+00:03:24.740 --> 00:03:32.430
+I'm going to short this capacitor which
+is large for this is my input side so
+
+00:03:32.430 --> 00:03:37.130
+I'm going to place our R11 here
+
+00:03:46.700 --> 00:03:54.540
+the source site is grounded so remember
+this is gate source and drain and I'm
+
+00:03:54.540 --> 00:04:00.600
+going to also include ro and then this
+is an ideal current source so that
+
+00:04:00.600 --> 00:04:07.880
+becomes an open and this is my output
+side so I put R22 here and
+
+00:04:07.880 --> 00:04:18.150
+this is my Vo so from this this is
+my new A circuit I want to gather three
+
+00:04:18.150 --> 00:04:21.989
+pieces of information I want to know the
+gain which is going to be Vo over
+
+00:04:21.989 --> 00:04:30.090
+I -s which will be my A value the
+open-loop gain value A I want to know Ri
+
+00:04:30.090 --> 00:04:40.500
+which will include Rs and I want to know
+ro which will include RL in this case
+
+00:04:40.500 --> 00:04:52.590
+there is no RL so my ro will be at this
+location and my Ri will be here and then
+
+00:04:52.590 --> 00:05:02.970
+the A gain will be from Vo to I-s so
+now I want to analyze this circuit so I
+
+00:05:02.970 --> 00:05:10.200
+need to get Vo in terms of I-s so Vo can be written as a minus the
+
+00:05:10.200 --> 00:05:17.490
+current minus g-m vgs times these two in
+parallel so ro and parallel with R22
+
+00:05:17.490 --> 00:05:25.380
+which is Rf so I'm going to just put
+those values as Rf and here is also Rf
+
+00:05:25.380 --> 00:05:35.820
+now Vgs is a current source in so I
+times R will give me the G and I notice
+
+00:05:35.820 --> 00:05:42.480
+that Vs is ground so Vgs will be just
+VG remember that if it's not you also
+
+00:05:42.480 --> 00:05:50.610
+have to find the Vs value and get Vgs
+which is VG minus Vs so Vgs in this
+
+00:05:50.610 --> 00:05:55.800
+case then was I-s times Rs and parallel
+with Rf
+
+00:05:55.800 --> 00:06:02.800
+and I can plug that in here and then
+divide by I-s to get Vo over I-s
+
+00:06:02.800 --> 00:06:16.420
+which is my A as A minus g-m ro in
+parallel with Rf x Rs in parallel with
+
+00:06:16.420 --> 00:06:30.040
+Rf so now I have my A value i can also
+write Ri and Rf ro so Ri
+
+00:06:30.040 --> 00:06:39.040
+remember this includes Rs will be Rs
+in parallel with Rf and ro which is here
+
+00:06:39.040 --> 00:06:49.570
+is on the top of the dependent source so
+it's gonna be ro in parallel with Rf so
+
+00:06:49.570 --> 00:06:56.230
+now I have these three values I'm going
+to use the feedback equations with the
+
+00:06:56.230 --> 00:07:03.850
+amount of feedback for Ro and Ri
+the amount of feedback whether I divide
+
+00:07:03.850 --> 00:07:09.040
+or multiply depends on the type of
+network I have for shunt type we're
+
+00:07:09.040 --> 00:07:14.530
+gonna always divide by 1 over or 1 over
+the amount of feedback and for series
+
+00:07:14.530 --> 00:07:19.360
+it's always a multiplication so since
+both of these are shunt on both sides
+
+00:07:19.360 --> 00:07:24.820
+the input side is shunt the output side
+is a shunt they're both going to be
+
+00:07:24.820 --> 00:07:40.740
+divided by the amount of feedback so AF
+is going to be A over 1 plus a beta feed
+
+00:07:40.740 --> 00:07:52.030
+just the feedback value minus 1 over RC
+so I get A is a minus g-m ro in parallel
+
+00:07:52.030 --> 00:08:03.160
+with Rf Rs in parallel with Rf
+all over 1 plus again this minus a or a
+
+00:08:03.160 --> 00:08:08.919
+which is a minus GM ro and parallel
+with Rf Rs and parallel
+
+00:08:08.919 --> 00:08:16.030
+with RF x the beta feedback which is a
+minus 1 over RF so these minuses cancel
+
+00:08:16.030 --> 00:08:25.199
+and give me a positive term so this is
+my AF value and this is the feedback
+
+00:08:25.199 --> 00:08:41.399
+gain that we'll have for this particular
+circuit now for Ri Rif this includes Rs
+
+00:08:41.399 --> 00:08:50.680
+I'm going to divide the Rs in parallel
+with Rf which is my Ri value by the
+
+00:08:50.680 --> 00:09:01.600
+bottom of this which is the amount of
+feedback now this includes the RS I do
+
+00:09:01.600 --> 00:09:08.890
+not want to include the RS for my
+overall feedback value so because this
+
+00:09:08.890 --> 00:09:18.300
+is a shunt type to remove the RS the
+term we used was Rin this does not
+
+00:09:18.300 --> 00:09:30.420
+include RS we have to take this Rif and
+it's usually easier to find the value
+
+00:09:30.420 --> 00:09:37.269
+itself and subtract off the Rs because
+it's in shunt that means it's in
+
+00:09:37.269 --> 00:09:44.860
+parallel so I'm going to have to take
+this as a parallel form for Ri or
+
+00:09:44.860 --> 00:09:55.199
+Rof it's the same thing
+it was ro in parallel with RF divided by
+
+00:09:55.199 --> 00:10:02.170
+the 1 plus a beta feed and so that's
+again the same term GM ro in parallel
+
+00:10:02.170 --> 00:10:12.250
+with Rf Rs in parallel with Rf times
+1 over Rf since there's no load RL that
+
+00:10:12.250 --> 00:10:20.319
+we factored in there this would be also
+Rout for this case if we had an RL
+
+00:10:20.319 --> 00:10:25.030
+included in this
+to remove it we again would use one over
+
+00:10:25.030 --> 00:10:33.330
+rof minus 1 over RL to remove it

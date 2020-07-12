@@ -1,0 +1,455 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.299 --> 00:00:04.290
+we're going to talk about the
+operational amplifier or op amp for
+
+00:00:04.290 --> 00:00:10.050
+short and this is the workhorse of all
+analog electronics the operational
+
+00:00:10.050 --> 00:00:16.500
+amplifier it's a type of amplifier an
+amplifier is is anything that you put an
+
+00:00:16.500 --> 00:00:22.199
+electronic signal end and you get out a
+larger version of the signal so this
+
+00:00:22.199 --> 00:00:27.119
+would be an amplifier with some sort of
+gain and if I put a signal X in here
+
+00:00:27.119 --> 00:00:33.660
+usually a voltage or a current then the
+signal that comes out here is A times X
+
+00:00:33.660 --> 00:00:38.850
+and that's what we mean by amplification
+and a signal that I've shown here is X
+
+00:00:38.850 --> 00:00:43.230
+is anything that we're interested in it
+could be a voltage or a current and when
+
+00:00:43.230 --> 00:00:46.800
+we put it through an amplifier we get a
+larger version of it so this is a really
+
+00:00:46.800 --> 00:00:51.600
+common activity in electronic design now
+when we talk specifically about an
+
+00:00:51.600 --> 00:00:55.770
+operational amplifier the symbol for
+that we use for an operational amplifier
+
+00:00:55.770 --> 00:01:05.280
+is a triangle and it has two inputs one
+is the plus input one is the minus input
+
+00:01:05.280 --> 00:01:11.670
+and it has an output and it also has two
+power supplies to it there's a some sort
+
+00:01:11.670 --> 00:01:19.590
+of plus voltage it goes into it and some
+sort of minus voltage so this is the
+
+00:01:19.590 --> 00:01:24.390
+abstract symbol for an op-amp so when we
+say the word op-amp we have some
+
+00:01:24.390 --> 00:01:33.689
+specific properties in mind one is op
+amps have high gain so in this case the
+
+00:01:33.689 --> 00:01:40.860
+the gain usually with the symbol A is
+something like ten to the fifth to ten
+
+00:01:40.860 --> 00:01:47.130
+to the sixth really really high
+another thing we think about when we
+
+00:01:47.130 --> 00:01:54.570
+talk about op amps is that they're used
+for feedback circuits and we'll talk
+
+00:01:54.570 --> 00:01:58.020
+about feedback in the next couple of
+videos and what that means but that's
+
+00:01:58.020 --> 00:02:04.320
+the application that we use op amps for
+and the third thing that's distinctive
+
+00:02:04.320 --> 00:02:08.399
+about op amps is that they have this
+this kind of input this kind of input
+
+00:02:08.399 --> 00:02:12.289
+here is referred to as a differential
+
+00:02:14.880 --> 00:02:23.350
+input so an op-amp usually has
+differential inputs and that's as
+
+00:02:23.350 --> 00:02:30.000
+opposed to something we call a single
+ended input which will be just one wire
+
+00:02:30.120 --> 00:02:35.620
+and what a differential input means it
+says we have we can label the voltages
+
+00:02:35.620 --> 00:02:40.900
+here we'll call this V out we'll call
+this V plus and we'll call this input V
+
+00:02:40.900 --> 00:02:52.680
+minus and differential input means that
+V out equals the gain times V plus minus
+
+00:02:52.680 --> 00:03:01.270
+V minus so the output signal here is
+proportional to the difference in the
+
+00:03:01.270 --> 00:03:05.040
+voltage between these two signals here
+
+00:03:05.580 --> 00:03:09.490
+so I want to make a plot of this
+equation right here just so we get it a
+
+00:03:09.490 --> 00:03:12.870
+good idea of what it looks like
+
+00:03:13.500 --> 00:03:25.530
+and the axes here are V in and V out
+where V in specifically equals V plus
+
+00:03:25.530 --> 00:03:32.250
+minus V minus V plus minus V minus
+that's the input signal to the op-amp
+
+00:03:32.250 --> 00:03:37.200
+and we're going to apply the gain factor
+to it to get V out so that'll look like
+
+00:03:37.200 --> 00:03:42.480
+like this something like this it's going
+to be a very steep line and the slope of
+
+00:03:42.480 --> 00:03:49.770
+that line the slope of this line is A so
+the slope is going to be 10 to the 5th
+
+00:03:49.770 --> 00:03:54.870
+or 10 to the 6 something like that very
+very vertical now one of the properties
+
+00:03:54.870 --> 00:04:01.709
+of this is that V out cannot go above or
+below its power supply voltages so on
+
+00:04:01.709 --> 00:04:06.570
+this plot here that's called saturation
+if V out gets up to V plus we say it's
+
+00:04:06.570 --> 00:04:13.920
+saturates and looks like this it goes
+flat basically here and here where this
+
+00:04:13.920 --> 00:04:19.859
+voltage value here is minus the power
+supply and this voltage right here is
+
+00:04:19.859 --> 00:04:25.770
+the positive power supply but over this
+range here over this range in here
+
+00:04:25.770 --> 00:04:33.090
+between those two points is quite linear
+it goes through zero and we this is
+
+00:04:33.090 --> 00:04:38.580
+where we use it most of the time so now
+I want to talk a little bit more detail
+
+00:04:38.580 --> 00:04:42.690
+about what this symbol means here and
+what's inside it and how it's actually
+
+00:04:42.690 --> 00:04:46.130
+connected up in a circuit
+
+00:04:57.100 --> 00:05:03.260
+so we talked about the voltage behavior
+of an op-amp this is V Plus V minus and
+
+00:05:03.260 --> 00:05:08.690
+V out there's one thing more that we
+need to know and that is the current
+
+00:05:08.690 --> 00:05:15.440
+this current right here and this current
+right here for an op-amp an ideal op-amp
+
+00:05:15.440 --> 00:05:20.900
+is zero no current flows in here so this
+op-amp is just sensing the voltages at
+
+00:05:20.900 --> 00:05:27.230
+these points but no current flows in so
+this is the second key property of an
+
+00:05:27.230 --> 00:05:35.570
+op-amp the first one is the voltage
+behavior V out equals the gain times V
+
+00:05:35.570 --> 00:05:43.780
+plus minus V minus another way we can
+write this is V out equals a times V in
+
+00:05:43.780 --> 00:05:53.720
+where V in of course equals V plus
+minus V minus so these are the these are
+
+00:05:53.720 --> 00:05:57.320
+the two electrical properties that are
+going to allow us to analyze these
+
+00:05:57.320 --> 00:06:02.090
+circuits and the analyzing the circuits
+is actually going to be pretty simple so
+
+00:06:02.090 --> 00:06:05.270
+you're probably wondering like what is
+inside here what's going on inside here
+
+00:06:05.270 --> 00:06:11.090
+so what's inside here is somewhere
+between 20 and 50 or so transistors and
+
+00:06:11.090 --> 00:06:16.130
+resistors sometimes capacitors these are
+really complex designs and for right now
+
+00:06:16.130 --> 00:06:20.090
+if we just concentrate on the two
+properties that we have here we'll be
+
+00:06:20.090 --> 00:06:24.760
+able to use these circuits even without
+understanding exactly what's inside
+
+00:06:24.760 --> 00:06:29.240
+suffice to say it's a differential
+amplifier with really high gain and with
+
+00:06:29.240 --> 00:06:33.560
+just that knowledge we can work out how
+these circuits work so let me do a
+
+00:06:33.560 --> 00:06:38.870
+couple of more details on how this thing
+is actually hooked up so we have a plus
+
+00:06:38.870 --> 00:06:43.430
+terminal and a minus terminal there's
+more terminals on this there's a power
+
+00:06:43.430 --> 00:06:50.060
+supply like this that's plus big V and
+there has to be a minus supply typically
+
+00:06:50.060 --> 00:06:59.240
+a - supply - V and let me a ground pin
+to be a ground node on here like that
+
+00:06:59.240 --> 00:07:04.910
+and when this is in a used in a circuit
+there'll be over to the side there'll be
+
+00:07:04.910 --> 00:07:09.920
+two power supplies and this will be 12
+volts a 12 volts 12
+
+00:07:09.920 --> 00:07:18.710
+is a real typical value and there'll be
+another one and this is a plus 12 volt
+
+00:07:18.710 --> 00:07:23.390
+supply as well and they'll be connected
+together and this node right between
+
+00:07:23.390 --> 00:07:28.820
+them will be there our ground node
+that's the voltage reference and these
+
+00:07:28.820 --> 00:07:32.720
+two guys will be hooked up like that the
+two power supplies will be hooked up
+
+00:07:32.720 --> 00:07:39.920
+this way so with respect to ground this
+node is at minus 12 volts and this node
+
+00:07:39.920 --> 00:07:46.700
+from ground is at plus 12 volts and
+ground is right in the middle and when
+
+00:07:46.700 --> 00:07:57.320
+we measure V out we'll measure it with
+respect to this ground node so this is
+
+00:07:57.320 --> 00:08:03.410
+the voltage where we measure plus or
+minus V out right there and what we're
+
+00:08:03.410 --> 00:08:06.500
+going to do is we're going to assume
+that all of this stuff is always hooked
+
+00:08:06.500 --> 00:08:10.810
+up and we're just going to use an even
+simpler symbol
+
+00:08:11.120 --> 00:08:16.590
+just the three terminals like that and
+you'll know that all the rest of the
+
+00:08:16.590 --> 00:08:20.850
+power supplies hooked up that way
+and the thing to keep in mind is there's
+
+00:08:20.850 --> 00:08:25.260
+a large - voltage there's a large plus
+voltage and the ground level the ground
+
+00:08:25.260 --> 00:08:31.200
+node is right in between so positive
+voltage is high on the page negative
+
+00:08:31.200 --> 00:08:36.300
+voltage is low on the page and V out can
+go both positive and negative around
+
+00:08:36.300 --> 00:08:39.690
+ground
+so that's your voltage framework to keep
+
+00:08:39.690 --> 00:08:42.140
+in your head
+
+00:08:44.529 --> 00:08:53.560
+and the op-amp that we've been looking
+at has a symbol like this and we know
+
+00:08:53.560 --> 00:09:02.769
+that V out equals some huge gain times V
+plus minus V minus so this is a
+
+00:09:02.769 --> 00:09:10.300
+differential input here's V plus here's
+V minus one way I think about this is is
+
+00:09:10.300 --> 00:09:16.389
+to look at the way a change in voltage
+on the input modifies the output I mean
+
+00:09:16.389 --> 00:09:27.550
+let me label V out here so if there's a
+change on the input say V plus goes this
+
+00:09:27.550 --> 00:09:36.100
+way because it's a plus sign that means
+that V out goes this way now if I change
+
+00:09:36.100 --> 00:09:44.649
+it over to V minus V minus is on the
+negative input if V minus goes up then
+
+00:09:44.649 --> 00:09:49.540
+V out goes down so that's the
+inverting if called the inverting input
+
+00:09:49.540 --> 00:09:55.420
+and this is called the non-inverting
+input so on the non-inverting input up
+
+00:09:55.420 --> 00:10:02.410
+goes up and on the inverting input if
+you go up on the inverting input you go
+
+00:10:02.410 --> 00:10:10.389
+in the opposite direction on the output
+let's say that the positive input the
+
+00:10:10.389 --> 00:10:15.970
+non-inverting input went down this time
+and that means what that means that V
+
+00:10:15.970 --> 00:10:21.790
+out will go down and just do the same
+thing over here I'm gonna run out of
+
+00:10:21.790 --> 00:10:25.629
+colors let's do the same thing for the
+inverting input
+
+00:10:25.629 --> 00:10:30.850
+if the inverting input goes down what
+does the what does the output do it goes
+
+00:10:30.850 --> 00:10:35.009
+up it goes in the opposite direction
+
+00:10:35.160 --> 00:10:39.209
+that's a way to think about this symbol
+when you see it on a schematic page is
+
+00:10:39.209 --> 00:10:45.189
+how do these signals translate through
+the device positive non-inverting
+
+00:10:45.189 --> 00:10:49.240
+signals go in the same direction
+inverting signals go in the opposite
+
+00:10:49.240 --> 00:10:54.519
+directions okay and here's one final
+trick I want to share with you something
+
+00:10:54.519 --> 00:10:58.510
+to be aware of you're going to see a
+symbol like this on
+
+00:10:58.510 --> 00:11:05.950
+the page the same op-amp it's the same op in
+up but it's written on the page with a
+
+00:11:05.950 --> 00:11:10.270
+negative with the inverting symbol on
+the top and the non-inverting symbol on
+
+00:11:10.270 --> 00:11:16.240
+the bottom so as you look at a schematic
+that has an op amp in it one of the
+
+00:11:16.240 --> 00:11:20.110
+first things you want to do is just
+glance and see what order these symbols
+
+00:11:20.110 --> 00:11:24.700
+are in or is it does it look like that
+or does it look like that and keep that
+
+00:11:24.700 --> 00:11:28.950
+in mind as you're reading the circuit
+and trying to understand what it does
+
+00:11:28.950 --> 00:11:34.080
+okay let's move on and build something
+with our op amp
