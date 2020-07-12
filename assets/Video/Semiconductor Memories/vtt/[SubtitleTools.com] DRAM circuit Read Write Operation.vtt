@@ -1,0 +1,156 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.680 --> 00:00:05.950
+Hello friends, Today topic is DRAM what is the full form of dynamic Random
+
+00:00:05.950 --> 00:00:10.830
+Access Memory first you will see working of 1T.
+
+00:00:10.830 --> 00:00:19.570
+That is one transistor DRAM  then we will see 3 Transistor DRAM. So let's start  so let's go for the first one
+
+00:00:19.570 --> 00:00:22.930
+That is one transistor DRAM. so let's see this circuit first.
+
+00:00:22.930 --> 00:00:27.390
+To draw this circuit. First we need the first word line.
+
+00:00:27.390 --> 00:00:33.030
+Then we need the data line dot means connection is present here i have not draw any dots
+
+00:00:33.030 --> 00:00:35.640
+so there is no connection.
+
+00:00:35.640 --> 00:00:43.950
+so here we have connection that we are using access transistor so access transistor  is this let's say M .
+
+00:00:43.950 --> 00:00:52.000
+Then we have one capacitor this will  store the charges right and then we will have one more
+
+00:00:52.000 --> 00:00:54.470
+capacitor.
+
+00:00:54.470 --> 00:00:57.650
+This is circuit of one transistor DRAM
+
+00:00:57.650 --> 00:01:02.910
+You can see only one transistor. so what is the working let's see that the first point
+
+00:01:02.910 --> 00:01:11.940
+what we have is  a read  operation in read operation, you have to understand this that we are making this capacitor equals to VDD by two.
+
+00:01:11.940 --> 00:01:20.900
+so this is re charge to VDD by 2 and now why VDD by 2 ? it will be understood in futher steps so the second part is if word line is one
+
+00:01:20.900 --> 00:01:27.900
+what will happen if this is one then this transistor will be on so M = on.
+
+00:01:27.900 --> 00:01:36.700
+if this is on this capacitor can check its voltage with dataline if this is on
+
+00:01:36.700 --> 00:01:40.689
+If the capacitor has voltage, it will be shared
+
+00:01:40.689 --> 00:01:43.980
+if the voltage is 0 it will be shared to this line
+
+00:01:43.980 --> 00:01:50.560
+now we have to understand that since VL is VDD by 2  so here we have VDD by 2
+
+00:01:50.560 --> 00:01:55.180
+and second point is if Word line is one . this transistor is on
+
+00:01:55.189 --> 00:02:00.600
+and we don't know whether the voltage here is 1/0 if it is one
+
+00:02:00.620 --> 00:02:09.820
+if voltage is present higher then if Cs has
+has the voltage of one then what will happen the voltage
+
+00:02:09.820 --> 00:02:18.700
+would be shared here and collector voltage will be greater than VDD by two
+if this is the voltage of Data line
+
+00:02:18.700 --> 00:02:23.260
+and if it is send to sense amplifier
+
+00:02:23.269 --> 00:02:26.080
+What will happen?
+
+00:02:26.090 --> 00:02:31.360
+Yes the sense Amplifier will say that the output is 1 so this is the flow lets take a quick recap
+
+00:02:31.360 --> 00:02:37.840
+first we have to make this capacitor as VDD by 2. Secondly, we have to use the access transistor
+
+00:02:37.840 --> 00:02:45.689
+Now to use the access transistor. Word line should be one. so if word line is one. M is on now if M is on all the gain  depend on
+
+00:02:45.689 --> 00:02:46.689
+Cs capacitor.
+
+00:02:46.689 --> 00:02:57.480
+If there is a charge or let's say there is a voltage of one  then it will share the voltage here at this point since the voltage here is VDD by 2  and if it  share
+
+00:02:57.480 --> 00:02:58.480
+the voltage.
+
+00:02:58.480 --> 00:03:07.360
+The collector voltage would be greater than VDD by 2 and if this is present at the data line then it is send to sense amplifier futher
+
+00:03:07.360 --> 00:03:14.730
+now this sense amplifier will say if the data line voltage is greater than VDD by 2 then the output is one
+
+00:03:14.730 --> 00:03:24.909
+what if the voltage is less than VDD by 2 then this sense amplifier will say output is equal to zero and after doing this it will
+refresh the cell
+
+00:03:24.909 --> 00:03:30.800
+so we have to refresh this cell so this is the read operation
+
+00:03:30.800 --> 00:03:33.820
+now let's move to write operation
+
+00:03:33.820 --> 00:03:36.760
+so the second point we have is the write operation now we have to understand
+
+00:03:36.760 --> 00:03:41.120
+in read operation, this data line acted as the output
+
+00:03:41.120 --> 00:03:47.560
+so in write operation, this data line will act as input line. Now if this is the input line
+
+00:03:47.580 --> 00:03:50.879
+We can place one or zero here. if we place one
+
+00:03:50.879 --> 00:04:02.339
+This means that this capacitor would have the value 1. so this capacitor will be charged if we place a zero here then what will happen this capacitor will be discharged
+
+00:04:02.339 --> 00:04:07.820
+so the value will be 0 so this is simple Data line will be acted as input line
+
+00:04:07.820 --> 00:04:12.720
+Then word line should be 1 so we can access this transistor
+
+00:04:12.720 --> 00:04:17.440
+because we can access this transistor that is if this is one we can access this capacitor
+
+00:04:17.580 --> 00:04:24.500
+now so word line is one this mean that we
+can access this capacitor now
+
+00:04:24.500 --> 00:04:29.840
+and if word line is one then the voltage share
+
+00:04:29.840 --> 00:04:33.040
+will be data line is one. Capacitor will have the voltage VDD
+
+00:04:33.050 --> 00:04:36.580
+And if data line is zero then capacitor will
+have the voltage zero.
+
+00:04:36.580 --> 00:04:39.550
+So this is charging
+
+00:04:39.550 --> 00:04:47.400
+this is discharge simple?

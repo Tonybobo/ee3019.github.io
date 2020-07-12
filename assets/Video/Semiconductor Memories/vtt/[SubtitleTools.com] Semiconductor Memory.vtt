@@ -1,0 +1,121 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.530 --> 00:00:06.930
+introduction to lab 14 semiconductor
+
+00:00:03.480 --> 00:00:08.490
+memory in this video we'll explore the
+
+00:00:06.930 --> 00:00:10.910
+concept of memory and the different
+
+00:00:08.490 --> 00:00:13.620
+types you will encounter in this class
+
+00:00:10.910 --> 00:00:16.710
+memory is a type of circuit used to
+
+00:00:13.620 --> 00:00:18.750
+store electronic data memory cells are
+
+00:00:16.710 --> 00:00:21.260
+tiny circuits existing in a larger chip
+
+00:00:18.750 --> 00:00:23.789
+that store one bit of binary data each
+
+00:00:21.260 --> 00:00:25.800
+the chips that exist in the multi sim
+
+00:00:23.789 --> 00:00:28.680
+platform are able to store thousands of
+
+00:00:25.800 --> 00:00:31.289
+bits worth of data memory chips can
+
+00:00:28.680 --> 00:00:33.210
+usually read and write writing is a
+
+00:00:31.289 --> 00:00:36.000
+process where data is stored in groups
+
+00:00:33.210 --> 00:00:38.520
+of memory cells called words words
+
+00:00:36.000 --> 00:00:43.770
+consist of bits ^ 2 ie
+
+00:00:38.520 --> 00:00:45.629
+2 4 8 16 bits etc each word has a memory
+
+00:00:43.770 --> 00:00:47.280
+address which acts like a marker so that
+
+00:00:45.629 --> 00:00:50.340
+they can be identified when they need to
+
+00:00:47.280 --> 00:00:53.190
+be read when a chip reads it recalls the
+
+00:00:50.340 --> 00:00:55.289
+data stored in a word there are
+
+00:00:53.190 --> 00:00:57.300
+increasing technologies and methods that
+
+00:00:55.289 --> 00:01:01.079
+exist to reduce the time needed to read
+
+00:00:57.300 --> 00:01:02.640
+data for example the memory in CDs can
+
+00:01:01.079 --> 00:01:04.949
+only be read in the order in which it
+
+00:01:02.640 --> 00:01:07.320
+was written even though this process
+
+00:01:04.949 --> 00:01:09.990
+takes a matter of nanoseconds others are
+
+00:01:07.320 --> 00:01:12.270
+even more efficient some of the newer
+
+00:01:09.990 --> 00:01:14.729
+technologies include RAM random access
+
+00:01:12.270 --> 00:01:17.330
+memory which can be both written read
+
+00:01:14.729 --> 00:01:19.979
+and the memory accessed in any order
+
+00:01:17.330 --> 00:01:22.619
+some forms of semiconductor memory can
+
+00:01:19.979 --> 00:01:26.520
+only be read and not written these are
+
+00:01:22.619 --> 00:01:29.490
+known as read-only memory or ROM some
+
+00:01:26.520 --> 00:01:31.520
+examples of roms are proms programmable
+
+00:01:29.490 --> 00:01:33.270
+read-only memory and eeproms
+
+00:01:31.520 --> 00:01:36.570
+electrically erasable programmable
+
+00:01:33.270 --> 00:01:38.009
+read-only memory in this lab you will
+
+00:01:36.570 --> 00:01:39.869
+explore the functions of a word
+
+00:01:38.009 --> 00:01:43.009
+generator and how these influence the
+
+00:01:39.869 --> 00:01:43.009
+functionality of RAM

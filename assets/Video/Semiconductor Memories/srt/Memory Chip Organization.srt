@@ -1,0 +1,499 @@
+1
+00:00:00,120 --> 00:00:06,690
+these sessions topic is memory chip
+organization how the memory it may be
+
+2
+00:00:06,690 --> 00:00:12,179
+RAM may be ROM how this memory have
+got fabricated how these chip
+
+3
+00:00:12,179 --> 00:00:17,789
+organizations are being made so actually
+we are having two categories for that
+
+4
+00:00:17,789 --> 00:00:23,010
+one is a 2d organization and the another is the 2 and half D organization
+
+5
+00:00:23,010 --> 00:00:27,330
+so let me discuss them one by one I'm
+having the suitable diagram with me so I
+
+6
+00:00:27,330 --> 00:00:32,430
+shall discuss with my diagrams so now
+this is my 2d organization and this one
+
+7
+00:00:32,430 --> 00:00:37,000
+is my 2 and half D  the organization and
+what are the advantages disadvantages
+
+8
+00:00:39,280 --> 00:00:44,100
+where I should go for 2d and 2 and half D organization
+I should discuss everything here in this
+
+9
+00:00:44,100 --> 00:00:47,700
+session so now you see this is a decoder
+let us suppose it is having 3 bits as
+
+10
+00:00:47,700 --> 00:00:52,380
+input you know that decoder is the
+combinational circuit which will have n
+
+11
+00:00:52,380 --> 00:00:57,000
+number of input lines including the
+power of n number of output lines and
+
+12
+00:00:57,060 --> 00:01:02,640
+depending upon the combination of the
+input one of the output lines will be
+
+13
+00:01:02,640 --> 00:01:07,590
+selected at a time that that is the
+basic and fundamental logic of a decoder
+
+14
+00:01:07,590 --> 00:01:12,090
+circuit so here we are having 3 input
+lines and we are having eight output
+
+15
+00:01:12,090 --> 00:01:17,040
+lines at here so depending upon the
+input bit combination one of the output
+
+16
+00:01:17,080 --> 00:01:21,689
+lines will be enabled and with the
+particular output line we're having say
+
+17
+00:01:21,689 --> 00:01:26,700
+eight vertical lines we were having say in
+eight vertical lines are there so now what
+
+18
+00:01:26,700 --> 00:01:32,490
+will happen so it might be eight might
+be sixteen might be 24 so that is not
+
+19
+00:01:32,490 --> 00:01:38,909
+dependent on this decoder side so the
+word that means word means the number of
+
+20
+00:01:38,909 --> 00:01:43,470
+bits in this particular line will be
+coming out through this i/o circuit
+
+21
+00:01:43,470 --> 00:01:48,630
+whether the bits will be coming out or
+going in obviously that will be decided
+
+22
+00:01:48,630 --> 00:01:54,960
+by this control line read or write so if
+the control line is enable for read then
+
+23
+00:01:54,960 --> 00:01:59,700
+the data will be coming out through the
+data to the data lines and if it is
+
+24
+00:01:59,700 --> 00:02:04,890
+writes then it'll be going in to the
+respective word to be written to get
+
+25
+00:02:04,890 --> 00:02:09,780
+overwritten so that is the issue so
+we're here we are having to develop of n
+
+26
+00:02:09,780 --> 00:02:14,950
+number of words if we have n
+of select lines in this decoders input
+
+27
+00:02:14,950 --> 00:02:20,740
+so 2 ^ n number of words and you can
+have M number of N and M they are not
+
+28
+00:02:20,740 --> 00:02:26,590
+related so M number of output lines
+through this column IO circuit we know
+
+29
+00:02:26,590 --> 00:02:31,900
+that for the memory read and memory
+write we are having two registers one is
+
+30
+00:02:31,900 --> 00:02:37,900
+called memory address registered in
+short MAR and the other one is your memory
+
+31
+00:02:37,900 --> 00:02:45,370
+data registered in short it is MDR while
+performing read operation MAR will be
+
+32
+00:02:45,370 --> 00:02:50,530
+containing the address from the MAR the
+address will be coming to the decoder
+
+33
+00:02:50,530 --> 00:02:55,209
+input the respective world will get
+selected depending upon the combination
+
+34
+00:02:55,209 --> 00:02:59,950
+and the output does obtained if I select
+it in the read mode will be coming to
+
+35
+00:02:59,950 --> 00:03:06,940
+the MDR  memory data register in case
+of memory write the MAR will be
+
+36
+00:03:06,940 --> 00:03:11,890
+containing the target memory locations
+address so from the address from the
+
+37
+00:03:11,890 --> 00:03:16,360
+address register that means from the
+MAR  memory address register the address
+
+38
+00:03:16,360 --> 00:03:21,190
+will be coming to the decoders input
+respective word will get selected and
+
+39
+00:03:21,190 --> 00:03:27,100
+here I shall put the right control mode
+enabled and then these data lines
+
+40
+00:03:27,100 --> 00:03:31,390
+through these data lines the respective
+bits will be going to the respective
+
+41
+00:03:31,390 --> 00:03:37,090
+word to get written so in this way the
+memory read and memory write will take
+
+42
+00:03:37,090 --> 00:03:41,440
+place for 2d organization
+so let us come to the 2 and half D next
+
+43
+00:03:41,440 --> 00:03:45,760
+so in cases of 2 and half D organization
+we are having the same kind of scenario
+
+44
+00:03:45,760 --> 00:03:50,859
+but here we are having some column bits
+so in the column also we are having one
+
+45
+00:03:50,859 --> 00:03:56,380
+decoder so in the column also we are
+having one decoder not the column IO
+
+46
+00:03:56,380 --> 00:04:03,340
+circuit so depending upon the bits in
+the input and depending upon the bits in
+
+47
+00:04:03,340 --> 00:04:08,079
+this particular decoders input so one of
+the output lines will get selected and
+
+48
+00:04:08,079 --> 00:04:11,769
+one of the output lines will get
+selected let us suppose it will select
+
+49
+00:04:11,769 --> 00:04:16,479
+this particular cell to select this
+particular cell so this line has got
+
+50
+00:04:16,479 --> 00:04:21,250
+enabled and say this line has got
+enabled so this particular location has
+
+51
+00:04:21,250 --> 00:04:24,630
+got selected so from that very location
+I should
+
+52
+00:04:24,630 --> 00:04:30,300
+that it is a bit position  at
+the junction of these two one is the one
+
+53
+00:04:30,300 --> 00:04:34,110
+is the row line row line another one is
+the column line so at the intersection
+
+54
+00:04:34,110 --> 00:04:38,730
+we are having one bit
+so at that very bit position this
+
+55
+00:04:38,730 --> 00:04:43,020
+read/write control line will decide
+whether I am writing then through
+
+56
+00:04:43,020 --> 00:04:47,400
+between the bit will come and that will
+be written here if this control line
+
+57
+00:04:47,400 --> 00:04:51,360
+selects I'll be going for the reading
+operation then from this bit the data
+
+58
+00:04:51,360 --> 00:04:56,100
+will be coming out that data bit will be
+coming out to this bit output line so
+
+59
+00:04:56,100 --> 00:05:02,280
+what will happen each and every location
+will contain a single bit so now how
+
+60
+00:05:02,280 --> 00:05:08,160
+many words do require how many bits of
+word per location 64 so 64 such
+
+61
+00:05:08,160 --> 00:05:13,170
+parallel circuits will be working 32 32
+such parallel circuits will be working
+
+62
+00:05:13,170 --> 00:05:18,390
+so now let us go for the comparisons
+here the number of column output lines
+
+63
+00:05:18,390 --> 00:05:23,910
+are fixed hardware fixed but here how
+many bits were going to get against a
+
+64
+00:05:23,910 --> 00:05:28,200
+single word that we shall we shall
+decide because that number of circuits
+
+65
+00:05:28,200 --> 00:05:33,570
+will be working in parallel and here you
+see the full address bits will be
+
+66
+00:05:33,570 --> 00:05:38,850
+divided into two part so this is some
+bits will be coming down here some bits
+
+67
+00:05:38,850 --> 00:05:43,500
+will be coming down here so say we are
+having 6 bits address so 3 bits here and
+
+68
+00:05:43,500 --> 00:05:47,400
+3 bits here
+so six bits means how many combinations
+
+69
+00:05:47,400 --> 00:05:54,060
+6 bits means 64 combinations so 3 bits
+means how many rows 8 rows 3 bits means
+
+70
+00:05:54,060 --> 00:06:01,440
+how many columns 8 columns so 8 rows and
+8 columns so how many Junction points 64
+
+71
+00:06:01,440 --> 00:06:05,880
+so in this way you are getting the 64
+but here all the 6 bits will be
+
+72
+00:06:05,880 --> 00:06:10,260
+applicable here so 64 horizontal lines
+will be coming out so it will it will be
+
+73
+00:06:10,260 --> 00:06:14,760
+equating more complicated hardware
+compared to this one so that is one
+
+74
+00:06:14,760 --> 00:06:19,380
+advantage second advantage here you see
+I told you that it will be
+
+75
+00:06:19,380 --> 00:06:25,020
+requiring less Hardware less circuitry
+less geeks next advantage point is
+
+76
+00:06:25,020 --> 00:06:29,640
+that here in this particular circuit as
+we are having lesser number of hard
+
+77
+00:06:29,640 --> 00:06:34,480
+words and
+logic gates and so on so the pin the IC
+
+78
+00:06:34,480 --> 00:06:39,190
+pin will be lesser number so easy to
+implement easy to implement easy to
+
+79
+00:06:39,190 --> 00:06:43,990
+fabricate and next one is that here we
+are getting from each and every circuit
+
+80
+00:06:43,990 --> 00:06:47,140
+we are getting a single bit depending
+upon the row number and the column
+
+81
+00:06:47,140 --> 00:06:52,090
+number we are getting a single bit so
+error correction code can be very much
+
+82
+00:06:52,090 --> 00:06:57,070
+applicable on these on this and you can
+do the corrections we can further go for
+
+83
+00:06:57,070 --> 00:07:00,700
+the rejections we can go for the
+collections individually for each if
+
+84
+00:07:00,700 --> 00:07:04,210
+every bit that is not possible here
+because you are getting all these bits
+
+85
+00:07:04,210 --> 00:07:09,820
+in a bulk and the last one is that the
+ main difference I'm going to
+
+86
+00:07:09,820 --> 00:07:15,490
+tell you for most of the ROM circuits
+we go for this 2d organization and in
+
+87
+00:07:15,490 --> 00:07:19,870
+the current trend in the most of the RAM
+circuits will be going for two and half
+
+88
+00:07:19,870 --> 00:07:24,250
+D memory organization so that is the
+issue so two and half D memory
+
+89
+00:07:24,250 --> 00:07:30,160
+organization for most of the RAM
+circuits and 2D organization for
+
+90
+00:07:30,160 --> 00:07:36,070
+most of the your ROM circuits so this is
+the memory chip organization so in this
+
+91
+00:07:36,070 --> 00:07:41,920
+particular session we have discussed 2d
+and 2 and Half D the memory organization in
+
+92
+00:07:41,920 --> 00:07:47,290
+case of 2d all the address bits will be
+applicable to the input of this column
+
+93
+00:07:47,290 --> 00:07:52,390
+sorry row wise decoder here the address
+bits will be divided into two parts and
+
+94
+00:07:52,390 --> 00:07:56,770
+some of them will be applicable to the
+row wise decoder and some of them will
+
+95
+00:07:56,770 --> 00:08:00,610
+be applicable to the column wise decoder
+respectively a single cell will be
+
+96
+00:08:00,610 --> 00:08:05,080
+selected from the single cell I shall be
+getting a single bit in or out depending
+
+97
+00:08:05,080 --> 00:08:10,450
+upon the read write mode through this
+bit  and bit outlines and in this way
+
+98
+00:08:10,450 --> 00:08:15,910
+this sort of circuits will be working in
+parallel for the multiple bits word size
+
+99
+00:08:15,910 --> 00:08:20,590
+so I think that your conception is 
+cleared draw these circles you know the
+
+100
+00:08:20,590 --> 00:08:27,210
+exam copies if such question come in
+future thanks for watching
+

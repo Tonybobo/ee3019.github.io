@@ -1,0 +1,147 @@
+﻿WEBVTT - https://subtitletools.com
+
+00:00:00.979 --> 00:00:05.030
+Now the second point is write operation now
+this is a very important point. So, please
+
+00:00:05.030 --> 00:00:11.100
+take a special care. So the first point is
+let's say the memory has the value zero. This
+
+00:00:11.100 --> 00:00:17.380
+means that Q is 0 Q Bar is one second point
+is word line is 1 now why this is one because
+
+00:00:17.380 --> 00:00:23.440
+we have to access this lines. Right third
+point is bit and bit bar is 0 sorry bit
+
+00:00:23.440 --> 00:00:28.210
+and bit bar is input. Now we have to write
+into the memory.So this line should be the
+
+00:00:28.210 --> 00:00:33.640
+input line. Now. The fourth point is because
+it is input line. I have the control over
+
+00:00:33.640 --> 00:00:38.739
+this line so I have made this bit bar to  ground
+now your question.Is why I have made this
+
+00:00:38.739 --> 00:00:44.190
+bit bar line as ground. So the answer for this
+is you can note that Q Bar is one and this
+
+00:00:44.190 --> 00:00:49.780
+is ground now bit bar is ground. Now there
+would be a voltage difference. So this will
+
+00:00:49.780 --> 00:00:58.719
+discharge now fifth point is voltage decreases.Now
+when voltage is decreasing you can note here
+
+00:00:58.719 --> 00:01:03.892
+this two transistor will be affected. Now.
+The tricky part is fifth point is very tricky.Now
+
+00:01:03.892 --> 00:01:12.270
+the tricky part is if voltage is less than
+threshold voltage of M2.What will happen if
+
+00:01:12.270 --> 00:01:18.970
+this is possible.This means that this would
+be off if this is off then this would be on
+
+00:01:18.970 --> 00:01:27.811
+so if M2 is off M1 would be on when M1 is on this means that the output is 1 so
+
+00:01:27.811 --> 00:01:35.760
+you can note that Q was Zero but I have made
+Q is equal to 1 now we have write successfully
+
+00:01:35.760 --> 00:01:42.520
+in the memory. So let's take a quick recap.
+The main part to change Q is equal to 0 to
+
+00:01:42.520 --> 00:01:48.560
+Q equal to 1 was this forcing this bit bar
+line to ground why we have to force because there
+
+00:01:48.560 --> 00:01:53.660
+would be a voltage difference current will
+flow voltage will decrease and voltage decreases
+
+00:01:53.660 --> 00:01:59.400
+then threshold voltage of M2 transistor.Then
+we are in profit why we are in profit because
+
+00:01:59.400 --> 00:02:04.750
+we have successfully changed that M2 is off.
+This means that  M1 is on when  M1 is on means
+
+00:02:04.750 --> 00:02:10.349
+that it will get the value Q will get the
+value of VDD so you will get the value
+
+00:02:10.349 --> 00:02:17.939
+of VDD means Q is equal to 1 so we have changed
+Q is equal to 0 to Q is equal to 1. Now the
+
+00:02:17.939 --> 00:02:21.930
+third point was the design consideration.
+Now this happens in the read operation. You
+
+00:02:21.930 --> 00:02:28.340
+might have one question. Let's say Q is 0
+and q bar is 1 So when pre charged capacitor
+
+00:02:28.340 --> 00:02:34.860
+this means that VDD and 0 the voltage difference
+capacitor will discharge.All right capacitor
+
+00:02:34.860 --> 00:02:39.930
+will discharge that's right.But the problem
+here is voltage is increasing here as well
+
+00:02:39.930 --> 00:02:45.000
+as voltage is increasing here.Now. The question
+is if voltage increases then what will happenif
+
+00:02:45.100 --> 00:02:51.280
+voltage is greater than threshold voltage
+of M4 what will happen M4 would be on
+
+00:02:51.300 --> 00:02:58.319
+M4 is on then what will happen Q Bar
+is 0 now Q is zero at the same time Q Bar
+
+00:02:58.319 --> 00:03:06.459
+is also 0 because of this. Now this is the
+problem. So you have to make sure that Voltage
+
+00:03:06.459 --> 00:03:12.750
+is not greater.So this condition is not true.
+So you have to make sure when there is a voltage
+
+00:03:12.750 --> 00:03:18.019
+difference and capacitor discharge capacitor
+discharge that's okay, that's cool, but it should
+
+00:03:18.019 --> 00:03:22.909
+not the voltage here will increase as well
+as the voltage here will increase you have
+
+00:03:22.909 --> 00:03:30.090
+to make sure that the voltage here does not does not exceed the VTN of M4
+
+00:03:30.090 --> 00:03:35.629
+if it exceeds the VTN of M4 what will
+happen M4 would be on when M4 is on this means
+
+00:03:35.629 --> 00:03:40.659
+that Q Bar is 0 Q Bar is 0 means Q Bar is
+also 0 and Q is also 0 this means this is
+
+00:03:40.659 --> 00:03:51.629
+the read's condition which is not true and
+this will affect

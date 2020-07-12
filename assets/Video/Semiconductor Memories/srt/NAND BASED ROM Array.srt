@@ -1,0 +1,143 @@
+1
+00:00:00,709 --> 00:00:11,210
+Nand based ROM Array when one input is low on
+row 2 ,3 and 4 inputs are high
+
+2
+00:00:11,210 --> 00:00:17,310
+when the row input is low the N Mos
+transistor corresponding to Row 1 in
+
+3
+00:00:17,310 --> 00:00:21,900
+column 2 or 4 will be turned off
+therefore column 2 and column 4
+
+4
+00:00:21,900 --> 00:00:29,550
+outputs will be tied to VDD since Row 2
+3 and 4 inputs are high the N Mos
+
+5
+00:00:29,550 --> 00:00:35,370
+transistor in column 1 and 3
+correspondent to row 2 ,3 and 4 will be turn
+
+6
+00:00:35,370 --> 00:00:42,329
+on therefore column 1 and column 3
+outputs will be tied to low row 2 input
+
+7
+00:00:42,329 --> 00:00:50,760
+is low row 1 3 and 4 inputs
+are high when the row 2input is low the
+
+8
+00:00:50,760 --> 00:00:56,280
+N Mo's transistor correspondent row 2in
+column 3 and 4 will be turned off
+
+9
+00:00:56,280 --> 00:01:02,879
+therefore column 3 and column 4
+outputs will be tied to VDD since row
+
+10
+00:01:02,879 --> 00:01:08,100
+1 3 and 4 inputs are high the N Mo's
+transistor in column 1 and 2
+
+11
+00:01:08,100 --> 00:01:13,979
+corresponding to Row 1 3 and 4 will be
+turn on therefore column 1 and column
+
+12
+00:01:13,979 --> 00:01:21,900
+2 outputs will be tie to low row 3 input is low and row 1 2 and 4 inputs
+
+13
+00:01:21,900 --> 00:01:29,700
+are high when the row 3 input is low
+the N Mos transistor correspondent or
+
+14
+00:01:29,700 --> 00:01:34,799
+row 3 in column 1 and 4 will be turned
+off therefore column 1 and column 4
+
+15
+00:01:34,799 --> 00:01:42,390
+outputs will be tied to VDD since Row
+1 2 and 4 inputs are high the N Mo's
+
+16
+00:01:42,390 --> 00:01:47,970
+transistor in column 2 and 3
+corresponding to Row 1 2 and 4 will be
+
+17
+00:01:47,970 --> 00:01:54,869
+turn on therefore column 2 and column
+3 outputs will be tie to low row 4
+
+18
+00:01:54,869 --> 00:02:02,850
+input is low and row 1 2 and 3 inputs
+are high when the row for input is low
+
+19
+00:02:02,850 --> 00:02:08,670
+the N Mo's transistor corresponding to
+Row 4 in column 2 and 3 will be turned
+
+20
+00:02:08,670 --> 00:02:14,550
+off therefore column 2 and column 3
+outputs will be tied to VDD
+
+21
+00:02:14,550 --> 00:02:20,739
+since row 1 , 2and 3 inputs are
+high the N Mos transistor in column 1
+
+22
+00:02:20,739 --> 00:02:23,709
+and 4 correspond in row 1, 2and
+3
+
+23
+00:02:23,709 --> 00:02:29,849
+will be turn on therefore column 1 and
+column 4 outputs will be tie to low
+
+24
+00:02:29,849 --> 00:02:35,860
+in another words to determine the column
+outputs we can first to attach a row
+
+25
+00:02:35,860 --> 00:02:40,360
+with low input followed by checking the
+presence or absence of an N Mos
+
+26
+00:02:40,360 --> 00:02:46,630
+transistor in the columns corresponding
+to the row with low input the column
+
+27
+00:02:46,630 --> 00:02:51,610
+output will be high if the row input is
+low and then N Mos transistor are present
+
+28
+00:02:51,610 --> 00:02:57,549
+in the column the column output will be
+low if the row input is low and N Mos
+
+29
+00:02:57,549 --> 00:03:01,769
+transistor are absent in the column
+
