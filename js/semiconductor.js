@@ -32,7 +32,7 @@ var player = videojs('my-video', options);
 player.aspectRatio('16:9');
 player.fill(true);
 player.fluid(true);
-player.pip({allowOnMobile: true});
+
 var playlist = 
 [{
   name: 'Semiconductor Memory',
