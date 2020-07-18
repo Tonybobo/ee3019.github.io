@@ -59,13 +59,13 @@ var playlist =
       type: 'application/x-mpegURL'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] Nor Based Rom Array.vtt'},
-    poster: './assets/Poster/Semiconductor Memories/Nor Based ROM array.png',
+    poster: './assets/Poster/Semiconductor Memories/Nor Based ROM Array.png',
     thumbnail: [{
-      srcset: './assets/Thumbnail/Semiconductor Memories/Nor Based ROM array.png',
+      srcset: './assets/Thumbnail/Semiconductor Memories/Nor Based ROM Array.png',
       type: 'image/jpeg',
       media: '(min-width: 50px;)'
     }, {
-      src: './assets/Thumbnail/Semiconductor Memories/Nor Based ROM array.png'
+      src: './assets/Thumbnail/Semiconductor Memories/Nor Based ROM Array.png'
     }],
       overlays: [{
         content: '<h2>Nor Based ROM Array</h2>',
