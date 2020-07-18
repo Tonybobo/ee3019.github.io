@@ -36,13 +36,13 @@ var playlist =
     type: 'application/x-mpegURL'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/CMOS Nor Gate.vtt'},
-  poster: './assets/Poster/Latches & Flip Flop/CMOS NOR gate.png',
+  poster: './assets/Poster/Latches & Flip Flop/CMOS Nor gate.png',
   thumbnail: [{
-    srcset: './assets/Thumbnail/Latches & Flip Flop/CMOS NOR gate.png',
+    srcset: './assets/Thumbnail/Latches & Flip Flop/CMOS Nor gate.png',
     type: 'image/jpeg',
     media: '(min-width: 50px;)'
     }, {
-    src: './assets/Thumbnail/Latches & Flip Flop/CMOS NOR gate.png'
+    src: './assets/Thumbnail/Latches & Flip Flop/CMOS Nor gate.png'
     }],
     overlays: [{
       content: '<h2>CMOS NOR gate</h2>',
