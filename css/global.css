@@ -145,7 +145,7 @@ body::-webkit-scrollbar-thumb {
 }
 .vjs-control{
     height: 3em !important;
-    width: 4em !important;
+    width: 3.5em !important;
 }
 .vjs-playback-rate .vjs-playback-rate-value {
     pointer-events: none;
