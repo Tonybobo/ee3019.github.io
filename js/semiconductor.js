@@ -1,3 +1,4 @@
+
 var options = {
   html5: {
     hls: {
@@ -21,13 +22,22 @@ var options = {
        'remainingTimeDisplay',
        'playbackRateMenuButton',
        'subsCapsButton',
-       'pictureInPictureToggle',
        'qualitySelector',
        'fullscreenToggle'
        
     ],
+    'pictureInPictureToggle':disablePicture()
  }
 }
+// disable picture in picture in chrome on mobile devices
+function disablePicture (){
+  var na = navigator.userAgent;
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(na)){
+    return false;
+  }else {
+    return true;
+  }
+} 
 var player = videojs('my-video', options);
 player.aspectRatio('16:9');
 player.fill(true);
