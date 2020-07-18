@@ -1,4 +1,11 @@
 var options = {
+  html5: {
+    hls: {
+      overrideNative: true
+    },
+    nativeAudioTracks: false,
+    nativeVideoTracks: false,
+  },
   controls:true,
   autoplay:false,
   preload:'auto',

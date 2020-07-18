@@ -1,4 +1,11 @@
 var options = {
+  html5: {
+    hls: {
+      overrideNative: true
+    },
+    nativeAudioTracks: false,
+    nativeVideoTracks: false,
+  },
   controls:true,
   autoplay:false,
   preload:'auto',
@@ -22,7 +29,7 @@ var options = {
  }
 }
 var player = videojs('my-video', options);
-player.aspectRatio('16:9')
+player.aspectRatio('16:9');
 player.fill(true);
 player.fluid(true);
 
@@ -279,6 +286,7 @@ player.playlistUi();
 player.hlsQualitySelector({
   displayCurrentQuality: true,
 });
+
 function horizontal(){
   let w = window.outerWidth;
   let h = window.outerHeight;
