@@ -25,7 +25,7 @@ var options = {
        'playbackRateMenuButton',
        'subsCapsButton',
        'qualitySelector',
-        'volumePanel',
+       
        'fullscreenToggle'
        
     ],
