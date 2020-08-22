@@ -12,6 +12,9 @@ var options = {
   playbackRates: [0.75, 1, 1.25,1.5],
   fluid:true,
   controlBar: {
+    'volumePanel': {
+      inline:false
+    },
     children: [
        'playToggle',
        'volumePanel',
@@ -22,6 +25,7 @@ var options = {
        'playbackRateMenuButton',
        'subsCapsButton',
        'qualitySelector',
+        'volumePanel',
        'fullscreenToggle'
        
     ],
@@ -387,7 +391,6 @@ function horizontal(){
     document.getElementById('playlist').classList.remove('vjs-playlist-horizontal')
   }
 }
-
 }
 
 let qualityLevels = player.qualityLevels();
