@@ -1,4 +1,5 @@
 var options = {
+  
   html5: {
     hls: {
       overrideNative: true
@@ -25,7 +26,7 @@ var options = {
        'playbackRateMenuButton',
        'subsCapsButton',
        'qualitySelector',
-       
+       'pictureInPictureToggle',
        'fullscreenToggle'
        
     ],
@@ -52,8 +53,10 @@ var playlist =
   name: 'Production of Silicon',
   duration: 476,
   sources: [{
-    src: './assets/Video/CMOS/Production of Silicon/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/watch?v=GJzNrDUTIs8&list=RDGJzNrDUTIs8&start_radio=1',
+    type: 'video/youtube',
+    
+    
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Production of silicon.vtt'},
   poster: './assets/Poster/CMOS/Production of Silicon.png',
