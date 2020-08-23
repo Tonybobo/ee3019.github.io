@@ -1,8 +1,8 @@
 var options = {
-  
+  tech:["html5","youtube"],
   html5: {
     hls: {
-      overrideNative: true
+      overrideNative: false
     },
     nativeAudioTracks: false,
     nativeVideoTracks: false,
