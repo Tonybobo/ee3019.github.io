@@ -1,5 +1,5 @@
 var options = {
-  techOrder:["youtube"],
+  techOrder:["html5","youtube"],
   html5: {
     hls: {
       overrideNative: true
