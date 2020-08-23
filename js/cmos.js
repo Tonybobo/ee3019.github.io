@@ -55,6 +55,7 @@ var playlist =
   sources: [{
     src: 'https://www.youtube.com/watch?v=D1ALNg3z2gk',
     type: 'video/youtube',
+    techOrder:["youtube"]
     
     
   }],
