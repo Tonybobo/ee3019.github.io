@@ -53,8 +53,8 @@ var playlist =
   name: 'Production of Silicon',
   duration: 476,
   sources: [{
-    src: './assets/Video/CMOS/Production of Silicon/playlist.m3u8',
-    type: 'application/x-mpegURL',
+    src: 'https://www.youtube.com/watch?v=D1ALNg3z2gk',
+    type: 'video/youtube',
     
     
   }],
