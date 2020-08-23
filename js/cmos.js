@@ -1,8 +1,8 @@
 var options = {
-  tech:["html5","youtube"],
+  
   html5: {
     hls: {
-      overrideNative: false
+      overrideNative: true
     },
     nativeAudioTracks: false,
     nativeVideoTracks: false,
@@ -53,8 +53,8 @@ var playlist =
   name: 'Production of Silicon',
   duration: 476,
   sources: [{
-    src: 'https://www.youtube.com/watch?v=GJzNrDUTIs8&list=RDGJzNrDUTIs8&start_radio=1',
-    type: 'video/youtube',
+    src: './assets/Video/CMOS/Production of Silicon/playlist.m3u8',
+    type: 'application/x-mpegURL',
     
     
   }],
