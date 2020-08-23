@@ -1,5 +1,5 @@
 var options = {
-  
+  techOrder:["youtube"],
   html5: {
     hls: {
       overrideNative: true
@@ -55,9 +55,7 @@ var playlist =
   sources: [{
     src: 'https://www.youtube.com/watch?v=D1ALNg3z2gk',
     type: 'video/youtube',
-    techOrder:["youtube"]
-    
-    
+
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Production of silicon.vtt'},
   poster: './assets/Poster/CMOS/Production of Silicon.png',

@@ -20,7 +20,7 @@
   "dependencies": {
     "@silvermine/videojs-quality-selector": "^1.2.4",
     "sakura-js": "^1.1.1",
-    "video.js": "^7.9.3",
+    "video.js": "^7.9.2",
     "videojs-contrib-quality-levels": "^2.0.9",
     "videojs-hls-quality-selector": "^1.1.1",
     "videojs-overlay": "^2.1.4",
