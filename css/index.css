@@ -7,9 +7,11 @@ body{
     align-items: center;
     height: 110vh;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    background-image: url(../assets/images/yozakura.jpg);
-    background-position: center;
-    background-size: no-repeat;
+    background-image: url(../assets/images/snowflakes-vector.74a2c66a33.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
 }
 
 .container {

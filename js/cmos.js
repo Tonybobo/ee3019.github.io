@@ -1,5 +1,6 @@
 var options = {
   techOrder:["html5","youtube"],
+  "youtube": { "cc_load_policy":0,"modestbranding":1,"iv_load_policy":3,"disablekb":0 },
   html5: {
     hls: {
       overrideNative: true
@@ -7,6 +8,17 @@ var options = {
     nativeAudioTracks: false,
     nativeVideoTracks: false,
   },
+  // plugins: {
+  //   videoJsResolutionSwitcher: {
+  //     default: 'high',
+  //     // dynamicLabel: true
+  //   }
+  // }, function(){
+	// 	var player = this;
+	// 	player.on('resolutionchange', function(){
+	// 		console.info('Source changed')
+	// 	})
+	// },
   controls:true,
   autoplay:false,
   preload:'auto',
@@ -25,7 +37,7 @@ var options = {
        'remainingTimeDisplay',
        'playbackRateMenuButton',
        'subsCapsButton',
-       'qualitySelector',
+      //  'qualitySelector',
        'pictureInPictureToggle',
        'fullscreenToggle'
        
@@ -53,8 +65,9 @@ var playlist =
   name: 'Production of Silicon',
   duration: 476,
   sources: [{
-    src: './assets/Video/CMOS/Production of Silicon/playlist.m3u8',
-    type: 'application/x-mpegURL',
+    src: 'https://www.youtube.com/embed/D1ALNg3z2gk?controls=0',
+    type: 'video/youtube',
+   
 
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Production of silicon.vtt'},
@@ -66,26 +79,12 @@ var playlist =
 }, {
     src: './assets/Thumbnail/CMOS/The production of Silicon.jpg'
 }],
-    overlays: [{
-      content: '<h2>Production of Silicon</h2>',
-      showBackground: true,
-      start: 'pause',
-      end: 'play',
-      align: 'top-left'
-    }]
 }, {
   name: 'Wafer Manufacturing Process',
   duration: 240,
   sources: [{
-    src: './assets/Video/CMOS/Wafer Manufacturing Process/playlist.m3u8',
-    type: 'application/x-mpegURL'
-  }],
-  overlays: [{
-    content: '<h2>Wafer Manufacturing Process</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
+    src: 'https://www.youtube.com/embed/3TOpg1niATg?controls=0',
+    type: 'video/youtube'
   }],
   poster: './assets/Poster/CMOS/Wafer Manufacturing.png',
   thumbnail: [{
@@ -99,15 +98,8 @@ var playlist =
   name: 'Basic CMOS Process Flow',
   duration: 804,
   sources: [{
-    src: './assets/Video/CMOS/Basic CMOS process flow/playlist.m3u8',
-    type: 'application/x-mpegURL'
-  }],
-  overlays: [{
-    content: '<h2>Basic CMOS Process Flow</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
+    src: 'https://www.youtube.com/embed/GZACoEuiZMo?controls=0',
+    type: 'video/youtube'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Basic CMOS Process flow.vtt'},
   poster: './assets/Poster/CMOS/CMOS Process Flow.png',
@@ -122,16 +114,10 @@ var playlist =
   name: 'Chip Manufacturing',
   duration: 811,
   sources: [{
-    src: './assets/Video/CMOS/Chip Manufacturing/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/embed/bor0qLifjz4?controls=0',
+    type: 'video/youtube'
   }],
-  overlays: [{
-    content: '<h2>Chip Manufacturing</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
-  }],
+
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Chips Manufacturing.vtt'},
   poster: './assets/Poster/CMOS/Chips Manufacturing.png',
   thumbnail: [{
@@ -145,16 +131,10 @@ var playlist =
   name: 'Making Memory Chip process',
   duration: 260,
   sources: [{
-    src: './assets/Video/CMOS/Making Memory Chip process/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/embed/M-wNC3Z3ZX4?controls=0',
+    type: 'video/youtube'
   }],
-  overlays: [{
-    content: '<h2>Making Memory Chip process</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
-  }],
+
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Making Memory Chips Process.vtt'},
   poster: './assets/Poster/CMOS/Making Memory Chip.png',
   thumbnail: [{
@@ -169,15 +149,8 @@ var playlist =
   name: 'MOSFET Transistor Basics & Working principle',
   duration: 429,
   sources: [{
-    src: './assets/Video/CMOS/MOSFET Transistor Basics & Working principle/playlist.m3u8',
-    type: 'application/x-mpegURL'
-  }],
-  overlays: [{
-    content: '<h2>MOSFET Transistor Basics & Working principle</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
+    src: 'https://www.youtube.com/embed/p34w6ISouZY?controls=0',
+    type: 'video/youtube'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/MOSFET Transistor Basics & Working Principle.vtt'},
   poster: './assets/Poster/CMOS/MOSFET Basic Principle.png',
@@ -193,15 +166,8 @@ var playlist =
   name: 'MOS Regions of Operation',
   duration: 375,
   sources: [{
-    src: './assets/Video/CMOS/MOS Regions of Operation/playlist.m3u8',
-    type: 'application/x-mpegURL'
-  }],
-  overlays: [{
-    content: '<h2>MOS Regions of Operation</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
+    src: 'https://www.youtube.com/embed/1fIzC9QiYDI?controls=0',
+    type: 'video/youtube'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/ECE 3110.vtt'},
   poster: './assets/Poster/CMOS/MOS region of operation.png',
@@ -217,8 +183,8 @@ var playlist =
   name: 'MOSFET IV derivation',
   duration: 949,
   sources: [{
-    src: './assets/Video/CMOS/MOSFET IV derivation/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/embed/QCIDcB034Eg?controls=0',
+    type: 'video/youtube'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/MOSFET IV Characteristic.vtt'},
   poster: './assets/Poster/CMOS/MOSFET IV Characteristic.png',
@@ -233,16 +199,10 @@ var playlist =
   name: 'Channel Length Modulation',
   duration: 500,
   sources: [{
-    src: './assets/Video/CMOS/Channel length Modulation/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/embed/-jn154sQcZ8?controls=0',
+    type: 'video/youtube'
   }],
-  overlays: [{
-    content: '<h2>Channel Length Modulation</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
-  }],
+
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Channel Length Modulation.vtt'},
   poster: './assets/Poster/CMOS/Channel Length Modulation.png',
   thumbnail: [{
@@ -279,16 +239,10 @@ var playlist =
   name: 'Building logic gates from MOSFET transistor',
   duration: 648,
   sources: [{
-    src: './assets/Video/CMOS/Building logic gates from MOSFET transistor/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/embed/1rZyGL1K5QI?controls=0',
+    type: 'video/youtube'
   }],
-  overlays: [{
-    content: '<h2>Building logic gates from MOSFET transistor</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
-  }],
+
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/Building logic gates.vtt'},
   poster: './assets/Poster/CMOS/Building Logic Gates.png',
   thumbnail: [{
@@ -303,15 +257,8 @@ var playlist =
   name: 'CMOS Inverter DC Characteristic',
   duration: 1379,
   sources: [{
-    src: './assets/Video/CMOS/CMOS inverter/playlist.m3u8',
-    type: 'application/x-mpegURL'
-  }],
-  overlays: [{
-    content: '<h2>CMOS Inverter DC Characteristic</h2>',
-    showBackground: true,
-    start: 'pause',
-    end: 'play',
-    align: 'top-left'
+    src: 'https://www.youtube.com/embed/Fllo2ja4Ga4?controls=0',
+    type: 'video/youtube'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/CMOS/vtt/CMOS Inverter DC characteristic.vtt'},
   poster: './assets/Poster/CMOS/CMOS Inverter.png',
@@ -380,9 +327,7 @@ player.playlist(playlist);
 player.playlist.autoadvance(7);
 player.playlistUi();
 
-player.hlsQualitySelector({
-  displayCurrentQuality: true,
-});
+
 function horizontal(){
   let w = window.outerWidth;
   let h = window.outerHeight;
@@ -395,40 +340,8 @@ function horizontal(){
 }
 }
 
-let qualityLevels = player.qualityLevels();
- 
-// disable quality levels with less than 1080 horizontal lines of resolution when added
-// to the list.
-qualityLevels.on('addqualitylevel', function(event) {
-  let qualityLevel = event.qualityLevel;
- 
-  if (qualityLevel.height >= 1080) {
-    qualityLevel.enabled = true;
-  } else {
-    qualityLevel.enabled = false;
-  }
-});
- 
-// example function that will toggle quality levels between SD and HD, defining and HD
-// quality as having 1080 horizontal lines of resolution or more
-let toggleQuality = (function() {
-  let enable1080 = true;
- 
-  return function() {
-    for (var i = 0; i < qualityLevels.length; i++) {
-      let qualityLevel = qualityLevels[i];
-      if (qualityLevel.width >= 1080) {
-        qualityLevel.enabled = enable1080;
-      } else {
-        qualityLevel.enabled = !enable1080;
-      }
-    }
-    enable1080 = !enable1080;
-  };
-})();
- 
-let currentSelectedQualityLevelIndex = qualityLevels.selectedIndex; // -1 if no level selected
-// Fast forward button
+
+
 player.seekButtons({
   forward: 10,
   back:10

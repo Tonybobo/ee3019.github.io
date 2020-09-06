@@ -1,5 +1,7 @@
 
 var options = {
+  techOrder:["html5","youtube"],
+  "youtube": { "cc_load_policy":0,"modestbranding":1,"iv_load_policy":3,"disablekb":0 },
   html5: {
     hls: {
       overrideNative: true
@@ -25,7 +27,8 @@ var options = {
        'remainingTimeDisplay',
        'playbackRateMenuButton',
        'subsCapsButton',
-       'qualitySelector',
+      //  'qualitySelector',
+       'pictureInPictureToggle',
        'fullscreenToggle'
        
     ],
@@ -51,8 +54,8 @@ var playlist =
   name: 'Semiconductor Memory',
   duration: 102,
   sources: [{
-    src: './assets/Video/Semiconductor Memories/Semiconductor Memory/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/embed/V0yzDRDU_BU?controls=0',
+    type: 'video/youtube'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] Semiconductor Memory.vtt'},
   poster: './assets/Poster/Semiconductor Memories/Semiconductor Memory.png',
@@ -63,20 +66,13 @@ var playlist =
   }, {
     src: './assets/Thumbnail/Semiconductor Memories/Semiconductor Memory.jpg'
   }],
-    overlays: [{
-      content: '<h2>Semiconductor Memory</h2>',
-      showBackground: true,
-      start: 'pause',
-      end: 'play',
-      align: 'top-left'
-    }]
   },
   {
     name: 'Nor Based ROM Array',
     duration: 180,
     sources: [{
-      src: './assets/Video/Semiconductor Memories/Nor Based ROM array/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/f0sWw9CwhQY?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] Nor Based Rom Array.vtt'},
     poster: './assets/Poster/Semiconductor Memories/Nor Based ROM Array.png',
@@ -87,20 +83,13 @@ var playlist =
     }, {
       src: './assets/Thumbnail/Semiconductor Memories/Nor Based ROM Array.png'
     }],
-      overlays: [{
-        content: '<h2>Nor Based ROM Array</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
     },
     {
       name: 'Nand Based ROM Array',
       duration: 181,
       sources: [{
-        src: './assets/Video/Semiconductor Memories/Nand Based ROM Array/playlist.m3u8',
-        type: 'application/x-mpegURL'
+        src: 'https://www.youtube.com/embed/92YIdjzrFuM?controls=0',
+        type: 'video/youtube'
       }],
       track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] NAND BASED ROM Array.vtt'},
       poster: './assets/Poster/Semiconductor Memories/Nand Based ROM Array.png',
@@ -111,20 +100,14 @@ var playlist =
       }, {
         src: './assets/Thumbnail/Semiconductor Memories/Nand Based ROM Array.png'
       }],
-        overlays: [{
-          content: '<h2>Nand Based ROM Array</h2>',
-          showBackground: true,
-          start: 'pause',
-          end: 'play',
-          align: 'top-left'
-        }]
+
       },
       {
         name: 'Memory Chip Organization',
         duration: 505,
         sources: [{
-          src: './assets/Video/Semiconductor Memories/Memory Chip Organization/playlist.m3u8',
-          type: 'application/x-mpegURL'
+          src: 'https://www.youtube.com/embed/VxYySwbCKec?controls=0',
+          type: 'video/youtube'
         }],
         track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] Memory Chip Organization.vtt'},
         poster: './assets/Poster/Semiconductor Memories/Memory Chip Organization.png',
@@ -135,20 +118,13 @@ var playlist =
         }, {
           src: './assets/Thumbnail/Semiconductor Memories/Memory Chip Organization.png'
         }],
-          overlays: [{
-            content: '<h2>Memory Chip Organization</h2>',
-            showBackground: true,
-            start: 'pause',
-            end: 'play',
-            align: 'top-left'
-          }]
         },
         {
           name: 'SRAM 6T - circuit explanation and read operation',
           duration: 492,
           sources: [{
-            src: './assets/Video/Semiconductor Memories/SRAM 6T - circuit explanation and read operation/playlist.m3u8',
-            type: 'application/x-mpegURL'
+            src: 'https://www.youtube.com/embed/k5VBJcUcaWU?controls=0',
+            type: 'video/youtube'
           }],
           track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] SRAM 6T circuit explanation and read operation.vtt'},
           poster: './assets/Poster/Semiconductor Memories/SRAM 6T read and write.png',
@@ -159,20 +135,13 @@ var playlist =
           }, {
             src: './assets/Thumbnail/Semiconductor Memories/SRAM 6T read and write.png'
           }],
-            overlays: [{
-              content: '<h2>SRAM 6T - circuit explanation and read operation</h2>',
-              showBackground: true,
-              start: 'pause',
-              end: 'play',
-              align: 'top-left'
-            }]
           },
           {
             name: 'SRAM 6T - write operation and design consideration',
             duration: 237,
             sources: [{
-              src: './assets/Video/Semiconductor Memories/SRAM 6T - write operation and design consideration/playlist.m3u8',
-              type: 'application/x-mpegURL'
+              src: 'https://www.youtube.com/embed/vlHHFIrTTnA?controls=0',
+              type: 'video/youtube'
             }],
             track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] SRAM 6T write operation and design consideration.vtt'},
             poster: './assets/Poster/Semiconductor Memories/SRAM 6T write.png',
@@ -183,20 +152,13 @@ var playlist =
             }, {
               src: './assets/Thumbnail/Semiconductor Memories/SRAM 6T write.png'
             }],
-              overlays: [{
-                content: '<h2>SRAM 6T - write operation and design consideration</h2>',
-                showBackground: true,
-                start: 'pause',
-                end: 'play',
-                align: 'top-left'
-              }]
             },
             {
               name: 'DRAM circuit, read and write operation',
               duration: 296,
               sources: [{
-                src: './assets/Video/Semiconductor Memories/DRAM circuit, read and write operation/playlist.m3u8',
-                type: 'application/x-mpegURL'
+                src: 'https://www.youtube.com/embed/wNNtz_My2ps?controls=0',
+                type: 'video/youtube'
               }],
               track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] DRAM circuit Read Write Operation.vtt'},
               poster: './assets/Poster/Semiconductor Memories/DRAM.png',
@@ -207,20 +169,14 @@ var playlist =
               }, {
                 src: './assets/Thumbnail/Semiconductor Memories/DRAM.png'
               }],
-                overlays: [{
-                  content: '<h2>DRAM circuit, read and write operation</h2>',
-                  showBackground: true,
-                  start: 'pause',
-                  end: 'play',
-                  align: 'top-left'
-                }]
+                
               },
               {
                 name: '3T DRAM - circuit ,read and write operations',
                 duration: 525,
                 sources: [{
-                  src: './assets/Video/Semiconductor Memories/3T DRAM - circuit ,read and write operations/playlist.m3u8',
-                  type: 'application/x-mpegURL'
+                  src: 'https://www.youtube.com/embed/N7wl-6czMC8?controls=0',
+                  type: 'video/youtube'
                 }],
                 track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Semiconductor Memories/vtt/[SubtitleTools.com] 3T DRAM Read Write Operation.vtt'},
                 poster: './assets/Poster/Semiconductor Memories/3T DRAM.png',
@@ -231,13 +187,6 @@ var playlist =
                 }, {
                   src: './assets/Thumbnail/Semiconductor Memories/3T DRAM.png'
                 }],
-                  overlays: [{
-                    content: '<h2>3T DRAM circuit, read and write operation</h2>',
-                    showBackground: true,
-                    start: 'pause',
-                    end: 'play',
-                    align: 'top-left'
-                  }]
                 },
                 {
                   name: 'RAM simulation',
@@ -296,10 +245,6 @@ player.playlist(playlist);
 player.playlist.autoadvance(7);
 player.playlistUi();
 
-player.hlsQualitySelector({
-  displayCurrentQuality: true,
-});
-
 function horizontal(){
   let w = window.outerWidth;
   let h = window.outerHeight;
@@ -312,40 +257,6 @@ function horizontal(){
 }
 
 }
-
-let qualityLevels = player.qualityLevels();
- 
-// disable quality levels with less than 1080 horizontal lines of resolution when added
-// to the list.
-qualityLevels.on('addqualitylevel', function(event) {
-  let qualityLevel = event.qualityLevel;
- 
-  if (qualityLevel.height >= 1080) {
-    qualityLevel.enabled = true;
-  } else {
-    qualityLevel.enabled = false;
-  }
-});
- 
-// example function that will toggle quality levels between SD and HD, defining and HD
-// quality as having 1080 horizontal lines of resolution or more
-let toggleQuality = (function() {
-  let enable1080 = true;
- 
-  return function() {
-    for (var i = 0; i < qualityLevels.length; i++) {
-      let qualityLevel = qualityLevels[i];
-      if (qualityLevel.width >= 1080) {
-        qualityLevel.enabled = enable1080;
-      } else {
-        qualityLevel.enabled = !enable1080;
-      }
-    }
-    enable1080 = !enable1080;
-  };
-})();
- 
-let currentSelectedQualityLevelIndex = qualityLevels.selectedIndex; // -1 if no level selected
 // Fast forward button
 player.seekButtons({
   forward: 10,

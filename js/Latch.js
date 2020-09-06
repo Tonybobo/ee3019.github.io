@@ -1,4 +1,6 @@
 var options = {
+  techOrder:["html5","youtube"],
+  "youtube": { "cc_load_policy":0,"modestbranding":1,"iv_load_policy":3,"disablekb":0 },
   html5: {
     hls: {
       overrideNative: true
@@ -24,7 +26,8 @@ var options = {
        'remainingTimeDisplay',
        'playbackRateMenuButton',
        'subsCapsButton',
-       'qualitySelector',
+      //  'qualitySelector',
+      'pictureInPictureToggle',
        'fullscreenToggle'
        
     ],
@@ -51,8 +54,8 @@ var playlist =
   name: 'CMOS NOR gate ',
   duration: 540,
   sources: [{
-    src: './assets/Video/Latches & Flip Flop/CMOS NOR gate/playlist.m3u8',
-    type: 'application/x-mpegURL'
+    src: 'https://www.youtube.com/embed/601dZ7NYJf4?controls=0',
+    type: 'video/youtube'
   }],
   track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/CMOS Nor Gate.vtt'},
   poster: './assets/Poster/Latches & Flip Flop/CMOS Nor gate.png',
@@ -63,20 +66,13 @@ var playlist =
     }, {
     src: './assets/Thumbnail/Latches & Flip Flop/CMOS Nor gate.png'
     }],
-    overlays: [{
-      content: '<h2>CMOS NOR gate</h2>',
-      showBackground: true,
-      start: 'pause',
-      end: 'play',
-      align: 'top-left'
-    }]
   },
   {
     name: 'CMOS NAND gate ',
     duration: 480,
     sources: [{
-      src: './assets/Video/Latches & Flip Flop/CMOS NAND gate/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/orNRyYhOtG8?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/CMOS NAND Gate.vtt'},
     poster: './assets/Poster/Latches & Flip Flop/CMOS NAND gate.png',
@@ -87,20 +83,13 @@ var playlist =
       }, {
       src: './assets/Thumbnail/Latches & Flip Flop/CMOS NAND gate.png'
       }],
-      overlays: [{
-        content: '<h2>CMOS NAND gate</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
     },
     {
       name: 'Latches and Flip-Flops 1 - The SR latch ',
       duration: 733,
       sources: [{
-        src: './assets/Video/Latches & Flip Flop/Latches and Flip-Flops 1 - The SR latch/playlist.m3u8',
-        type: 'application/x-mpegURL'
+        src: 'https://www.youtube.com/embed/-aQH0ybMd3U?controls=0',
+        type: 'video/youtube'
       }],
       track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/Latches and Flip-Flops 1 - The SR latch.vtt'},
       poster: './assets/Poster/Latches & Flip Flop/Latches and Flip-Flops 1 - The SR latch.png',
@@ -111,20 +100,13 @@ var playlist =
         }, {
         src: './assets/Thumbnail/Latches & Flip Flop/Latches and Flip-Flops 1 - The SR latch.png'
         }],
-        overlays: [{
-          content: '<h2>Latches and Flip-Flops 1 - The SR latch</h2>',
-          showBackground: true,
-          start: 'pause',
-          end: 'play',
-          align: 'top-left'
-        }]
       },
       {
         name: 'Latches and Flip-Flop 2 The gated SR latch ',
         duration: 572,
         sources: [{
-          src: './assets/Video/Latches & Flip Flop/Latches and Flip Flop 2 The gated SR latch/playlist.m3u8',
-          type: 'application/x-mpegURL'
+          src: 'https://www.youtube.com/embed/HxAhOETcvr4?controls=0',
+          type: 'video/youtube'
         }],
         track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/Latches and Flip Flop 2 The gated SR latch.vtt'},
         poster: './assets/Poster/Latches & Flip Flop/Latches and Flip Flop 2 The gated SR latch.png',
@@ -135,20 +117,13 @@ var playlist =
           }, {
           src: './assets/Thumbnail/Latches & Flip Flop/Latches and Flip-Flop 2 The gated SR latch.png'
           }],
-          overlays: [{
-            content: '<h2>Latches and Flip-Flop 2 The gated SR latch</h2>',
-            showBackground: true,
-            start: 'pause',
-            end: 'play',
-            align: 'top-left'
-          }]
         },
         {
           name: 'Clocked SR flip flop',
           duration: 712,
           sources: [{
-            src: './assets/Video/Latches & Flip Flop/Clocked SR flip flop/playlist.m3u8',
-            type: 'application/x-mpegURL'
+            src: 'https://www.youtube.com/embed/zoqu3k0qGqs?controls=0',
+            type: 'video/youtube'
           }],
           track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/Clocked SR flip flop.vtt'},
           poster: './assets/Poster/Latches & Flip Flop/Clocked SR flip flop.png',
@@ -159,13 +134,6 @@ var playlist =
             }, {
             src: './assets/Thumbnail/Latches & Flip Flop/Clocked SR flip flop.png'
             }],
-            overlays: [{
-              content: '<h2>Clocked SR flip flop</h2>',
-              showBackground: true,
-              start: 'pause',
-              end: 'play',
-              align: 'top-left'
-            }]
           },
           {
             name: 'SR Latches simulation ',
@@ -194,8 +162,8 @@ var playlist =
             name: 'JK Flip-flop',
             duration: 510,
             sources: [{
-              src: './assets/Video/Latches & Flip Flop/JK Flip-flop/playlist.m3u8',
-              type: 'application/x-mpegURL'
+              src: 'https://www.youtube.com/embed/KdS2lwMjj_U?controls=0',
+              type: 'video/youtube'
             }],
             track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/JK Flip-flop.vtt'},
             poster: './assets/Poster/Latches & Flip Flop/JK Flip-flop.png',
@@ -206,16 +174,9 @@ var playlist =
               }, {
               src: './assets/Thumbnail/Latches & Flip Flop/JK Flip-flop.png'
               }],
-              overlays: [{
-                content: '<h2>JK Flip-flop</h2>',
-                showBackground: true,
-                start: 'pause',
-                end: 'play',
-                align: 'top-left'
-              }]
             },
             {
-              name: 'JK Flip Flop  ',
+              name: 'JK Flip Flop Simulation',
               duration: 343,
               sources: [{
                 src: './assets/Lab simulation/Latches & Flip Flop/JK Flip Flop 1/playlist.m3u8',
@@ -230,7 +191,7 @@ var playlist =
                 src: './assets/Thumbnail/Latches & Flip Flop/JK Flip Flop 1.png'
                 }],
                 overlays: [{
-                  content: '<h2>JK Flip Flop </h2>',
+                  content: '<h2>JK Flip Flop Simulation </h2>',
                   showBackground: true,
                   start: 'pause',
                   end: 'play',
@@ -241,8 +202,8 @@ var playlist =
               name: 'Master Slave Flip Flop',
               duration: 933,
               sources: [{
-                src: './assets/Video/Latches & Flip Flop/Master Slave Flip Flop/playlist.m3u8',
-                type: 'application/x-mpegURL'
+                src: 'https://www.youtube.com/embed/jR5JZDobTeo?controls=0',
+                type: 'video/youtube'
               }],
               track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/Master Slave Flip Flop.vtt'},
               poster: './assets/Poster/Latches & Flip Flop/Master Slave Flip Flop.png',
@@ -253,13 +214,6 @@ var playlist =
                 }, {
                 src: './assets/Thumbnail/Latches & Flip Flop/Master Slave Flip Flop.png'
                 }],
-                overlays: [{
-                  content: '<h2>Master Slave Flip Flop</h2>',
-                  showBackground: true,
-                  start: 'pause',
-                  end: 'play',
-                  align: 'top-left'
-                }]
               },
               {
                 name: 'Master Slave Flip Flop simulation  ',
@@ -288,8 +242,8 @@ var playlist =
           name: 'Latches and Flip Flops 3 The gated D latch',
           duration: 467,
           sources: [{
-            src: './assets/Video/Latches & Flip Flop/Latches and Flip Flops 3 The gated D latch/playlist.m3u8',
-            type: 'application/x-mpegURL'
+            src: 'https://www.youtube.com/embed/y7Zf7Bv_J74?controls=0',
+            type: 'video/youtube'
           }],
           track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/Latches and Flip Flops 3 The gated D latch.vtt'},
           poster: './assets/Poster/Latches & Flip Flop/Latches and Flip Flops 3 The gated D latch.png',
@@ -300,20 +254,13 @@ var playlist =
             }, {
             src: './assets/Thumbnail/Latches & Flip Flop/Latches and Flip Flops 3 The gated D latch.png'
             }],
-            overlays: [{
-              content: '<h2>Latches and Flip Flops 3 The gated D latch</h2>',
-              showBackground: true,
-              start: 'pause',
-              end: 'play',
-              align: 'top-left'
-            }]
           },
           {
             name: 'Rising and Falling edge trigged Flip Flop',
             duration: 382,
             sources: [{
-              src: './assets/Video/Latches & Flip Flop/Rising and Falling edge trigged Flip Flop/playlist.m3u8',
-              type: 'application/x-mpegURL'
+              src: 'https://www.youtube.com/embed/nUftVRJE9rA?controls=0',
+              type: 'video/youtube'
             }],
             track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/Rising and Falling edge trigged Flip Flop.vtt'},
             poster: './assets/Poster/Latches & Flip Flop/Rising and Falling edge trigged Flip Flop.png',
@@ -324,13 +271,6 @@ var playlist =
               }, {
               src: './assets/Thumbnail/Latches & Flip Flop/Rising and Falling edge trigged Flip Flop.png'
               }],
-              overlays: [{
-                content: '<h2>Rising and Falling edge trigged Flip Flop</h2>',
-                showBackground: true,
-                start: 'pause',
-                end: 'play',
-                align: 'top-left'
-              }]
             },
             {
               name: 'D flip flop with clock  ',

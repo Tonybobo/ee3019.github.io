@@ -1,4 +1,6 @@
 var options = {
+  techOrder:["html5","youtube"],
+  "youtube": { "cc_load_policy":0,"modestbranding":1,"iv_load_policy":3,"disablekb":0 },
   html5: {
     hls: {
       overrideNative: true
@@ -24,7 +26,8 @@ var options = {
        'remainingTimeDisplay',
        'playbackRateMenuButton',
        'subsCapsButton',
-        'qualitySelector',
+        // 'qualitySelector',
+        'pictureInPictureToggle',
        'fullscreenToggle'
        
     ],
@@ -51,8 +54,8 @@ var playlist =
     name: 'What is an operational amplifier',
     duration: 693,
     sources: [{
-      src: './assets/Video/Feedback Circuit/What is an operational amplifier/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/lJDjWZqhpVc?controls=0"',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Feedback Circuit/vtt/What is an operational amplifier.vtt'},
     poster: './assets/Poster/Feedback/What is an operational amplifier.png',
@@ -63,20 +66,13 @@ var playlist =
               }, {
       src: './assets/Thumbnail/Feedback/What is an operational amplifier.png'
         }],
-      overlays: [{
-        content: '<h2>What is an operational amplifier</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
   }, 
   {
     name: 'Concept of Negative Feedback',
     duration: 902,
     sources: [{
-      src: './assets/Video/Feedback Circuit/Concept of Negative Feedback/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/hU8zx0RGJGQ?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Feedback Circuit/vtt/Concept of Negative Feedback.vtt'},
     poster: './assets/Poster/Feedback/Concept of Negative Feedback.png',
@@ -87,20 +83,13 @@ var playlist =
               }, {
       src: './assets/Thumbnail/Feedback/Concept of Negative Feedback.png'
         }],
-      overlays: [{
-        content: '<h2>Concept of Negative Feedback</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
   }, 
   {
     name: 'Classification of Feedback Topologies',
     duration: 1101,
     sources: [{
-      src: './assets/Video/Feedback Circuit/Classification of Feedback Topologies/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/MJjBDGa7o9k?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Feedback Circuit/vtt/Classification of Feedback Topologies.vtt'},
     poster: './assets/Poster/Feedback/Classification of Feedback Topologies.png',
@@ -111,20 +100,14 @@ var playlist =
               }, {
       src: './assets/Thumbnail/Feedback/Classification of Feedback Topologies.png'
         }],
-      overlays: [{
-        content: '<h2>Classification of Feedback Topologies</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
+ 
   }, 
   {
     name: 'Series-Shunt',
     duration: 405,
     sources: [{
-      src: './assets/Video/Feedback Circuit/Series-Shunt/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/g-e_KMT4ckc?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Feedback Circuit/vtt/Series-Shunt.vtt'},
     poster: './assets/Poster/Feedback/Series-Shunt.png',
@@ -135,13 +118,6 @@ var playlist =
               }, {
       src: './assets/Thumbnail/Feedback/Series-Shunt.png'
         }],
-      overlays: [{
-        content: '<h2>Series-Shunt</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
   }, 
   {
     name: 'Series-Series Simulation',
@@ -193,8 +169,8 @@ var playlist =
     name: 'Shunt-series',
     duration: 365,
     sources: [{
-      src: './assets/Video/Feedback Circuit/Shunt-series/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/a9kSibPi8yI?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Feedback Circuit/vtt/Shunt-series.vtt'},
     poster: './assets/Poster/Feedback/Shunt-series.png',
@@ -205,13 +181,6 @@ var playlist =
               }, {
       src: './assets/Thumbnail/Feedback/Shunt-series.png'
         }],
-      overlays: [{
-        content: '<h2>Shunt-series</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
   }, 
   {
     name: 'Shunt-series Simulation',
@@ -240,8 +209,8 @@ var playlist =
     name: 'Shunt-Shunt',
     duration: 633,
     sources: [{
-      src: './assets/Video/Feedback Circuit/Shunt-Shunt/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/9u_-HYSlfA0?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Feedback Circuit/vtt/Shunt-Shunt.vtt'},
     poster: './assets/Poster/Feedback/Shunt-Shunt.png',
@@ -252,13 +221,6 @@ var playlist =
               }, {
       src: './assets/Thumbnail/Feedback/Shunt-Shunt.png'
         }],
-      overlays: [{
-        content: '<h2>Shunt-Shunt</h2>',
-        showBackground: true,
-        start: 'pause',
-        end: 'play',
-        align: 'top-left'
-      }]
   }, 
   {
     name: 'Shunt-Shunt Feeback Simulation',
@@ -287,8 +249,8 @@ var playlist =
     name: 'Shortcuts Steps for Problems on Negative Feedback',
     duration: 1451,
     sources: [{
-      src: './assets/Video/Feedback Circuit/Shortcuts Steps for Problems on Negative Feedback/playlist.m3u8',
-      type: 'application/x-mpegURL'
+      src: 'https://www.youtube.com/embed/Y-bUtWZn5Ro?controls=0',
+      type: 'video/youtube'
     }],
     track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Feedback Circuit/vtt/Shortcuts Steps for Problems on Negative Feedback.vtt'},
     poster: './assets/Poster/Feedback/Shortcuts Steps for Problems on Negative Feedback.png',
@@ -318,9 +280,6 @@ player.playlist(playlist);
 player.playlist.autoadvance(7);
 player.playlistUi();
 
-player.hlsQualitySelector({
-  displayCurrentQuality: true,
-});
 function horizontal(){
   let w = window.outerWidth;
   let h = window.outerHeight;
@@ -334,40 +293,6 @@ function horizontal(){
 
 }
 
-let qualityLevels = player.qualityLevels();
- 
-// disable quality levels with less than 1080 horizontal lines of resolution when added
-// to the list.
-qualityLevels.on('addqualitylevel', function(event) {
-  let qualityLevel = event.qualityLevel;
- 
-  if (qualityLevel.height >= 1080) {
-    qualityLevel.enabled = true;
-  } else {
-    qualityLevel.enabled = false;
-  }
-});
- 
-// example function that will toggle quality levels between SD and HD, defining and HD
-// quality as having 1080 horizontal lines of resolution or more
-let toggleQuality = (function() {
-  let enable1080 = true;
- 
-  return function() {
-    for (var i = 0; i < qualityLevels.length; i++) {
-      let qualityLevel = qualityLevels[i];
-      if (qualityLevel.width >= 1080) {
-        qualityLevel.enabled = enable1080;
-      } else {
-        qualityLevel.enabled = !enable1080;
-      }
-    }
-    enable1080 = !enable1080;
-  };
-})();
- 
-let currentSelectedQualityLevelIndex = qualityLevels.selectedIndex; // -1 if no level selected
-// Fast forward button
 player.seekButtons({
   forward: 10,
   back:10
