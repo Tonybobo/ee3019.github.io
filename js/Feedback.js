@@ -27,11 +27,11 @@ var options = {
        'playbackRateMenuButton',
        'subsCapsButton',
         // 'qualitySelector',
-        'pictureInPictureToggle',
+        // 'pictureInPictureToggle',
        'fullscreenToggle'
        
     ],
-    'pictureInPictureToggle':disablePicture()
+    // 'pictureInPictureToggle':disablePicture()
  }
 }
 // disable picture in picture in chrome on mobile devices
@@ -293,10 +293,10 @@ function horizontal(){
 
 }
 
-player.seekButtons({
-  forward: 10,
-  back:10
-});
+// player.seekButtons({
+//   forward: 10,
+//   back:10
+// });
 
 //Disable the quiz button until it is the last video
 

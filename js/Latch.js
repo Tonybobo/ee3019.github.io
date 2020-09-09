@@ -27,11 +27,11 @@ var options = {
        'playbackRateMenuButton',
        'subsCapsButton',
       //  'qualitySelector',
-      'pictureInPictureToggle',
+      // 'pictureInPictureToggle',
        'fullscreenToggle'
        
     ],
-    'pictureInPictureToggle':disablePicture()
+    // 'pictureInPictureToggle':disablePicture()
  }
 }
 // disable picture in picture in chrome on mobile devices
@@ -307,9 +307,7 @@ player.playlist(playlist);
 player.playlist.autoadvance(7);
 player.playlistUi();
 
-player.hlsQualitySelector({
-  displayCurrentQuality: true,
-});
+
 function horizontal(){
   let w = window.outerWidth;
   let h = window.outerHeight;
@@ -323,44 +321,12 @@ function horizontal(){
 
 }
 
-let qualityLevels = player.qualityLevels();
- 
-// disable quality levels with less than 1080 horizontal lines of resolution when added
-// to the list.
-qualityLevels.on('addqualitylevel', function(event) {
-  let qualityLevel = event.qualityLevel;
- 
-  if (qualityLevel.height >= 1080) {
-    qualityLevel.enabled = true;
-  } else {
-    qualityLevel.enabled = false;
-  }
-});
- 
-// example function that will toggle quality levels between SD and HD, defining and HD
-// quality as having 1080 horizontal lines of resolution or more
-let toggleQuality = (function() {
-  let enable1080 = true;
- 
-  return function() {
-    for (var i = 0; i < qualityLevels.length; i++) {
-      let qualityLevel = qualityLevels[i];
-      if (qualityLevel.width >= 1080) {
-        qualityLevel.enabled = enable1080;
-      } else {
-        qualityLevel.enabled = !enable1080;
-      }
-    }
-    enable1080 = !enable1080;
-  };
-})();
- 
-let currentSelectedQualityLevelIndex = qualityLevels.selectedIndex; // -1 if no level selected
+
 // Fast forward button
-player.seekButtons({
-  forward: 10,
-  back:10
-});
+// player.seekButtons({
+//   forward: 10,
+//   back:10
+// });
 
 //Disable the quiz button until it is the last video
 
