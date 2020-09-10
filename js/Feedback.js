@@ -186,7 +186,7 @@ var playlist =
     name: 'Shunt-series Simulation',
     duration: 351,
     sources: [{
-      src: './assets/Lab simulation/Feedback Circuit/Shunt-series Feedback/playlist.m3u8',
+      src: './assets/Lab simulation/Feedback Circuit/Shunt-series feedback/playlist.m3u8',
       type: 'application/x-mpegURL'
     }],
     poster: './assets/Poster/Feedback/Shunt-series Feedback.png',
