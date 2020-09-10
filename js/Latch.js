@@ -74,7 +74,7 @@ var playlist =
       src: 'https://www.youtube.com/embed/orNRyYhOtG8?controls=0',
       type: 'video/youtube'
     }],
-    track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/CMOS NAND Gate.vtt'},
+    track: { kind: 'captions', label: 'English', srclang: 'en', src:'./assets/Video/Latches & Flip Flop/vtt/CMOS Nand Gate.vtt'},
     poster: './assets/Poster/Latches & Flip Flop/CMOS NAND gate.png',
     thumbnail: [{
       srcset: './assets/Thumbnail/Latches & Flip Flop/CMOS NAND gate.png',
