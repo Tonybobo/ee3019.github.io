@@ -87,10 +87,10 @@ body{
   margin:0 5px 0 0;
   padding: 0;
   opacity: 0;
-  line-height: 1em;
+  line-height: 1.1em;
   transition: 0.5s;
   text-align: justify;
-  font-size: 1.2em;
+  font-size: 1.15rem;
 
 }
 .box:hover .content li

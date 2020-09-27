@@ -189,6 +189,29 @@ var playlist =
                 }],
                 },
                 {
+                  name: 'How to install Multisim',
+                  duration: 156,
+                  sources: [{
+                    src: './assets/Lab simulation/multisim/playlist.m3u8',
+                    type: 'application/x-mpegURL'
+                  }],
+                  overlays: [{
+                    content: '<h2>How to install Multisim</h2>',
+                    showBackground: true,
+                    start: 'pause',
+                    end: 'play',
+                    align: 'top-left'
+                  }],
+                  poster: './assets/Lab simulation/multisim/poster/multisim.png',
+                  thumbnail: [{
+                    srcset: './assets/Lab simulation/multisim/poster/multisim.png',
+                    type: 'image/jpeg',
+                    media: '(min-width: 50px;)'
+                }, {
+                    src: './assets/Lab simulation/multisim/poster/multisim.png'
+                }]
+                },
+                {
                   name: 'RAM simulation',
                   duration: 474,
                   sources: [{
