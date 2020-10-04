@@ -8,17 +8,6 @@ var options = {
     nativeAudioTracks: false,
     nativeVideoTracks: false,
   },
-  // plugins: {
-  //   videoJsResolutionSwitcher: {
-  //     default: 'high',
-  //     // dynamicLabel: true
-  //   }
-  // }, function(){
-	// 	var player = this;
-	// 	player.on('resolutionchange', function(){
-	// 		console.info('Source changed')
-	// 	})
-	// },
   controls:true,
   autoplay:false,
   preload:'auto',
@@ -37,12 +26,11 @@ var options = {
        'remainingTimeDisplay',
        'playbackRateMenuButton',
        'subsCapsButton',
-      //  'qualitySelector',
-      //  'pictureInPictureToggle',
+       'pictureInPictureToggle',
        'fullscreenToggle'
        
     ],
-    // 'pictureInPictureToggle':disablePicture()
+    'pictureInPictureToggle':disablePicture()
  }
 }
 // disable picture in picture in chrome on mobile devices
@@ -356,7 +344,7 @@ function horizontal(){
   let w = window.outerWidth;
   let h = window.outerHeight;
   for(let i = 0; i<10;i++){
-  if (w < 780){
+  if (w < 768){
     player.playlistUi({horizontal: true});
   }else{
     document.getElementById('playlist').classList.remove('vjs-playlist-horizontal')
@@ -366,12 +354,12 @@ function horizontal(){
 
 
 
-// player.seekButtons({
-//   forward: 10,
-//   back:10
-// });
+player.seekButtons({
+  forward: 10,
+  back:10
+});
 
-//Disable the quiz button until it is the last video
+// Disable the quiz button until it is the last video
 
 const button = document.getElementById('quiz-btn');
 const link = document.getElementById('link');

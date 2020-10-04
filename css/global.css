@@ -26,9 +26,14 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 80px;
     background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
+    box-shadow: -10px 8px 6px -6px black;
 }
 .navbar-collapse{
     background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
+    
+}
+.show{
+    box-shadow: -10px 8px 6px -6px black;
 }
 .navbar-brand {
     padding: 0 15px;
@@ -64,7 +69,12 @@ body::-webkit-scrollbar-thumb {
 } 
  
 .custom-toggler .navbar-toggler-icon { 
-    background-image: url( "https://img.icons8.com/ios-glyphs/30/000000/insert-button.png"); 
+    background-image: url( "../assets/images/dropdown.jpg"); 
+} 
+.show a{
+    padding-left: 10px !important;
+    margin-left: 15px !important;
+    box-shadow: -10px 8px 6px -6px black;
 } 
 /* CSS for video player */
 .container {
@@ -91,6 +101,7 @@ body::-webkit-scrollbar-thumb {
      float: left;
      min-height: 380px;
      margin-bottom:0;
+     box-shadow:32px 36px 40px 0px black !important;
 }
 .my-video-dimensions.vjs-fluid {
     padding-top: 32.25%;
@@ -103,6 +114,7 @@ body::-webkit-scrollbar-thumb {
     left: 0;
     right: 0;
     overflow: scroll;
+    box-shadow:32px 36px 40px 0px black !important;
 }
 .vjs-playlist::-webkit-scrollbar{
     width: 12px;
@@ -166,10 +178,11 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    top: 18%;
+   
     left: 50%;
     width: 100px;
     height: 100px;
+    bottom: -20%;
 
 }
 .btn-holder{
@@ -179,7 +192,10 @@ body::-webkit-scrollbar-thumb {
 .btn .btn-info{
     padding: 50px;
 }
-@media (max-width: 800px) {
+.btn-primary{
+    box-shadow: 0px 8px 15px black;
+}
+@media (max-width: 768px) {
     .vjs-playlist {
         margin: 1px 1px;
         position: absolute;
@@ -205,7 +221,8 @@ body::-webkit-scrollbar-thumb {
         width: 100px;
         height: 100px;
         margin-top: 50px;
-    
+     
+        
     }
     .btn-holder{
         margin-top: 100px;
