@@ -1,13 +1,57 @@
+const modal = document.getElementById('modal');
+const modalClose = document.getElementById('submit');
+const name = document.getElementById('name');
+var nameSheet;
+var matriSheet;
+name.addEventListener('change',checkName);
+const matriculation = document.getElementById('matriculation');
+matriculation.addEventListener('change',checkMatri);
+modalClose.addEventListener('click',()=>{
+    if(name.value && matriculation.value != ""){
+        if(true){
+            modal.style.visibility="hidden";
+            modal.style.opacity = "0"
+        }
+      
+    }else{
+       if(name.value == ""){
+           alert('Please fill in your name');
+       }else{
+           alert('Please fill in matriculation number');
+       }
+    }   
+    nameSheet = name.value;
+    matriSheet = matriculation.value;
+    
+});
+
+function checkName(event){
+    var myName =event.currentTarget;
+    var pos = myName.value.search(/^[a-zA-Z]+(([',. -][a-zA-Z ])?[a-zA-Z]*)*$/);
+    if(pos !=0){
+        alert("The name you have entered (" + myName.value + ") is not in the correct form. \n"+ "Only alphabets and character spaces are allowed. ");
+        myName.focus();
+        myName.select();
+        return false;
+    }
+}
+function checkMatri(event){
+    var matric = event.currentTarget;
+    var pos = matric.value.search(/^[a-zA-Z0-9]+$/);
+    if(pos !=0){
+        alert("The value you have entered (" + matric.value + ") is not in the correct form. \n"+ "Only alphabets and numbers  are allowed. ");
+        matric.focus();
+        matric.select();
+        return false;
+    }
+}
+var score = 0;
 const startButton = document.getElementById('start');
-
 startButton.addEventListener('click', start);
-
 const questionContainer = document.getElementById ('question-ctn');
-
 const questionElement = document.getElementById('heading');
 const explanation = document.getElementById('explanation');
 const answerButton = document.getElementById('answer-btn');
-
 const nextButton = document.getElementById('next');
 nextButton.addEventListener('click',()=>{
     currentQuestionIndex++;
@@ -116,6 +160,10 @@ function showQuestion(question){
 function selectedAnswer (e){
     const selected = e.target;
     const correct = selected.dataset.correct;
+    if(correct){
+        score += 1;
+        console.log(score);
+    }
     setStatusClass(document.body,correct);
     Array.from(answerButton.children).forEach(button =>{
         setStatusClass(button,button.dataset.correct);
@@ -135,6 +183,7 @@ function setStatusClass(element,correct){
     
     if(correct){
         element.classList.add('correct');
+        
     }else{
         element.classList.add('wrong');
     }
@@ -144,3 +193,4 @@ function clearStatusClass(element){
     element.classList.remove('wrong');
     element.classList.remove('correct');
 }
+

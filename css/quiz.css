@@ -1,13 +1,13 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: Gotham Rounded;
-  }
-  :root {
+}
+:root {
     --hue-neutral: 229;
     --hue-wrong: 0;
     --hue-correct: 129;
-  }
-  body{
+}
+body{
       --hue:var(--hue-neutral);
       padding: 0;
       margin: 0;
@@ -18,11 +18,11 @@
       align-items: center;
       background-color: hsl(var(--hue),57%, 36%, 0.69);
 
-  }
-  body.correct{
+}
+body.correct{
       --hue:var(--hue-correct);
   }
-  body.wrong{
+body.wrong{
     --hue:var(--hue-wrong);
 }
 .container{
@@ -77,12 +77,97 @@
  
     font-weight: bold;
     padding: 10px 20px;
-  }
+}
   .controls-button {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
   .hide {
     display: none;
-  }
+}
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background:rgb(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  visibility: visible;
+  z-index: 3;
+  
+}
+
+.modal-content{
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+}
+.modal-title{
+  align-items: center;
+  justify-content: center;
+  margin:0,auto,0,auto;
+}
+.modal-title h2{
+  font-size: 1em;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.modal-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.modal-matriculation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.modal-name > label{
+  flex: 0.3;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.modal-name > input{
+  flex: 0.7;
+  width: 70%;
+  margin-right: 10px;
+}
+.modal-matriculation> label{
+  flex: 0.3;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.modal-matriculation> input{
+  flex: 0.7;
+  margin-right: 10px;
+  width: 70%;
+}
+#submit{
+  --hue:var(--hue-neutral);
+  border:1px solid hsl(var(--hue),100%,30%);
+  background-color: hsl(var(--hue),100%,50%);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+#submit:hover{
+  border-color:black ;
+  transform: scale(1.05);
+}
+
