@@ -282,24 +282,19 @@ function clearStatusClass(element){
    pre.appendChild(textContent);
  }
 
- /**
-  * Print the names and majors of students in a sample spreadsheet:
-  * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-  */
+
 
 
 
  const test = 'CMOS';
- const date = new Date();
- const day = date.getDate();
- const month = date.getMonth()+1;
- const year = date.getFullYear();
+ const date = new Date().toLocaleString();
 
- function listMajors() {
+
+ function submitResult() {
    var values = [
    [
      // Cell values ...
-     nameSheet,matriSheet,score,day,month,year
+     nameSheet,matriSheet,test,score,date
    ],
    // Additional rows ...
  ];
