@@ -9,6 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
     <script defer src="../js/CMOSquiz.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js"></script>
+    <!-- <script defer src="../js/CMOSquiz.js"></script>
+     <script async defer src="https://apis.google.com/js/api.js"
+     
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+      
+    </script> -->
 </head>
 <body>
     <div class="modal" id="modal">
@@ -42,8 +50,9 @@
         <div class="controls-button">
             <button id="start" class="start btn">Start</button>
             <button id="next" class="next btn hide">Next</button>
-            <a href="../LatchesAndFlip.html"><button id="proceed" class="proceed btn hide">Proceed</button></a>
+            <a href="../LatchesAndFlip.html"><button id="proceed" onclick="listMajors()" class="proceed btn hide">Proceed</button></a>
         </div>
     </div>
+    
 </body>
 </html>
