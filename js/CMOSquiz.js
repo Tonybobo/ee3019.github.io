@@ -74,6 +74,7 @@ const questions = [
         answers:[
             {text:'True',correct:true},
             {text:'False',correct:false}
+            
         ],
         explanation :'Explantion: In CMOS fabrication, nMOS and pMOS are integrated in the same chip substrate. n-type and p-type devices are formed in the same structure.'
     },
