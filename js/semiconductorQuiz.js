@@ -293,15 +293,30 @@ function clearStatusClass(element){
 
 
 
- const test = 'Semiconductor';
- const date = new Date().toLocaleString();
+const test = 'Semiconductor';
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; 
+var yyyy = today.getFullYear();
+var time = new Date().toLocaleTimeString();
+if(dd<10) 
+{
+    dd='0'+dd;
+} 
+
+if(mm<10) 
+{
+    mm='0'+mm;
+} 
+
+today = dd+'/'+mm+'/'+yyyy;
 
 
  function submitResult() {
    var values = [
    [
      // Cell values ...
-     nameSheet,matriSheet,test,score,date
+     nameSheet,matriSheet,test,score,today,time
    ],
    // Additional rows ...
  ];
