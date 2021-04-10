@@ -51,6 +51,7 @@ function checkMatri(event){
         alert("The value you have entered (" + matric.value + ") is not in the correct form. \n"+ "Only alphabets and numbers  are allowed. ");
         matric.focus();
         matric.select();
+        matric.value = '';
         return false;
     }
 }
